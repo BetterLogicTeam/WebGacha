@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import image1 from "../Assets/image 1.png";
 import { Navigation } from "swiper";
 import "./news_Slider.css";
@@ -13,8 +14,8 @@ import image2 from "../Assets/image 6.png";
 export default function News_Slider() {
   return (
     <div>
-        <div className="swiper-button-prev"></div>
-        <div className="swiper-button-next"></div>
+        {/* <div className="swiper-button-prev">Tayyab</div>
+        <div className="swiper-button-next"></div> */}
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
