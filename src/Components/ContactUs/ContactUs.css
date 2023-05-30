@@ -1,0 +1,32 @@
+.Contact_h{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+}
+.Contact_input{
+    box-sizing: border-box;
+border-radius: 10px;
+padding: 10px;
+}
+.Contact_P{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #020140;
+}
+.contact_btn{
+    background-color: #E60058 !important;
+    border-radius: 45px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+padding: 10px;
+
+color: #FFFFFF;
+}

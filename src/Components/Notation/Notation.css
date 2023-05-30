@@ -1,0 +1,27 @@
+.BgNotation{
+        background-image: url("../Assets/bgnotation.svg");
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-size: cover ;
+         height: 50vh !important;
+         border-radius: 20px !important;
+         display: flex;
+         justify-content: center;
+         align-items: center
+
+
+}
+.Notation_h1{
+   
+font-family: Barlow;
+font-size: 60px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.notation_bor{
+    border-radius: 10px;
+
+}
