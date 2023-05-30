@@ -1,0 +1,17 @@
+.single_card_bg{
+    background: #FFFFFF;
+border-radius: 12px;
+padding: 15px 10px !important;
+}
+
+.card_single_content{
+    display: flex;
+    gap: 15px !important;
+}
+
+
+.card_single_content{
+    font-weight: 600;
+font-size: 20px;
+color: #2EB3FF
+}
