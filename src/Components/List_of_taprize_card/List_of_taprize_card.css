@@ -1,0 +1,123 @@
+.listCrd_fst_txt {
+  color: #020140;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.listCrd_scnd_txt {
+  color: #020140;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.listCrd_button {
+  background-color: #e60058;
+  color: #ffffff;
+  border: none;
+  border-radius: 45px;
+  padding: 8px 22px;
+  font-size: 14px;
+}
+
+.listCrd_button:hover {
+  background-color: red;
+}
+
+.hrt {
+  color: #e60058 !important;
+  padding: 10px 20px !important;
+}
+
+.like_hrt {
+  border: 1px solid #fce0eb;
+  border-radius: 39px;
+}
+
+.endSale {
+  background-color: #d8d8d8;
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  width: 18%;
+  padding: 3px 2px;
+  position: absolute;
+  top: 27px;
+  left: 38px;
+}
+
+/* Title style */
+
+.webGachaList_title {
+  background-image: url(../Assets/list_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_header {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 600;
+  -webkit-text-stroke: 1.7px black !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .hrt {
+    display: none !important;
+  }
+  .like_hrt{
+    display: none !important;
+  }
+
+  .listCrd_button {
+    background-color: #e60058;
+    color: #ffffff;
+    border: none;
+    border-radius: 45px;
+    padding: 8px 22px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+  .webGachaList_title {
+    background-image: url(../Assets/list_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+  }
+
+  .endSale {
+    background-color: #d8d8d8;
+    border-radius: 40px;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+    width: 28%;
+    padding: 3px 2px;
+    position: absolute;
+    top: 27px;
+    left: 38px;
+}
+
+.page_header {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 600;
+  -webkit-text-stroke: 1.7px black !important;
+}
+
+.listCrd_scnd_txt{
+  display: none !important;
+}
+
+}
