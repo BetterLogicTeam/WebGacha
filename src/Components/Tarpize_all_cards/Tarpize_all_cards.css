@@ -1,0 +1,50 @@
+.tarpize_cards_main{
+    background: #F2F6FF !important;
+    padding: 40px 10px !important;
+}
+
+
+.fornt_row{
+    background: linear-gradient(92.33deg, #FFFFFF 0.36%, #F5FAFF 98.06%) !important;
+border-radius: 70px !important;
+padding: 20px 10px !important;
+display: flex !important;
+align-items: center !important;
+gap: 2rem !important;
+}
+
+.yellow{
+    background: #FFD600;
+border-radius: 80px;
+width: 122px;
+height: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 25px;
+gap: 10px;
+color: white !important;
+}
+
+
+.blu_boxe{
+    border-radius: 80px;
+width: 122px;
+height: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 25px;
+gap: 10px;
+color: white !important;
+background-color:  #2EB3FF ;
+}
+
+.fornt_row>h6{
+    text-transform: uppercase;
+    color: #020140 !important;
+    font-weight: 600;
+font-size: 24px
+}

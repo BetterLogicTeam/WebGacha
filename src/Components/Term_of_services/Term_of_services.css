@@ -1,0 +1,21 @@
+.term_heading{
+    font-size: 20px ;
+    color: #020140;
+    font-weight: 600;
+}
+
+
+.scroll_text{
+    background: #FFFFFF;
+/* Light blue stroke */
+
+border: 1px solid #D2E9FF;
+border-radius: 12px;
+padding: 20px 25px !important;
+height: 300px !important;
+overflow-y: scroll !important;
+margin: 4rem 0rem !important;
+}
+.scroll_text >{
+    color: #020140 !important;
+}

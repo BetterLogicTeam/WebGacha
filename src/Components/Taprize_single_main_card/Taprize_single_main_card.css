@@ -1,0 +1,32 @@
+.tarpize_single_main_carrd{
+    background: #FFFFFF !important;
+border-radius: 12px !important;
+padding: 10px !important;
+}
+
+
+.blue_heading{
+    color: #2EB3FF;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.black_heading{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #020140;
+}
+
+.lower_content{
+    display: flex ;
+    gap: 10px !important;
+}
+
+.lower_content>p{
+    color: #2EB3FF;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}

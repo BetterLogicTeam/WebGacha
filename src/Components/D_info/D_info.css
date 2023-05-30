@@ -1,0 +1,52 @@
+.main_dinof_bg{
+    background-image:url(../Assets/d_info.png) ;
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    /* height: 80vh !important; */
+    padding: 40px 10px !important;
+}
+
+.main_dinof_bg >h2{
+font-weight: 600px !important;
+font-size: 40px;
+color: #000E31;
+}
+
+
+
+.notataion_border p{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #020140;
+}
+.T_p{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
+
+.main_cont{
+    text-align: center;
+    background-color: white  !important;
+    border: 1px solid     #D2E9FF;
+    border-radius: 12px !important;
+}
+
+.borrrrrrrrr{
+    border-bottom: 1px solid     #D2E9FF;   
+}
+
+.borrrrrrrrr_right{
+    border-right: 1px solid     #D2E9FF;   
+
+}
+
+.main p {
+    margin-bottom: 0px !important;
+    text-align: left;
+}

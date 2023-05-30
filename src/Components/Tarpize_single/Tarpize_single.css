@@ -1,0 +1,75 @@
+.tarpize_single_main{
+    background: #E4DDFC !important;
+    padding: 20px 10px !important;
+}
+
+
+.tarsize_content>h3{
+    font-weight: 600;
+    font-size: 36px !important;
+}
+
+.bor_content
+{
+    border-top: 1px solid rgba(255, 255, 255, 0.34);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.34);
+
+    display: flex;
+    gap: 3rem  !important;
+    padding: 15px 10px ;
+}
+
+
+.number_tarpize{
+    border: 1px solid #D2E9FF;
+border-radius: 6px;
+background: #FFFFFF;
+padding: 10px !important;
+width: 15% !important;
+}
+
+
+.white_button{
+    color: #E60058;
+    text-align: center;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 16px;
+padding: 10px 15px !important;
+background-color: #FFFFFF !important;
+
+/* Main red */
+
+border: 1px solid #E60058;
+border-radius: 6px;
+font-size: 14px !important;
+}
+
+.red_button{
+    background: #E60058;
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+padding: 10px 15px !important;
+color: white !important;
+width: 100% !important;
+}
+
+.circula{
+    background-color: #FFF !important;
+    border: 1px solid #FCE0EB;
+    border-radius: 39px;
+    height: 50px;
+    width: 90px !important;
+}
+
+
+
+
+
+@media only screen and (max-width:700px){
+    .circula{
+        width: 100% !important;
+    }
+}
