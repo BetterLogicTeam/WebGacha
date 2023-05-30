@@ -1,0 +1,19 @@
+.notataion_border{
+    border: 1px solid #D2E9FF;
+}
+
+
+.notataion_border p{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #020140;
+}
+.T_p{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
