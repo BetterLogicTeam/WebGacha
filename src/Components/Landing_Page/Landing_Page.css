@@ -1,0 +1,84 @@
+.landing_Bg {
+    background-image: url('../Assets/Landing_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-bottom: 250px;
+    padding-top: 200px !important;
+    position: relative;
+}
+
+.landing_Bg h1 {
+    font-family: 'Barlow, sans-serif';
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #020140;
+
+    -webkit-text-stroke: 1.5px #fff;
+
+}
+
+.landing_Bg p {
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+
+    -webkit-text-stroke: 0.5px #fff;
+
+    color: #020140;
+
+
+}
+
+.landing_Bg button {
+    font-family: 'Barlow, sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 392px;
+    height: 55px;
+    left: calc(50% - 392px/2);
+    top: 432px;
+
+    /* Main red */
+
+    background: #E60058;
+    /* White */
+
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+
+}
+
+.News_Heading {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #020140;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+
+}

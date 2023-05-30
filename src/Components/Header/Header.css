@@ -1,0 +1,82 @@
+.Nav_bar_Bg {
+    background: #F2F6FF;
+    border-bottom: 1px solid #D2E9FF;
+}
+
+.Nav_bar_Link {
+ margin-top: 0.7rem;
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 140%; */
+    margin-left: 1rem;
+    color: #010124 !important;
+    font-family: 'Barlow', sans-serif;
+}
+
+.Navbar_Login_BTN{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 6px;
+    
+    /* width: 134px;
+    height: 44px; */
+    
+    /* Yellow */
+    
+    background: #FFD600;
+    border-radius: 39px;
+    border: none;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.nav_Responsive{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_Responsive .Navbar_Login_BTN{
+    margin-left: 2rem;
+}
+
+.Nav_collps{
+    padding: 0px 1rem;
+    font-size: 1.25rem;
+    /* line-height: 1; */
+    background-color: transparent;
+    border: 1px solid #E60058;
+    border-radius: 3rem;
+    transition: box-shadow .15s ease-in-out;
+    color: #E60058;
+}
+.Nav_collps .Nav_icon{
+    color: #E60058 !important;   
+}.main_collapse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+@media (min-width:800px) and (max-width:5000px) {
+    .main_collapse{
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .navbar_nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn_rep{
+        display: none;
+    }
+}
