@@ -16,7 +16,7 @@ font-size: 12px;
 line-height: 140%;
 color: #020140;
 }
-.contact_btn{
+/* .contact_btn{
     background-color: #E60058 !important;
     border-radius: 45px;
     font-family: 'Barlow';
@@ -29,4 +29,13 @@ text-transform: uppercase;
 padding: 10px;
 
 color: #FFFFFF;
+} */
+
+.red_button{
+    background: #E60058;
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+padding: 10px 15px !important;
+color: white !important;
+width: 100% !important;
 }
