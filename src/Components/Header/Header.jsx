@@ -7,8 +7,11 @@ import Logog from "../Assets/Logog.png";
 import { FaUserAlt } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
+
 export default function Header() {
   const [Collapse, setCollapse] = useState(false);
+
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg">
@@ -54,10 +57,11 @@ export default function Header() {
                 お問い合わせ
               </Nav.Link>
               <Nav.Link href="#" className="">
-                <button className="Navbar_Login_BTN btn_rep ">
-                  {" "}
-                  <FaUserAlt /> ログイン
-                </button>
+                <Link to="/Login">
+                  <button className="Navbar_Login_BTN btn_rep ">
+                    <FaUserAlt /> ログイン
+                  </button>
+                </Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
