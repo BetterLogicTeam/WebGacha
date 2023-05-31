@@ -1,7 +1,4 @@
 import React from "react";
-
-import Pagination from "@mui/material/Pagination";
-import Stack from "@mui/material/Stack";
 import TabForAll from "../TabForAll/TabForAll";
 
 function List_f_Taprize() {

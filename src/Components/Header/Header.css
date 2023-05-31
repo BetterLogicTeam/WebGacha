@@ -13,6 +13,9 @@
     color: #010124 !important;
     font-family: 'Barlow', sans-serif;
 }
+.nav_Responsive img{
+    width: 80%;
+}
 
 .Navbar_Login_BTN{
     display: flex;

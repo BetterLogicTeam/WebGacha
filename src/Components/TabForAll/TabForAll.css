@@ -56,3 +56,10 @@
     
 
 }
+.Mui-selected{
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}

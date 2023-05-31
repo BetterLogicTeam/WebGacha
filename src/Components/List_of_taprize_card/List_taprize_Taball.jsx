@@ -1,6 +1,6 @@
 import React from 'react'
 import Data from "./Data";
-import List_of_taprize_card from "./List_of_taprize_card";
+import ListOfTaprizeCard from "./List_of_taprize_card";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 
@@ -14,7 +14,7 @@ function List_taprize_Taball() {
             return (
               <>
                 <div className="col-lg-6">
-                  <List_of_taprize_card
+                  <ListOfTaprizeCard
                     Image={items.Image}
                     Name={items.Name}
                     tag={items.tag}

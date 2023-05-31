@@ -1,11 +1,11 @@
-import * as React from 'react';
-import "./TabForAll.css"
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import List_taprize_Taball from '../List_of_taprize_card/List_taprize_Taball';
+import * as React from "react";
+import "./TabForAll.css";
+import PropTypes from "prop-types";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import ListTaprizeTaball from "../List_of_taprize_card/List_taprize_Taball";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -36,7 +36,7 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    "aria-controls": `simple-tabpanel-${index}`,
   };
 }
 
@@ -48,9 +48,15 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: "100%" }}>
       <Box>
-        <Tabs value={value} onChange={handleChange} centered className="tbUper">
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          centered
+          className="tbUper"
+          indicatorColor={false}
+        >
           <Tab className="tabcor" label="全て" {...a11yProps(0)} />
           <Tab className="tabcor" label="発売中" {...a11yProps(1)} />
           <Tab className="tabcor" label="近日発売" {...a11yProps(2)} />
@@ -58,16 +64,16 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <List_taprize_Taball/>
+        <ListTaprizeTaball />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <ListTaprizeTaball />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <ListTaprizeTaball />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item four
+        <ListTaprizeTaball />
       </TabPanel>
     </Box>
   );

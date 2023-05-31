@@ -77,8 +77,9 @@
     /* Black */
 
     color: #020140;
-    margin-top: 2rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 0px !important;
 
 }
 

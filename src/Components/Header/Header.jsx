@@ -3,7 +3,7 @@ import "./Header.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logog from "../Assets/Logog.png";
+import Logog from "../Assets/newLogo.png";
 import { FaUserAlt } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
@@ -16,7 +16,7 @@ export default function Header() {
     <div>
       <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg">
         <Container>
-          <Navbar.Brand href="#home" className="nav_Responsive">
+          <Navbar.Brand href="/" className="nav_Responsive">
             <img src={Logog} alt="Navbar_Logo" />
           </Navbar.Brand>
           <div className="main_collapse">
@@ -45,20 +45,34 @@ export default function Header() {
           >
             <Nav className="ms-auto navbar_nav ">
               <Nav.Link href="#" className="Nav_bar_Link">
-                ウェブガチャ 一覧
+                <Link
+                  to="/ListOTaprize"
+                  className="text-decoration-none Nav_bar_Link "
+                >
+                  ウェブガチャ 一覧
+                </Link>
               </Nav.Link>
               <Nav.Link href="#" className="Nav_bar_Link">
-                ご利用ガイド
+                <Link to="/TermOfServices" className="text-decoration-none Nav_bar_Link ">
+                  ご利用ガイド
+                </Link>
               </Nav.Link>
               <Nav.Link href="#" className="Nav_bar_Link">
-                よくあるご質問
+                <Link to="/FAQ" className="text-decoration-none Nav_bar_Link ">
+                  よくあるご質問
+                </Link>
               </Nav.Link>
               <Nav.Link href="#" className="Nav_bar_Link me-2">
-                お問い合わせ
+                <Link
+                  to="/ContactUs"
+                  className="text-decoration-none Nav_bar_Link "
+                >
+                  お問い合わせ
+                </Link>
               </Nav.Link>
               <Nav.Link href="#" className="">
-                <Link to="/Login">
-                  <button className="Navbar_Login_BTN btn_rep ">
+                <Link to="/Login" className="text-decoration-none">
+                  <button className="Navbar_Login_BTN btn_rep  ">
                     <FaUserAlt /> ログイン
                   </button>
                 </Link>

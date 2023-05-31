@@ -28,14 +28,17 @@ padding: 30px 10px !important;
 }
 
 .faq_ul>li{
-    padding: 15px 5px !important;
-    color: #020140 !important;
+    padding: 15px 10px ;
+    color: #020140 ;
 }
 
 .first_li{
     background: #2EB3FF !important;
     border-radius: 12px !important;
-    color: white !important;
+    color: #fff !important;
+    cursor: pointer;
+    padding: 20px !important;
+
     /* margin-top: 10px !important; */
 }
 
@@ -98,3 +101,4 @@ font-size: 20px !important;
     text-align: start !important;
 font-size: 16px !important; 
 }
+

@@ -1,21 +1,24 @@
-.Contact_h{
+.Contact_h {
     font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 140%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
 }
-.Contact_input{
+
+.Contact_input {
     box-sizing: border-box;
-border-radius: 10px;
-padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
-.Contact_P{
+
+.Contact_P {
     font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 140%;
-color: #020140;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #020140;
 }
+
 /* .contact_btn{
     background-color: #E60058 !important;
     border-radius: 45px;
@@ -31,11 +34,15 @@ padding: 10px;
 color: #FFFFFF;
 } */
 
-.red_button{
+.red_button {
     background: #E60058;
-border: 1px solid #FFFFFF;
-border-radius: 45px;
-padding: 10px 15px !important;
-color: white !important;
-width: 100% !important;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    padding: 10px 15px !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+.Contact_us_bg {
+    padding: 30px 20px;
 }

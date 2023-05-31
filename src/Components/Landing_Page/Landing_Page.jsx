@@ -19,7 +19,7 @@ export default function Landing_Page() {
         </div>
       </div>
       {/* ------------------------ News--------------------------- */}
-      <div>
+      <div className="Slider_News_Bg">
         <h1 className="News_Heading">ニュース</h1>
       </div>
     </>
