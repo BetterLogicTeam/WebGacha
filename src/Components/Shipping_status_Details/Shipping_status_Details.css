@@ -1,0 +1,54 @@
+.Shipping_status_Details{
+    background-color: #d2e9ff;
+  height: 100%;
+}
+
+.Shipping_status_Details h1{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+color: #020140;
+}
+
+.Shipping_status_Details th, td{
+    padding: 20px;
+    color: #020140;
+}
+
+.Shipping_status_Details td{
+    padding: 20px;
+    color: #020140;
+}
+
+.tdddd{
+    font-weight: 900;
+}
+
+.baggg{
+    padding: 10px 20px;
+gap: 10px;
+background: #8AC7FF;
+border-radius: 6px;
+}
+
+.Shipping_status_Details_scnd_tble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-pink{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 140%;
+color: #E60058 !important;
+}
+
+.Shipping_status_Details table{
+    background: white;
+}
