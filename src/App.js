@@ -3,7 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import LandingPage from './Components/Landing_Page/Landing_Page';
-import NewsSlider from './Components/news_Slider/news_Slider';
+import List_f_Taprize from './Components/List_of_taprize_card/List_f_Taprize';
+// import NewsSlider from './Components/news_Slider/news_Slider';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
      <Header/>
      <LandingPage/>
-     <NewsSlider/>
+     <List_f_Taprize/>
+     {/* <NewsSlider/> */}
     </div>
   );
 }
