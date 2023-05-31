@@ -136,7 +136,7 @@ function ContactUs() {
 
 <div className='my-4'>
 
-<Button className='w-100 contact_btn'> 内容を確認する </Button>
+<button className='w-100 red_button'> 内容を確認する </button>
 
 
 
