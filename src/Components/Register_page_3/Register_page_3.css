@@ -1,0 +1,28 @@
+.main_Register_page_3{
+    background:#F2F6FF ;
+    padding: 30px 20px !important;
+}
+
+
+.h6_text{
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+font-size: 20px !important;
+}
+
+
+.register_buttton{
+    color: #E60058;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+background: #FFFFFF;
+/* Main red */
+
+border: 1px solid #E60058;
+border-radius: 45px;
+padding: 15px 10px !important;
+width: 100%;
+}
