@@ -2,15 +2,21 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Taprize_single_pic from "../Assets/single_1.svg";
 import "./Taprize_single_main_card.css"
+import Tarpize_single_model from "../Tarpize_single_model/Tarpize_single_model";
 
 function Taprize_single_main_card() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="my-5">
      <div className="container">
       <div className="row">
         <div className="col-md-4 mt-3 mt-md-0">
           <div className="tarpize_single_main_carrd">
-          <img src={Taprize_single_pic} className="w-100" alt="" />
+          <img src={Taprize_single_pic}  onClick={() => setModalShow(true)} className="w-100" alt="" />
+          <Tarpize_single_model
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
           <div className="d-flex gap-3 my-3">
             <h6 className="blue_heading">特別賞 -1</h6>
             <h6 className="black_heading">特大タオル</h6>

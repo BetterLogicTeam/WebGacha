@@ -36,12 +36,14 @@ text-transform: uppercase;
 font-weight: 500;
 font-size: 16px;
 padding: 10px 15px !important;
+width: 100% !important;
+border-radius: 45px;
 background-color: #FFFFFF !important;
 
 /* Main red */
 
 border: 1px solid #E60058;
-border-radius: 6px;
+/* border-radius: 6px; */
 font-size: 14px !important;
 }
 
