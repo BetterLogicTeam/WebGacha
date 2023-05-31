@@ -11,7 +11,10 @@ export default function Landing_Page() {
             <p>
               企画・製造・販売まで手掛けているから、ここにしかない商品をお届け。
             </p>
+            <div className="d-flex justify-content-center">
+
             <button>販売中の販売中のウェブガチャをチェック！</button>
+            </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import image1 from "../Assets/image 1.png";
-import { Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import "./news_Slider.css";
 import image2 from "../Assets/image 6.png";
 
@@ -20,8 +20,35 @@ export default function News_Slider() {
         slidesPerView={4}
         spaceBetween={30}
         centeredSlides={true}
+        loop={true}
         navigation={true} 
-        modules={[Navigation]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Navigation,Autoplay]}
+        breakpoints={{
+          425: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          375: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          300: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -131,7 +158,9 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
+     
       </Swiper>
+
     </div>
   );
 }
