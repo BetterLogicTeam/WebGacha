@@ -6,6 +6,7 @@ import LandingPage from './Components/Landing_Page/Landing_Page';
 import NewsSlider from './Components/news_Slider/news_Slider';
 import List_of_Results from './Components/List_of_Results/List_of_Results';
 import Shipping_status_Details from './Components/Shipping_status_Details/Shipping_status_Details';
+import Register from './Components/Register/Register';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
      {/* <LandingPage/>
      <NewsSlider/> */}
      {/* <List_of_Results /> */}
-     <Shipping_status_Details />
+     {/* <Shipping_status_Details /> */}
+     <Register />
     </div>
   );
 }
