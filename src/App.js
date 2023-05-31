@@ -11,6 +11,9 @@ import News_Slider from './Components/news_Slider/news_Slider';
 import Edit_page_two from './Components/Edit_page_two/Edit_page_two';
 import Register_page_3 from './Components/Register_page_3/Register_page_3';
 import Register_complete from './Components/Register_complete/Register_complete';
+import Web_part from './Components/Web_part/Web_part';
+import Upper_footer_part from './Components/Upper_footer_part/Upper_footer_part';
+
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
    {/* <Edit_page_two/> */}
    <Register_page_3/>
    <Register_complete/>
+   <Web_part/>
+   <Upper_footer_part/>
+  
     </div>
   );
 }

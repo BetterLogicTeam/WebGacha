@@ -1,0 +1,12 @@
+.main_web_part{
+    background-image: url(../Assets/three.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding: 40px 10px !important;
+    height:50vh !important;
+}
+
+.design{
+    margin-top: -3rem !important;
+}

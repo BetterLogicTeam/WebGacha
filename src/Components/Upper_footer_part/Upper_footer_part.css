@@ -1,0 +1,48 @@
+.main_sea_part{
+    background-image: url(../Assets/sea.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.white_button{
+    background: #FFFFFF !important;
+/* Main red */
+
+border: 1px solid #E60058 !important;
+border-radius: 45px !important;
+color: #E60058 !important;
+width: 100%;
+padding: 10px 15px !important;
+
+}
+
+
+.red_button{
+    background: #E60058;
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+color: white !important;
+/* width:600px; */
+padding: 10px 15px !important;
+width: 100%;
+}
+/* .main_sea_part>h2,p{
+    text-align: center;
+} */
+
+
+
+@media only screen and (max-width:700px){
+    .main_sea_part{
+        height: auto !important;
+    }
+}
