@@ -37,14 +37,6 @@ function App() {
         <Route path="/PaswordStepTwo" element={<PaswordStepTwo />} />
         <Route path="/PasswordRequestStepThree" element={<PasswordRequestStepThree />} />
         <Route path="/TarpizeSingleFullPage" element={<TarpizeSingleFullPage />} />
-
-
-
-
-
-
-
-
       </Routes>
       <MainFooter />
     </div>
