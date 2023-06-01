@@ -32,19 +32,12 @@ line-height: 140%;
 
 .main_cont{
     text-align: center;
-    background-color: white  !important;
-    border: 1px solid     #D2E9FF;
+    /* background-color: white  !important; */
+    /* border: 1px solid     #D2E9FF; */
     border-radius: 12px !important;
 }
 
-.borrrrrrrrr{
-    border-bottom: 1px solid     #D2E9FF;   
-}
 
-.borrrrrrrrr_right{
-    border-right: 1px solid     #D2E9FF;   
-
-}
 
 .main p {
     margin-bottom: 0px !important;

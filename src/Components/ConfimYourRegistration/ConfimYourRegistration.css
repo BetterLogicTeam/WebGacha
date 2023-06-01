@@ -1,0 +1,59 @@
+.comfim_p{
+    font-weight: 600;
+font-size: 17px;
+line-height: 140%;
+/* or 28px */
+
+text-transform: uppercase;
+color: #020140;
+}
+.border_table{
+    border-radius: 12px 0px 0px  0px;
+}
+.border_table1{
+    border-radius: 0px 12px 0px  0px;
+}
+.border_table2{
+    border-radius: 0px 0px 0px  12px;
+}
+.border_table3{
+    border-radius: 0px 0px 12px  0px;
+}
+.red_buttonnn{
+ 
+padding: 18px 150px;
+background: #E60058;
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+}
+.colorofspan{
+    color: #E60058;
+}
+.switch_icon{
+    font-style: normal;
+}
+.ConfimYourRegistrationBg{
+    background-color: #F2F6FF;
+}
+
+.tableBg{
+    background-color: white;
+}
+.switch_icon{
+    color: #2300F8;
+}
+
+@media only screen and (max-width: 700px) {
+   .rssssssspomm{
+    flex-direction: column !important;
+   }
+
+   .red_buttonnn {
+    padding:15px 80px !important ;
+    margin-bottom: 2rem !important;
+   }
+
+   .aligment{
+    text-align: center !important;
+   }
+  }

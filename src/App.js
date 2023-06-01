@@ -17,14 +17,24 @@ import PasswordRequest from './Components/Password_request/Password_request';
 import PaswordStepTwo from './Components/Pasword_stepTwo/Pasword_stepTwo';
 import PasswordRequestStepThree from './Components/Password_request_step_three/Password_request_step_three';
 import TarpizeSingleFullPage from './Components/Tarpize_single_full_page/Tarpize_single_full_page';
+import MainMypageCouponTwo from './Components/MainMypageCouponTwo/MainMypageCouponTwo';
+import ConfimYourRegistration from './Components/ConfimYourRegistration/ConfimYourRegistration';
+import Edit_page_two from './Components/Edit_page_two/Edit_page_two';
+
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
+
+
+      {/* <Header /> */}
+      {/* <MainMypageCouponTwo /> */}
+      <ConfimYourRegistration />
+      {/* <NotationTable /> */}
+
+      {/* <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/TermOfServices" element={<TermOfServices />} />
@@ -37,16 +47,9 @@ function App() {
         <Route path="/PaswordStepTwo" element={<PaswordStepTwo />} />
         <Route path="/PasswordRequestStepThree" element={<PasswordRequestStepThree />} />
         <Route path="/TarpizeSingleFullPage" element={<TarpizeSingleFullPage />} />
-
-
-
-
-
-
-
-
       </Routes>
-      <MainFooter />
+       */}
+      {/* <MainFooter /> */}
     </div>
   );
 }
