@@ -23,6 +23,8 @@ import Purchase_process_2 from './Components/Purchase_process_2/Purchase_process
 import PurchaseProcessOne from './Components/Purchase_process_one/Purchase_process_one';
 import PasswordRequestStepFour from './Components/Password_request_step_four/Password_request_step_four';
 import PurchaseTab from './Components/Purchase_Tab/Purchase_Tab';
+import Register from './Components/Register/Register';
+import Registeration_tab from './Components/Registeration_tab/Registeration_tab';
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 
@@ -33,7 +35,7 @@ function App() {
 
       <Header />
     
-
+{/* 
       <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/Login" element={<LoginPage />} />
@@ -56,7 +58,11 @@ function App() {
 
 
 
-      </Routes>
+      </Routes> */}
+      {/* <Register/> */}
+      <Registeration_tab/>
+
+      
       
       <MainFooter />
     </div>
