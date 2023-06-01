@@ -1,0 +1,68 @@
+.Purchase_process_one{
+    background: #F2F6FF;
+    padding: 40px 20px !important;
+}
+
+.cradit_inpit{
+    background: #FFFFFF;
+/* Light Blue */
+
+border: 1px solid #8AC7FF;
+border-radius: 12px;
+padding: 20px 20px !important;
+/* width: 100% !important; */
+}
+
+.credit_card_lable{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    /* Black */
+    
+    color: #020140;
+    padding: 1.5rem 0rem;
+}
+
+
+.cradit_inpit:focus{
+    outline: none;
+    border: 1px solid   #8AC7FF;
+}
+
+.resposssss{
+    width: 50% !important;
+}
+
+
+.card_caridt{
+    font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+
+/* Black */
+
+color: #020140;
+}
+
+.cridtt_res{
+    width: 50% !important;
+}
+
+@media only screen and (max-width:700px){
+    .change-dir{
+        flex-direction:column !important ;
+
+    }
+    .resposssss{
+        width: 100% !important;
+    }
+    .cridtt_res{
+        width: 100% !important;
+    }
+}

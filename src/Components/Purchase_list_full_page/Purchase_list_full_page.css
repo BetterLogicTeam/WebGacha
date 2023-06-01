@@ -1,0 +1,92 @@
+.Purchase_list_full_page_main{
+    background: #F2F6FF !important;
+    padding: 40px 15px !important;
+}
+
+
+.purschase_p{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+.pusrchase_list_sele{
+    font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+/* Black */
+
+color: #020140;
+}
+
+
+.purchase_select_section{
+    /* background: #FFFFFF; */
+/* Light Blue */
+
+border: 1px solid #8AC7FF;
+border-radius: 12px;
+padding: 10px 145px !important;
+text-align: left !important;
+}
+
+.purchase_select_section:focus{
+box-shadow: none !important;
+border: 1px solid  #8AC7FF ;
+}
+
+
+.purchase_card{
+    background: #FFFFFF;
+/* Light blue stroke */
+
+border: 1px solid #D2E9FF;
+border-radius: 12px;
+padding: 20px !important;
+}
+
+.purchase_button{
+    font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+/* Black */
+
+color: #020140;
+background: #8AC7FF;
+border-radius: 6px;
+text-align: center !important;
+padding: 20px 40px !important;
+border: none !important;
+outline: none !important;
+margin: 1.5rem 0rem !important;
+}
+
+
+.pusrchar_card_para_t{
+    font-weight: 600;
+    text-transform: uppercase;
+
+/* Black */
+
+color: #000E31;
+font-size: 20px;
+line-height: 140%;
+}
+
+
+.purchase_footer{
+    color: #E60058;
+    font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
