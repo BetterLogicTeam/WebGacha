@@ -7,11 +7,11 @@ import Logog from "../Assets/newLogo.png";
 import { FaUserAlt } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [Collapse, setCollapse] = useState(false);
-
+  const history = useNavigate();
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg">
@@ -20,9 +20,13 @@ export default function Header() {
             <img src={Logog} alt="Navbar_Logo" />
           </Navbar.Brand>
           <div className="main_collapse">
-            <button className="Navbar_Login_BTN me-3 ">
+            <button
+              className="Navbar_Login_BTN me-3 "
+              onClick={() => history("/Login")}
+            >
               <FaUserAlt />
             </button>
+
             <div
               className="Nav_collps"
               onClick={() => setCollapse((prevCheck) => !prevCheck)}
@@ -48,17 +52,26 @@ export default function Header() {
                 <Link
                   to="/ListOTaprize"
                   className="text-decoration-none Nav_bar_Link "
+                  onClick={() => setCollapse(false)}
                 >
                   ウェブガチャ 一覧
                 </Link>
               </Nav.Link>
               <Nav.Link href="#" className="Nav_bar_Link">
-                <Link to="/TermOfServices" className="text-decoration-none Nav_bar_Link ">
+                <Link
+                  to="/TermOfServices"
+                  className="text-decoration-none Nav_bar_Link "
+                  onClick={() => setCollapse(false)}
+                >
                   ご利用ガイド
                 </Link>
               </Nav.Link>
               <Nav.Link href="#" className="Nav_bar_Link">
-                <Link to="/FAQ" className="text-decoration-none Nav_bar_Link ">
+                <Link
+                  to="/FAQ"
+                  className="text-decoration-none Nav_bar_Link "
+                  onClick={() => setCollapse(false)}
+                >
                   よくあるご質問
                 </Link>
               </Nav.Link>
@@ -66,6 +79,7 @@ export default function Header() {
                 <Link
                   to="/ContactUs"
                   className="text-decoration-none Nav_bar_Link "
+                  onClick={() => setCollapse(false)}
                 >
                   お問い合わせ
                 </Link>

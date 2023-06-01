@@ -1,0 +1,111 @@
+.Register_main {
+  padding: 43px 0;
+  background: rgb(242, 246, 255);
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps {
+  border: 1px solid #2eb3ff;
+  border-radius: 57px;
+  padding: 8px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps
+  .ant-steps-item-container {
+  background: #2eb3ff;
+  border-radius: 45px;
+  padding: 12px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps
+  .ant-steps-item-process
+  .ant-steps-item-icon {
+  background-color: white;
+  border: none;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps
+  .ant-steps-item-process
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #2eb3ff !important;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-form {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.ajsiji {
+  background-color: white;
+  border-radius: 12px !important;
+  width: 70%;
+  padding: 40px;
+}
+
+.ajsiji p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #2300f8;
+}
+
+.Register_ant {
+  display: flex !important;
+  justify-content: left !important;
+  align-items: left !important;
+  /* margin-top: 30px; */
+}
+
+.ant-input:placeholder-shown, .ant-input-affix-wrapper{
+    border: 1px solid #8AC7FF;
+border-radius: 12px;
+padding: 12px 30px;
+}
+
+.ant-input-affix-wrapper{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .Register_ant{
+        flex-direction: column;
+    }
+}
+
+.Register_main label{
+    font-weight: 600 !important;
+font-size: 19px !important;
+line-height: 140% !important;
+color: #020140 !important;
+}
+
+.p_pink{
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 140% !important;
+color: #E60058 !important;
+}
+
+.lmbbba label{
+    /* font-size: 9px !important; */
+}

@@ -1,0 +1,86 @@
+.List_of_Results_main_div {
+  background-color: #d2e9ff;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .List_of_Results_main_div{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    
+}
+
+.List_of_Results_btttn{
+    margin-top: 27px !important;
+}
+
+.List_of_Results {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 350px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.List_of_Results_card {
+  border-radius: 12px;
+  border: none;
+}
+
+.List_of_Results img {
+  width: 330px;
+  height: 241px;
+  left: 10px;
+  top: 10px;
+  border-radius: 11px;
+}
+
+.List_of_Results_fst_span {
+  width: 33px;
+  height: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #2eb3ff;
+  order: 0;
+}
+
+.List_of_Results_scnd_span {
+  width: 216px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  order: 1;
+  height: 28px;
+  color: #020140;
+}
+
+.List_of_Results_para {
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.List_of_Results_btttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.List_of_Results_btttn button{
+    width: 318px;
+height: 55px;
+background: #FFFFFF;
+border: 1px solid #E60058;
+border-radius: 45px;
+}

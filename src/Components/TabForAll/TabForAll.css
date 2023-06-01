@@ -1,11 +1,10 @@
-
-.tbUper{
+.tbUper {
     border: 2px solid #2EB3FF !important;
     border-radius: 50px !important;
     padding: 10px 0px;
 }
 
-.tabcor{
+.tabcor {
     color: #2d3b5d !important;
     font-size: 16px !important;
     font-weight: 700 !important;
@@ -15,29 +14,39 @@
     width: 23% !important;
     transition: 1s;
 }
-.tabcor:hover{
+
+.tabcor:hover {
     color: #2EB3FF !important;
 }
-.tabcor:focus{
+
+.tabcor:focus {
     background-color: #2EB3FF !important;
     color: #ffffff !important;
-    
+
 }
 
-.css-1wf8b0h-MuiTabs-flexContainer{
+.css-1wf8b0h-MuiTabs-flexContainer {
     display: flex !important;
     gap: 1rem !important;
 }
 
 @media only screen and (max-width:600px) {
-    
-    .css-1wf8b0h-MuiTabs-flexContainer{
+
+    .css-1wf8b0h-MuiTabs-flexContainer {
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
     }
 
-    .tabcor{
+    .css-1l4w6pd {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        gap: 1rem !important;
+
+    }
+
+    .tabcor {
         color: #000E31 !important;
         font-size: 16px !important;
         font-weight: 700 !important;
@@ -48,15 +57,16 @@
         transition: 1s;
     }
 
-    .tbUper{
+    .tbUper {
         border: 2px solid #2EB3FF !important;
         border-radius: 15px !important;
         padding: 10px 8px;
     }
-    
+
 
 }
-.Mui-selected{
+
+.Mui-selected {
     background-color: #2EB3FF !important;
     color: #ffffff !important;
     text-decoration: none !important;
