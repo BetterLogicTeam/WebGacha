@@ -17,6 +17,10 @@ import PasswordRequest from './Components/Password_request/Password_request';
 import PaswordStepTwo from './Components/Pasword_stepTwo/Pasword_stepTwo';
 import PasswordRequestStepThree from './Components/Password_request_step_three/Password_request_step_three';
 import TarpizeSingleFullPage from './Components/Tarpize_single_full_page/Tarpize_single_full_page';
+import Purchase_list_full_page from './Components/Purchase_list_full_page/Purchase_list_full_page';
+import Purchase_process_1 from './Components/Purchase_process_1/Purchase_process_1';
+import Purchase_process_2 from './Components/Purchase_process_2/Purchase_process_2';
+import Purchase_process_one from './Components/Purchase_process_one/Purchase_process_one';
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 
@@ -24,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/TermOfServices" element={<TermOfServices />} />
@@ -45,7 +49,12 @@ function App() {
 
 
 
-      </Routes>
+      </Routes> */}
+      {/* <Purchase_list_full_page/> */}
+      {/* <Purchase_process_1/> */}
+      {/* <Purchase_process_2/> */}
+      <Purchase_process_one/>
+      
       <MainFooter />
     </div>
   );

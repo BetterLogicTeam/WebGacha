@@ -1,0 +1,103 @@
+.purchase_process_1_main{
+    background:#F2F6FF !important ;
+    padding: 30px 20px !important;
+}
+
+.h3_text{
+    font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+
+
+
+color: #020140;
+}
+
+
+.purchse_first_Card{
+    background: #FFFFFF;
+border-radius: 12px;
+padding: 30px 20px !important;
+}
+
+.pusrchae_text{
+    font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+
+text-transform: uppercase;
+
+
+color: #2300F8;
+}
+
+.left_in{
+    background: #FFFFFF;
+/* Light Blue */
+
+border: 1px solid #8AC7FF;
+border-radius: 12px;
+padding: 6px 15px !important;
+}
+
+.radio_innput{
+    border: 1px solid  red !important;
+    font-size: 20px !important;
+    padding: 10px !important;
+    color: red  !important;
+}
+
+
+.purc_nam{
+    font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+}
+
+
+.whiteeee_button{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+/* Main red */
+
+color: #E60058;
+background: #FFFFFF;
+/* Main red */
+
+border: 1px solid #E60058;
+border-radius: 45px;
+padding: 15px 130px !important;
+}
+
+.reddd_button{
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+/* Main red */
+
+background: #E60058;
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+padding: 18px 130px;
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .respsss{
+        flex-direction: column !important;
+    }
+    
+}

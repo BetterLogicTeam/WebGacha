@@ -1,0 +1,17 @@
+.Purchase_process_2_main{
+    background:#F2F6FF !important ;
+    padding: 40px 20px !important;
+}
+
+ .border_table{
+    border-radius: 12px 0px 0px  0px;
+}
+.border_table1{
+    border-radius: 0px 12px 0px  0px;
+}
+.border_table2{
+    border-radius: 0px 0px 0px  12px;
+}
+.border_table3{
+    border-radius: 0px 0px 12px  0px;
+} 
