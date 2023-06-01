@@ -16,7 +16,7 @@ const history=useNavigate()
   };
   const handleCancel = () => {
     setIsModalOpen(false);
-    history('/PurchaseListFullPage')
+    history('/ListOfResults')
   };
   return (
     <>

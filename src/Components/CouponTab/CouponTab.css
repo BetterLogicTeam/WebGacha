@@ -1,0 +1,35 @@
+.Coupon_Tab_Bg {
+    background-color: #F2F6FF;
+    padding: 40px 20px;
+}
+
+.third_Tab h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #020140;
+}
+
+.third_Tab {
+
+    padding: 100px 10px;
+}
+
+.third_Tab h2 span {
+    color: #E60058 !important;
+}
+
+.Favorites_list h1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #020140;
+}

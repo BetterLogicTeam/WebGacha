@@ -12,7 +12,7 @@ export default function Register_complete() {
                     <h3 className='h3_text'>登録完了</h3>
                     <p className='ptext'>会員登録が完了いたしました。ウェブガチャをお楽しみください。</p>
                     <p className='ptext'>登録内容を変更したい場合は下記マイページからお願いいたします</p>
-                    <button className='white_button' onClick={()=>history('/Login')}> 
+                    <button className='white_button' onClick={()=>history('/MyPageEdit1')}> 
                     マイページへ
                     </button>
                 </div>

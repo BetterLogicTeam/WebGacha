@@ -1,0 +1,102 @@
+
+.myEdidTitle{
+    color: #020140;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+}
+
+.NameFld{
+    color: #020140 !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    font-weight: 600 !important;
+}
+
+.Fld{
+    border: 1.8px solid #8AC7FF !important ;
+    padding: 11px 0px 11px 5px !important;
+    border-radius: 10px !important;
+    font-weight: 300 !important;
+}
+.Fld2{
+    border: 1.8px solid #8AC7FF !important ;
+    padding: 5px 15px!important;
+    border-radius: 10px !important;
+}
+
+.nameTitle{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: rgba(35, 0, 248, 1);
+}
+
+.err{
+    color: #E60058;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tScnd{
+    margin-top: 31px;
+}
+
+.addressUpper{
+    margin-top: 3rem;
+}
+
+.year{
+    width: 40%;
+}
+.month{
+    width: 35%;
+}
+.day{
+    width: 35%;
+}
+
+.myPageLastButton{
+    border: 1.8px solid #E60058;
+    background-color: #ffffff;
+    color: #E60058;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.myPageLastButton:hover{
+    background-color: #E60058;
+    color: #ffffff;
+}
+
+.maildetail{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.passwordDetail{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.magadetail{
+    font-size: 16px;
+    font-weight: 600;
+    color: #020140;
+}
+
+
+@media only screen and (max-width:600px) {
+    .BothPad{
+        padding: 0px 10px !important;
+    }
+
+    .fld2Upper{
+        margin-top: 1rem;
+    }
+
+}
+

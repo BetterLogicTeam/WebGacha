@@ -3,8 +3,10 @@ import "./Tarpize_single.css";
 import tarp from "../Assets/tarpize.png";
 import { Checkbox } from "@mui/material";
 import { Favorite, FavoriteBorder } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 export default function Tarpize_single() {
+  const history=useNavigate()
     const label = { inputProps: { "aria-label": "Checkbox demo" } };
   return (
     <div className="tarpize_single_main">
@@ -47,7 +49,7 @@ export default function Tarpize_single() {
             </div>
             <div className="row align-items-center my-3">
               <div className="col-md-8">
-                <button className="red_button">
+                <button className="red_button" onClick={()=>history("/PurchaseTab")}>
                   {" "}
                   購入する - 1回660円(税込)
                 </button>

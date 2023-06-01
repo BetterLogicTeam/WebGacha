@@ -25,6 +25,12 @@ import PasswordRequestStepFour from './Components/Password_request_step_four/Pas
 import PurchaseTab from './Components/Purchase_Tab/Purchase_Tab';
 import Register from './Components/Register/Register';
 import RegisterationTab from './Components/Registeration_tab/Registeration_tab';
+import MyPageEdit1 from './Components/MyPageEdit_1/MyPageEdit_1';
+import EditPageTwo from './Components/Edit_page_two/Edit_page_two';
+import MyPageEditThree from './Components/MyPageEditThree/MyPageEditThree';
+import CouponTab from './Components/CouponTab/CouponTab';
+import ListOfResults from './Components/List_of_Results/List_of_Results';
+import ShippingStatusDetails from './Components/Shipping_status_Details/Shipping_status_Details';
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 
@@ -55,6 +61,19 @@ function App() {
         <Route path="/PurchaseTab" element={<PurchaseTab />} />
         <Route path="/PurchaseListFullPage" element={<PurchaseListFullPage />} />
         <Route path="/RegisterationTab" element={<RegisterationTab />} />
+        <Route path="/MyPageEdit1" element={<MyPageEdit1 />} />
+        <Route path="/EditPageTwo" element={<EditPageTwo />} />
+        <Route path="/MyPageEditThree" element={<MyPageEditThree />} />
+        <Route path="/CouponTab" element={<CouponTab />} />
+        <Route path="/ListOfResults" element={<ListOfResults />} />
+        <Route path="/ShippingStatusDetails" element={<ShippingStatusDetails />} />
+
+
+
+        
+
+
+
 
 
 
