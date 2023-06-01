@@ -17,10 +17,12 @@ import PasswordRequest from './Components/Password_request/Password_request';
 import PaswordStepTwo from './Components/Pasword_stepTwo/Pasword_stepTwo';
 import PasswordRequestStepThree from './Components/Password_request_step_three/Password_request_step_three';
 import TarpizeSingleFullPage from './Components/Tarpize_single_full_page/Tarpize_single_full_page';
-import Purchase_list_full_page from './Components/Purchase_list_full_page/Purchase_list_full_page';
-import Purchase_process_1 from './Components/Purchase_process_1/Purchase_process_1';
+import PurchaseListFullPage from './Components/Purchase_list_full_page/Purchase_list_full_page';
+import PurchaseProcess1 from './Components/Purchase_process_1/Purchase_process_1';
 import Purchase_process_2 from './Components/Purchase_process_2/Purchase_process_2';
-import Purchase_process_one from './Components/Purchase_process_one/Purchase_process_one';
+import PurchaseProcessOne from './Components/Purchase_process_one/Purchase_process_one';
+import PasswordRequestStepFour from './Components/Password_request_step_four/Password_request_step_four';
+import PurchaseTab from './Components/Purchase_Tab/Purchase_Tab';
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 
@@ -44,7 +46,16 @@ function App() {
         <Route path="/PasswordRequest" element={<PasswordRequest />} />
         <Route path="/PaswordStepTwo" element={<PaswordStepTwo />} />
         <Route path="/PasswordRequestStepThree" element={<PasswordRequestStepThree />} />
+        <Route path="/PasswordRequestStepFour" element={<PasswordRequestStepFour />} />
         <Route path="/TarpizeSingleFullPage" element={<TarpizeSingleFullPage />} />
+        <Route path="/PurchaseProcess1" element={<PurchaseProcess1 />} />
+        <Route path="/PurchaseProcessOne" element={<PurchaseProcessOne />} />
+        <Route path="/PurchaseTab" element={<PurchaseTab />} />
+        <Route path="/PurchaseListFullPage" element={<PurchaseListFullPage />} />
+
+
+
+
       </Routes>
       
       <MainFooter />

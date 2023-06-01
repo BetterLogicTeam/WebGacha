@@ -20,7 +20,7 @@ export default function Main_footer() {
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p>ウェブガチャ一覧</p>
+                  <p> タップライズ 一覧</p>
                 </Link>
                 <Link
                   to="/TermOfServices"

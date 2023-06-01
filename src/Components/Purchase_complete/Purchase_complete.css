@@ -1,0 +1,48 @@
+.complete_content h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    /* Black */
+
+    color: #020140;
+
+}
+
+.Purchase_complete_main {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+}
+
+.complete_content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 2rem;
+    /* or 22px */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #020140
+}
+
+.cmplt_btn {
+    background: #FFFFFF;
+    /* Main red */
+
+    border: 1px solid #E60058;
+    border-radius: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Main red */
+
+    color: #E60058;
+}

@@ -1,8 +1,10 @@
 import React from "react";
 import "./Login_page.css";
 import login_right from "../Assets/login_right.svg";
+import { useNavigate } from "react-router-dom";
 
 export default function Login_page() {
+  const history= useNavigate()
   return (
     <div className="main_login_page">
       <div className="container">
@@ -42,7 +44,7 @@ export default function Login_page() {
                 </label>
               </div>
               <button className="red_button">ログイン</button>
-              <p className="left_side_p">パスワードを忘れた方はこちら</p>
+              <p className="left_side_p" onClick={()=>history("/PasswordRequest")} style={{cursor:"pointer"}} >パスワードを忘れた方はこちら</p>
             </div>
           </div>
 

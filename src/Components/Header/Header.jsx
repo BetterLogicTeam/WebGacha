@@ -54,7 +54,7 @@ export default function Header() {
                   className="text-decoration-none Nav_bar_Link "
                   onClick={() => setCollapse(false)}
                 >
-                  ウェブガチャ 一覧
+                  タップライズ 一覧
                 </Link>
               </Nav.Link>
               <Nav.Link href="#" className="Nav_bar_Link">

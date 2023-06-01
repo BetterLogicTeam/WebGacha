@@ -1,7 +1,7 @@
 import React from "react";
 import "./Purchase_process_2.css";
 
-export default function Purchase_process_2() {
+export default function Purchase_process_2({prev,next}) {
   return (
     <div className="Purchase_process_2_main">
       <h3 className="h3_text py-5">購入確認</h3>
@@ -88,10 +88,10 @@ export default function Purchase_process_2() {
           </div>
         </div>
         <d className="d-flex gap-3 justify-content-center mt-5">
-            <button className="whiteeee_button" >戻る</button>
-            <button className="reddd_button">続ける</button>
+            <button className="whiteeee_button" onClick={()=>(prev(),window.scrollTo(0, 0))} >戻る</button>
+            <button className="reddd_button" onClick={()=>(next(),window.scrollTo(0, 0))} >続ける</button>
         </d>
       </div>
     </div>
   );
-}
+} 

@@ -1,7 +1,9 @@
 import React from "react";
 import "./Password_request_step_three.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Password_request_step_three() {
+  const history=useNavigate()
   return (
     <div className="main_password_req_bg">
       <div className="container">
@@ -31,7 +33,7 @@ export default function Password_request_step_three() {
                 className="login_page_inputss"
                 placeholder="********"
               />
-              <button className="w-100 red_button mt-4">パスワード再設定</button>
+              <button className="w-100 red_button mt-4" onClick={()=>history("/PasswordRequestStepFour")}>パスワード再設定</button>
             </div>
           </div>
         </div>
