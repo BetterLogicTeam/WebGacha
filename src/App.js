@@ -27,7 +27,11 @@ import Purchase_process_one from './Components/Purchase_process_one/Purchase_pro
 function App() {
   return (
     <div className="App">
+
+
       <Header />
+    
+
       <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/Login" element={<LoginPage />} />
@@ -42,6 +46,7 @@ function App() {
         <Route path="/PasswordRequestStepThree" element={<PasswordRequestStepThree />} />
         <Route path="/TarpizeSingleFullPage" element={<TarpizeSingleFullPage />} />
       </Routes>
+      
       <MainFooter />
     </div>
   );
