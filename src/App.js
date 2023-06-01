@@ -24,7 +24,7 @@ import PurchaseProcessOne from './Components/Purchase_process_one/Purchase_proce
 import PasswordRequestStepFour from './Components/Password_request_step_four/Password_request_step_four';
 import PurchaseTab from './Components/Purchase_Tab/Purchase_Tab';
 import Register from './Components/Register/Register';
-import Registeration_tab from './Components/Registeration_tab/Registeration_tab';
+import RegisterationTab from './Components/Registeration_tab/Registeration_tab';
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 
@@ -35,7 +35,7 @@ function App() {
 
       <Header />
     
-{/* 
+
       <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/Login" element={<LoginPage />} />
@@ -54,13 +54,15 @@ function App() {
         <Route path="/PurchaseProcessOne" element={<PurchaseProcessOne />} />
         <Route path="/PurchaseTab" element={<PurchaseTab />} />
         <Route path="/PurchaseListFullPage" element={<PurchaseListFullPage />} />
+        <Route path="/RegisterationTab" element={<RegisterationTab />} />
 
 
 
 
-      </Routes> */}
-      {/* <Register/> */}
-      <Registeration_tab/>
+
+      </Routes> 
+  
+   
 
       
       

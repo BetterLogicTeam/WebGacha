@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Edit_page_two.css"
 
-export default function Edit_page_two() {
+export default function Edit_page_two({prev,next}) {
   return (
     <div className='edit_main_page'>
     <h3 className="h3_text text-center">
@@ -104,10 +104,10 @@ export default function Edit_page_two() {
       <div className="container">
         <div className="row justify-content-center">
             <div className="col-md-3">
-                <button className='white_button'>戻る</button>
+                <button className='white_button' onClick={()=>prev()}>戻る</button>
             </div>
             <div className="col-md-3">
-                <button className='red_button'>登録を変更する   </button>
+                <button className='red_button' onClick={()=>next()}>登録を変更する   </button>
             </div>
         </div>
       </div>

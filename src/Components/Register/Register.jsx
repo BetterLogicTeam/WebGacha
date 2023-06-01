@@ -5,35 +5,10 @@ import Register_Step_One from "./Register_Step_One";
 import Register_Step_Two from "./Register_Step_Two";
 import Register_Step_Three from "./Register_Step_Three";
 
-const steps = [
-  {
-    title: "続ける",
-    content: <Register_Step_One />,
-  },
-  {
-    title: "Second",
-    content: "Second-content",
-  },
-  {
-    title: "Last",
-    content: "Last-content",
-  },
-];
-const Register = () => {
-  const { token } = theme.useToken();
-  const [current, setCurrent] = useState(0);
-  const next = () => {
-    setCurrent(current + 1);
-  };
-  const prev = () => {
-    setCurrent(current - 1);
-  };
-  const items = steps.map((item) => ({
-    key: item.title,
-    title: item.title,
-  }));
 
-  // Date,Time Picker
+const Register = ({next}) => {
+ 
+ 
 
   return (
     <div className="Register_main">
@@ -42,10 +17,7 @@ const Register = () => {
             <Register_Step_One />
      
   
-            <Register_Step_Two />
-   
-    
-            <Register_Step_Three />
+           
         
 
         <div
@@ -54,7 +26,10 @@ const Register = () => {
           }}
           className="next_btttn_main"
         >
-          {current < steps.length - 1 && (
+           <Button className="next_btttn" onClick={() => next()}>
+                続ける
+              </Button>
+          {/* {current < steps.length - 1 && (
             <div className="">
               <Button className="next_btttn" onClick={() => next()}>
                 続ける
@@ -80,7 +55,7 @@ const Register = () => {
             >
               前
             </Button>
-          )}
+          )} */}
         </div>
       </div>
     </div>
