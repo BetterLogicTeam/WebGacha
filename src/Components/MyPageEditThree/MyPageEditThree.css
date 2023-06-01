@@ -1,0 +1,22 @@
+.MypageEdit_bg{
+    background-color: #F2F6FF;
+}
+.red_button{
+    background: #E60058;
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+padding: 10px 15px !important;
+color: white !important;
+width: 100% !important;
+}
+.editPage_p{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #020140;
+}

@@ -1,129 +1,48 @@
-import React from 'react'
-import "./FAQ.css"
-import Accordion from 'react-bootstrap/Accordion';
+import React, { useState } from "react";
+import "./FAQ.css";
+import FAQDetails from "./FAQ_Details";
+
 export default function FAQ() {
+  const [Faq_Tab, setFaq_Tab] = useState(0);
   return (
-    <div className='main_faq bg_clr'>
-    <div className="main_faq_img">
-        <h1>よくあるご質問</h1>
-    </div>
-    <div className="container my-4">
-        <div className="row">
-            <div className="col-md-3 side_bar">
-                <ul className='ps-0 faq_ul'>
-                    <li className='first_li text-white'>会員登録・ログインについて</li>
-                    <li>商品について</li>
-                    <li>ウェブガチャのプレイについて</li>
-                    <li>メールの受信について</li>
-                    <li>商品について</li>
-                    <li>商品のお届けについて</li>
-                    <li>お支払い方法について</li>
-                </ul>
-            </div>
-            <div className="col-md-8">
-                <h4 className='faq_heading'>会員登録・ログインについて</h4>
-                <Accordion defaultActiveKey="0">
-      <Accordion.Item className='faq_acc' eventKey="0">
-        <Accordion.Header className='acc_header text_clr'>会員登録方法を教えて下さい。</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="1">
-        <Accordion.Header className='acc_header text_clr'>会員登録は無料ですか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="2">
-        <Accordion.Header className='acc_header text_clr'>会員登録内容の変更方法を教えて下さい。</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="3">
-        <Accordion.Header className='acc_header text_clr'>会員登録をしなくてもプレイできますか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="4">
-        <Accordion.Header className='acc_header text_clr'>携帯電話の機種変更をしても会員情報はそのまま利用出来ますか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="5">
-        <Accordion.Header className='acc_header text_clr'>ログインができません。（メールアドレス、及びパスワードを忘れた場合）</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-
-<div className=' my-5'>
-
-      <h4 className='faq_heading'>商品について</h4>
-
-
-      <Accordion.Item className='faq_acc' eventKey="5">
-        <Accordion.Header className='acc_header text_clr'>期間終了後の商品の再販売はありますか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="5">
-        <Accordion.Header className='acc_header text_clr'>商品の販売終了日はいつですか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="8">
-        <Accordion.Header className='acc_header text_clr'>商品の修理はできますか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item className='faq_acc ' eventKey="9">
-        <Accordion.Header className='acc_header text_clr'>プレゼント包装、もしくはショッパーはつけてもらえますか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item>
-
-
-
-
-      {/* <Accordion.Item className='faq_acc ' eventKey="4">
-        <Accordion.Header className='acc_header text_clr'>携帯電話の機種変更をしても会員情報はそのまま利用出来ますか？</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item> */}
-      {/* <Accordion.Item className='faq_acc ' eventKey="5">
-        <Accordion.Header className='acc_header text_clr'>ログインができません。（メールアドレス、及びパスワードを忘れた場合）</Accordion.Header>
-        <Accordion.Body>
-      <p className='text_clr acc_text'>お客様の会員登録内容の確認及び変更は、ログイン後「マイページ」→「お客様情報」で変更できます。尚、登録内容変更ではなく新規会員登録をしてしまいますと重複会員登録となり、ログイン出来なくなる可能性がございますのでご注意下さい。</p>
-        </Accordion.Body>
-      </Accordion.Item> */}
+    <div className="main_faq bg_clr">
+      <div className="main_faq_img">
+        <h1 className="main_heading">よくあるご質問</h1>
       </div>
-   
-   
-    </Accordion>
-
-
-
-    {/* second part of acc  */}
-    <div className='my-5'>
-
-                <Accordion defaultActiveKey="0">
-    
-    </Accordion>
-    </div>
-            </div>
+      <div className="container my-4">
+        <div className="row">
+          <div className="col-md-3 side_bar">
+            <ul className="ps-0 faq_ul">
+              <li className={Faq_Tab===0? "first_li ":""} onClick={() => setFaq_Tab(0)} style={{cursor:"pointer"}}>
+                会員登録・ログインについて
+              </li>
+              <li  className={Faq_Tab===1? "first_li ":""} style={{cursor:"pointer"}}  onClick={() => setFaq_Tab(1)}>商品について</li>
+              <li onClick={() => setFaq_Tab(2)} className={Faq_Tab===2? "first_li ":""} style={{cursor:"pointer"}}>
+                ウェブガチャのプレイについて
+              </li>
+              <li onClick={() => setFaq_Tab(3)} className={Faq_Tab===3? "first_li ":""} style={{cursor:"pointer"}}>メールの受信について</li>
+              <li onClick={() => setFaq_Tab(4)} className={Faq_Tab===4? "first_li ":""} style={{cursor:"pointer"}}>商品について</li>
+              <li onClick={() => setFaq_Tab(5)}className={Faq_Tab===5? "first_li ":""} style={{cursor:"pointer"}}>商品のお届けについて</li>
+              <li onClick={() => setFaq_Tab(6)} className={Faq_Tab===6? "first_li ":""} style={{cursor:"pointer"}} >お支払い方法について</li>
+            </ul>
+          </div>
+          <div className="col-md-9">
+            {Faq_Tab === 0 ? (
+              <FAQDetails />
+            ) : Faq_Tab === 1 ? (
+              <FAQDetails />
+            ) : Faq_Tab === 2 ? (
+              <FAQDetails />
+            ) : Faq_Tab === 3 ? (
+              <FAQDetails />
+            ) : Faq_Tab === 4 ? (
+              <FAQDetails />
+            ) : (
+              <FAQDetails />
+            )}
+          </div>
         </div>
+      </div>
     </div>
-
-    
-    </div>
-  )
+  );
 }

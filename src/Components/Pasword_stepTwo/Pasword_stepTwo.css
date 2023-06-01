@@ -1,0 +1,40 @@
+.passtpTwo_h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 43px;
+    color: #020140;
+}
+.white_button{
+    color: #E60058;
+    text-align: center;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 16px;
+padding: 10px 15px !important;
+background-color: #FFFFFF !important;
+border: 1px solid #E60058;
+border-radius: 6px;
+font-size: 14px !important;
+}
+.passwordStepTwo_bg{
+    background: #F2F6FF;
+    
+    
+}
+.bordd{
+
+    border-radius: 12px;
+}
+.passwordstepTwo_p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    /* Black */
+    
+    color: #020140;
+}

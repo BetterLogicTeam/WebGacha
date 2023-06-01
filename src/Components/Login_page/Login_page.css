@@ -1,0 +1,112 @@
+.main_login_page {
+    background: #F2F6FF !important;
+    padding: 60px 20px !important;
+}
+
+.input_login_side {
+    background: #FFFFFF !important;
+    border-radius: 12px !important;
+    padding: 20px 10px !important;
+}
+
+.input_login_side>h3 {
+    font-size: 36px !important;
+    text-align: left !important;
+    color: #020140 !important;
+}
+
+
+.login_lebales {
+    color: #020140 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 22.4px !important;
+    margin-bottom: 1rem !important;
+}
+
+.login_page_inputss {
+    background: #FFFFFF;
+    /* Light Blue */
+
+    border: 1px solid #8AC7FF;
+    color: #020140 !important;
+    border-radius: 12px;
+    padding: 10px !important;
+    width: 100% !important;
+}
+
+
+.check_box_text {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #020140 !important;
+}
+
+.login_check {
+    background: #FFFFFF !important;
+
+    width: 24px !important;
+    height: 24px !important;
+    border: none !important;
+
+    /* outline: 1px solid #8AC7FF !important; */
+    border: none !important;
+    border-radius: 12px !important;
+}
+
+.left_side_p {
+    color: #E60058;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0px !important;
+}
+
+.new_member {
+    background: #D2E9FF !important;
+    padding: 60px 20px !important;
+    border-radius: 12px !important;
+}
+
+
+.new_member>h2 {
+    color: #020140 !important;
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    margin: 1rem 0rem !important;
+}
+
+.new_member>h6 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #020140 !important;
+}
+
+.red_button {
+    background: #E60058;
+    /* White */
+
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    padding: 10px 15px !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+.white_button {
+    color: #E60058;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 15px !important;
+    width: 100% !important;
+    border-radius: 45px;
+    background-color: #FFFFFF !important;
+
+    /* Main red */
+
+    border: 1px solid #E60058;
+    /* border-radius: 6px; */
+    font-size: 14px !important;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Privacy_policy.css";
-import bg_p from "../Assets/bg_p.svg";
+
 
 export default function Privacy_policy() {
   return (
@@ -13,16 +13,7 @@ export default function Privacy_policy() {
           <div className="row justify-content-center">
             <div className="col-md-10">
               <h5>「ウェブガチャ」会員規約</h5>
-              {/* <p>    here is amm 規約には、ウェブガチャを使用するに当たってお客様の権利と義務が規定されております。会員登録画面にて「同意して進む」ボタンをクリックするとお客様は本規約の全ての条件に同意したことになります</p> */}
-              {/* <p>第1条 (会員)</p>
-              <p>
-                {" "}
-              
-                1.
-                「会員」とは、当社が定める手続に従い本規約に同意の上、入会の申し込みを行う個人をいいます。2.
-                「会員情報」とは、会員が当社に開示した会員の属性に関する情報および会員の取引に関する履歴等の情報をいいます。3.
-                本規約はすべての会員に適用され、登録手続時および登録後にお守りいただく規約です。
-              </p> */}
+            
               <p>第2条 (登録)</p>
               <p>
                 1.

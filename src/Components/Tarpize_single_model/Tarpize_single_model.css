@@ -1,0 +1,22 @@
+.model_main_content{
+    background: #FFFFFF !important;
+    padding: 20px 15px !important;
+/* Light blue stroke */
+
+border-radius: 12px !important;
+}
+
+
+.modla_content_main{
+    border: 1px solid #D2E9FF !important;
+border-radius:12px !important ;
+}
+
+
+.modal_titlte{
+    color: #020140 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1rem !important;
+}

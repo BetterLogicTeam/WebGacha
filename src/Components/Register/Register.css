@@ -82,14 +82,59 @@ border-radius: 12px;
 padding: 12px 30px;
 }
 
-.ant-input-affix-wrapper{
-    margin-left: 10px;
+.ant-input{
+  border: 1px solid #8AC7FF;
+border-radius: 12px;
+padding: 12px 30px;
+}
+
+.passw{
+    margin-left: 10px !important;
 }
 
 @media screen and (max-width: 800px) {
     .Register_ant{
         flex-direction: column;
     }
+
+    .passw{
+      margin-left: 0 !important;
+  }
+
+  .ant-checkbox-wrapper{
+    width: 100% !important;
+  }
+
+  .ant-picker{
+    width: 100% !important;
+  }
+
+  .ajsiji{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ant-steps{
+    border-radius: 18px;
+  }
+
+  .ant-steps-item-container{
+    padding: 9px;
+    margin-top: 10px;
+  }
+
+  .last_vala_main_chkbox{
+    font-size: 10px !important;
+  }
+
+  .next_btttn{
+    width: 200px !important;
+  }
+
+  .next_btttn_main{
+    flex-direction: column;
+  }
 }
 
 .Register_main label{
@@ -107,5 +152,129 @@ color: #E60058 !important;
 }
 
 .lmbbba label{
-    /* font-size: 9px !important; */
+    font-size: 9px !important;
+}
+
+.ant-picker{
+  border: 1px solid #8AC7FF;
+border-radius: 12px;
+padding: 12px 10px;
+}
+
+.ant-checkbox-wrapper{
+  background: #F2F6FF;
+border: 1px solid #D2E9FF;
+border-radius: 12px;
+width: 90%;
+padding: 12px 15px;
+}
+
+.Register_ant_ka_p{
+  font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 140% !important;
+color: #2EB3FF !important;
+text-align: center !important;
+align-items: center !important;
+padding-top: 10px !important;
+justify-content: center !important;
+}
+
+.Register_ant_ka_scnd_p{
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 140% !important;
+  color: #2EB3FF !important;
+  text-align: center !important;
+  padding-left: 20px;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.Register_ant_ka_thrd_p{
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 140% !important;
+  color: #2EB3FF !important;
+  padding-top: 10px;
+}
+
+.Register_ka_last_p{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 140% !important;
+color: #020140 !important;
+}
+
+.last_vala_chkbox{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.last_vala_main_chkbox{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 140%;
+width: 50%;
+border: none;
+}
+.main_form_div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.next_btttn_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next_btttn{
+  background: #E60058;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 45px;
+  padding: 10px 20px 36px;
+width: 300px;
+}
+
+.Register_Step_Three{
+  font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+color: #020140;
+}
+
+.Register_Step_Three_para{
+  font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+color: #E63700;
+}
+
+.Register_Step_Three_scnd_para{
+  font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+line-break: auto;
+text-align: center;
+color: #020140;
+}
+
+.step_change{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

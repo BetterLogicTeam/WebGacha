@@ -1,11 +1,9 @@
-import React from 'react'
-import Data from './Data'
-import List_of_taprize_card from './List_of_taprize_card'
+import React from "react";
+import TabForAll from "../TabForAll/TabForAll";
 
 function List_f_Taprize() {
-  console.log("Data",Data);
   return (
-    <div style={{backgroundColor:"#D2E9FF"}} className='px-3'>
+    <div style={{ backgroundColor: "#F2F6FF" }} className="px-3">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 webGachaList_title">
@@ -14,27 +12,12 @@ function List_f_Taprize() {
         </div>
       </div>
       <div className="container">
-        
-        <div className="row">
-          {
-          Data.map((items,index)=>{
-           
-            return(
-              <>
-              <div className="col-lg-6">
-
-              <List_of_taprize_card Image={items.Image} Name={items.Name} tag={items.tag} />
-              </div>
-              
-              </>
-            )
-          })
-        }
-
+        <div className="taBs py-5">
+          <TabForAll/>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default List_f_Taprize
+export default List_f_Taprize;
