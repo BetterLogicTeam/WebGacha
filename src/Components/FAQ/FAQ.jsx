@@ -26,7 +26,7 @@ export default function FAQ() {
               <li onClick={() => setFaq_Tab(6)} className={Faq_Tab===6? "first_li ":""} style={{cursor:"pointer"}} >お支払い方法について</li>
             </ul>
           </div>
-          <div className="col-md-9">
+          <div className="col-md-9 px-0 px-md-1">
             {Faq_Tab === 0 ? (
               <FAQDetails />
             ) : Faq_Tab === 1 ? (
