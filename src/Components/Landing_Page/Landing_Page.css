@@ -90,8 +90,9 @@
   }
   .landing_Bg h1 {
     font-weight: 1000 !important;
-    font-size: 62px;
-    line-height: 65px;
-    letter-spacing: -7px;
+    font-size: 62px !important;
+    line-height: 65px !important;
+    letter-spacing: -7px !important;
+    padding: 0px 18px !important;
   }
 }

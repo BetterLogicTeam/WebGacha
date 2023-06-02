@@ -20,7 +20,7 @@ export default function Purchase_process_one({next}) {
             <h3 className="h3_text py-4">購入手続き</h3>
             <div className="container">
               <div className="row justify-content-center  ">
-                <div className="col-md-8">
+                <div className="col-md-8 FrEndPd">
                   <div className="purchse_first_Card">
                     <p className="pusrchae_text">お支払い方法</p>
                     <div className="row">

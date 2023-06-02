@@ -14,8 +14,6 @@ import image2 from "../Assets/image 6.png";
 export default function News_Slider() {
   return (
     <div className="Slider_News_Bg">
-        {/* <div className="swiper-button-prev">Tayyab</div>
-        <div className="swiper-button-next"></div> */}
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
@@ -51,9 +49,9 @@ export default function News_Slider() {
         }}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide  className="Rem">
           <div className="card card_slider">
-            <img src={image1} alt="" width="50%"  />
+            <img src={image1} alt="" width="50%" />
             <div className="row mt-4 p-2">
               <div className="col-lg-3 "><p className="slider_date">2023.5.2</p></div>
               <div className="col-lg-9 slider_text">
@@ -62,7 +60,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image2} alt="" width="50%" />
@@ -74,7 +72,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image1} alt="" width="50%" />
@@ -86,7 +84,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image2} alt="" width="50%" />
@@ -98,7 +96,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image1} alt="" width="50%" />
@@ -110,7 +108,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image2} alt="" width="50%" />
@@ -122,7 +120,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image1} alt="" width="50%" />
@@ -134,7 +132,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image2} alt="" width="50%" />
@@ -146,7 +144,7 @@ export default function News_Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="Rem">
           {" "}
           <div className="card card_slider">
             <img src={image1} alt="" />
