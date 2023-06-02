@@ -1,103 +1,97 @@
 .landing_Bg {
-    background-image: url('../Assets/Landing_2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    padding-bottom: 250px;
-    padding-top: 200px !important;
-    position: relative;
+  background-image: url("../Assets/Landing_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-bottom: 250px;
+  padding-top: 200px !important;
+  position: relative;
 }
 
 .landing_Bg h1 {
-    font-family: 'Barlow, sans-serif';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 72px;
-    text-align: center;
-    color: #020140;
+  font-family: "Barlow, sans-serif";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #020140;
 
-    -webkit-text-stroke: 1.5px #fff;
-
+  -webkit-text-stroke: 1.5px #fff;
 }
 
 .landing_Bg p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
 
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 140%;
-    text-align: center;
-    text-transform: uppercase;
+  -webkit-text-stroke: 0.5px #fff;
 
-    -webkit-text-stroke: 0.5px #fff;
-
-    color: #020140;
-
-
+  color: #020140;
 }
 
 .landing_Bg button {
-    font-family: 'Barlow, sans-serif';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: "Barlow, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
 
-    color: #FFFFFF;
-    /* position: absolute; */
-    width: 392px;
-    height: 55px;
-    /* left: calc(50% - 392px/2); */
-    /* top: 432px; */
+  color: #ffffff;
+  /* position: absolute; */
+  width: 392px;
+  height: 55px;
+  /* left: calc(50% - 392px/2); */
+  /* top: 432px; */
 
-    /* Main red */
+  /* Main red */
 
-    background: #E60058;
-    /* White */
+  background: #e60058;
+  /* White */
 
-    border: 1px solid #FFFFFF;
-    border-radius: 45px;
-
+  border: 1px solid #ffffff;
+  border-radius: 45px;
 }
 
 .News_Heading {
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
-    /* identical to box height */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
 
-    text-align: center;
+  text-align: center;
 
-    /* Black */
+  /* Black */
 
-    color: #020140;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-bottom: 0px !important;
-
+  color: #020140;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0px !important;
 }
 
-@media screen and (max-width:600px) {
-    .landing_Bg {
-        padding-bottom: 150px;
-        padding-top: 150px !important;
-        height: auto;
-     
-    }
-    .landing_Bg button {
-        font-size: 15px;     
-        width: 320px;
-        height: 55px;
-    }
-    .landing_Bg h1 {
-  
-        font-size: 44px;
-        line-height: 50px;
-    }
+@media screen and (max-width: 600px) {
+  .landing_Bg {
+    padding-bottom: 150px;
+    padding-top: 150px !important;
+    height: auto;
+  }
+  .landing_Bg button {
+    font-size: 15px;
+    width: 320px;
+    height: 55px;
+  }
+  .landing_Bg h1 {
+    font-weight: 1000 !important;
+    font-size: 62px;
+    line-height: 65px;
+    letter-spacing: -7px;
+  }
 }

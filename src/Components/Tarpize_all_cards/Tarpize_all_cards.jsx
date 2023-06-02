@@ -32,21 +32,21 @@ export default function Tarpize_all_cards() {
         </div>
         <div className="container my-5">
           <div className="row m-0">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={cat}
                 a1="A-1"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={cat}
                 a1="A-2"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={cat}
@@ -65,21 +65,21 @@ export default function Tarpize_all_cards() {
         </div>
         <div className="container my-5">
           <div className="row m-0">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={green}
                 a1="B-1"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={green}
                 a1="B-2"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={green}
@@ -88,21 +88,21 @@ export default function Tarpize_all_cards() {
             </div>
           </div>
           <div className="row m-0 mt-5">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={green}
                 a1="B-4"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={green}
                 a1="B-5"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={green}
@@ -121,21 +121,21 @@ export default function Tarpize_all_cards() {
         </div>
         <div className="container my-5">
           <div className="row m-0">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
                 a1="c-1"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
                 a1="c-2"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
@@ -144,21 +144,21 @@ export default function Tarpize_all_cards() {
             </div>
           </div>
           <div className="row m-0 mt-5">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
                 a1="c-4"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
                 a1="c-5"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
@@ -167,21 +167,21 @@ export default function Tarpize_all_cards() {
             </div>
           </div>
           <div className="row m-0 mt-5">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
                 a1="c-7"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
                 a1="c-8"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={man}
@@ -200,21 +200,21 @@ export default function Tarpize_all_cards() {
         </div>
         <div className="container my-5">
           <div className="row m-0">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={caat}
                 a1="D-1"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={caat}
                 a1="D-2"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={caat}
@@ -223,21 +223,21 @@ export default function Tarpize_all_cards() {
             </div>
           </div>
           <div className="row m-0 mt-5">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={caat}
                 a1="D-4"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={caat}
                 a1="D-5"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={caat}
@@ -257,21 +257,21 @@ export default function Tarpize_all_cards() {
         
         <div className="container my-5">
           <div className="row m-0">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={girls}
                 a1="E-1"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={girls}
                 a1="E-2"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={girls}
@@ -280,21 +280,21 @@ export default function Tarpize_all_cards() {
             </div>
           </div>
           <div className="row m-0 mt-5">
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={girls}
                 a1="E-4"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={girls}
                 a1="E-5"
               />
             </div>
-            <div className="col-md-4 mt-3 mt-md-0">
+            <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
                 card_p="特大タオル"
                 carddimg={girls}

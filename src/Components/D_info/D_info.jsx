@@ -4,7 +4,7 @@ import "./D_info.css";
 export default function D_info() {
   return (
     <div className="main_dinof_bg">
-      <div className="container">
+      <div className="container FrEndPd">
         <h2 className="text-center">詳細情報</h2>
         <div className="container main_cont my-5 ">
           <div className=" text-start">

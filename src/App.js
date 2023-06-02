@@ -4,7 +4,6 @@ import Header from "./Components/Header/Header";
 import MainFooter from "./Components/Main_footer/Main_footer";
 import { Route, Routes } from "react-router-dom";
 import MainHome from "./Components/Main_Home/Main_Home";
-
 import LoginPage from "./Components/Login_page/Login_page";
 import TermOfServices from "./Components/Term_of_services/Term_of_services";
 import PrivacyPolicy from "./Components/Privacy_policy/Privacy_policy";
