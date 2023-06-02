@@ -99,5 +99,10 @@ padding: 18px 130px;
     .respsss{
         flex-direction: column !important;
     }
+
+    .purchase_process_1_main{
+        padding: 30px 0px !important
+        ;
+    }
     
 }

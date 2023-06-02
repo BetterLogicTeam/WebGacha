@@ -120,9 +120,10 @@ export default function Purchase_process_one({next}) {
                             </label>{" "}
                             <br />
                             <input
-                              type="date"
+                              type="number"
+                              
                               className="cradit_inpit w-100"
-                              placeholder="0"
+                              placeholder="000"
                               defaultValue="00"
                               id="cncc"
                             />
@@ -137,7 +138,7 @@ export default function Purchase_process_one({next}) {
 
                     {/* card row  */}
                     <div className="row">
-                      <div className="col-md-5">
+                      <div className="col-md-5 ">
                         <img src={card_img} alt="" />
                       </div>
 

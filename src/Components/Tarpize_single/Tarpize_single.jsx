@@ -43,7 +43,7 @@ export default function Tarpize_single() {
                   id=""
                 />
                 <button className="white_button">
-                  10連ガチャ (ボイス付き){" "}
+                  10連ガチャ  (ボイス付き){" "}
                 </button>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Tarpize_single() {
                     {...label}
                     icon={<FavoriteBorder />}
                     checkedIcon={<Favorite />}
-                    className="hrt"
+                    className="hrtt d-block "
                   />
                 </div>
               </div>

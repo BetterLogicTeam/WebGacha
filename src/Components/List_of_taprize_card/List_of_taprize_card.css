@@ -52,6 +52,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
+
+  border-radius: 12px !important;
   background-position: center;
   height: 70vh;
   display: flex;
@@ -95,7 +97,7 @@ padding: 8px !important;
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
   .hrt {
     display: none !important;
   }
@@ -140,7 +142,7 @@ padding: 8px !important;
 
 .page_header {
   color: #ffffff;
-  font-size: 51px;
+  font-size: 44px;
   font-weight: 600;
   -webkit-text-stroke: 1.7px black !important;
 }

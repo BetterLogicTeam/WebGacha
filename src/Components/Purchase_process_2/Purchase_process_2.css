@@ -15,3 +15,10 @@
 .border_table3{
     border-radius: 0px 0px 12px  0px;
 } 
+
+
+@media only screen and (max-width:700px ){
+    .Purchase_process_2_main{
+padding: 30px 0px !important;
+}
+}

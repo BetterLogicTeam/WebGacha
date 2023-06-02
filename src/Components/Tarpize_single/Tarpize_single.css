@@ -66,11 +66,44 @@
 }
 
 
+.hrtt{
+    color: #e60058 !important;
+    padding: 10px 20px !important;
+}
+
 
 
 
 @media only screen and (max-width:700px) {
     .circula {
         width: 100% !important;
+    }
+
+    .tarsize_content >P{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        /* identical to box height, or 20px */
+        
+        text-transform: uppercase;
+        
+        /* Black */
+        
+        color: #020140;
+        margin-bottom: 0px !important;
+        padding: 1rem 0rem !important;
+        
+    }
+
+    .tarpize_cards_main {
+        padding: 30px 0px !important;
+    }
+    .fornt_row>h6{
+        font-size: 16px !important;
+    }
+
+    .responsive_gachah_a{
+        /* padding:20px 70px !important ; */
+        width: 90%;
     }
 }

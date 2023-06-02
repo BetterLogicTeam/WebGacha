@@ -50,6 +50,18 @@ line-height: 140%;
 color: #020140;
 }
 
+.card_caridt > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+padding: 1rem 0rem !important;
+margin-bottom: 0px !important;
+    
+    color: #020140;
+}
+
+
 .cridtt_res{
     width: 50% !important;
 }
@@ -65,4 +77,7 @@ color: #020140;
     .cridtt_res{
         width: 100% !important;
     }
+    .Purchase_process_one{
+padding: 40px 0px !important;
+}
 }
