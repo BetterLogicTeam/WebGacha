@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+
+
+h1,h2,h3,h4,h5,h6,p,span,li{
+    font-family: 'Barlow Semi Condensed', sans-serif !important ;
+}
+
+
+
 .main_footer_bg{
     background-color: white !important;
     padding: 40px 30px 15px 30px !important;
@@ -7,7 +17,7 @@
     color: #020140 !important;
     font-weight: 600 !important;
 }
-
+    
 .all-right{
     border-top: 1px solid #000;
     

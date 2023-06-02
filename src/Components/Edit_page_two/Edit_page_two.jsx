@@ -110,14 +110,14 @@ export default function Edit_page_two({ prev, next }) {
           ) : (
             <>
               {" "}
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <button className="white_button" onClick={() => prev()}>
                   戻る
                 </button>
               </div>
-              <div className="col-md-3">
-                <button className="red_button" onClick={() => next()}>
-                  登録を変更する{" "}
+              <div className="col-md-4 editPageLsttBotton">
+                <button className="red_button Edt" onClick={() => next()}>
+                続ける{" "}
                 </button>
               </div>{" "}
             </>

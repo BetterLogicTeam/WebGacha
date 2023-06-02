@@ -26,3 +26,7 @@ border-radius: 45px;
 padding: 15px 10px !important;
 width: 100%;
 }
+.register_buttton:hover{
+background-color: #E60058 !important;
+color: #FFFFFF !important;
+}

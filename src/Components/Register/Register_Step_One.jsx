@@ -149,7 +149,7 @@ export default function Register_Step_One() {
               </div>
             </div>
 
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>住所 *</p>
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -250,7 +250,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>生年月日 *</p>
               <div className="Register_ant">
                 <div className="col-lg-3">
@@ -271,7 +271,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>お名前（フリガナ）*</p>
               <div className="Register_ant">
                 <div className="col-lg-4">
@@ -302,7 +302,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>電話番号 *</p>
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -324,7 +324,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>メールアドレス *</p>
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -347,7 +347,7 @@ export default function Register_Step_One() {
               </div>
             </div>
 
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>パスワード *</p>
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -385,7 +385,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-5">
+            <div className="ajsiji my-3 my-md-5">
               <p>メールマガジン *</p>
               <p className="Register_ka_last_p">
                 メールマガジンにて、新商品やお得な情報などをお送りしています。

@@ -120,7 +120,7 @@ padding: 12px 30px;
   }
 
   .ant-steps-item-container{
-    padding: 9px;
+    padding: 0px;
     margin-top: 10px;
   }
 
@@ -245,6 +245,11 @@ border: none;
   border-radius: 45px;
   padding: 10px 20px 36px;
 width: 300px;
+}
+.next_btttn:hover{
+  background-color: red !important;
+  color:#ffffff !important;
+  border: none !important;
 }
 
 .Register_Step_Three{

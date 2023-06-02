@@ -53,7 +53,7 @@ export default function Login_page() {
               <img src={login_right} alt="" />
               <h2>新規会員登録</h2>
               <h6>まだ会員でない方は下記ボタンより会員登録を行ってください</h6>
-              <button className="white_button" onClick={(()=>history('/RegisterationTab'))}>新規会員登録</button>
+              <button className="white_button welU" onClick={(()=>history('/RegisterationTab'))}>新規会員登録</button>
             </div>
           </div>
         </div>

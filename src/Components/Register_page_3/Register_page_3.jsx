@@ -21,11 +21,11 @@ export default function Register_page_3() {
                       ご入力されたメールアドレスに仮登録のメールを送りましたので、その本文に記載されたURLをクリックして本登録を完了して下さい。
                     </p>
                     <p className="ptext">
-                      もしメールが届かない場合は入力されたメールアドレスが間違っているか、携帯メールアドレスの場合はドメインの受信登録が違っている可能性があります。
+                      もしメールが届かない場合は入力されたメールアドレスが間違っているか、携帯メールアドレスの場合はドメインの受信登録が違っている可能性があります。<br />
                       （ドメインの受信登録は zenco.co.jp です）
                     </p>
-                    <div className="row justify-content-center">
-                      <div className="col-md-4">
+                    <div className="row justify-content-center pt-3 pb-5">
+                      <div className="col-lg-6">
                         <button className="register_buttton" onClick={()=>setRegistor_Step_cop(2)}>
                           再度、確認書を送付する
                         </button>

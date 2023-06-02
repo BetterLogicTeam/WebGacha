@@ -10,6 +10,7 @@ import Register_Step_Two from '../Register/Register_Step_Two';
 import Edit_page_two from '../Edit_page_two/Edit_page_two';
 import Register_Step_Three from '../Register/Register_Step_Three';
 import Register_page_3 from '../Register_page_3/Register_page_3';
+import './Registeration_tab.css'
 const steps = [
     {
       title: "会員登録入力",
