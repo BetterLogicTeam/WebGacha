@@ -85,12 +85,16 @@
 .red_button {
     background: #E60058;
     /* White */
-
+    font-size: 16px;
+    font-weight: 600;
     border: 1px solid #FFFFFF;
     border-radius: 45px;
-    padding: 10px 15px !important;
+    padding: 13px 15px !important;
     color: white !important;
     width: 100% !important;
+}
+.red_button:hover{
+    background-color: red;
 }
 
 .white_button {
@@ -99,14 +103,22 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
-    padding: 10px 15px !important;
+    padding: 13px 15px !important;
     width: 100% !important;
     border-radius: 45px;
     background-color: #FFFFFF !important;
-
-    /* Main red */
-
     border: 1px solid #E60058;
     /* border-radius: 6px; */
     font-size: 14px !important;
+}
+
+.white_button:hover{
+background-color: #E60058 !important;
+color: #FFFFFF !important;
+}
+
+@media only screen and (max-width:600px){
+    .welU{
+        margin-top: 1rem !important;
+    }
 }

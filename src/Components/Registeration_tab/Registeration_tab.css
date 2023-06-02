@@ -1,0 +1,16 @@
+
+
+@media only screen and (max-width:600px) {
+    :where(.css-dev-only-do-not-override-k7429z).ant-steps.ant-steps-vertical {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem !important;
+    }
+
+    .outlone_tab {
+        border: 1px solid #2EB3FF;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+}

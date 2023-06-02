@@ -8,3 +8,10 @@
     color: #020140 !important;
     font-weight: 400 !important;
 }
+
+
+@media only screen and (max-width:600px){
+    .editPageLsttBotton{
+        margin-top: 1rem !important;
+    }
+}
