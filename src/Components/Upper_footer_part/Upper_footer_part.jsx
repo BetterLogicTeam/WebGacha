@@ -4,7 +4,7 @@ import "./Upper_footer_part.css"
 export default function Upper_footer_part() {
   return (
     <div className='main_sea_part'>
-    <h2>
+    <h2 className='mainSEa_heaidn'>
     完全オリジナルグッズだけのカプセルプライズ！
     
     </h2>

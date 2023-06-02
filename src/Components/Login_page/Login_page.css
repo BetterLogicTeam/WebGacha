@@ -13,6 +13,7 @@
     font-size: 36px !important;
     text-align: left !important;
     color: #020140 !important;
+    font-weight: 600 !important;
 }
 
 
@@ -109,4 +110,15 @@
     border: 1px solid #E60058;
     /* border-radius: 6px; */
     font-size: 14px !important;
+}
+
+
+@media only screen and (max-width:700px ){
+    .main_login_page{
+        padding: 60px 0px !important;
+    }
+
+    .new_member>h6{
+        padding: 1rem 0rem !important;
+    }
 }

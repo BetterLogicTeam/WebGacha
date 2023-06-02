@@ -39,6 +39,31 @@ width: 100%;
 /* .main_sea_part>h2,p{
     text-align: center;
 } */
+.mainSEa_heaidn{
+    font-weight: 600;
+font-size: 50px;
+padding: 1rem 0rem !important;
+line-height: 41px;
+text-align: center;
+-webkit-text-stroke: 1.5px #fff;
+
+
+color: #020140;
+}
+
+.main_sea_part > p{
+    font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+text-align: center;
+text-transform: uppercase;
+
+/* Black */
+
+color: #020140;
+}
 
 
 
@@ -46,5 +71,16 @@ width: 100%;
     .main_sea_part{
         height: auto !important;
         padding: 30px 20px !important;
+    }
+
+    .mainSEa_heaidn{
+        font-weight: 600;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+-webkit-text-stroke: 1.5px #fff;
+
+
+color: #020140;
     }
 }
