@@ -17,7 +17,7 @@ export default function Upper_footer_part() {
     <button className=' white_button'>お問い合わせ</button>
 
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mt-md-0 mt-3">
     <button className=' red_button'>ウェブガチャ一覧はコチラ</button>
 
         </div>

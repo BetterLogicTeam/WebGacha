@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+ 
    
 }
 
@@ -44,5 +45,6 @@ width: 100%;
 @media only screen and (max-width:700px){
     .main_sea_part{
         height: auto !important;
+        padding: 30px 20px !important;
     }
 }
