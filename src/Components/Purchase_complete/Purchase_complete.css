@@ -46,3 +46,27 @@
 
     color: #E60058;
 }
+
+.ReRng{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Main red */
+    
+    color: #E60058;
+    background: #FFFFFF;
+    /* Main red */
+    
+    border: 1px solid #E60058;
+    border-radius: 45px;
+    padding: 15px 0px !important;
+    width: 60% !important;
+}
+
+.ReRng:hover{
+    background-color: #E60058 !important;
+    color: #FFFFFF !important;
+}

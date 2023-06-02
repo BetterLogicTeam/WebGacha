@@ -18,7 +18,9 @@ export default function Purchase_complete() {
                 ご購入ありがとうございます！
                 下記ボタンを押すと、プレイ画面へ移します。{" "}
               </p>
-              <button className="whiteeee_button" onClick={()=>showModal()}>ウェブガチャを再生する</button>
+              <div className="d-flex justify-content-center">
+              <button className="whiteeee_button ReRng" onClick={()=>showModal()}>ウェブガチャを再生する</button>
+              </div>
             </div>
           </div>
         </div>
