@@ -6,8 +6,11 @@ import Notation from "../Notation/Notation";
 function Notation_table() {
   return (
     <>
+
+    <div className="">
+
     <Notation/>
-    <div className="container-fluid bbgg">
+    <div className="container-fluid  pb-5   bbgg mt-4 mt-md-0">
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2  notataion_border p-3">
           <p>メールアドレス</p>
@@ -135,6 +138,7 @@ function Notation_table() {
           <p className="T_p">00-0000-0000</p>
         </div>
       </div>
+    </div>
     </div>
     </>
   );

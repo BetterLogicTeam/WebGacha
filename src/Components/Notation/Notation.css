@@ -1,4 +1,4 @@
-.BgNotation{
+.main_ntaa{
         background-image: url("../Assets/bgnotation.svg");
          background-position: center center;
          background-repeat: no-repeat;
@@ -24,4 +24,13 @@ text-align: center;
 .notation_bor{
     border-radius: 10px;
 
+}
+
+
+
+@media only screen and (max-width:700px){
+    .main_ntaa{
+        height: auto !important;
+        padding: 70px 10px !important;
+    }
 }

@@ -9,7 +9,7 @@ function Notation() {
 
     <div className="container-fluid">
         <div className="row">
-            <div className="col-12 BgNotation notation_bor">
+            <div className="col-12 main_ntaa notation_bor">
             
             <h1 className='Notation_h1 text-white'>
 
