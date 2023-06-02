@@ -113,6 +113,31 @@
 }
 
 
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2EB3FF;
+    width: 20px !important;
+    border-radius:15px !important ;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2EB3FF;
+  }
+
+
 @media only screen and (max-width:700px ){
     .main_login_page{
         padding: 60px 0px !important;

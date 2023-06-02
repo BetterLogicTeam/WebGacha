@@ -1,5 +1,5 @@
 .Privacy_policy{
-    background: #F5F5F5;
+    background: #F2F6FF;
     padding: 30px 10px !important;
 }
 
@@ -28,13 +28,31 @@
     
 }
 
+.privcy_heading_main{
+    font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+text-transform: uppercase;
+
+/* Black */
+
+color: #020140;
+}
+
 
 
 
 @media only screen and (max-width:700px){
     .main_heading {
       
-        font-size: 24px !important;
+        font-size: 44px !important;
+    }
+
+    .main_privacy_img{
+        height: auto !important;
+        padding: 56px 0px !important;
     }
 }
 
