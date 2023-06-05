@@ -115,7 +115,7 @@
     display: flex !important;
     color: #fff !important;
     border-radius: 25px !important;
-    padding: 12px !important;
+    padding: 11px 10px !important;
     gap: 2 !important;
     margin-left: 1rem;
 }
@@ -151,5 +151,15 @@ color: #fff !important;
         display: flex !important;
         flex-direction: column !important;
         gap: 10px !important;
+    }
+
+    .ant-steps-item-finish{
+        background-color: #2EB3FF !important;
+        display: flex !important;
+        color: #fff !important;
+        border-radius: 25px !important;
+        padding: 5px 10px !important;
+        gap: 2 !important;
+        margin-left: 1rem;
     }
 }
