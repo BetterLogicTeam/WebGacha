@@ -3,7 +3,7 @@ import TabForAll from "../TabForAll/TabForAll";
 
 function List_f_Taprize() {
   return (
-    <div style={{ backgroundColor: "#F2F6FF" }} className="px-0 px-md-3">
+    <div style={{ backgroundColor: "#F2F6FF" }} className="px-2 px-md-3">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 webGachaList_title">

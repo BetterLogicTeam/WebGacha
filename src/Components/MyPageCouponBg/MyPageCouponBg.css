@@ -41,9 +41,8 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh !important;
-        /* height: auto !important; */
-
+        height: auto !important;
+        padding: 18px 0px !important;
         border-radius: 20px !important;
         display: flex;
         flex-direction: column;

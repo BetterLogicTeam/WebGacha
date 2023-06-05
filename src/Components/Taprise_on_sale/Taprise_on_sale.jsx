@@ -30,7 +30,7 @@ export default function Taprise_on_sale() {
           </div>
           <div className="d-flex justify-content-center mt-5">
             <Link to="/ListOTaprize" className="text-decoration-none "   onClick={() => window.scrollTo(0, 0)}>
-              <button className="gacha_Btn">
+              <button className="gacha_Btn gachaAgn ">
                 販売中の販売中のウェブガチャをチェック！
               </button>
             </Link>

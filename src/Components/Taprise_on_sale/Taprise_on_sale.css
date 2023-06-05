@@ -22,8 +22,6 @@
 }
 
 .gacha_Btn {
-
-    /* width: 50% !important; */
     padding: 12px 0px;
     /* height: 55px; */
     background: #E60058;
@@ -38,6 +36,11 @@
     text-transform: uppercase;
     color: #FFFFFF;
 
+}
+
+.gachaAgn{
+    width: 100%;
+    padding: 12px 25px !important;
 }
 
 .AgainW{

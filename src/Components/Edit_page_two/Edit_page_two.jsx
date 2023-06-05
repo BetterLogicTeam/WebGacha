@@ -98,7 +98,7 @@ export default function Edit_page_two({ prev, next }) {
               <div className="col-md-3">
                 <button className="white_button">戻る</button>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 mt-2 mt-md-0">
                 <button
                   className="red_button"
                   onClick={() => history("/MyPageEditThree")}

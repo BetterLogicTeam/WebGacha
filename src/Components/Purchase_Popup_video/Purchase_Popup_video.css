@@ -46,3 +46,18 @@
     text-rendering: auto;
 
 }
+
+
+
+@media only screen and (max-width:700px){
+    .ant-modal .ant-modal-close{
+        inset-inline-end: -5px !important;
+    }
+    .ant-modal .ant-modal-body >div {
+        height:auto !important;
+        padding-bottom: 0px !important;
+    }
+    .ant-modal-content{
+        background: transparent !important;
+    }
+}

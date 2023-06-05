@@ -21,7 +21,7 @@ const history=useNavigate()
   return (
     <>
       <Modal
-      
+ className="tunu"      
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}

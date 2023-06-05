@@ -90,3 +90,17 @@ line-height: 140%;
 font-size: 16px;
 line-height: 140%;
 }
+
+@media only screen and (max-width:600px) {
+    .Purchase_list_full_page_main{
+        background: #F2F6FF !important;
+        padding: 40px 0px !important;
+    }
+
+    .purchase_select_section{
+    border: 1px solid #8AC7FF;
+    border-radius: 12px;
+    padding: 10px 88px !important;
+    text-align: left !important;
+    }
+}
