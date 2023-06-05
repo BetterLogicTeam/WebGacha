@@ -30,7 +30,7 @@ export default function Tarpize_all_cards() {
             <h6>セクションのタイトル</h6>
           </div>
         </div>
-        <div className="container my-5">
+        <div className="container my-5 FrEndPd">
           <div className="row m-0">
             <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
@@ -63,7 +63,7 @@ export default function Tarpize_all_cards() {
             <h6>セクションのタイトル</h6>
           </div>
         </div>
-        <div className="container my-5">
+        <div className="container my-5 FrEndPd">
           <div className="row m-0">
             <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
@@ -119,7 +119,7 @@ export default function Tarpize_all_cards() {
             <h6>セクションのタイトル</h6>
           </div>
         </div>
-        <div className="container my-5">
+        <div className="container my-5 FrEndPd">
           <div className="row m-0">
             <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
@@ -198,7 +198,7 @@ export default function Tarpize_all_cards() {
             <h6>セクションのタイトル</h6>
           </div>
         </div>
-        <div className="container my-5">
+        <div className="container my-5 FrEndPd">
           <div className="row m-0">
             <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card
@@ -255,7 +255,7 @@ export default function Tarpize_all_cards() {
         </div>
         </div>
         
-        <div className="container my-5">
+        <div className="container my-5 FrEndPd">
           <div className="row m-0">
             <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
               <Single_tarpize_card

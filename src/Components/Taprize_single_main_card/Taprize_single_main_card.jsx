@@ -8,7 +8,7 @@ function Taprize_single_main_card() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="my-5">
-     <div className="container">
+     <div className="container FrEndPd">
       <div className="row">
         <div className="col-md-4 mt-3 mt-md-0">
           <div className="tarpize_single_main_carrd">

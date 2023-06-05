@@ -49,3 +49,9 @@
         height:   auto !important;
     }
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .main_web_part {
+        height: 80vh !important;
+    }
+}

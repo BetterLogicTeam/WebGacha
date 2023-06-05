@@ -178,8 +178,8 @@ export default function Purchase_process_1({ next,setsteps }) {
             </div>
           </div>
           <div className="d-flex respsss gap-2 justify-content-center mt-5">
-            <button className="whiteeee_button" onClick={()=>(setsteps(1),window.scrollTo(0, 0))}>戻る</button>
-            <button className="reddd_button" onClick={()=>(next(),window.scrollTo(0, 0))}>購入する</button>
+            <button className="whiteeee_button nodeB1" onClick={()=>(setsteps(1),window.scrollTo(0, 0))}>戻る</button>
+            <button className="reddd_button nodeB2" onClick={()=>(next(),window.scrollTo(0, 0))}>購入する</button>
           </div>
         </div>
       </div>

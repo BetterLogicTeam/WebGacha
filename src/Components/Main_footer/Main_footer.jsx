@@ -14,7 +14,7 @@ export default function Main_footer() {
 
           <div className="col-md-8 mt-3 mt-md-0">
             <div className="footer_content">
-              <div className="upper d-flex  gap-4">
+              <div className="upper d-flex  gap-3">
                 <Link
                   to="/ListOTaprize"
                   className="text-decoration-none upper"

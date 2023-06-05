@@ -12,7 +12,7 @@ const Register = ({next}) => {
 
   return (
     <div className="Register_main">
-      <div className="container">
+      <div className="container px-0 py-2">
        
             <Register_Step_One />
      

@@ -146,4 +146,10 @@ color: #fff !important;
         gap: 2 !important;
         margin-left: 1rem;
     }
+
+    :where(.css-k7429z).ant-steps.ant-steps-vertical {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
 }

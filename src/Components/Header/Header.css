@@ -85,3 +85,16 @@
         display: none;
     }
 }
+
+@media only screen and (min-width:800px) and (max-width:1024px) {
+    .Nav_bar_Link {
+        margin-top: 0.7rem;
+           /* font-style: normal; */
+           font-weight: 700;
+           font-size: 18px;
+           /* line-height: 140%; */
+           margin-left: 0rem !important;
+           color: #010124 !important;
+           font-family: 'Barlow', sans-serif;
+       }
+}

@@ -16,7 +16,7 @@ export default function Tarpize_single_full_page() {
         <News_Slider/>
         <div className="d-flex justify-content-center">
 
-        <button className="gacha_Btn  responsive_gachah_a mb-5 ">もっと見る</button>
+        <button className="gacha_Btn AgainW  responsive_gachah_a mb-5 ">もっと見る</button>
         </div>
       </div>
     </div>

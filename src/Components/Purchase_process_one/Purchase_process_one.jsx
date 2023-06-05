@@ -20,7 +20,7 @@ export default function Purchase_process_one({next}) {
             <h3 className="h3_text py-4">購入手続き</h3>
             <div className="container">
               <div className="row justify-content-center  ">
-                <div className="col-md-8 FrEndPd">
+                <div className="col-md-12 col-lg-8 FrEndPd">
                   <div className="purchse_first_Card">
                     <p className="pusrchae_text">お支払い方法</p>
                     <div className="row">
@@ -114,7 +114,7 @@ export default function Purchase_process_one({next}) {
                           <div className="col-md-6">
                             <label
                               htmlFor="cncc"
-                              className=" ms-3 credit_card_lable"
+                              className=" credit_card_lable"
                             >
                               セキュリティーコード{" "}
                             </label>{" "}
@@ -139,7 +139,7 @@ export default function Purchase_process_one({next}) {
                     {/* card row  */}
                     <div className="row">
                       <div className="col-md-5 ">
-                        <img src={card_img} alt="" />
+                        <img src={card_img} alt="" className="lftCrd" />
                       </div>
 
                       <div className="col-md-7 text-start">
@@ -192,8 +192,8 @@ export default function Purchase_process_one({next}) {
               </div>
 
               <div className="d-flex respsss gap-2 justify-content-center mt-5">
-                <button className="whiteeee_button" >戻る</button>
-                <button className="reddd_button" onClick={()=>(setsteps(2),window.scrollTo(0, 0))}>購入する</button>
+                <button className="whiteeee_button nodeB1 " >戻る</button>
+                <button className="reddd_button nodeB2" onClick={()=>(setsteps(2),window.scrollTo(0, 0))}>購入する</button>
               </div>
             </div>
           </div>
