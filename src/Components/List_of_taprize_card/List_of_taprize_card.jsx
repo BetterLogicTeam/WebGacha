@@ -9,14 +9,15 @@ import { useNavigate } from "react-router-dom";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-function List_of_taprize_card({ Image, tag, Name }) {
+function List_of_taprize_card({ Image, tag, Name,items }) {
   const history = useNavigate();
+
   return (
     <div className="d-flex justify-content-center my-2">
       <Card style={{ width: "100%", cursor:"pointer" }}>
         <div
           className="hvrBx"
-          onClick={() => history("/TarpizeSingleFullPage")}
+          onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}
         >
           <Card.Img variant="top" src={Image} className="w-100 p-2 hvrImg " />
         </div>
@@ -41,7 +42,7 @@ function List_of_taprize_card({ Image, tag, Name }) {
           <div className="d-flex gap-5">
             <button
               className="listCrd_button"
-              onClick={() => history("/TarpizeSingleFullPage")}
+              onClick={() => (history("/TarpizeSingleFullPage",{state:items}),window.scrollTo(0, 0))}
             >
               販売中の販売中のウェブガチャをチェック！
             </button>

@@ -14,11 +14,13 @@ export default function Header() {
   const history = useNavigate();
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg">
+      <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg " >
         <Container>
-          <Navbar.Brand href="/" className="nav_Responsive">
-            <img src={Logog} alt="Navbar_Logo" />
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand href="/" className="nav_Responsive">
+              <img src={Logog} alt="Navbar_Logo" />
+            </Navbar.Brand>
+          </Link>
           <div className="main_collapse">
             <button
               className="Navbar_Login_BTN me-3 "

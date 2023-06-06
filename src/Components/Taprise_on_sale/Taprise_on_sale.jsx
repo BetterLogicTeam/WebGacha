@@ -9,9 +9,9 @@ export default function Taprise_on_sale() {
   return (
     <>
       <div className="Taprise_on_sale_bg">
-        <div className="container" onClick={()=>(history('/TarpizeSingleFullPage'),window.scrollTo(0,0))}>
+        <div className="container" >
         
-            <><h1>販売中のタップライズ</h1></>
+            <><h1 style={{cursor:"pointer"}} onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中のタップライズ</h1></>
           
 
           <div className="row mt-5">
@@ -23,7 +23,10 @@ export default function Taprise_on_sale() {
                       Image={items.Image}
                       tag={items.tag}
                       Name={items.Name}
+                      items={items}
                     />
+
+                 
                   </div>
                 </>
               );

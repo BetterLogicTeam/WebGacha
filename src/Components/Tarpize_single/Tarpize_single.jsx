@@ -8,7 +8,7 @@ import Purchase_Popup_video from "../Purchase_Popup_video/Purchase_Popup_video";
 
 
 
-export default function Tarpize_single() {
+export default function Tarpize_single({location}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {
       setIsModalOpen(true);
@@ -20,7 +20,7 @@ export default function Tarpize_single() {
       <div className="container-fulid">
         <div className="row m-0">
           <div className="col-md-6">
-            <img src={tarp} className="w-100" alt="" />
+            <img src={location.state.Image} className="w-100" alt="" />
           </div>
           <div className="col-md-6">
             <div className="tarsize_content text-start">

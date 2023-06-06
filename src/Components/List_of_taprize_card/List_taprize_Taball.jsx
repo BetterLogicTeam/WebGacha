@@ -18,6 +18,7 @@ function List_taprize_Taball() {
                     Image={items.Image}
                     Name={items.Name}
                     tag={items.tag}
+                    items={items}
                   />
                 </div>
               </>
