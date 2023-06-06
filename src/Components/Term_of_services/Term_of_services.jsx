@@ -13,7 +13,7 @@ export default function Term_of_services() {
             <h4 className="term_heading">
               【重要】 会員登録をされる前に必ず下記ご利用規約をお読みください。
             </h4>
-            <p>
+            <p className="my-3 mb-0">
               規約には、ウェブガチャを使用するに当たってお客様の権利と義務が規定されております。会員登録画面にて「同意して進む」ボタンをクリックするとお客様は本規約の全ての条件に同意したことになります
             </p>
             <div className="scroll_text">

@@ -25,9 +25,9 @@ color: #020140;
 }
 .T_p{
     font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 140% !important;
 }
 
 .main_cont{

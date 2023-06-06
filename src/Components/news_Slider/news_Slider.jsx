@@ -23,10 +23,10 @@ export default function News_Slider() {
         centeredSlides={true}
         loop={true}
         navigation={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
         modules={[Navigation, Autoplay]}
         breakpoints={{
           425: {
@@ -59,7 +59,7 @@ export default function News_Slider() {
                 <div className="card card_slider" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
                   <img src={items.Image} alt="" width="50%" />
                   <div className="row mt-4 p-2">
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3">
                       <p className="slider_date">2023.5.2</p>
                     </div>
                     <div className="col-lg-9 slider_text">

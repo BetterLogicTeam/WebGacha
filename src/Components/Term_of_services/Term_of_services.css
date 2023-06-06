@@ -7,18 +7,17 @@
 
 .scroll_text {
     background: #FFFFFF;
-    /* Light blue stroke */
-
     border: 1px solid #D2E9FF;
     border-radius: 12px;
     padding: 20px 25px !important;
     height: 300px !important;
     overflow-y: scroll !important;
-    margin: 4rem 0rem !important;
+    margin: 2rem 0rem !important;
 }
 
-.scroll_text> {
+.scroll_text> p {
     color: #020140 !important;
+    font-weight: 500 !important;
 }
 
 .main_heading {
