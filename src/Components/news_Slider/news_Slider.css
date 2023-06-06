@@ -24,7 +24,7 @@
 
 .card_slider {
     background-color: #fff;
-  
+    cursor: pointer;
 }
 
 .card_slider img {

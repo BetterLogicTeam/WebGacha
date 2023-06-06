@@ -2,16 +2,17 @@ import React from "react";
 import "./Taprise_on_sale.css";
 import Data from "../List_of_taprize_card/Data";
 import ListOfTaprizeCard from "../List_of_taprize_card/List_of_taprize_card";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Taprise_on_sale() {
+  const history=useNavigate()
   return (
     <>
       <div className="Taprise_on_sale_bg">
-        <div className="container">
-          <Link to="/ListOTaprize" className="text-decoration-none "   onClick={() => window.scrollTo(0, 0)}>
-            <h1>販売中のタップライズ</h1>
-          </Link>
+        <div className="container" onClick={()=>(history('/TarpizeSingleFullPage'),window.scrollTo(0,0))}>
+        
+            <><h1>販売中のタップライズ</h1></>
+          
 
           <div className="row mt-5">
             {Data.slice(0, 6).map((items, index) => {

@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Tarpize_single.css";
 import tarp from "../Assets/tarpize.png";
 import { Checkbox } from "@mui/material";
 import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
+import Purchase_Popup_video from "../Purchase_Popup_video/Purchase_Popup_video";
+
+
 
 export default function Tarpize_single() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+    const showModal = () => {
+      setIsModalOpen(true);
+    };
   const history=useNavigate()
     const label = { inputProps: { "aria-label": "Checkbox demo" } };
   return (
@@ -42,7 +49,9 @@ export default function Tarpize_single() {
                   name=""
                   id=""
                 />
-                <button className="white_button">
+        <Purchase_Popup_video showModal={showModal} setIsModalOpen={setIsModalOpen}  isModalOpen={isModalOpen} />
+
+                <button className="white_button" onClick={()=>showModal()} >
                   10連ガチャ  (ボイス付き){" "}
                 </button>
               </div>

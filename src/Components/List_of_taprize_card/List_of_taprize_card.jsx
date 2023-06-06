@@ -13,7 +13,7 @@ function List_of_taprize_card({ Image, tag, Name }) {
   const history = useNavigate();
   return (
     <div className="d-flex justify-content-center my-2">
-      <Card style={{ width: "100%" }}>
+      <Card style={{ width: "100%", cursor:"pointer" }}>
         <div
           className="hvrBx"
           onClick={() => history("/TarpizeSingleFullPage")}

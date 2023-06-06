@@ -1,6 +1,6 @@
 import React from "react";
 import "./Landing_Page.css";
-export default function Landing_Page() {
+export default function   Landing_Page() {
   return (
     <>
       <div className="landing_Bg">
