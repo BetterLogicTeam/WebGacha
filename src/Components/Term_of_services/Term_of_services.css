@@ -28,9 +28,9 @@
     line-height: 72px;
     text-align: center;
     color: #FFFFFF;
-    -webkit-text-stroke: 2px #000E31;
+    text-shadow: 3px 4px 3px black !important;
 
-   
+    /* -webkit-text-stroke: 2px #000E31 */
 }
 
 /* width */

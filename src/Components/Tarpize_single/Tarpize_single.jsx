@@ -49,9 +49,8 @@ export default function Tarpize_single({location}) {
                   name=""
                   id=""
                 />
-        <Purchase_Popup_video showModal={showModal} setIsModalOpen={setIsModalOpen}  isModalOpen={isModalOpen} />
 
-                <button className="white_button" onClick={()=>showModal()} >
+                <button className="white_button" onClick={()=>history("/PurchaseTab")} >
                   10連ガチャ  (ボイス付き){" "}
                 </button>
               </div>

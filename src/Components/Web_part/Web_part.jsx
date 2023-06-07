@@ -9,7 +9,7 @@ export default function Web_part() {
     <div className=" text-center">
       <div className="main_web_part">
         {/* <img src={imgg} alt="" /> */}
-        <h1>
+        <h1 className="web">
           Web上で行う <br /> 限定グッズ販売サービス
         </h1>
       </div>

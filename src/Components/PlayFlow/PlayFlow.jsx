@@ -8,8 +8,10 @@ import flowStepFive from '../Assets/playFlow_5.svg'
 import flowStepSix from '../Assets/playFlow_6.svg'
 import vector1 from '../Assets/flowVector_1.svg'
 import vector2 from '../Assets/flowVector_2.svg'
+import { useNavigate } from 'react-router-dom'
 
 function PlayFlow() {
+    const history=useNavigate()
   return (
     <div style={{backgroundColor:"#F2F6FF"}}>
       <div className="container-fluid py-5">
@@ -151,7 +153,7 @@ function PlayFlow() {
         </div>
 
         <div className='mt-5 d-flex justify-content-center pb-5'>
-            <button className='lastBtnn'>ウェブガチャ一覧はコチラ</button>
+           <button className='lastBtnn' onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>ウェブガチャ一覧はコチラ</button>
         </div>
 
       </div>

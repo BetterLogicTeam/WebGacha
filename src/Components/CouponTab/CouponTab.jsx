@@ -122,19 +122,22 @@ export default function CouponTab() {
               <h1> お気に入りリスト：企画</h1>
             </div>
             <div className="row mt-5">
-            {Data.slice(0, 4).map((items, index) => {
-              return (
-                <>
-                  <div className="col-lg-6">
-                    <List_of_taprize_card
-                      Image={items.Image}
-                      tag={items.tag}
-                      Name={items.Name}
-                    />
-                  </div>
-                </>
-              );
-            })}
+                  
+                  {Data.slice(0,6).map((items, index) => {
+            return (
+              <>
+                <div className="col-lg-6">
+                  <List_of_taprize_card
+                    Image={items.Image}
+                    Name={items.Name}
+                    tag={items.tag}
+                    items={items}
+                  />
+                </div>
+              </>
+            );
+          })}
+          
           </div>
           </div>
         </TabPanel>

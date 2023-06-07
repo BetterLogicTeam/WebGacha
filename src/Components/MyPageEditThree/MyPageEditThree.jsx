@@ -14,7 +14,7 @@ function MyPageEditThree() {
             引き続きウェブガチャをご利用ください。
           </p>
           <div className="py-3">
-            <button className="red_button" onClick={()=>history("/CouponTab")}> マイページTOPへ</button>
+            <button className="red_button" onClick={()=>(history('/CouponTab'),window.scrollTo(0,0))}> マイページTOPへ</button>
           </div>
         </div>
       </div>

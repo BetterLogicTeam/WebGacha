@@ -471,7 +471,7 @@ function MyPageEdit_1() {
                 <button className="myPageLastButton">バック</button>
               </div>
               <div className="col-lg-4 fld2Upper">
-                <button className="myPageLastButton" onClick={()=>history('/EditPageTwo')}>確認画面へ</button>
+                <button className="myPageLastButton" onClick={()=>(history('/EditPageTwo'),window.scrollTo(0,0))}>確認画面へ</button>
               </div>
             </div>
           </div>

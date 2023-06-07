@@ -99,10 +99,7 @@ export default function Edit_page_two({ prev, next }) {
                 <button className="white_button">戻る</button>
               </div>
               <div className="col-md-3 mt-2 mt-md-0">
-                <button
-                  className="red_button"
-                  onClick={() => history("/MyPageEditThree")}
-                >
+                <button className="red_button" onClick={()=>(history('/MyPageEditThree'),window.scrollTo(0,0))}>
                   登録を変更する{" "}
                 </button>
               </div>{" "}
@@ -116,7 +113,7 @@ export default function Edit_page_two({ prev, next }) {
                 </button>
               </div>
               <div className="col-md-4 editPageLsttBotton">
-                <button className="red_button Edt" onClick={() => next()}>
+                <button className="red_button Edt" onClick={() => (next(),window.scrollTo(0,0))}>
                 続ける{" "}
                 </button>
               </div>{" "}

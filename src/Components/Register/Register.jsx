@@ -26,7 +26,7 @@ const Register = ({next}) => {
           }}
           className="next_btttn_main"
         >
-           <Button className="next_btttn" onClick={() => next()}>
+           <Button className="next_btttn" onClick={() => (next(),window.scrollTo(0,0))}>
                 続ける
               </Button>
           {/* {current < steps.length - 1 && (

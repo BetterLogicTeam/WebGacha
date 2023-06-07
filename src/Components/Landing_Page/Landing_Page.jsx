@@ -1,6 +1,8 @@
 import React from "react";
 import "./Landing_Page.css";
+import { useNavigate } from 'react-router-dom'
 export default function   Landing_Page() {
+  const history=useNavigate()
   return (
     <>
       <div className="landing_Bg">
@@ -13,7 +15,7 @@ export default function   Landing_Page() {
             </p>
             <div className="d-flex justify-content-center mt-1">
 
-            <button>販売中の販売中のウェブガチャをチェック！</button>
+            <button onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中の販売中のウェブガチャをチェック！</button>
             </div>
           </div>
         </div>
