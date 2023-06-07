@@ -3,7 +3,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh !important;
+    height: 60vh !important;
     /* height: auto !important; */
     border-radius: 20px !important;
     display: flex;
@@ -44,11 +44,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: auto !important;
-        padding: 18px 0px !important;
+        padding: 56px 0px !important;
         border-radius: 20px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center
+    }
+
+    .Notation_h1 {
+        font-size: 44px !important;
     }
 }

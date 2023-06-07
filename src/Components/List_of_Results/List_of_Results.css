@@ -3,10 +3,19 @@
   height: 100%;
 }
 
+.ressssss_heaaaaaddddd{
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  color: #020140 !important;
+}
+
 @media screen and (max-width: 800px) {
     .List_of_Results_main_div{
         height: auto;
         padding-bottom: 20px;
+    }
+    .ressssss_heaaaaaddddd{
+      font-size: 26px !important;
     }
 
     
@@ -68,6 +77,7 @@
   font-size: 16px;
   line-height: 140%;
   text-transform: uppercase;
+  font-weight: 500 !important;
 }
 
 .List_of_Results_btttn{

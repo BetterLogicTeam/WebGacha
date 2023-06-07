@@ -11,7 +11,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> ウェブガチャ名 </p>
           </div>
           <div className="col-7 border_table1  bg-white     notataion_border p-3 ">
-            <p className="T_p">
+            <p className="T_pp">
             うるわしの宵の月
             </p>
           </div>
@@ -22,7 +22,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> プレイ単価（税込） </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 1">
-            <p className="T_p">
+            <p className="T_pp" style={{fontWeight:"500"}}>
             660円
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> 回数 </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 1">
-            <p className="T_p">
+            <p className="T_pp" style={{fontWeight:"500"}}>
             1回
             </p>
           </div>
@@ -42,7 +42,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> 配送手数料（税込） </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 ">
-            <p className="T_p">
+            <p className="T_pp" style={{fontWeight:"500"}}>
             550円
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> クーポン割引額 </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 1">
-            <p className="T_p">
+            <p className="T_pp" style={{fontWeight:"500"}}>
             0円
             </p>
           </div>
@@ -62,7 +62,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> 総支払金額（税込） </p>
           </div>
           <div className="col-7 border_table3 bg-white     notataion_border p-3 1">
-            <p className="T_p">
+            <p className="T_pp">
             1,210円
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> 支払方法 </p>
           </div>
           <div className="col-7 border_table1 bg-white     notataion_border p-3 1">
-            <p className="T_p">
+            <p className="T_pp">
             キャリア決済
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function Purchase_process_2({prev,next}) {
             <p className="mb-0"> キャリア </p>
           </div>
           <div className="col-7 border_table3 bg-white     notataion_border p-3 1">
-            <p className="T_p">
+            <p className="T_pp">
             SoftBankまとめて支払い
             </p>
           </div>

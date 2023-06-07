@@ -1,6 +1,6 @@
 .comfim_p{
     font-weight: 600;
-font-size: 17px;
+font-size: 20px;
 line-height: 140%;
 /* or 28px */
 
@@ -46,6 +46,9 @@ border-radius: 45px;
 @media only screen and (max-width: 700px) {
    .rssssssspomm{
     flex-direction: column !important;
+   }
+   .comfim_p{
+    font-size: 18px !important;
    }
 
    .red_buttonnn {

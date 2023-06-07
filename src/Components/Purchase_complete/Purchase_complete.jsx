@@ -15,7 +15,7 @@ export default function Purchase_complete() {
             <div className="complete_content">
               <h2>購入完了</h2>
               <p>
-                ご購入ありがとうございます！
+                ご購入ありがとうございます！ <br />
                 下記ボタンを押すと、プレイ画面へ移します。{" "}
               </p>
               <div className="d-flex justify-content-center">

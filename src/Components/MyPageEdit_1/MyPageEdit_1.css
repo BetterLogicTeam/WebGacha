@@ -9,6 +9,7 @@
 .NameFld{
     color: #020140 !important;
     font-size: 16px !important;
+    padding-top: 10px !important;
     line-height: 22px;
     font-weight: 600 !important;
 }
@@ -97,6 +98,16 @@
     .fld2Upper{
         margin-top: 1rem;
     }
+    .myEdidTitle {
+        font-size: 26px !important;
+    }
+    .nameTitle{
+        font-size: 18px !important;
+    
+.edit_paaaaa{
+    font-size: 26px !important;
+}
+}
 
 }
 

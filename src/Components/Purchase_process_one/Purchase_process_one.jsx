@@ -87,7 +87,7 @@ export default function Purchase_process_one({next}) {
                           placeholder="0000 0000 00000 00"
                         />
                       </div>
-                      <div className="col-md-7">
+                      <div className="col-md-7 ">
                         <div className="row">
                           <div className="col-md-6">
                             <label htmlFor="cnc" className="credit_card_lable">

@@ -26,7 +26,7 @@ export default function Purchase_process_1({ next,setsteps }) {
       <h3 className="h3_text text-center py-5">購入手続き</h3>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-7">
+          <div className="col-md-7 pad_side">
             <div className="purchse_first_Card">
               <p className="pusrchae_text">お支払い方法</p>
               <div className="row">
@@ -147,7 +147,7 @@ export default function Purchase_process_1({ next,setsteps }) {
         </div>
 
         <div className="row justify-content-center  mt-5">
-          <div className="col-md-7">
+          <div className="col-md-7 pad_side">
             <div className="purchse_first_Card">
               <p className="pusrchae_text">クーポン利用</p>
 

@@ -1,6 +1,12 @@
 .MypageEdit_bg{
     background-color: #F2F6FF;
 }
+
+
+.edit_paaaaa{
+    font-weight: 600 !important;
+    font-size: 36px !important;
+}
 .red_button{
     background: #E60058;
 border: 1px solid #FFFFFF;
@@ -19,4 +25,11 @@ line-height: 140%;
 text-align: center;
 
 color: #020140;
+}
+
+
+@media only screen and (max-width:700px){
+    .edit_paaaaa {
+        font-size: 26px !important;
+}
 }

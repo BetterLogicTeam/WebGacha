@@ -27,6 +27,23 @@ color: #020140;
     font-weight: 900;
 }
 
+.border_table{
+    border-radius: 12px 0px 0px  0px;
+}
+.border_table1{
+    border-radius: 0px 12px 0px  0px;
+}
+.border_table2{
+    border-radius: 0px 0px 0px  12px;
+}
+.border_table3{
+    border-radius: 0px 0px 12px  0px;
+}
+
+.T_pp{
+    font-weight: 500 !important;
+}
+
 .baggg{
     padding: 10px 20px;
 gap: 10px;

@@ -12,11 +12,11 @@ function Shipping_status_Details() {
     <div className="Shipping_status_Details">
       <h1 className="text-center py-5">購入-発送状況 詳細</h1>
       <div>
-        <div className="container">
+        {/* <div className="container">
           <Table bordered>
             <thead>
               <tr>
-                <th>発送状況 :</th>
+                <th className="border_table">発送状況 :</th>
                 <th>
                   <span className="baggg">発送準備中</span>
                 </th>
@@ -50,8 +50,70 @@ function Shipping_status_Details() {
               </tr>
             </tbody>
           </Table>
+        </div> */}
+        <div className="container">
+        <div className="row justify-content-center ">
+        <div className="col-5 border_table tableBg col-md-2  notataion_border p-3">
+          <p>発送状況：</p>
         </div>
+        <div className="col-7 tableBg border_table1 notataion_border p-3">
+          <p className=" mt-2"> <span className="baggg">発送準備中 </span></p>
+        </div>
+      </div> 
+      <div className="row justify-content-center">
+        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+          <p>注文番号：</p>
+        </div>
+        <div className="col-7 tableBg notataion_border p-3">
+          <p className="T_pp">WP20230424190235040</p>
+        </div>
+      </div> <div className="row justify-content-center">
+        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+          <p>購入日：</p>
+        </div>
+        <div className="col-7 tableBg notataion_border p-3">
+          <p className="T_pp">2023/04/24</p>
+        </div>
+      </div> <div className="row justify-content-center">
+        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+          <p>購入個数：</p>
+        </div>
+        <div className="col-7 tableBg notataion_border p-3">
+          <p className="T_pp">10個</p>
+        </div>
+      </div> <div className="row justify-content-center">
+        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+          <p>購入金額：</p>
+        </div>
+        <div className="col-7 tableBg notataion_border p-3">
+          <p className="T_pp">6,600円（税込）</p>
+        </div>
+      </div> <div className="row justify-content-center">
+        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+          <p> 配送手数料：</p>
+        </div>
+        <div className="col-7 tableBg notataion_border p-3">
+          <p className="T_pp"> 550円（税込） </p>
+        </div>
+      </div> <div className="row justify-content-center">
+        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+          <p>クーポン割引額： </p>
+        </div>
+        <div className="col-7 tableBg notataion_border p-3">
+          <p className="T_pp"> 0円 </p>
+        </div>
+      </div> 
+      <div className="row justify-content-center">
+        <div className="col-5 border_table2 tableBg col-md-2  notataion_border p-3">
+          <p>総支払額：</p>
+        </div>
+        <div className="col-7 border_table3  tableBg notataion_border p-3">
+          <p className="">7,150円（税/配送手数料込）</p>
+        </div>
+      </div>
+      </div>
         <h1 className="text-center py-5">音声ダウンロード特典</h1>
+        {/* <h1 className="text-center py-5">音声ダウンロード特典</h1> */}
 
         <div className="container">
           <div className="Shipping_status_Details_scnd_tble">

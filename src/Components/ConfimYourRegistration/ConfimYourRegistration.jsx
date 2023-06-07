@@ -59,7 +59,7 @@ function ConfimYourRegistration() {
   return (
     <div className="container ConfimYourRegistrationBg">
       <div className="row justify-content-center mb-5">
-        <div className="col-9 text-start">
+        <div className="col-12 text-start">
           <p className="comfim_p my-3">
             本ページで住所などの変更を行っても、注文された賞品の発送先の情報は変更されません。発送先は、注文時の情報となり{" "}
             <br />
@@ -75,9 +75,9 @@ function ConfimYourRegistration() {
           <p> お名前（フリガナ） </p>
         </div>
         <div className="col-7 notataion_border p-3 border_table1 tableBg">
-          <p className="T_p">
-            <span className="me-3">お名前</span>{" "}
-            <span className="ms-5">フリガナ </span>
+          <p className="T_PP">
+            <span className="me-3" style={{fontSize:"14px",fontWeight:"400"}}>お名前</span>{" "}
+            <span className="ms-5" style={{fontSize:"14px",fontWeight:"400"}}>フリガナ </span>
             <br />
             <pan> 山田 太郎 </pan> <span className="ms-5"> ヤマダ タロウ </span>
           </p>
@@ -88,7 +88,7 @@ function ConfimYourRegistration() {
           <p> 住所 </p>
         </div>
         <div className="col-7 notataion_border p-3 tableBg">
-          <p className="T_p">
+          <p className="T_PP">
             〒100 0001 <br />
             青森県 品川区 西五反田 1-1-11 <br />
             五反田マンション 101号室
@@ -100,7 +100,7 @@ function ConfimYourRegistration() {
           <p> 生年月日 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
-          <p className="T_p">1995年11月09日</p>
+          <p className="T_PP">1995年11月09日</p>
         </div>
       </div>
       <div className="row  justify-content-center">
@@ -108,7 +108,7 @@ function ConfimYourRegistration() {
           <p> 性別 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
-          <p className="T_p"> 女性 </p>
+          <p className="T_PP"> 女性 </p>
         </div>
       </div>
       <div className="row justify-content-center">
@@ -116,7 +116,7 @@ function ConfimYourRegistration() {
           <p> 電話番号 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
-          <p className="T_p">090 1234 5678 </p>
+          <p className="T_PP">090 1234 5678 </p>
         </div>
       </div>
       <div className="row justify-content-center">
@@ -124,7 +124,7 @@ function ConfimYourRegistration() {
           <p> メールアドレス </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
-          <p className="T_p">elunub3@gmail.com</p>
+          <p className="T_PP">elunub3@gmail.com</p>
         </div>
       </div>
       <div className="row justify-content-center">
@@ -132,7 +132,7 @@ function ConfimYourRegistration() {
           <p> パスワード </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
-          <p className="T_p">************ </p>
+          <p className="T_PP">************ </p>
         </div>
       </div>
       <div className="row justify-content-center mb-5">
@@ -140,7 +140,7 @@ function ConfimYourRegistration() {
           <p> メールマガジン </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3 border_table3">
-          <p className="T_p"> 受け取る </p>
+          <p className="T_PP"> 受け取る </p>
         </div>
       </div>
 

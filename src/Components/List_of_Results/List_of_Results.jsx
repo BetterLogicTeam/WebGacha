@@ -16,7 +16,7 @@ function List_of_Results() {
   const history=useNavigate()
   return (
     <div className="List_of_Results_main_div py-4">
-      <h1 className="text-center pt-5">結果一覧</h1>
+      <h1 className="text-center ressssss_heaaaaaddddd pt-5">結果一覧</h1>
       <div className="container mt-5" >
         <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
