@@ -10,7 +10,7 @@ export default function Password_request_step_four() {
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="password_fout_content">
-              <h3 className="h3_text">パスワード再設定 完了</h3>
+              <h3 className="h3_text text-start">パスワード再設定 完了</h3>
               <p className="ptext">
                 パスワードの再設定が完了いたしました。 <br />{" "}
                 再度ログインしてください。

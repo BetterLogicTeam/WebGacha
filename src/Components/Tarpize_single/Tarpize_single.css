@@ -5,14 +5,14 @@
 
 
 .tarsize_content>h3 {
-    font-weight: 600;
+    font-weight: 600 !important;
     font-size: 36px !important;
+    line-height: 43px !important;
 }
 
 .bor_content {
     border-top: 1px solid rgba(255, 255, 255, 0.34);
     border-bottom: 1px solid rgba(255, 255, 255, 0.34);
-
     display: flex;
     gap: 3rem !important;
     padding: 15px 10px;
@@ -72,6 +72,23 @@
 }
 
 
+.tarsize_content >P{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19.6px !important;
+    color: #020140;
+}
+
+.frmlfftr{
+    font-size: 16px !important;
+    color: #020140 !important;
+    font-weight: 600 !important;
+    line-height: 22px !important;
+}
+
+.BdrRdiS{
+    border-radius: 6px !important;
+}
 
 
 @media only screen and (max-width:700px) {
@@ -80,9 +97,9 @@
     }
 
     .tarsize_content >P{
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 140%;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        line-height: 140% !important;
         /* identical to box height, or 20px */
         
         text-transform: uppercase;
@@ -92,7 +109,6 @@
         color: #020140;
         margin-bottom: 0px !important;
         padding: 1rem 0rem !important;
-        
     }
 
     .tarpize_cards_main {

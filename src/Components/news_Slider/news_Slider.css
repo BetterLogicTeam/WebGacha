@@ -1,116 +1,124 @@
 .swiper {
-    width: 100%;
-    height: 100%;
-    z-index: 10111111;
-    padding-bottom: 5rem;
+  width: 100%;
+  height: 100%;
+  z-index: 10111111;
+  padding-bottom: 5rem;
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card_slider {
-    background-color: #fff;
-    cursor: pointer;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .card_slider img {
-    border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
 }
 
 .card_slider .slider_date {
- 
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 140%;
-    text-transform: uppercase;
-    color: #020140;
-
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #020140;
 }
 
 .card_slider .slider_text {
-    
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 140%;
-    color: #020140;
-    text-align: left;
-
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #020140;
+  text-align: left;
 }
-.swiper-button-next{
+.swiper-button-next {
+  width: 70px;
+  height: 42px;
+  background: #fff !important ;
+  border: 1px solid #8ac7ff !important;
+  border-radius: 45px;
+  margin-left: -2rem;
+  margin-top: -5rem !important;
+}
+.swiper-button-prev {
+  width: 70px;
+  height: 42px;
+  background: #fff !important ;
+  border: 1px solid #8ac7ff !important;
+  border-radius: 45px;
+  margin-top: -5rem !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 20px !important;
+  /* text-transform: none!important; */
+  letter-spacing: 0;
+
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-wrapper {
+  /* transform: translate3d(-108px, 0px, 0px) !important; */
+  margin-left: -42rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Rem {
+    width: 70% !important;
+  }
+
+  .swiper-wrapper {
+    margin-left: 0rem;
+  }
+
+  .swiper-button-next {
     width: 70px;
     height: 42px;
     background: #fff !important ;
-    border: 1px solid #8AC7FF !important;
+    border: 1px solid #8ac7ff !important;
     border-radius: 45px;
     margin-left: -2rem;
-    margin-top: -5rem !important;
-}
-.swiper-button-prev{
-
+    position: absolute !important;
+    top: 24rem !important;
+    right: 8rem !important;
+  }
+  .swiper-button-prev {
     width: 70px;
     height: 42px;
     background: #fff !important ;
-    border: 1px solid #8AC7FF !important;
+    border: 1px solid #8ac7ff !important;
     border-radius: 45px;
-    margin-top: -5rem !important;
-}
-.swiper-button-next:after, .swiper-button-prev:after {
-    font-family: swiper-icons;
-    font-size: 20px !important;
-    /* text-transform: none!important; */
-    letter-spacing: 0;
+    position: absolute !important;
+    top: 24rem !important;
+    left: 8rem !important;
+  }
 
-    font-variant: initial;
-    line-height: 1;
-}
-.swiper-wrapper{
-    /* transform: translate3d(-108px, 0px, 0px) !important; */
-    margin-left: -42rem;
+  .card_slider .slider_date {
+    text-align: start !important;
+  }
+
+  .crddSldAGN {
+    padding: 10px 15px !important;
+  }
 }
 
-
-@media screen and (max-width:600px) {
-
-    .Rem{
-        width:70% !important;
-    }
-
-    .swiper-wrapper{
-        margin-left: 0rem;
-    }
-
-    .swiper-button-next{
-        width: 70px;
-        height: 42px;
-        background: #fff !important ;
-        border: 1px solid #8AC7FF !important;
-        border-radius: 45px;
-        margin-left: -2rem;
-    }
-    .swiper-button-prev{
-    
-        width: 70px;
-        height: 42px;
-        background: #fff !important ;
-        border: 1px solid #8AC7FF !important;
-        border-radius: 45px;
-    }
-}
-.Slider_News_Bg{
-    background-color: #F2F6FF;
+.Slider_News_Bg {
+  background-color: #f2f6ff;
 }

@@ -9,7 +9,7 @@ export default function Login_page() {
     <div className="main_login_page">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 PDngEnd">
             <div className="input_login_side">
               <h3>ログイン</h3>
               <label className="login_lebales" htmlFor="login_first">
@@ -23,7 +23,7 @@ export default function Login_page() {
                 className="login_page_inputss"
               />
               <label className="login_lebales my-4" htmlFor="login_second">
-                ログインID
+              パスワード
               </label>{" "}
               <br />
               <input
@@ -44,11 +44,11 @@ export default function Login_page() {
                 </label>
               </div>
               <button className="red_button">ログイン</button>
-              <p className="left_side_p" onClick={()=>history("/PasswordRequest")} style={{cursor:"pointer"}} >パスワードを忘れた方はこちら</p>
+              <p className="left_side_p" onClick={()=>history(("/PasswordRequest"),window.scrollTo(0,0))} style={{cursor:"pointer"}} >パスワードを忘れた方はこちら</p>
             </div>
           </div>
 
-          <div className="col-md-6 mt-3 mt-md-0">
+          <div className="col-md-6 mt-3 mt-md-0 PDngEnd">
             <div className="new_member text-center">
               <img src={login_right} alt="" />
               <h2>新規会員登録</h2>

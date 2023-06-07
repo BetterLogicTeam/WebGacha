@@ -17,8 +17,8 @@ export default function Edit_page_two({ prev, next }) {
             </div>
             <div className="col-7 tableBg border_table1 notataion_border p-3">
               <div className="d-flex gap-4">
-                <p className="edit_text">お名前</p>
-                <p className="edit_text">フリガナ</p>
+                <p className="edit_textt">お名前</p>
+                <p className="edit_textt">フリガナ</p>
               </div>
               <div className="d-flex gap-4">
                 <p className="edit_text">山田 太郎</p>

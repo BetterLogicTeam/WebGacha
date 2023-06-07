@@ -5,7 +5,7 @@ export default function D_info() {
   return (
     <div className="main_dinof_bg">
       <div className="container FrEndPd">
-        <h2 className="text-center">詳細情報</h2>
+        <h2 className="text-center dInfo">詳細情報</h2>
         <div className="container main_cont my-5 ">
           <div className=" text-start">
             <div className="row borrrrrrrrr justify-content-center">

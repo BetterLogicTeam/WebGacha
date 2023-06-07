@@ -6,7 +6,7 @@ import box from "../Assets/box.svg";
 
 export default function Web_part() {
   return (
-    <div className=" text-center">
+    <div className=" text-center ftrUpprAGN">
       <div className="main_web_part">
         {/* <img src={imgg} alt="" /> */}
         <h1 className="web">

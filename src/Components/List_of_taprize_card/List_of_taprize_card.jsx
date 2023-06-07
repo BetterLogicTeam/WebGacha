@@ -38,13 +38,13 @@ function List_of_taprize_card({ Image, tag, Name, items }) {
           {tag}
         </button>
         <Card.Body>
-          <Card.Text className="text-start listCrd_fst_txt ">{Name}</Card.Text>
-          <Card.Text className="text-start listCrd_scnd_txt">
+          <Card.Text className="text-start listCrd_fst_txt mb-0 ">{Name}</Card.Text>
+          <Card.Text className="text-start listCrd_scnd_txt mt-2">
             発売期間 05/ 5(金)～05/26(金)
           </Card.Text>
           <div className="d-flex gap-5">
             <button
-              className="listCrd_button"
+              className="listCrd_button "
               onClick={() => (
                 history("/TarpizeSingleFullPage", { state: items }),
                 window.scrollTo(0, 0)

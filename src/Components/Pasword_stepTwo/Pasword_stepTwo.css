@@ -1,7 +1,7 @@
 .passtpTwo_h3{
     font-style: normal;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 35px;
     line-height: 43px;
     color: #020140;
 }
@@ -10,7 +10,7 @@
     text-align: center;
 text-transform: uppercase;
 font-weight: 500;
-font-size: 16px;
+font-size: 16px !important;
 padding: 10px 15px !important;
 background-color: #FFFFFF !important;
 border: 1px solid #E60058;
@@ -37,4 +37,11 @@ font-size: 14px !important;
     /* Black */
     
     color: #020140;
+}
+
+
+@media only screen and (max-width:600px){
+    .passtpTwo_h3 {
+        font-size: 26px !important;
+    }
 }

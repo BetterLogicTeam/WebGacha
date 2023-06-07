@@ -7,7 +7,7 @@ export default function Upper_footer_part() {
   return (
     <div className='main_sea_part'>
     <h2 className='mainSEa_heaidn'>
-    完全オリジナルグッズだけのカプセルプライズ！
+    完全オリジナルグッズだけのカプセルプ <br /> ライズ！
     
     </h2>
     <p className='pt-3'>企画・製造・販売まで手掛けているから、ここにしかない商品をお届け。</p>

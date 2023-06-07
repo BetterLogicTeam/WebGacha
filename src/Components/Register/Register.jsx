@@ -19,44 +19,16 @@ const Register = ({next}) => {
   
            
         
-
-        <div
-          style={{
-            marginTop: 24,
-          }}
-          className="next_btttn_main"
-        >
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+          <div style={{ marginTop: 24,}} className="next_btttn_main">
            <Button className="next_btttn" onClick={() => (next(),window.scrollTo(0,0))}>
                 続ける
               </Button>
-          {/* {current < steps.length - 1 && (
-            <div className="">
-              <Button className="next_btttn" onClick={() => next()}>
-                続ける
-              </Button>
-            </div>
-          )}
-          {current === steps.length - 1 && (
-            <Button
-              type="primary"
-              onClick={() => message.success("Processing complete!")}
-              className="next_btttn"
-            >
-              マイページへ
-            </Button>
-          )}
-          {current > 0 && (
-            <Button
-              style={{
-                margin: "0 8px",
-              }}
-              onClick={() => prev()}
-              className="next_btttn"
-            >
-              前
-            </Button>
-          )} */}
         </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

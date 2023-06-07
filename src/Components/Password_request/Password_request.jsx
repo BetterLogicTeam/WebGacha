@@ -9,10 +9,11 @@ function Password_request() {
   return (
     <div className="container-fluid password_bg">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-4 my-5 ">
+        <div className="col-12 col-md-5 my-5 ">
           <div class="py-5 px-4 bg-white password_bor">
             <div class="card-body">
-              <h3 class="card-title password_h3 my-3">パスワード再設定 申請</h3>
+              <h3 class="card-title password_h3 my-3 LargScreen d-none d-md-block">パスワード再設定 申請</h3>
+              <h3 class="card-title password_h3 my-3 MblScreen d-block d-md-none">ログイン</h3>
               <p class="card-text password_p">
                 ご登録済みのメールアドレスを以下に入力し、「送信」ボタンを押してください。
                 メールにてパスワード再設定のURLをお知らせいたします。※@zenco.co.jp
@@ -29,7 +30,7 @@ function Password_request() {
                 placeholder="elunub3@gmail.com"
               />
 
-              <button className="w-100 red_button"  onClick={()=>history("/PaswordStepTwo")}> 送信 </button>
+              <button className="w-100 red_button"  onClick={()=>history(("/PaswordStepTwo"),window.scrollTo(0,0))}> 送信 </button>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ function ContactUs() {
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="row mt-5 justify-content-center">
-              <div className="col-5 w-100">
+              <div className="col-5 w-100 PDngEnd">
                 <p className="Contact_h">お問い合わせ種別</p>
 
                 <select
@@ -29,7 +29,7 @@ function ContactUs() {
 
             <div className="row ">
               <p className="Contact_h my-4">お名前（フリガナ</p>
-              <div className="col-md-6 mb-3 mb-md-0">
+              <div className="col-md-6 mb-3 mb-md-0 PDngEnd">
                 <div className="w-100">
                   <input
                     type="text"
@@ -40,7 +40,7 @@ function ContactUs() {
                   />
                 </div>
               </div>
-              <div className="col-md-6 ">
+              <div className="col-md-6 PDngEnd">
                 <input
                   type="text"
                   id="fname"
@@ -52,7 +52,7 @@ function ContactUs() {
             </div>
 
             <div className="row  mt-4">
-              <div className="col-md-6 mb-3 mb-md-0">
+              <div className="col-md-6 mb-3 mb-md-0 PDngEnd">
                 <div className="w-100">
                   <input
                     type="text"
@@ -63,7 +63,7 @@ function ContactUs() {
                   />
                 </div>
               </div>
-              <div className="col-md-6 ">
+              <div className="col-md-6 PDngEnd">
                 <input
                   type="text"
                   id="fname"
@@ -76,7 +76,7 @@ function ContactUs() {
 
             <div className="row ">
               <p className="Contact_h my-4">メールアドレス</p>
-              <div className="col-md-12 ">
+              <div className="col-md-12 PDngEnd">
                 <div className="w-100">
                   <input
                     type="text"
@@ -95,7 +95,7 @@ function ContactUs() {
 
             <div className="row  mt-4">
               <p className="Contact_h">お問い合わせ内容</p>
-              <div className="col-md-12 ">
+              <div className="col-md-12 PDngEnd">
                 <textarea
                   id="w3review"
                   className="Contact_input w-100"
@@ -111,7 +111,7 @@ function ContactUs() {
             <div className="row ">
               <div className="col-md-12 ">
                 <div className="my-4">
-                  <button className="w-100 red_button"> 内容を確認する </button>
+                  <button className="w-100 red_button RdRpS"> 内容を確認する </button>
                 </div>
               </div>
             </div>

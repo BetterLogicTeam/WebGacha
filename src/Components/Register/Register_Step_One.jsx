@@ -414,9 +414,11 @@ export default function Register_Step_One() {
               </div>
             </div>
             <div className="last_vala_chkbox w-100 ps-5">
-              <Checkbox className="last_vala_main_chkbox" onChange={onChange}>
-                <span style={{ color: "#110F24" }}>を読み、同意します。</span>
-                <span style={{ color: "#E60058" }}>利用規約に同意します。</span>
+              <Checkbox className="last_vala_main_chkbox " onChange={onChange}>
+                <span className="mttt_ressspo">
+                <span   style={{ color: "#110F24" }}>を読み、同意します。</span>
+                <span className="" style={{ color: "#E60058" }}>利用規約に同意します。</span>
+                </span>
               </Checkbox>
             </div>
           </div>

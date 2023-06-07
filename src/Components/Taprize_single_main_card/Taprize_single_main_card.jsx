@@ -21,10 +21,6 @@ function Taprize_single_main_card() {
             <h6 className="blue_heading">特別賞 -1</h6>
             <h6 className="black_heading">特大タオル</h6>
           </div>
-          <div className="d-flex gap-3 my-3">
-            <h6 className="blue_heading">特別賞 -1</h6>
-            <h6 className="black_heading">特大タオル</h6>
-          </div>
           <div className="row">
             <div className="col-6">
             <div className="lower_content">
@@ -53,10 +49,6 @@ function Taprize_single_main_card() {
             <h6 className="blue_heading">特別賞 -1</h6>
             <h6 className="black_heading">特大タオル</h6>
           </div>
-          <div className="d-flex gap-3 my-3">
-            <h6 className="blue_heading">特別賞 -1</h6>
-            <h6 className="black_heading">特大タオル</h6>
-          </div>
           <div className="row">
             <div className="col-6">
             <div className="lower_content">
@@ -81,10 +73,6 @@ function Taprize_single_main_card() {
         <div className="col-md-4 mt-3 mt-md-0">
           <div className="tarpize_single_main_carrd">
           <img src={Taprize_single_pic} className="w-100" alt="" />
-          <div className="d-flex gap-3 my-3">
-            <h6 className="blue_heading">特別賞 -1</h6>
-            <h6 className="black_heading">特大タオル</h6>
-          </div>
           <div className="d-flex gap-3 my-3">
             <h6 className="blue_heading">特別賞 -1</h6>
             <h6 className="black_heading">特大タオル</h6>

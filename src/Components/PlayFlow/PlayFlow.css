@@ -69,6 +69,19 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  .joinFree{
+    color: #020140;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .flowTitle {
+    font-size: 34px;
+    font-weight: 600;
+  }
+
   .btween {
     display: none !important;
   }

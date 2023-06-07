@@ -58,7 +58,7 @@ export default function News_Slider() {
               <SwiperSlide className="Rem">
                 <div className="card card_slider" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
                   <img src={items.Image} alt="" width="50%" />
-                  <div className="row mt-4 p-2">
+                  <div className="row mt-4 p-2 crddSldAGN">
                     <div className="col-lg-3">
                       <p className="slider_date">2023.5.2</p>
                     </div>

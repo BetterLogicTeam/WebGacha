@@ -6,7 +6,7 @@ export default function Privacy_policy() {
   return (
     <div className="Privacy_policy">
       <div className="main_privacy_img">
-        <h1 className="main_heading">会員規約・プライバシーポリシー</h1>
+        <h1 className="main_heading mnhDd">会員規約・プライバシーポリシー</h1>
       </div>
       <div className="privacy_content py-5">
         <div className="container">

@@ -36,6 +36,7 @@
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
+        padding-left: 13px !important;
     }
 
     .css-1l4w6pd {

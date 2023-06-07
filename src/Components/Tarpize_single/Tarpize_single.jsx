@@ -30,17 +30,17 @@ export default function Tarpize_single({location}) {
               </h3>
             </div>
             <div className="bor_content">
-              <p className="text-clr fw-bold ">販売価格:</p>
-              <p className="text-clr ">1回660円(税込)</p>
+              <p className="text-clr fw-bold frmlfftr ">販売価格:</p>
+              <p className="text-clr " style={{fontWeight:"500"}}>1回660円(税込)</p>
             </div>
             <div className="bor_content">
-              <p className="text-clr fw-bold ">販売期間:</p>
-              <p className="text-clr ">
+              <p className="text-clr fw-bold frmlfftr ">販売期間:</p>
+              <p className="text-clr " style={{fontWeight:"500"}}>
                 2023/05/05 (金) 12:00～2023/05/26 (金) 23:59
               </p>
             </div>
             <div className="bor_content align-items-center border-none">
-              <p className="text-clr fw-bold ">数量:</p>
+              <p className="text-clr fw-bold frmlfftr ">数量:</p>
               <div className="d-flex gap-3">
                 <input
                   type="number"
@@ -50,7 +50,7 @@ export default function Tarpize_single({location}) {
                   id=""
                 />
 
-                <button className="white_button" onClick={()=>history("/PurchaseTab")} >
+                <button className="white_button BdrRdiS" onClick={()=>history("/PurchaseTab")} >
                   10連ガチャ  (ボイス付き){" "}
                 </button>
               </div>

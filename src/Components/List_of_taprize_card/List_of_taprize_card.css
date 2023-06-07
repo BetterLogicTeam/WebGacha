@@ -1,11 +1,11 @@
 .listCrd_fst_txt {
   color: #020140;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .listCrd_scnd_txt {
-  color: #020140;
+  color: #000E31;
   font-size: 16px;
   font-weight: 500;
 }
@@ -97,8 +97,15 @@ padding: 8px !important;
   color: rgba(0, 0, 0, 0.87);
 }
 
+.css-19kzrtu {
+  padding: 24px 5px !important;
+}
+
 
 @media only screen and (max-width:700px) {
+  .gok{
+    padding: 0px !important;
+  }
   .hrt {
     display: none !important;
   }
@@ -111,9 +118,11 @@ padding: 8px !important;
     color: #ffffff;
     border: none;
     border-radius: 45px;
-    padding: 8px 22px;
+    padding: 10px 66px !important;
     font-size: 15px;
     font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 10px;
 }
 
   .webGachaList_title {
@@ -145,9 +154,10 @@ padding: 8px !important;
   color: #ffffff;
   font-size: 44px;
   font-weight: 600;
-  -webkit-text-stroke: 1.7px black !important;
+  /* -webkit-text-stroke: 1.7px black !important; */
   display: flex !important;
   text-align: center !important;
+  padding: 0px 46px !important;
 }
 
 .listCrd_scnd_txt{
@@ -174,6 +184,10 @@ padding: 8px !important;
     padding: 0 6px;
     margin: 0 3px;
     color: rgba(0, 0, 0, 0.87);
+  }
+
+  .aGNPad{
+    padding: 0px !important;
   }
 
 }
@@ -204,6 +218,3 @@ border: 1px solid #e60058 !important;
 
 
 
-.css-19kzrtu {
-  padding: 24px 5px !important;
-}

@@ -43,3 +43,10 @@ line-height: 140% !important;
     margin-bottom: 0px !important;
     text-align: left;
 }
+
+.dInfo{
+    font-weight: 600 !important;
+    font-size: 40px;
+    line-height: 48px !important;
+    color: #000E31;
+}

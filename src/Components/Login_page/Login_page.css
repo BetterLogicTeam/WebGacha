@@ -14,6 +14,7 @@
     text-align: left !important;
     color: #020140 !important;
     font-weight: 600 !important;
+    line-height: 43.2px;
 }
 
 
@@ -122,4 +123,13 @@ color: #FFFFFF !important;
     .welU{
         margin-top: 1rem !important;
     }
+
+    .input_login_side>h3 {
+        font-size: 30px !important;
+    }
+
+    .main_login_page {
+        padding: 60px 15px !important;
+    }
+    
 }
