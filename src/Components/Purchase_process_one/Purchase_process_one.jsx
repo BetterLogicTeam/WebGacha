@@ -17,7 +17,7 @@ export default function Purchase_process_one({next}) {
       {steps === 1 ? (
         <>
           <div className="Purchase_process_one">
-            <h3 className="h3_text py-4">購入手続き</h3>
+            <h3 className=" responsiceeeee_wiss py-4">購入手続き</h3>
             <div className="container">
               <div className="row justify-content-center  ">
                 <div className="col-md-12 col-lg-8 FrEndPd">
@@ -44,7 +44,7 @@ export default function Purchase_process_one({next}) {
                                 },
                               }}
                             />
-                            <FormLabel className="purc_nam" id="purc">
+                            <FormLabel className="purc_nam clr_chhha" id="purc">
                               クレジットカード
                             </FormLabel>
                           </div>

@@ -12,7 +12,7 @@ export default function Password_request_step_four() {
             <div className="password_fout_content">
               <h3 className="h3_text text-start">パスワード再設定 完了</h3>
               <p className="ptext">
-                パスワードの再設定が完了いたしました。 <br />{" "}
+                パスワードの再設定が完了いたしました。 {" "}
                 再度ログインしてください。
               </p>
 

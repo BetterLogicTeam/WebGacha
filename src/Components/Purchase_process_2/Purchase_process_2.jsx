@@ -8,7 +8,7 @@ export default function Purchase_process_2({prev,next}) {
       <div className="container ">
         <div className="row  justify-content-center ">
           <div className="col-5 border_table  d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> ウェブガチャ名 </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> ウェブガチャ名 </p>
           </div>
           <div className="col-7 border_table1  bg-white     notataion_border p-3 ">
             <p className="T_pp">
@@ -19,7 +19,7 @@ export default function Purchase_process_2({prev,next}) {
 
         <div className="row  justify-content-center ">
           <div className="col-5 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> プレイ単価（税込） </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> プレイ単価（税込） </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 1">
             <p className="T_pp" style={{fontWeight:"500"}}>
@@ -29,7 +29,7 @@ export default function Purchase_process_2({prev,next}) {
         </div>
         <div className="row  justify-content-center ">
           <div className="col-5 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> 回数 </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> 回数 </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 1">
             <p className="T_pp" style={{fontWeight:"500"}}>
@@ -39,7 +39,7 @@ export default function Purchase_process_2({prev,next}) {
         </div>
         <div className="row  justify-content-center ">
           <div className="col-5 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> 配送手数料（税込） </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> 配送手数料（税込） </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 ">
             <p className="T_pp" style={{fontWeight:"500"}}>
@@ -49,7 +49,7 @@ export default function Purchase_process_2({prev,next}) {
         </div>
         <div className="row  justify-content-center ">
           <div className="col-5 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> クーポン割引額 </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> クーポン割引額 </p>
           </div>
           <div className="col-7 bg-white     notataion_border p-3 1">
             <p className="T_pp" style={{fontWeight:"500"}}>
@@ -59,7 +59,7 @@ export default function Purchase_process_2({prev,next}) {
         </div>
         <div className="row  justify-content-center ">
           <div className="col-5 border_table2 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> 総支払金額（税込） </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> 総支払金額（税込） </p>
           </div>
           <div className="col-7 border_table3 bg-white     notataion_border p-3 1">
             <p className="T_pp">
@@ -69,7 +69,7 @@ export default function Purchase_process_2({prev,next}) {
         </div>
         <div className="row mt-5  justify-content-center ">
           <div className="col-5 border_table d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
-            <p className="mb-0"> 支払方法 </p>
+            <p className="mb-0 fwwwwwwwww_ttttt"> 支払方法 </p>
           </div>
           <div className="col-7 border_table1 bg-white     notataion_border p-3 1">
             <p className="T_pp">
@@ -78,7 +78,7 @@ export default function Purchase_process_2({prev,next}) {
           </div>
         </div>
         <div className="row   justify-content-center ">
-          <div className="col-5 border_table2 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
+          <div className="col-5 fwwwwwwwww_ttttt border_table2 d-flex align-items-center bg-white col-md-2 notataion_border  p-3 ">
             <p className="mb-0"> キャリア </p>
           </div>
           <div className="col-7 border_table3 bg-white     notataion_border p-3 1">

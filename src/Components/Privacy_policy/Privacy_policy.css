@@ -54,6 +54,14 @@ color: #020140;
         height: auto !important;
         padding: 56px 0px !important;
     }
+
+    .privcy_heading_main {
+        font-weight: 800 !important;
+        font-size: 25px !important;
+    }
+    .priiiivay{
+        font-size: 15px !important;
+    }
 }
 
 

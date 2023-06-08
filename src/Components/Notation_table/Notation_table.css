@@ -21,3 +21,15 @@ line-height: 140%;
     background-color: 
     #F2F6FF;
 }
+
+
+
+@media only screen and (max-width:700px )
+{
+    .fwwwwwwwww_ttttt{
+        font-weight: 900 !important;
+        font-size: 17px !important;
+    }
+
+   
+}

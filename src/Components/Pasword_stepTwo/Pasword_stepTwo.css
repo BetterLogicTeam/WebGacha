@@ -42,6 +42,10 @@ font-size: 14px !important;
 
 @media only screen and (max-width:600px){
     .passtpTwo_h3 {
-        font-size: 26px !important;
+        font-size: 25px !important;
+        font-weight: 800 !important;
+    }
+    .passwordstepTwo_p{
+        font-weight: 600 !important;
     }
 }

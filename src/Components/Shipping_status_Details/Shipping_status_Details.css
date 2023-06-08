@@ -41,7 +41,9 @@ color: #020140;
 }
 
 .T_pp{
-    font-weight: 500 !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+
 }
 
 .baggg{
@@ -69,3 +71,14 @@ color: #E60058 !important;
 .Shipping_status_Details table{
     background: white;
 }
+
+
+
+@media only screen and (max-width:600px){
+    .T_pp {
+        font-weight: 600 !important;
+        font-size: 15px !important;
+    }
+}
+
+

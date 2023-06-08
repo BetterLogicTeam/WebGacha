@@ -74,7 +74,16 @@ border: 1px solid #E60058;
 border-radius: 45px;
 padding: 15px 130px !important;
 }
+.responsiceeeee_wiss{
+    font-size: 39px !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    color: #020140 !important;
+}
 
+.clr_chhha{
+    color: #2EB3FF !important;
+}
 .reddd_button{
     font-weight: 600;
 font-size: 16px;
@@ -106,10 +115,16 @@ padding: 18px 130px;
     }
 
     .pusrchae_text{
-        font-size: 18px !important;
+        font-size: 25px !important;
     }
     .pad_side{
         padding: 0px !important;
+    }
+
+    .responsiceeeee_wiss{
+        font-size: 39px !important;
+        font-weight: 800 !important;
+        text-align: center !important;
     }
     
 }

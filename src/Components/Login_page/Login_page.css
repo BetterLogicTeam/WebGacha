@@ -130,10 +130,37 @@ color: #FFFFFF !important;
 
     .input_login_side>h3 {
         font-size: 30px !important;
+        font-weight: 700 !important;
+
     }
 
     .main_login_page {
         padding: 60px 15px !important;
     }
+
+    .login_lebales{
+        font-weight: 750 !important;
+        font-size: 20px !important;
+    }
+    .check_box_text {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+
+    .left_side_p {
+        font-weight: 590 !important;
+        font-size: 19px !important;
+    }
+    .new_member>h2{
+        font-size: 37px !important;
+        font-weight: 700 !important;
+    }
+    .new_member>h6 {
+        font-size: 20px !important;
+        font-weight: 800 !important;
+
+    }
+
+   
     
 }
