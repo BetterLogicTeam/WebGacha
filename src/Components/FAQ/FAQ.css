@@ -116,19 +116,29 @@ font-size: 16px !important;
         font-size: 44px !important;
     }
 
+
+    .veryLsBtn {
+        width: 100% !important;
+    }
+
     .faq_ul{
         list-style-type: none !important;
         text-align:center !important;
     }
     .faq_heading{
-        font-weight: 600 !important;
-        font-size: 20px !important;
+        font-weight: 700 !important;
+        font-size: 23px !important;
     }
 
     .acc_header button {
         text-transform: uppercase !important;
         font-weight: 600 !important;
         font-size: 18px !important;
+    }
+
+    .acc_text {
+        font-size: 16px!important;
+        font-weight: 590 !important;    ;
     }
 }
 

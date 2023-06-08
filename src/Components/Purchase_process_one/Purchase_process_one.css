@@ -3,6 +3,10 @@
     padding: 40px 20px !important;
 }
 
+.purc_nam{
+    font-weight: 600 !important;
+}
+
 .cradit_inpit{
     background: #FFFFFF;
 /* Light Blue */
@@ -15,8 +19,8 @@ padding: 20px 20px !important;
 
 .credit_card_lable{
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 22px;
     line-height: 140%;    
     color: #020140;
     padding: 1.5rem 0rem;
@@ -47,7 +51,7 @@ color: #020140;
 
 .card_caridt > p {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     line-height: 140%;
 padding: 1rem 0rem !important;

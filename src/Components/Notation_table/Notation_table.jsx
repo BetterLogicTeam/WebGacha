@@ -13,7 +13,7 @@ function Notation_table() {
     <div className="container-fluid  pb-5   bbgg mt-4 mt-md-0">
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2  notataion_border p-3">
-          <p>メールアドレス</p>
+          <p className="fwwwwwwwww_ttttt">メールアドレス</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">example@email.jp</p>
@@ -21,7 +21,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2  notataion_border p-3">
-          <p className=""> URL</p>
+          <p className="fwwwwwwwww_ttttt"> URL</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">http://webgacha.net</p>
@@ -30,7 +30,7 @@ function Notation_table() {
 
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p> 商標登録出願番号 </p>
+          <p className="fwwwwwwwww_ttttt"> 商標登録出願番号 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">商願 2016-39243</p>
@@ -38,7 +38,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>商品以外の必要代金</p>
+          <p className="fwwwwwwwww_ttttt">商品以外の必要代金</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">配送手数料：原則1個〜20個までにつき550円 [税込]</p>
@@ -46,7 +46,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>注文方法</p>
+          <p className="fwwwwwwwww_ttttt">注文方法</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">クレジットカード/携帯キャリア決済</p>
@@ -54,7 +54,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>配送業者</p>
+          <p className="fwwwwwwwww_ttttt">配送業者</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">ヤマト運輸</p>
@@ -62,7 +62,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>商品の発送</p>
+          <p className="fwwwwwwwww_ttttt">商品の発送</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">
@@ -72,7 +72,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>
+          <p className="fwwwwwwwww_ttttt">
             海外発送 <p></p>
           </p>
         </div>
@@ -82,7 +82,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>返品・交換</p>
+          <p className="fwwwwwwwww_ttttt">返品・交換</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">
@@ -92,7 +92,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>商品の同梱</p>
+          <p className="fwwwwwwwww_ttttt">商品の同梱</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">
@@ -102,7 +102,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>18歳未満のご購入</p>
+          <p className="fwwwwwwwww_ttttt">18歳未満のご購入</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">
@@ -112,7 +112,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>長期不在・受取拒否</p>
+          <p className="fwwwwwwwww_ttttt">長期不在・受取拒否</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">
@@ -122,7 +122,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>お問い合わせ</p>
+          <p className="fwwwwwwwww_ttttt">お問い合わせ</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
           <p className="T_p">
@@ -132,7 +132,7 @@ function Notation_table() {
       </div>
       <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-2 notataion_border p-3">
-          <p>電話番号</p>
+          <p className="fwwwwwwwww_ttttt">電話番号</p>
         </div>
         <div className="col-7 tableBg notataion_border   p-3">
           <p className="T_p">00-0000-0000</p>

@@ -23,7 +23,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 23px !important;
     gap: 6px;
     
     /* width: 134px;
@@ -57,7 +57,8 @@
 }
 
 .Nav_collps{
-    padding: 0px 1rem;
+    /* padding: 0px 1rem; */
+    padding: 15px 23px !important; 
     font-size: 1.25rem;
     /* line-height: 1; */
     background-color: transparent;
@@ -65,6 +66,9 @@
     border-radius: 3rem;
     transition: box-shadow .15s ease-in-out;
     color: #E60058;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Nav_collps .Nav_icon{
     color: #E60058 !important;   
@@ -104,4 +108,15 @@
            color: #010124 !important;
            font-family: 'Barlow', sans-serif;
        }
+}
+
+
+
+@media only screen and (min-width:10px ) and (max-width:400px){
+   .hsfhwjfwjfhw .hai_tamana{
+        width: 50% !important;
+    }
+    .nav_Responsive img {
+        width: 100%;
+    }
 }

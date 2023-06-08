@@ -66,4 +66,16 @@
   .mnhDd{
     padding: 0px 27px !important;
   }
+  .term_heading {
+    font-size: 23px !important;
+    font-weight: 700 !important;
+  }
+  .trmTowPera {
+    font-weight: 600 !important;
+    font-size: 15px !important;
+  }
+  .scroll_text> p{
+    font-weight: 600 !important;
+    
+  }
 }
