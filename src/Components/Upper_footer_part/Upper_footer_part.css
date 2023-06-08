@@ -42,7 +42,8 @@
   line-height: 41px;
   text-align: center;
   /* -webkit-text-stroke: 1.5px #fff; */
-  text-shadow: 3px 4px 3px #fff !important;
+  text-shadow: -2px -2px 0 #fff , 2px -2px 0 #fff , -2px 2px 0 #fff , 2px 2px 0 #fff !important;
+  /* text-shadow: 3px 4px 3px #fff !important; */
   color: #020140;
 }
 
@@ -63,7 +64,11 @@
 @media only screen and (max-width: 700px) {
   .main_sea_part {
     height: auto !important;
-    padding: 30px 20px !important;
+    /* padding: 30px 20px !important; */
+    padding-top: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-position-x: 36% !important;
   }
 
   .mainSEa_heaidn {

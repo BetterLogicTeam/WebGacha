@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100vh !important;
   padding-bottom: 250px !important;
   padding-top: 170px !important;
   position: relative;
@@ -17,7 +17,9 @@
   line-height: 72px;
   text-align: center;
   color: #020140;
-  text-shadow: 3px 4px 3px #fff;
+  /* text-shadow: 3px 4px 3px #fff; */
+  /* text-shadow: 2px 0px #fff, -2px 0px #fff, 0px 2px #fff, 0px -2px #fff !important; */
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
   /* text-shadow: #fff 5px 4px 5\px; */
   /* -webkit-text-stroke: 1.5px #fff !important; */
 }
@@ -30,9 +32,8 @@
   text-align: center;
   margin-top: 1rem !important;
   text-transform: uppercase;
-
-  -webkit-text-stroke: 0.2px #fff;
-
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  /* -webkit-text-stroke: 0.2px #fff; */
   color: #020140;
 }
 
@@ -89,8 +90,9 @@
 @media screen and (max-width: 600px) {
   .landing_Bg {
     padding-bottom: 44px !important;
-    padding-top: 44px !important;
-    height: auto;
+    padding-top: 66px !important;
+    background-position-x: 32% !important;
+    height: 87vh !important;
   }
   .landing_Bg button {
     font-size: 15px;
