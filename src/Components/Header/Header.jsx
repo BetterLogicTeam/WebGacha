@@ -13,9 +13,9 @@ export default function Header() {
   const [Collapse, setCollapse] = useState(false);
   const history = useNavigate();
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg " >
-        <Container>
+    <div className="mmaaaaa">
+      <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg  " >
+        <Container className="">
           <Link to="/">
             <Navbar.Brand href="/" className="nav_Responsive">
               <img src={Logog} alt="Navbar_Logo" />

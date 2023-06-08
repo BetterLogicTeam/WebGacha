@@ -95,7 +95,7 @@
   .landing_Bg button {
     font-size: 15px;
     width: 320px;
-    height: 55px;
+    height: 65px !important;
     padding: 13px 24px !important;
   }
   .landing_Bg h1 {

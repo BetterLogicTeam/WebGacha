@@ -32,4 +32,14 @@ color: #020140;
     .edit_paaaaa {
         font-size: 26px !important;
 }
+
+.red_button{
+    background: #E60058;
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+padding: 15px 15px !important;
+color: white !important;
+width: 100% !important;
+}
+
 }

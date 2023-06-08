@@ -123,7 +123,7 @@ export default function CouponTab() {
             </div>
             <div className="row mt-5">
                   
-                  {Data.slice(0,6).map((items, index) => {
+                  {Data.slice(0,4).map((items, index) => {
             return (
               <>
                 <div className="col-lg-6">

@@ -1,6 +1,7 @@
 .Nav_bar_Bg {
     background: #F2F6FF;
     border-bottom: 1px solid #D2E9FF;
+   
 }
 
 .Nav_bar_Link {
@@ -41,6 +42,12 @@
     flex-grow: 0;
 }
 
+
+.mmaaaaa{
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 9 !important;
+}
 .nav_Responsive{
     display: flex;
     justify-content: space-between;
