@@ -79,7 +79,31 @@
   margin-left: -42rem;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width:100px) and (max-width:400px) {
+  .swiper-button-next {
+    width: 70px;
+    height: 42px;
+    background: #fff !important ;
+    border: 1px solid #8ac7ff !important;
+    border-radius: 45px;
+    margin-left: -2rem;
+    position: absolute !important;
+    top: 21rem !important;
+    right: 7rem !important;
+  }
+  .swiper-button-prev {
+    width: 70px;
+    height: 42px;
+    background: #fff !important ;
+    border: 1px solid #8ac7ff !important;
+    border-radius: 45px;
+    position: absolute !important;
+    top: 21rem !important;
+    left: 7rem !important;
+  }
+}
+
+@media only screen and (min-width:405px) and (max-width: 600px) {
   .Rem {
     width: 70% !important;
   }
