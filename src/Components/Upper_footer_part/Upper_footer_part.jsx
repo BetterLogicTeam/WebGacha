@@ -14,7 +14,7 @@ export default function Upper_footer_part() {
 
    
     <div className="container py-5">
-    <div className="d-flex gap-3 justify-content-center ">
+    <div className="d-flex gap-3 justify-content-center hgh9 ">
         <div className="">
     <button className=' upper_footer_main_button  ' onClick={()=>(history('/ContactUs'),window.scrollTo(0,0))}>お問い合わせ</button>
 

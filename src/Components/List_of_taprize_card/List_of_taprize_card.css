@@ -18,7 +18,7 @@
   font-weight: 600 !important;
   padding: 8px 22px;
   font-size: 18px;
-  width: 85% !important;
+  width: 100% !important;
   height: 55PX !important;
 }
 
@@ -121,15 +121,8 @@ padding: 8px !important;
   }
 
   .listCrd_button {
-    background-color: #e60058;
-    color: #ffffff;
-    border: none;
-    border-radius: 45px;
-    padding: 10px 66px !important;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 10px;
+    padding: 5px 10px !important;
+    height: 70px !important;
 }
 
   .webGachaList_title {
@@ -143,6 +136,9 @@ padding: 8px !important;
     justify-content: center;
     align-items: center;
     padding: 60px 0px;
+  }
+  .gacha_Btn{
+    height: 70px !important;
   }
 
   .endSale {

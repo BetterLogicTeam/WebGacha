@@ -108,4 +108,8 @@
   .upper_footer_main_button{
     width: 100% !important;
   }
+  .hgh9{
+    display: flex;
+    flex-direction: column !important;
+  }
 }
