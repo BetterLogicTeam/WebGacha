@@ -10,7 +10,7 @@ export default function   Landing_Page() {
           <div className="inner_text_landing">
             <h1>限定グッズが必ず当たる！</h1>
             <h1> Web版カプセルプライズ！</h1>
-            <p className="mt-2">
+            <p className="mb-0 py-3 ">
               企画・製造・販売まで手掛けているから、ここにしかない商品をお届け。
             </p>
             <div className="d-flex justify-content-center mt-1">

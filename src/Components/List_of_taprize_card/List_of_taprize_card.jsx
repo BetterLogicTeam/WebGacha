@@ -37,12 +37,12 @@ function List_of_taprize_card({ Image, tag, Name, items }) {
         >
           {tag}
         </button>
-        <Card.Body>
+        <Card.Body className="paaadankd">
           <Card.Text className="text-start listCrd_fst_txt mb-0 ">{Name}</Card.Text>
-          <Card.Text className="text-start listCrd_scnd_txt mt-2">
+          <Card.Text className="text-start listCrd_scnd_txt mb-0 py-4">
             発売期間 05/ 5(金)～05/26(金)
           </Card.Text>
-          <div className="d-flex gap-5">
+          <div className="d-flex gap-3 caerd_heart">
             <button
               className="listCrd_button "
               onClick={() => (

@@ -1,10 +1,15 @@
 .main_web_part {
-    background-image: url(../Assets/three.svg);
+    background-image: url(../Assets/three.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 10px !important;
-    height: 50vh !important;
+    height: 60vh !important;
+    /* height: 373px !important; */
+    display: flex !important;
+    justify-content: center ;
+    align-items: center !important;
+    border-radius: 24px !important;
 }
 
 .design {
@@ -26,18 +31,20 @@
 
 .web_part_title {
     font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
+    font-weight: 900 !important;
+    font-size: 18px;
     line-height: 140%;
     text-align: center;
     color: #020140;
     margin-top: 1rem !important;
+  /* text-shadow: -0.5px -1px 0 #000, 0.5px -0.5px 0 #000, 0.51px 0.5px 0 #000,0.5px 0.5px 0 #000; */
+
 }
 
 .web_part_para {
 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 599 !important;
     font-size: 14px;
     line-height: 140%;
     text-align: center;
@@ -66,13 +73,6 @@
         line-height: 52px;
         text-align: center;
         color: #FFFFFF;
-        /* text-shadow: 3px 4px 3px #E60058 !important; */
-        /* -webkit-text-stroke: 2px #E60058; */
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:1024px) {
-    .main_web_part {
-        height: 80vh !important;
+       
     }
 }

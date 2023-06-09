@@ -8,13 +8,13 @@ export default function Main_footer() {
     <div className="main_footer_bg">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 text-center text-md-start">
+          <div className="col-md-5 text-center text-md-start">
             <img src={logo} alt="" />
           </div>
 
-          <div className="col-md-8 mt-3 mt-md-0">
-            <div className="footer_content">
-              <div className="upper d-flex  gap-3">
+          <div className="col-md-7 sojfswjfwjf text-end  mt-3 mt-md-0">
+            <div className="footer_content text-start">
+              <div className="upper d-flex     gap-3">
                 <Link
                   to="/ListOTaprize"
                   className="text-decoration-none upper"
@@ -47,7 +47,7 @@ export default function Main_footer() {
 
                 <p>マイアカウント</p>
               </div>
-              <div className="upper d-flex  gap-3">
+              <div className="upper d-flex     gap-3">
                 <Link
                   to="/TermOfServices"
                   className="text-decoration-none upper"
@@ -77,6 +77,7 @@ export default function Main_footer() {
           </div>
         </div>
       </div>
+
       <div className="container mt-3 all-right text-center">
         <p className="pt-3">Copyright ©2023 Webgacha. All Rights Reserved.</p>
       </div>

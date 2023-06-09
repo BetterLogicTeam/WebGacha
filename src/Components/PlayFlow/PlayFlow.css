@@ -1,7 +1,7 @@
 .flowTitle {
   color: #020140;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .stp1Button {
@@ -27,12 +27,12 @@
   color: #020140;
   font-size: 26px;
   line-height: 39px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .joinDetails {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 599;
   line-height: 22.4px;
   color: #020140;
   width: 71%;
@@ -58,7 +58,8 @@
   font-size: 16px;
   font-weight: 600;
   padding: 14px 0px;
-  width: 30%;
+  width: 392px !important;
+  height: 55px !important;
 }
 .lastBtnn:hover {
   background-color: red;
@@ -79,7 +80,7 @@
 
   .flowTitle {
     font-size: 34px;
-    font-weight: 600;
+    font-weight: 800;
   }
 
   .btween {
@@ -147,7 +148,7 @@
     font-size: 16px;
     font-weight: 600;
     padding: 14px 0px;
-    width: 100%;
+    width: 100% !;
 }
 
 .PadBothside{

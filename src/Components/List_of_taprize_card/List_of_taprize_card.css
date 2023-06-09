@@ -1,7 +1,7 @@
 .listCrd_fst_txt {
   color: #020140;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 900 !important;
 }
 
 .listCrd_scnd_txt {
@@ -15,8 +15,11 @@
   color: #ffffff;
   border: none;
   border-radius: 45px;
+  font-weight: 600 !important;
   padding: 8px 22px;
-  font-size: 14px;
+  font-size: 18px;
+  width: 85% !important;
+  height: 55PX !important;
 }
 
 .listCrd_button:hover {
@@ -26,11 +29,15 @@
 .hrt {
   color: #e60058 !important;
   padding: 10px 20px !important;
+
 }
 
 .like_hrt {
   border: 1px solid #fce0eb;
   border-radius: 39px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .endSale {
@@ -200,7 +207,7 @@ padding: 8px !important;
   transition: transform .7s ease;
 }
 .hvrBx:hover .hvrImg{
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 

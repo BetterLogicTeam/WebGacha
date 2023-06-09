@@ -8,7 +8,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import { Link, useNavigate } from "react-router-dom";
-
+import "./Resonsive.css"
 export default function Header() {
   const [Collapse, setCollapse] = useState(false);
   const history = useNavigate();
@@ -77,7 +77,7 @@ export default function Header() {
                   よくあるご質問
                 </Link>
               </Nav.Link>
-              <Nav.Link href="#" className="Nav_bar_Link me-2">
+              <Nav.Link href="#" className="Nav_bar_Link mmmrmrrrmrmrm  ">
                 <Link
                   to="/ContactUs"
                   className="text-decoration-none Nav_bar_Link "

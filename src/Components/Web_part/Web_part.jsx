@@ -6,9 +6,9 @@ import box from "../Assets/box.svg";
 
 export default function Web_part() {
   return (
-    <div className=" text-center ftrUpprAGN " style={{backgroundColor:"#F6FAFF"}}>
+    <div className=" text-center ftrUpprAGN " style={{backgroundColor:"#F6FAFF",padding:"10px 24px"}}>
       <div className="main_web_part">
-        {/* <img src={imgg} alt="" /> */}
+       
         <h1 className="web">
           Web上で行う <br /> 限定グッズ販売サービス
         </h1>
@@ -17,7 +17,7 @@ export default function Web_part() {
         <div className="row">
           <div className="col-md-4">
             <img src={hh} alt="" />
-            <p className="web_part_title">Web上での販売経路のご提供！</p>
+            <h4 className="web_part_title">Web上での販売経路のご提供！</h4>
             <p className="web_part_para">
               ウェブガチャはWeb上で行うカプセルプライズです。Web上での販売となるため、24時間お好きな時にプレイができ、商品販売に必要な実店舗や人員の手配は必要ありません。最短２週間で販売をスタートすることができます。
             </p>
