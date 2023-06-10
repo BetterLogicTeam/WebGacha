@@ -16,7 +16,7 @@ export default function Tarpize_all_cards() {
           <h2>賞品一覧</h2>
           <div className="fornt_row">
             <span className="yellow">
-              <p className="m-0">特別賞</p>
+              <p className="m-0 yellowTxt">特別賞</p>
             </span>
             <h6>セクションのタイトル</h6>
           </div>
@@ -25,7 +25,7 @@ export default function Tarpize_all_cards() {
         <div className="tarpize_content_cards">
           <div className="fornt_row">
             <span className="blu_boxe">
-              <p className="m-0">A賞 :</p>
+              <p className="m-0 yellowTxt">A賞 :</p>
             </span>
             <h6>セクションのタイトル</h6>
           </div>
@@ -58,7 +58,7 @@ export default function Tarpize_all_cards() {
         <div className="tarpize_content_cards">
           <div className="fornt_row">
             <span className="blu_boxe" style={{ backgroundColor: "#02D998" }}>
-              <p className="m-0">B賞 :</p>
+              <p className="m-0 yellowTxt">B賞 :</p>
             </span>
             <h6>セクションのタイトル</h6>
           </div>
@@ -114,7 +114,7 @@ export default function Tarpize_all_cards() {
         <div className="tarpize_content_cards">
           <div className="fornt_row">
             <span className="blu_boxe" style={{ backgroundColor: "#FFAA66" }}>
-              <p className="m-0">C賞 :</p>
+              <p className="m-0 yellowTxt">C賞 :</p>
             </span>
             <h6>セクションのタイトル</h6>
           </div>
@@ -193,7 +193,7 @@ export default function Tarpize_all_cards() {
         <div className="tarpize_content_cards">
           <div className="fornt_row">
             <span className="blu_boxe" style={{ backgroundColor: "#FF81D4" }}>
-              <p className="m-0">D賞 :</p>
+              <p className="m-0 yellowTxt">D賞 :</p>
             </span>
             <h6>セクションのタイトル</h6>
           </div>
@@ -249,7 +249,7 @@ export default function Tarpize_all_cards() {
         <div className="tarpize_content_cards">
         <div className="fornt_row">
           <span className="blu_boxe" style={{ backgroundColor: "#577FFF" }}>
-            <p className="m-0">E賞 :</p>
+            <p className="m-0 yellowTxt">E賞 :</p>
           </span>
           <h6>セクションのタイトル</h6>
         </div>

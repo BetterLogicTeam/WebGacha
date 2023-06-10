@@ -1,6 +1,6 @@
 .tarpize_cards_main {
   background: #f2f6ff !important;
-  padding: 40px 10px !important;
+  padding: 80px 10px 40px 10px !important;
 }
 .tarpize_content_cards {
   margin-left: 1rem;
@@ -45,6 +45,11 @@
   padding: 18px 25px;
   gap: 10px;
   color: white !important;
+}
+
+.yellowTxt{
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .blu_boxe {

@@ -19,10 +19,10 @@ export default function Tarpize_single({location}) {
     <div className="tarpize_single_main">
       <div className="container-fulid">
         <div className="row m-0">
-          <div className="col-md-6">
-            <img src={location.state.Image} className="w-100" alt="" />
+          <div className="col-md-7 text-center lftgacHPiCUpEr">
+            <img src={location.state.Image} className="lftgacHPiC" alt="" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="tarsize_content text-start">
               <p>コレクションページに戻る</p>
               <h3 className="text_clr">
@@ -30,17 +30,17 @@ export default function Tarpize_single({location}) {
               </h3>
             </div>
             <div className="bor_content">
-              <p className="text-clr fw-bold frmlfftr ">販売価格:</p>
-              <p className="text-clr " style={{fontWeight:"500"}}>1回660円(税込)</p>
+              <p className="text-clr frmlfftr six6On mb-0">販売価格:</p>
+              <p className="text-clr underTxtrghht  mb-0" style={{fontWeight:"600"}}>1回660円(税込)</p>
             </div>
             <div className="bor_content">
-              <p className="text-clr fw-bold frmlfftr ">販売期間:</p>
-              <p className="text-clr " style={{fontWeight:"500"}}>
+              <p className="text-clr frmlfftr mb-0">販売期間:</p>
+              <p className="text-clr underTxtrghht mb-0" style={{fontWeight:"600"}}>
                 2023/05/05 (金) 12:00～2023/05/26 (金) 23:59
               </p>
             </div>
             <div className="bor_content align-items-center border-none">
-              <p className="text-clr fw-bold frmlfftr ">数量:</p>
+              <p className="text-clr frmlfftr mb-0">数量:</p>
               <div className="d-flex gap-3">
                 <input
                   type="number"

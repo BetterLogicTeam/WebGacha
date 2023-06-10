@@ -16,13 +16,15 @@ function List_of_taprize_card({ Image, tag, Name, items }) {
     <div className="d-flex justify-content-center my-2">
       <Card style={{ width: "100%", cursor: "pointer" }}>
         <div
-          className="hvrBx"
+          className="p-2" 
           onClick={() => (
             history(`/TarpizeSingleFullPage`, { state: items }),
             window.scrollTo(0, 0)
           )}
         >
-          <Card.Img variant="top" src={Image} className="w-100 p-2 hvrImg " />
+          <div className="hvrBx">
+          <Card.Img variant="top" src={Image} className="w-100 hvrImg " />
+          </div>
         </div>
         <button
           className="endSale"
