@@ -6,28 +6,28 @@ import { Link } from "react-router-dom";
 export default function Main_footer() {
   return (
     <div className="main_footer_bg">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-md-5 text-center text-md-start">
+          <div className="col-md-5 text-center footerlftuper text-md-start">
             <img src={logo} alt="" />
           </div>
 
-          <div className="col-md-7 sojfswjfwjf text-end  mt-3 mt-md-0">
-            <div className="footer_content text-start">
+          <div className="col-md-7 sojfswjfwjf footerrigtuper  text-end mt-3 mt-md-0">
+            <div className="footer_content footerrigtPart text-start">
               <div className="upper d-flex     gap-3">
                 <Link
                   to="/ListOTaprize"
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p> タップライズ 一覧</p>
+                  <p className="footerLnks"> タップライズ 一覧</p>
                 </Link>
                 <Link
                   to="/TermOfServices"
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p>ご利用ガイド</p>
+                  <p className="footerLnks">ご利用ガイド</p>
                 </Link>
 
                 <Link
@@ -35,17 +35,17 @@ export default function Main_footer() {
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p>よくあるご質問</p>
+                  <p className="footerLnks">よくあるご質問</p>
                 </Link>
                 <Link
                   to="/ContactUs"
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p>お問い合わせ</p>
+                  <p className="footerLnks">お問い合わせ</p>
                 </Link>
 
-                <p>マイアカウント</p>
+                <p className="footerLnks">マイアカウント</p>
               </div>
               <div className="upper d-flex     gap-3">
                 <Link
@@ -53,14 +53,14 @@ export default function Main_footer() {
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p>利用規約</p>
+                  <p className="footerLnks">利用規約</p>
                 </Link>
                 <Link
                   to="/PrivacyPolicy"
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <p>プライバシーポリシー</p>
+                  <p className="footerLnks">プライバシーポリシー</p>
                 </Link>
 
                 <Link
@@ -68,7 +68,7 @@ export default function Main_footer() {
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                   <p>特定商取引法に基づく表記</p>
+                   <p className="footerLnks">特定商取引法に基づく表記</p>
                 </Link>
              
              

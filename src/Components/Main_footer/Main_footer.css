@@ -31,20 +31,57 @@ h2,h3,h4,h5,h6,p,span,li{
     
 .all-right{
     border-top: 1px solid #000;
-    
 
 }
 
 
+.footerrigtPart{
+    margin-left: 87px;
+}
 
+.footerrigtuper{
+    display: flex;
+    align-items: center;
+}
 
+.footerlftuper{
+    display: flex;
+    justify-content: center;
+}
 
 
 @media only screen and (max-width:700px){
+
+    .footerrigtuper{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+
+    .footerrigtPart{
+        margin-left: 0px;
+    }
+
     .upper{
         flex-direction:column !important;
         text-align: center;
     }
 
 
+}
+
+@media only screen and (min-width:705px) and (max-width:768px) {
+    .footerrigtPart{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .footerrigtPart{
+        margin-left: 28px;
+    }
+
+    .footerLnks{
+        font-size: 13px;
+    }
 }
