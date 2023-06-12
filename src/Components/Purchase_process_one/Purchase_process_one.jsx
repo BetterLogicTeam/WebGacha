@@ -192,7 +192,7 @@ export default function Purchase_process_one({next}) {
               </div>
 
               <div className="d-flex respsss gap-2 justify-content-center mt-5">
-                <button className="whiteeee_button nodeB1 atm_white_btn " >戻る </button>
+                <button className="whiteeee_button nodeB1 atm_white_btn " >戻る  </button>
                 <button className="reddd_button nodeB2 atm_white_btn p-0" onClick={()=>(setsteps(2),window.scrollTo(0, 0))}> 購入する </button>
               </div>
             </div>

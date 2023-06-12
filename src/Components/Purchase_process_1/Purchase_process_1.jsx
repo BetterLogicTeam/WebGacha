@@ -23,7 +23,7 @@ export default function Purchase_process_1({ next,setsteps }) {
 
   return (
     <div className="purchase_process_1_main">
-      <h3 className="h3_text    responsiceeeee_wiss text-center py-5">購入手続き</h3>
+      <h3 className="h3_text    responsiceeeee_wiss text-center py-5">購入手続き </h3>
       <div className="container ">
         <div className="row justify-content-center">
           <div className="col-md-8 pad_side">
@@ -71,7 +71,7 @@ export default function Purchase_process_1({ next,setsteps }) {
                         }}
                       />
                       <FormLabel className="purc_nam" id="purc">
-                        クレジットカード 4567890987654567898765
+                        クレジットカード 
                       </FormLabel>
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function Purchase_process_1({ next,setsteps }) {
                         }}
                       />
                       <FormLabel className="purc_nam" id="purc">
-                        クレジットカード
+                        クレジットカード 
                       </FormLabel>
                     </div>
                   </div>
@@ -178,8 +178,8 @@ export default function Purchase_process_1({ next,setsteps }) {
             </div>
           </div>
           <div className="d-flex respsss gap-2 justify-content-center mt-5">
-            <button className="whiteeee_button nodeB1 " onClick={()=>(setsteps(1),window.scrollTo(0, 0))}>戻る </button>
-            <button className="reddd_button nodeB2 " onClick={()=>(next(),window.scrollTo(0, 0))}>購入する</button>
+            <button className=" nodeB1 docomo_btn_page  " onClick={()=>(setsteps(1),window.scrollTo(0, 0))}>戻る  </button>
+            <button className="reddd_button nodeB2 docomo_btn_page px-0" onClick={()=>(next(),window.scrollTo(0, 0))}>購入する</button>
            
           </div>
         </div>
