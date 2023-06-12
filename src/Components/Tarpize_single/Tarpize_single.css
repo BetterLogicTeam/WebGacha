@@ -22,7 +22,7 @@
   border-radius: 6px;
   background: #ffffff;
   padding: 10px !important;
-  width: 15% !important;
+  width: 100% !important;
   font-size: 16px;
 }
 
@@ -92,7 +92,7 @@
 
 .lftgacHPiC {
   height: 380px;
-  width: 100%;
+  width: 90% !important;
 }
 
 @media only screen and (max-width: 700px) {
@@ -106,7 +106,7 @@
   .six6On {
     width: 22% !important;
   }
-
+ 
   .yellowTxt {
     font-size: 22px;
     font-weight: 600;
@@ -150,25 +150,33 @@
   .responsive_gachah_a {
     width: 80% !important;
   }
+  .imputdve {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 42% !important;
+}
 }
 
-@media only screen and (min-width: 705px) and (max-width: 768px) {
+
+@media  (min-width: 705px) and (max-width: 768px) {
   .lftgacHPiC {
-    height: 210px;
+    height: 300px;
     width: 100%;
   }
+  
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+@media  (min-width: 1024px) and (max-width: 1440px) {
   .lftgacHPiC {
     height: 400px !important;
-    width: 100% !important;
+    width: 95% !important;
   }
 
   /* .sigleFull1st {
     font-size: 18px !important;
   } */
 
+  
   .tarsize_content > P {
     font-weight: 600 !important;
     font-size: 18px !important;
@@ -204,7 +212,7 @@
     border-radius: 6px;
     background: #ffffff;
     padding: 10px !important;
-    width: 16% !important;
+    width: 100% !important;
     height: 42px;
     font-size: 20px;
   }
@@ -252,7 +260,7 @@
   }
 }
 
-@media only screen and (min-width: 1445px) and (max-width: 2560px) {
+@media  (min-width: 1445px) and (max-width: 2560px) {
   .lftgacHPiC {
     height: 654px;
     width: 100%;
@@ -297,7 +305,7 @@
     border-radius: 6px;
     background: #ffffff;
     padding: 10px !important;
-    width: 16% !important;
+    width: 100% !important;
     height: 95px;
     font-size: 40px;
   }
@@ -347,4 +355,64 @@
     padding: 15px 10px;
     margin-top: 2rem;
   }
+  
+.imputdve{
+  position:relative;
+  /* border: 1px solid red; */
+  width: 30%;
+
+}
+.icon_arrow{
+  height:15px;
+  position:absolute;
+  right:15px;
+  top:15px !important;
+  color: #e60058;
+  cursor: pointer;
+  font-size: 2rem !important;
+
+}
+.icon_arrow_down{
+  height:15px;
+  position:absolute;
+  right:15px;
+  top:50px !important;
+  color: #e60058;
+  cursor: pointer;
+  font-size: 2rem !important;
+
+}
+}
+
+
+
+
+.imputdve{
+  position:relative;
+  /* border: 1px solid red; */
+  width: 30%;
+
+}
+.icon_arrow{
+  height:15px;
+  position:absolute;
+  right:15px;
+  top:5px;
+  color: #e60058;
+  cursor: pointer;
+
+}
+.icon_arrow_down{
+  height:15px;
+  position:absolute;
+  right:15px;
+  top:20px;
+  color: #e60058;
+  cursor: pointer;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none !important;
 }
