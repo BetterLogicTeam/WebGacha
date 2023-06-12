@@ -54,7 +54,7 @@ export default function Login_page() {
               <h2>新規会員登録</h2>
               <h6 className="mb-4">まだ会員でない方は下記ボタンより会員登録を行ってください</h6>
               
-              <button className="white_button mt-2 welU" onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))}>新規会員登録</button>
+              <button className=" login_white_btn mt-1 welU" onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))}>新規会員登録</button>
             </div>
           </div>
         </div>

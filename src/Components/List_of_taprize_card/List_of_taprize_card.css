@@ -124,8 +124,9 @@ padding: 8px !important;
   }
 
   .listCrd_button {
-    padding: 5px 10px !important;
-    height: 70px !important;
+    padding: 10px 22px !important;
+    margin-top: 15px !important;
+    height: 78px !important;
 }
 
   .webGachaList_title {
@@ -214,13 +215,12 @@ padding: 8px !important;
 
 .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
   color: #fff !important;
-  /* border: 1px solid #e60058 !important; */
+ 
   background-color: #2EB3FF !important;
 }
 .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.MuiPaginationItem-previousNext{
 border: 1px solid #e60058 !important;
   color: #e60058 !important;
-
 }
 
 
