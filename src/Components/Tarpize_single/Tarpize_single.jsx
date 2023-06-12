@@ -19,12 +19,12 @@ export default function Tarpize_single({location}) {
     <div className="tarpize_single_main">
       <div className="container-fulid">
         <div className="row m-0">
-          <div className="col-md-7 text-center lftgacHPiCUpEr">
+          <div className="col-md-6 text-center lftgacHPiCUpEr">
             <img src={location.state.Image} className="lftgacHPiC" alt="" />
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <div className="tarsize_content text-start">
-              <p>コレクションページに戻る</p>
+              <p className="sigleFull1st">コレクションページに戻る</p>
               <h3 className="text_clr">
                 外ヒカト梨全エタス芸3転トメヌネ玉場よ
               </h3>
@@ -41,7 +41,7 @@ export default function Tarpize_single({location}) {
             </div>
             <div className="bor_content align-items-center border-none">
               <p className="text-clr frmlfftr mb-0">数量:</p>
-              <div className="d-flex gap-3">
+              <div className="d-flex gap-3 inptBtw">
                 <input
                   type="number"
                   placeholder="1"
@@ -55,9 +55,9 @@ export default function Tarpize_single({location}) {
                 </button>
               </div>
             </div>
-            <div className="row align-items-center my-3">
-              <div className="col-md-8">
-                <button className="red_button" onClick={()=>history("/PurchaseTab")}>
+            <div className="row align-items-center  my-3">
+              <div className="col-md-9">
+                <button className="red_button exRDB" onClick={()=>history("/PurchaseTab")}>
                   {" "}
                   購入する - 1回660円(税込)
                 </button>
