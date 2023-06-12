@@ -33,3 +33,10 @@
     text-align: center;
     color: #020140;
 }
+
+@media only screen and (max-width:600px) {
+    .Coupon_Tab_Bg {
+        background-color: #F2F6FF;
+        padding: 40px 16px;
+    }
+}

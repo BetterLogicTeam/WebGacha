@@ -34,13 +34,12 @@
 }
 .login_page_inputss {
   background: #ffffff;
-  /* Light Blue */
-
   border: 1px solid #8ac7ff;
   color: #020140 !important;
   border-radius: 12px;
   padding: 10px 15px !important;
   width: 100% !important;
+  margin-top: 17px;
 }
 
 .check_box_text {

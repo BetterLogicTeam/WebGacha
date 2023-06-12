@@ -19,13 +19,13 @@ export default function Purchase_list_full_page() {
             >
               <option className="pusrchase_list_sele">全て </option>
               <option className="pusrchase_list_sele" value="1">
-                One
+              発売中
               </option>
               <option className="pusrchase_list_sele" value="2">
-                Two
+              近日発売
               </option>
               <option className="pusrchase_list_sele" value="3">
-                Three
+              販売終了
               </option>
             </Form.Select>
           </div>

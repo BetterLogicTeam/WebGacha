@@ -59,7 +59,8 @@ export default function CouponTab() {
       <MyPageCouponBg />
 
       <Box sx={{ width: "100%", marginTop: "2rem" }}>
-        <Box>
+        <div className="container">
+        <Box className="">
           <Tabs
             value={value}
             onChange={handleChange}
@@ -141,6 +142,7 @@ export default function CouponTab() {
           </div>
           </div>
         </TabPanel>
+        </div>
       </Box>
     </div>
   );

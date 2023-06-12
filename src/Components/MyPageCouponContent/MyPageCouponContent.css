@@ -1,55 +1,53 @@
-.white_button{
-    color: #E60058;
+
+.MyPageCouponContentBg {
+  background-color: #f2f6ff;
+}
+.MyPageCoupon_h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  /* Black */
+
+  color: #020140;
+}
+.MyPageCoupon_p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 20px;
+  color: #020140;
+}
+
+.copn1stBt{
+    color: #e60058;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  /* padding: 10px 15px !important; */
+  background-color: #ffffff !important;
+  border: 1.5px solid #e60058;
+  border-radius: 45px;
+  font-size: 15px !important;
+  width: 318px;
+  height: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .white_button {
+    color: #e60058;
     text-align: center;
-text-transform: uppercase;
-font-weight: 500;
-font-size: 16px;
-padding: 10px 15px !important;
-background-color: #FFFFFF !important;
-border: 1px solid #E60058;
-border-radius: 45px;
-font-size: 14px !important;
-}
-.MyPageCouponContentBg{
-    background-color: #F2F6FF;
-}
-.MyPageCoupon_h3{
-    font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 43px;
-text-align: center;
-
-/* Black */
-
-color: #020140;
-}
-.MyPageCoupon_p{
-    font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-/* or 22px */
-
-text-align: center;
-
-/* Black */
-
-color: #020140;
-}
-
-
-@media only screen and (max-width:600px) {
-    .white_button{
-        color: #E60058;
-        text-align: center;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     padding: 15px 15px !important;
-    background-color: #FFFFFF !important;
-    border: 1px solid #E60058;
+    background-color: #ffffff !important;
+    border: 1px solid #e60058;
     border-radius: 45px;
     font-size: 14px !important;
-    }
+  }
 }
