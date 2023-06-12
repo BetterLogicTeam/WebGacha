@@ -4,7 +4,7 @@ import ListOfTaprizeCard from "./List_of_taprize_card";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 
-function List_taprize_Taball() {
+function List_taprize_Taball({tags_text}) {
   console.log("Data", Data);
   return (
     <div>
@@ -19,6 +19,7 @@ function List_taprize_Taball() {
                     Name={items.Name}
                     tag={items.tag}
                     items={items}
+                    tags_text={tags_text}
                   />
                 </div>
               </>

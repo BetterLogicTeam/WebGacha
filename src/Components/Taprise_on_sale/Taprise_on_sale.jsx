@@ -24,6 +24,7 @@ export default function Taprise_on_sale() {
                       tag={items.tag}
                       Name={items.Name}
                       items={items}
+                      tags_text="0"
                     />
 
                  
