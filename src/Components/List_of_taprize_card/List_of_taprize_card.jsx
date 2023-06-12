@@ -14,7 +14,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
 
   return (
     <div className="d-flex justify-content-center my-2">
-      <Card style={{ width: "100%", cursor: "pointer" }}>
+      <Card style={{ width: "100%", cursor: "pointer" }} className="card_list_of_taprize">
         <div
           className="p-2" 
           onClick={() => (

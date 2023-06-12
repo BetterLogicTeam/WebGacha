@@ -2,12 +2,14 @@
   color: #020140;
   font-size: 20px;
   font-weight: 900 !important;
+  transition: all 0.5s !important;
 }
 
 .listCrd_scnd_txt {
   color: #000E31;
   font-size: 16px;
   font-weight: 500;
+  transition: all 0.5s !important;
 }
 
 .listCrd_button {
@@ -225,3 +227,18 @@ border: 1px solid #e60058 !important;
 
 
 
+
+/* .listCrd_fst_txt:hover{
+  background-color: red !important;
+} */
+
+.card_list_of_taprize:hover .listCrd_fst_txt {
+  color: #6f6f70 !important;
+}
+.card_list_of_taprize:hover .listCrd_scnd_txt {
+  color: #6f6f70 !important;
+}
+
+.card_list_of_taprize:hover{
+  transition: all 0.5s !important;
+}
