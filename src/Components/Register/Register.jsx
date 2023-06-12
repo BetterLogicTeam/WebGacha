@@ -22,7 +22,7 @@ const Register = ({next}) => {
         <div className="row justify-content-center">
           <div className="col-md-8">
           <div style={{ marginTop: 24,}} className="next_btttn_main">
-           <Button className="next_btttn" onClick={() => (next(),window.scrollTo(0,0))}>
+           <Button className="resgister_next_buttton" onClick={() => (next(),window.scrollTo(0,0))}>
                 続ける
               </Button>
         </div>

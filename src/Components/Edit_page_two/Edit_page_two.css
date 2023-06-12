@@ -14,6 +14,19 @@
     font-weight : 400 !important ;
 }
 
+.editED_white{
+    border: 1px solid #E60058;
+border-radius: 45px;
+background: #FFFFFF;
+height: 55px;
+color: #E60058;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+width: 350px ;
+}
 
 @media only screen and (max-width:600px){
     .editPageLsttBotton{
@@ -25,7 +38,35 @@
         font-size: 18px !important;
     
 }
+.edit_main_page{
+    padding: 30px 10px !important;
+}
 .veryLsBtn {
     width: 100% !important;
 }
+
+.editED_white{
+    width: 100% !important;
+}
+.editEDE_red{
+    width: 100% !important;
+}
+}
+
+
+.editEDE_red{
+    width: 350px;
+    height: 55px;
+    background: #E60058;
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }

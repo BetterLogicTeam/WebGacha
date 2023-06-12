@@ -1,28 +1,14 @@
 .Register_main {
-  padding: 43px 0;
+  padding: 0px 0px 43px 0px ;
   background: rgb(242, 246, 255);
 }
 
-/* :where(.css-dev-only-do-not-override-k7429z).ant-steps {
-  border: 1px solid #2eb3ff;
-  border-radius: 57px;
-  padding: 8px;
-} */
 
-/* :where(.css-dev-only-do-not-override-k7429z).ant-steps
-  .ant-steps-item-container {
-  background: #2eb3ff;
-  border-radius: 45px;
-  padding: 12px;
-} */
+.star_clr{
+color: #E60058 !important;
+}
 
-/* :where(.css-dev-only-do-not-override-k7429z).ant-steps
-  .ant-steps-item-process
-  > .ant-steps-item-container
-  > .ant-steps-item-content
-  > .ant-steps-item-title::after {
-  display: none;
-} */
+
 
 :where(.css-dev-only-do-not-override-k7429z).ant-steps
   .ant-steps-item-wait
@@ -56,7 +42,8 @@
   background-color: white;
   border-radius: 12px !important;
   width: 70%;
-  padding: 40px;
+  padding: 40px  40px 20px 40px !important;
+
 }
 
 .ajsiji p {
@@ -81,6 +68,7 @@
   border: 1px solid #8ac7ff;
   border-radius: 12px;
   padding: 12px 30px;
+  height: 55px !important;
 }
 
 .ant-input {
@@ -117,6 +105,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .resgister_next_buttton{
+    width: 100% !important;
+  }
   .ant-steps {
     border-radius: 18px;
   }
@@ -145,22 +137,33 @@
 }
 
 
+:where(.css-dev-only-do-not-override-k7429z).ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+  display: none !important;
+}
 
 
 
+::placeholder{
+  color : #020140 !important;
+  font-weight: 600;
+}
 
+.resiss_page_inpu{
+  box-shadow: 0px 0px 4px #8AC7FF !important;
+}
 
 
 .Register_main label {
-  font-weight: 600 !important;
-  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
   line-height: 140% !important;
   color: #020140 !important;
+  margin-bottom: 8px !important;
 }
 
 .p_pink {
   font-weight: 500 !important;
-  font-size: 16px !important;
+  font-size: 18px !important;
   line-height: 140% !important;
   color: #e60058 !important;
 }
@@ -195,7 +198,7 @@
 }
 
 .Register_ant_ka_scnd_p {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   font-size: 12px !important;
   line-height: 140% !important;
   color: #020140 !important;
@@ -206,8 +209,8 @@
 }
 
 .Register_ant_ka_thrd_p {
-  font-weight: 400 !important;
-  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
   line-height: 140% !important;
   color: #020140 !important;
   padding-top: 10px;
@@ -274,6 +277,11 @@
   color: #020140;
 }
 
+
+.chcked_clr{
+  color: #2EB3FF !important;
+}
+
 .Register_Step_Three_para {
   font-weight: 600;
   font-size: 20px;
@@ -296,4 +304,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+.resgister_next_buttton{
+  font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: #E60058;
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 45px;
+height: 55px;
+Width:730px;
+}
+
+
+.star_clr2{
+  color: #2EB3FF !important;
+}
+
+.resgister_next_buttton:hover{
+  color: white !important;
+  border: 1px solid #FFFFFF !important;
+}
+
+.checked_text_clrrrr{
+  color: #2EB3FF !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+  :where(.css-dev-only-do-not-override-k7429z).ant-form-vertical .ant-form-item-row {
+    flex-direction: row;
+}
 }

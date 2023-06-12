@@ -13,7 +13,7 @@ export default function Register_page_3() {
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-md-8">
-                    <h3 className="h3_text">仮登録完了</h3>
+                    <h3 className="h3_text pt-4">仮登録完了</h3>
                     <h6 className="h6_text py-3" style={{ color: "#E63700" }}>
                       まだ本登録は完了していません。
                     </h6>

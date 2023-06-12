@@ -83,7 +83,7 @@ export default function Register_Step_One() {
         >
           <div className="main_form_div">
             <div className="ajsiji">
-              <p>お名前（フリガナ）*</p>
+              <p>お名前（フリガナ）  <span className="star_clr"> *</span></p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -98,7 +98,7 @@ export default function Register_Step_One() {
                   >
                     <Input placeholder="例：山田" />
                   </Form.Item>
-                </div>
+                </div>  
                 <div className="col-lg-6">
                   <Form.Item
                     label="名"
@@ -143,14 +143,14 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：タロウ" />
+                    <Input className="resiss_page_inpu" placeholder="例：タロウ" />
                   </Form.Item>
                 </div>
               </div>
             </div>
 
             <div className="ajsiji my-3 my-md-5">
-              <p>住所 *</p>
+              <p>住所 <span className="star_clr"> * </span></p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -232,9 +232,9 @@ export default function Register_Step_One() {
                     <Input placeholder="例：西五反田 1-1-11" />
                   </Form.Item>
                 </div>
-                <div className="col-lg-6 lmbbba">
+                <div className="col-md-6 ">
                   <Form.Item
-                    className="lmbbba passw"
+                    className=" passw d-flex"
                     label="建物・マンション・部屋番号"
                     name="建物・マンション・部屋番号"
                     rules={[
@@ -251,7 +251,7 @@ export default function Register_Step_One() {
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">
-              <p>生年月日 *</p>
+              <p>生年月日 <span className="star_clr"> * </span></p>
               <div className="Register_ant">
                 <div className="col-lg-3">
                   <Form.Item name="year-picker" label="年">
@@ -272,7 +272,7 @@ export default function Register_Step_One() {
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">
-              <p>お名前（フリガナ）*</p>
+              <p>お名前（フリガナ） <span className="star_clr"> * </span></p>
               <div className="Register_ant">
                 <div className="col-lg-4">
                   <Form.Item
@@ -285,7 +285,7 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Checkbox checked onChange={onChange}>
-                      男性
+                  <p className="mb-0 chcked_clr">    男性 </p>
                     </Checkbox>
                   </Form.Item>
                 </div>
@@ -317,9 +317,9 @@ export default function Register_Step_One() {
                     <Input placeholder="例：090 - 1234 - 5678 " />
                   </Form.Item>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 text-start">
                   <p className="Register_ant_ka_p">
-                    *半角数字で入力してください。
+                 <span className="star_clr2">   * </span> 半角数字で入力してください。
                   </p>
                 </div>
               </div>
@@ -336,19 +336,19 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input />
+                    <Input placeholder="elunub3@gmail.com" />
                   </Form.Item>
                 </div>
                 <div className="col-lg-6">
                   <p className="Register_ant_ka_scnd_p">
-                    **ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。*このメールアドレスがログイン時のIDとなります。
+                   <span className="star_clr2"> * </span>ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。<br /> <span className="star_clr2"> * </span>このメールアドレスがログイン時のIDとなります。
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="ajsiji my-3 my-md-5">
-              <p>パスワード *</p>
+              <p>パスワード <span className="star_clr"> * </span></p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -357,12 +357,15 @@ export default function Register_Step_One() {
                       {
                         required: true,
                         message: "Please input your 姓!",
+                      
                       },
                     ]}
                   >
-                    <Input />
+                    <Input placeholder="******" />
                     <p className="Register_ant_ka_thrd_p">
-                      *半角英数字50文字以内で入力してください。
+                      <span className="star_clr2"> *
+                      </span>                      
+                      半角英数字50文字以内で入力してください。
                     </p>
                   </Form.Item>
                 </div>
@@ -377,16 +380,16 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input />
+                    <Input placeholder="*********"/>
                     <p className="Register_ant_ka_thrd_p ps-3">
-                      *確認のためパスワードを再入力してください。
+                     <span className="star_clr2"> *  </span> 確認のためパスワードを再入力してください。
                     </p>
                   </Form.Item>
                 </div>
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">
-              <p>メールマガジン *</p>
+              <p>メールマガジン <span className="star_clr"> * </span></p>
               <p className="Register_ka_last_p">
                 メールマガジンにて、新商品やお得な情報などをお送りしています。
               </p>
@@ -402,8 +405,8 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Checkbox checked onChange={onChange}>
-                      受け取る
-                    </Checkbox>
+              <p className="checked_text_clrrrr mb-0">        受け取る
+              </p>                </Checkbox>
                   </Form.Item>
                 </div>
                 <div className="col-lg-6">
