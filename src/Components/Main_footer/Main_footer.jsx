@@ -8,8 +8,8 @@ export default function Main_footer() {
     <div className="main_footer_bg">
       <div className="container-fluid">
         <div className="row footer_aling">
-          <div className="col-md-5 text-center  text-md-start">
-            <img src={logo} alt="" />
+          <div className="col-md-5 footerLftsideupper">
+            <img src={logo} alt="" className="footerLftside" />
           </div>
 
           <div className="col-md-7 sojfswjfwjf footerrigtuper  text-end mt-3 mt-md-0">

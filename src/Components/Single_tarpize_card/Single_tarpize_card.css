@@ -2,6 +2,7 @@
     background: #FFFFFF;
 border-radius: 12px;
 padding: 15px 10px !important;
+cursor: pointer;
 }
 
 .card_single_content{
@@ -14,4 +15,8 @@ padding: 15px 10px !important;
     font-weight: 600;
 font-size: 20px;
 color: #2EB3FF
+}
+
+.single_tarpize_card{
+    cursor: pointer;
 }
