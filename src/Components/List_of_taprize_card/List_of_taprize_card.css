@@ -130,11 +130,11 @@ padding: 8px !important;
 }
 
   .webGachaList_title {
-    background-image: url(../Assets/list_bg.png);
+    background-image: url(../Assets/hero2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    background-position: center;
+    background-position-y: -31px !important;
     height: auto;
     display: flex;
     justify-content: center;
@@ -195,6 +195,7 @@ padding: 8px !important;
 
   .aGNPad{
     padding: 0px !important;
+    margin-top: 39px !important;
   }
 
 }
