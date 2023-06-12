@@ -6,20 +6,20 @@ function ContactUs() {
     <><div className="Contact_us_bg">
 
       <div className="main_faq_img">
-        <h1 className="main_heading">お問い合わせ</h1>
+        <h1 className="main_heading">  お問い合わせ</h1>
       </div>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="row mt-5 justify-content-center">
               <div className="col-5 w-100 PDngEnd">
-                <p className="Contact_h">お問い合わせ種別</p>
+                <p className="Contact_h">お問い合わせ種別 </p>
 
                 <select
                   class="form-select Contact_input"
                   aria-label="Default select example"
                 >
-                  <option selected>お問い合わせ種別</option>
+                  <option selected>お問い合わせ種別  </option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>

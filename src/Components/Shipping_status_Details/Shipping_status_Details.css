@@ -1,6 +1,11 @@
 .Shipping_status_Details{
-    background-color: #d2e9ff;
+    background-color: #F2F6FF;
   height: 100%;
+}
+.bgtableicon{
+    
+    background-color: #F7FBFF;
+
 }
 
 .Shipping_status_Details h1{
@@ -59,6 +64,10 @@ border-radius: 6px;
     align-items: center;
 }
 
+.h1_table_icons{
+    font-size: 27px !important;
+    font-weight: 900 !important;
+}
 .text-pink{
     font-family: 'Barlow';
 font-style: normal;

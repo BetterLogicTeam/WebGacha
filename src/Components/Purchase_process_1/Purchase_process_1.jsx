@@ -24,9 +24,9 @@ export default function Purchase_process_1({ next,setsteps }) {
   return (
     <div className="purchase_process_1_main">
       <h3 className="h3_text    responsiceeeee_wiss text-center py-5">購入手続き</h3>
-      <div className="container">
+      <div className="container ">
         <div className="row justify-content-center">
-          <div className="col-md-7 pad_side">
+          <div className="col-md-8 pad_side">
             <div className="purchse_first_Card">
               <p className="pusrchae_text">お支払い方法</p>
               <div className="row">
@@ -71,7 +71,7 @@ export default function Purchase_process_1({ next,setsteps }) {
                         }}
                       />
                       <FormLabel className="purc_nam" id="purc">
-                        クレジットカード
+                        クレジットカード 4567890987654567898765
                       </FormLabel>
                     </div>
                   </div>
@@ -147,7 +147,7 @@ export default function Purchase_process_1({ next,setsteps }) {
         </div>
 
         <div className="row justify-content-center  mt-5">
-          <div className="col-md-7 pad_side">
+          <div className="col-md-8 pad_side">
             <div className="purchse_first_Card">
               <p className="pusrchae_text">クーポン利用</p>
 
@@ -178,8 +178,9 @@ export default function Purchase_process_1({ next,setsteps }) {
             </div>
           </div>
           <div className="d-flex respsss gap-2 justify-content-center mt-5">
-            <button className="whiteeee_button nodeB1" onClick={()=>(setsteps(1),window.scrollTo(0, 0))}>戻る</button>
-            <button className="reddd_button nodeB2" onClick={()=>(next(),window.scrollTo(0, 0))}>購入する</button>
+            <button className="whiteeee_button nodeB1 " onClick={()=>(setsteps(1),window.scrollTo(0, 0))}>戻る </button>
+            <button className="reddd_button nodeB2 " onClick={()=>(next(),window.scrollTo(0, 0))}>購入する</button>
+           
           </div>
         </div>
       </div>
