@@ -13,7 +13,7 @@ export default function Register_complete() {
                     <h3 className='h3_text'>登録完了</h3>
                     <p className='ptext'>会員登録が完了いたしました。ウェブガチャをお楽しみください。</p>
                     <p className='ptext'>登録内容を変更したい場合は下記マイページからお願いいたします</p>
-                    <button className='cople_Rs_ge_btn veryLsBtn mt-4  ' onClick={()=>(history('/MyPageEdit1'),window.scrollTo(0,0))}> 
+                    <button className='two_p_btn  mt-4  ' onClick={()=>(history('/MyPageEdit1'),window.scrollTo(0,0))}> 
                     マイページへ
                     </button>
                 </div>

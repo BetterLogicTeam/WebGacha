@@ -2,3 +2,19 @@
 .veryLsBtn{
     width: 50% !important;
 }
+.two_p_btn{
+
+    width: 350px;
+    height: 55px;
+    background: #FFFFFF;
+border: 1px solid #E60058;
+border-radius: 45px;
+
+}
+
+@media only screen and (max-width:600px ){
+    .two_p_btn{
+        width: 100% !important;
+    }
+}
+

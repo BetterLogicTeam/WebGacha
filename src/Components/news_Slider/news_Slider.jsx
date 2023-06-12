@@ -59,7 +59,7 @@ export default function News_Slider() {
                 <div className="card card_slider hvrBx" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
                   <img src={items.Image} alt="" width="50%" className="hvrImg" />
                   <div className="row mt-4 p-2 crddSldAGN">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 text-start">
                       <p className="slider_date">2023.5.2</p>
                     </div>
                     <div className="col-lg-9 slider_text">

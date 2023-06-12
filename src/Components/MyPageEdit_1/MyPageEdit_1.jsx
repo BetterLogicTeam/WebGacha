@@ -169,6 +169,9 @@ function MyPageEdit_1() {
                       </Form.Group>
                     </Form>
                   </div>
+
+
+                  
                   <div className="col-lg-6 mt-3">
                     <Form>
                       <Form.Group
@@ -201,6 +204,10 @@ function MyPageEdit_1() {
                       </Form.Group>
                     </Form>
                   </div>
+
+
+
+
                 </div>
               </div>
             </div>
