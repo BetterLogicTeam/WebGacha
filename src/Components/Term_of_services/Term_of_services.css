@@ -63,6 +63,10 @@
   line-height: 22px  !important;
 }
 
+.trmupperTop{
+  margin-top: 62px !important;
+}
+
 @media only screen and (max-width:600px) {
   .mnhDd{
     padding: 0px 27px !important;
