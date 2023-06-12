@@ -17,12 +17,12 @@ export default function Purchase_process_one({next}) {
       {steps === 1 ? (
         <>
           <div className="Purchase_process_one">
-            <h3 className=" responsiceeeee_wiss py-4">購入手続き</h3>
+            <h3 className=" responsiceeeee_wiss py-4">購入手続き </h3>
             <div className="container">
               <div className="row justify-content-center  ">
-                <div className="col-md-12 col-lg-8 FrEndPd">
+                <div className="col-md-12 col-lg-9 FrEndPd">
                   <div className="purchse_first_Card">
-                    <p className="pusrchae_text">お支払い方法</p>
+                    <p className="pusrchae_text">お支払い方法 </p>
                     <div className="row">
                       <div className="col-md-6 mt-3 mt-md-0 ">
                         <div
@@ -123,7 +123,7 @@ export default function Purchase_process_one({next}) {
                               type="number"
                               
                               className="cradit_inpit w-100"
-                              placeholder="000"
+                              placeholder="0000"
                               defaultValue="00"
                               id="cncc"
                             />
@@ -144,14 +144,14 @@ export default function Purchase_process_one({next}) {
 
                       <div className="col-md-7 text-start">
                         <div className="card_caridt text-start">
-                          <p>
+                          <p className="linesheights">
                             クレジットカードで購入いただく際、クレジットカードの不正利用を防ぐために、セキュリティコードの入力を行っていただきます。
                             セキュリティコードは、カード裏面の著名欄に記載された末尾３桁、または４桁の数字です。
                           </p>
                           <p>
-                            *クレジットカードの暗証番号は、セキュリティコードではありません。{" "}
+                             <span className="for_start"> * </span>クレジットカードの暗証番号は、セキュリティコードではありません。{" "}
                             <br />
-                            *クレジットカード会社によっては記載がない場合があります。
+                             <span className="for_start"> * </span>クレジットカード会社によっては記載がない場合があります。
                           </p>
                         </div>
                       </div>
@@ -160,10 +160,10 @@ export default function Purchase_process_one({next}) {
                 </div>
               </div>
 
-              <div className="row justify-content-center mt-5">
-                <div className="col-md-8 ">
+              <div className="row justify-content-center  mt-5">
+                <div className=" px-0 px-md-2  col-md-12 col-lg-9">
                   <div className="purchse_first_Card">
-                    <p className="pusrchae_text">クーポン利用</p>
+                    <p className="pusrchae_text">クーポン利用  </p>
                     <div
                       className="left_in cridtt_res"
                       style={{ background: "#F2F6FF" }}
@@ -183,7 +183,7 @@ export default function Purchase_process_one({next}) {
                           }}
                         />
                         <FormLabel className="purc_nam" id="purc">
-                          利用しない
+                          利用しない  
                         </FormLabel>
                       </div>
                     </div>
@@ -192,8 +192,8 @@ export default function Purchase_process_one({next}) {
               </div>
 
               <div className="d-flex respsss gap-2 justify-content-center mt-5">
-                <button className="whiteeee_button nodeB1 " >戻る</button>
-                <button className="reddd_button nodeB2" onClick={()=>(setsteps(2),window.scrollTo(0, 0))}>購入する</button>
+                <button className="whiteeee_button nodeB1 atm_white_btn " >戻る </button>
+                <button className="reddd_button nodeB2 atm_white_btn p-0" onClick={()=>(setsteps(2),window.scrollTo(0, 0))}> 購入する </button>
               </div>
             </div>
           </div>
