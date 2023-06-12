@@ -24,7 +24,7 @@
 }
 
 .faq_ul > li {
-  padding: 15px 10px;
+  padding: 21px 10px;
   color: #020140;
   font-size: 16px;
   font-weight: 600;
@@ -46,7 +46,7 @@
   color: #020140 !important;
   font-size: 28px !important;
   text-align: start !important;
-  padding: 25px 10px !important;
+  padding: 0px 10px 25px 0px !important;
   margin-bottom: 0px !important;
 }
 
@@ -57,7 +57,7 @@
   border: 1px solid #2eb3ff;
   border-radius: 12px;
   padding: 10px;
-  max-height: 500px !important;
+  max-height: 440px !important;
 }
 
 .accordion-button:focus {

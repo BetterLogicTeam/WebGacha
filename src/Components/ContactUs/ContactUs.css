@@ -15,8 +15,8 @@
 
 .Contact_P {
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 140%;
     color: #020140;
     padding: 1rem 0rem !important;
@@ -30,10 +30,13 @@
 
 
 
-.red_button {
+
+.contact_us_red_button {
     background: #E60058;
     border: 1px solid #FFFFFF;
+    height: 55px !important;
     border-radius: 45px;
+    font-weight: 600 ;
     padding: 10px 15px !important;
     color: white !important;
     width: 100% !important;

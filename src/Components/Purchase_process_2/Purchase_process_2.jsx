@@ -17,7 +17,7 @@ export default function Purchase_process_2({prev,next}) {
           </div>
         </div>
 
-        <div className="row  justify-content-center ">
+        <div className="row  justify-content-center kkjnfkfnfn  ">
           <div className="col-4 d-flex align-items-center bg-white col-md-4 notataion_border  p-3 ">
             <p className="mb-0 fwwwwwwwww_ttttt"> プレイ単価（税込） </p>
           </div>

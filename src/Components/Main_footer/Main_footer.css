@@ -30,8 +30,12 @@ h2,h3,h4,h5,h6,p,span,li{
 }
     
 .all-right{
-    border-top: 1px solid #000;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
 
+}
+
+.footer_aling{
+    padding-bottom: 35px !important;
 }
 
 
@@ -59,7 +63,7 @@ h2,h3,h4,h5,h6,p,span,li{
     }
 
     .footerrigtPart{
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 
     .upper{

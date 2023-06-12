@@ -9,7 +9,7 @@ export default function FAQ() {
       <div className="main_faq_img">
         <h1 className="main_heading">よくあるご質問</h1>
       </div>
-      <div className="container my-4">
+      <div className="container pt-2 pt-md-5 my-4">
         <div className="row">
           <div className="col-md-3 side_bar">
             <ul className="ps-0 faq_ul">

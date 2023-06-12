@@ -9,7 +9,7 @@ function Password_request() {
   return (
     <div className="container-fluid password_bg">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-5 my-5 ">
+        <div className="col-12 col-md-5  my-5 ">
           <div class="py-5 px-4 bg-white password_bor">
             <div class="card-body">
               <h3 class="card-title password_h3 mb-3 LargScreen d-none d-md-block">パスワード再設定 申請</h3>
