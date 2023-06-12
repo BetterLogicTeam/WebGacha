@@ -10,8 +10,8 @@ export default function Password_request_step_three() {
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="new_password_com">
-              <h3>パスワード再設定</h3>
-              <label htmlFor="new_pass" className="ptext my-3" style={{fontWeight:"600"}}>
+              <h3 className="mt-2 mb-0">パスワード再設定</h3>
+              <label htmlFor="new_pass" className="pass_three_text mt-2 mb-3" style={{fontWeight:"600"}}>
                 新パスワード
               </label>{" "}
               <br />
@@ -22,7 +22,7 @@ export default function Password_request_step_three() {
                 className="login_page_inputss"
                 placeholder="********"
               />
-              <label htmlFor="new_passs" className="ptext my-3" style={{fontWeight:"600"}}>
+              <label htmlFor="new_passs" className="pass_three_text my-3" style={{fontWeight:"600"}}>
                 確認用
               </label>{" "}
               <br />
@@ -33,7 +33,7 @@ export default function Password_request_step_three() {
                 className="login_page_inputss"
                 placeholder="********"
               />
-              <button className="w-100 red_button mt-4" onClick={()=>history(("/PasswordRequestStepFour"),window.scrollTo(0,0))}>パスワード再設定</button>
+              <button className="w-100 passowrd_req_3_buttond mt-4" onClick={()=>history(("/PasswordRequestStepFour"),window.scrollTo(0,0))}>パスワード再設定</button>
             </div>
           </div>
         </div>

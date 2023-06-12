@@ -17,8 +17,8 @@ function MyPageEdit_1() {
         <h3 className="myEdidTitle text-center">会員情報の変更</h3>
         <div className="row justify-content-center my-5 BothPad">
           <div
-            className="col-lg-8 py-3 Name"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}
+            className="col-lg-8   Name"
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" ,padding:"32px 30px" }}
           >
             <div className="row justify-content-center py-2">
               <h3 className="nameTitle">
@@ -86,7 +86,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="タロウ"
-                          className="Fld"
+                          className="Fld bobvv"
                         />
                       </Form.Group>
                     </Form>
@@ -98,7 +98,7 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3 addressUpper"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px", padding:"32px 30px" }}
           >
             <div className="row justify-content-center py-2">
               <h3 className="nameTitle">
@@ -208,7 +208,7 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3 dateOfBirthUpper mt-5"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" , padding:"32px 30px" }}
           >
             <div className="row justify-content-start py-2">
               <h3 className="nameTitle">
@@ -267,9 +267,9 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3  mt-5"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" ,padding:"32px 30px" }}
           >
-            <h3 className="nameTitle">
+            <h3 className="nameTitle ">
                 {" "}
                 性別 <span style={{ color: "rgba(230, 0, 88, 1)" }}>*</span>
               </h3>
@@ -285,6 +285,7 @@ function MyPageEdit_1() {
                   >
                     <FormControlLabel
                       value="male"
+                      className="dfff_clr edit_main_lebal_here"
                       control={<Radio />}
                       label="男性"
                     />
@@ -297,6 +298,7 @@ function MyPageEdit_1() {
                 <div className="Fld2">
                 <FormControlLabel
                   value="female"
+                  className="edit_main_lebal_here"
                   control={<Radio />}
                   label="女性"
                 />
@@ -309,6 +311,7 @@ function MyPageEdit_1() {
                   value="others"
                   control={<Radio />}
                   label="その他"
+                  className="edit_main_lebal_here"
                 />
                 </div>
               </div>
@@ -318,7 +321,7 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3 addressUpper"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}>
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px",padding:"32px 30px" }}>
             <div className="row justify-content-center py-2">
               <h3 className="nameTitle">
               電話番号 <span style={{ color: "rgba(230, 0, 88, 1)" }}>*</span>
@@ -340,7 +343,7 @@ function MyPageEdit_1() {
                     </Form>
                   </div>
                   <div className="col-lg-6 text-start d-flex align-items-center fld2Upper">
-                  <p className="mb-0">*半角数字で入力してください。</p>
+                  <p className="mb-0 classs_edit_textkadk"> <span className="star_clr2"> * </span>半角数字で入力してください。</p>
                   </div>
                 </div>
               </div>
@@ -349,7 +352,7 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3 addressUpper"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}>
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px",padding:"32px 30px" }}>
             <div className="row justify-content-center py-2">
               <h3 className="nameTitle">
               メールアドレス <span style={{ color: "rgba(230, 0, 88, 1)" }}>*</span>
@@ -371,8 +374,8 @@ function MyPageEdit_1() {
                     </Form>
                   </div>
                   <div className="col-lg-6 text-start fld2Upper">
-                  <p className="mb-0 maildetail">* ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。</p>
-                  <p className="mb-0 maildetail">* このメールアドレスがログイン時のIDとなります。</p>
+                  <p className="mb-0 maildetail"> <span className="star_clr2"> * </span> ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。</p>
+                  <p className="mb-0 maildetail"><span className="star_clr2"> * </span>  このメールアドレスがログイン時のIDとなります。</p>
                   </div>
                 </div>
               </div>
@@ -381,7 +384,7 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3 addressUpper"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}>
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" ,padding:"32px 30px" }}>
             <div className="row justify-content-center py-2">
               <h3 className="nameTitle">
               パスワード <span style={{ color: "rgba(230, 0, 88, 1)" }}>*</span>
@@ -401,7 +404,7 @@ function MyPageEdit_1() {
                         />
                       </Form.Group>
                     </Form>
-                    <p className="mb-0 mt-2 passwordDetail">*半角英数字50文字以内で入力してください。</p>
+                    <p className="mb-0 mt-2 passwordDetail"> <span className="star_clr2"> *</span>半角英数字50文字以内で入力してください。</p>
                   </div>
                   <div className="col-lg-6 text-start fld2Upper">
                   <Form>
@@ -416,7 +419,7 @@ function MyPageEdit_1() {
                         />
                       </Form.Group>
                     </Form>
-                    <p className="mb-0 mt-2 passwordDetail">*確認のためパスワードを再入力してください。</p>
+                    <p className="mb-0 mt-2 passwordDetail"><span className="star_clr2"> *</span>確認のためパスワードを再入力してください。</p>
                   </div>
                 </div>
               </div>
@@ -425,7 +428,7 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3  mt-5"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" }}
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" ,padding:"32px 30px" }}
           >
             <h3 className="nameTitle">
                 {" "}
@@ -447,6 +450,7 @@ function MyPageEdit_1() {
                       value=""
                       control={<Radio />}
                       label="受け取る"
+                      className="dfff_clr adlamadmd"
                     />
                   </RadioGroup>
                 </FormControl>
@@ -468,10 +472,10 @@ function MyPageEdit_1() {
           <div className="col-lg-8 mt-5">
             <div className="row justify-content-center">
               <div className="col-lg-4">
-                <button className="myPageLastButton">バック</button>
+                <button className="myPageLastButton_white">バック</button>
               </div>
-              <div className="col-lg-4 fld2Upper">
-                <button className="myPageLastButton" onClick={()=>(history('/EditPageTwo'),window.scrollTo(0,0))}>確認画面へ</button>
+              <div className="col-lg-4 mt-3 mt-lg-0 fld2Upper">
+                <button className="myPageLastButton_red " onClick={()=>(history('/EditPageTwo'),window.scrollTo(0,0))}>確認画面へ</button>
               </div>
             </div>
           </div>

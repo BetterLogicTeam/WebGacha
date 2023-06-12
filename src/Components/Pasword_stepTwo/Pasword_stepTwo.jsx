@@ -20,7 +20,7 @@ function Pasword_stepTwo() {
               メールが届かない場合は、再度申請をお願いいたします。
             </p>
 
-            <button className="white_button w-100" onClick={()=>history(("/PasswordRequestStepThree"),window.scrollTo(0,0))}> 戻る </button>
+            <button className="ppp_req_two w-100" onClick={()=>history(("/PasswordRequestStepThree"),window.scrollTo(0,0))}> 戻る </button>
           </div>
         </div>
       </div>

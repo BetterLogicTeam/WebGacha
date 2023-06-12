@@ -19,6 +19,7 @@ line-height: 19px;
 text-align: center;
 text-transform: uppercase;
 background: #FFFFFF;
+font-weight: 600 !important;
 /* Main red */
 
 border: 1px solid #E60058;
@@ -29,4 +30,34 @@ width: 100%;
 .register_buttton:hover{
 background-color: #E60058 !important;
 color: #FFFFFF !important;
+
+
+}
+
+
+.cople_Rs_ge_btn{
+    background: #FFFFFF;
+/* Main red */
+
+border: 1px solid #E60058;
+border-radius: 45px;
+width: 318px;
+height: 55px;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+
+/* Main red */
+
+color: #E60058;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .cople_Rs_ge_btn{
+        width: 100% !important;
+    }
 }

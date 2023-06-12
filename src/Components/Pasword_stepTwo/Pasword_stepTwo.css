@@ -1,51 +1,58 @@
-.passtpTwo_h3{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 43px;
-    color: #020140;
+.passtpTwo_h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  color: #020140;
 }
-.white_button{
-    color: #E60058;
-    text-align: center;
+.white_button {
+  color: #e60058;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px !important;
+  padding: 10px 15px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #e60058;
+  border-radius: 6px;
+  font-size: 14px !important;
+}
+.passwordStepTwo_bg {
+  background: #f2f6ff;
+}
+.bordd {
+  border-radius: 12px;
+}
+.passwordstepTwo_p {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 140%;
+
+  color: #020140;
+}
+
+.ppp_req_two {
+  height: 55px;
+
+  background: #ffffff;
+
+  border: 1px solid #e60058;
+  color: #e60058;
+  font-size: 16px;
+line-height: 19px;
+text-align: center;
 text-transform: uppercase;
-font-weight: 500;
-font-size: 16px !important;
-padding: 10px 15px !important;
-background-color: #FFFFFF !important;
-border: 1px solid #E60058;
-border-radius: 6px;
-font-size: 14px !important;
-}
-.passwordStepTwo_bg{
-    background: #F2F6FF;
-    
-    
-}
-.bordd{
-
-    border-radius: 12px;
-}
-.passwordstepTwo_p{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    /* or 22px */
-    
-    
-    /* Black */
-    
-    color: #020140;
+font-weight: 600 ;
+  border-radius: 45px;
 }
 
-
-@media only screen and (max-width:600px){
-    .passtpTwo_h3 {
-        font-size: 25px !important;
-        font-weight: 800 !important;
-    }
-    .passwordstepTwo_p{
-        font-weight: 600 !important;
-    }
+@media only screen and (max-width: 600px) {
+  .passtpTwo_h3 {
+    font-size: 25px !important;
+    font-weight: 800 !important;
+  }
+  .passwordstepTwo_p {
+    font-weight: 600 !important;
+  }
 }

@@ -55,8 +55,8 @@ export default function Registeration_tab() {
     };
 
   return (
-    <div>
-      <div className="Purchase_tab_bg">
+    <div className=''>
+      <div className="Purchase_tab_bg padding_bttt">
       <div className="">
         <div className="container">
           <div className="outlone_tab">
