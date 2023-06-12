@@ -10,17 +10,17 @@ function Notation_table() {
     <div className="">
 
     <Notation/>
-    <div className="container-fluid  pb-5   bbgg mt-4 mt-md-0">
+    <div className="container-fluid  pb-5 px-3  bbgg mt-5 p-4 p-md-0 mt-md-0">
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+        <div className="col-5 tableBg col-md-3  notataion_border p-3 border_mob">
           <p className="fwwwwwwwww_ttttt">メールアドレス</p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3">
+        <div className="col-7 tableBg notataion_border p-3 border_mob1">
           <p className="T_p">example@email.jp</p>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2  notataion_border p-3">
+        <div className="col-5 tableBg col-md-3  notataion_border p-3">
           <p className="fwwwwwwwww_ttttt"> URL</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -29,7 +29,7 @@ function Notation_table() {
       </div>
 
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt"> 商標登録出願番号 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -37,7 +37,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">商品以外の必要代金</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -45,7 +45,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">注文方法</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -53,7 +53,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">配送業者</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -61,7 +61,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">商品の発送</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -71,7 +71,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">
             海外発送 <p></p>
           </p>
@@ -81,7 +81,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">返品・交換</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -91,7 +91,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">商品の同梱</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -101,7 +101,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">18歳未満のご購入</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -111,7 +111,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">長期不在・受取拒否</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -121,7 +121,7 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3">
           <p className="fwwwwwwwww_ttttt">お問い合わせ</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -131,10 +131,10 @@ function Notation_table() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 notataion_border p-3 border_mob2">
           <p className="fwwwwwwwww_ttttt">電話番号</p>
         </div>
-        <div className="col-7 tableBg notataion_border   p-3">
+        <div className="col-7 tableBg notataion_border  border_mob3  p-3">
           <p className="T_p">00-0000-0000</p>
         </div>
       </div>

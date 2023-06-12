@@ -7,7 +7,7 @@ function Notation() {
    
 
 
-    <div className="container-fluid NwCls">
+    <div className="container-fluid px-3 mobile_table NwCls">
         <div className="row">
             <div className="col-12 main_ntaa notation_bor">
             

@@ -35,4 +35,23 @@ text-align: center !important;
         padding: 70px 10px !important;
     }
     
-}
+
+        /* margin-top: 20px; */
+
+        .border_mob{
+            border-radius: 12px 0px 0px  0px;
+        }
+        .border_mob1{
+            border-radius: 0px 12px 0px  0px;
+        }
+        .border_mob2{
+            border-radius: 0px 0px 0px  12px;
+        }
+        .border_mob3{
+            border-radius: 0px 0px 12px  0px;
+        }
+
+
+    }
+    
+
