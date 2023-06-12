@@ -26,15 +26,17 @@
 
 .landing_Bg p {
   font-style: normal;
-  font-weight: 900;
-  font-size: 23px !important;
+  font-weight: 900 !important;
+  font-size: 25px !important;
   line-height: 140%;
   text-align: center;
   margin-top: 1rem !important;
   text-transform: uppercase;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff, 0.5px 0px 0 #fff;
   /* -webkit-text-stroke: 0.2px #fff; */
   color: #020140;
+  letter-spacing: -1.5px;
+
 }
 
 .landing_Bg button {

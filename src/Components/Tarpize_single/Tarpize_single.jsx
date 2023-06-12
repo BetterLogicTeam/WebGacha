@@ -1,28 +1,44 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import "./Tarpize_single.css";
 import tarp from "../Assets/tarpize.png";
 import { Checkbox } from "@mui/material";
 import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import Purchase_Popup_video from "../Purchase_Popup_video/Purchase_Popup_video";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 
 
 export default function Tarpize_single({location}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [value, setCount] = useState(1);
     const showModal = () => {
       setIsModalOpen(true);
     };
   const history=useNavigate()
     const label = { inputProps: { "aria-label": "Checkbox demo" } };
+
+    const incrementCount = useMemo(
+    
+      () => () => setCount((prev) => prev + 1),
+      [value]
+    );
+    const decrementCount = useMemo(() => {
+      if (value === 1) {
+        return () => setCount(1);
+      }else{
+
+        return () => setCount((prev) => prev - 1);
+      }
+    }, [value]);
   return (
     <div className="tarpize_single_main">
       <div className="container-fulid">
         <div className="row m-0">
-          <div className="col-md-6 text-center lftgacHPiCUpEr">
+          <div className="col-md-6 col-lg-7 text-center lftgacHPiCUpEr">
             <img src={location.state.Image} className="lftgacHPiC" alt="" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-lg-5">
             <div className="tarsize_content text-start">
               <p className="sigleFull1st">コレクションページに戻る</p>
               <h3 className="text_clr">
@@ -42,13 +58,21 @@ export default function Tarpize_single({location}) {
             <div className="bor_content align-items-center border-none">
               <p className="text-clr frmlfftr mb-0">数量:</p>
               <div className="d-flex gap-3 inptBtw">
-                <input
-                  type="number"
-                  placeholder="1"
-                  className="number_tarpize"
-                  name=""
-                  id=""
-                />
+                <div className="imputdve">
+
+               
+                  <input
+                    type="number"
+                    placeholder="1"
+                    className="number_tarpize"
+                    name=""
+                    id=""
+                    value={value}
+                  />
+                  <IoIosArrowUp className="icon_arrow" onClick={()=>incrementCount()}/>
+                  <IoIosArrowDown className="icon_arrow_down" onClick={()=>decrementCount()}/>
+
+                </div>
 
                 <button className="white_button BdrRdiS" onClick={()=>history("/PurchaseTab")} >
                   10連ガチャ  (ボイス付き){" "}

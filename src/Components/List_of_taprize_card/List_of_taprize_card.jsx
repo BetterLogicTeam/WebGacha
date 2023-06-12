@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-function List_of_taprize_card({ Image, tag, Name, items }) {
+function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
   const history = useNavigate();
 
   return (
@@ -30,14 +30,22 @@ function List_of_taprize_card({ Image, tag, Name, items }) {
           className="endSale"
           style={{
             backgroundColor:
+            tags_text==0 ?
               tag === "発売中"
-                ? "#FFD600"
-                : tag === "販売終了"
-                ? "#D8D8D8"
-                : "#8AC7FF",
+            ? "#FFD600"
+            : tag === "販売終了"
+            ? "#D8D8D8"
+            : "#8AC7FF"
+            : tags_text==1 ? "#FFD600" : tags_text==2 ? "#8AC7FF":"#D8D8D8"
+            
+             
           }}
         >
-          {tag}
+          {
+            tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" : tags_text==2 ? "近日発売":"販売終了"
+
+          }
+         
         </button>
         <Card.Body className="paaadankd">
           <Card.Text className="text-start listCrd_fst_txt mb-0 ">{Name}</Card.Text>

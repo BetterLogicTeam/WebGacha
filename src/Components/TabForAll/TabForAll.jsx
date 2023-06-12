@@ -64,16 +64,16 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <ListTaprizeTaball />
+        <ListTaprizeTaball  tags_text={0} />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <ListTaprizeTaball />
+        <ListTaprizeTaball tags_text={1} />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <ListTaprizeTaball />
+        <ListTaprizeTaball tags_text={2} />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <ListTaprizeTaball />
+        <ListTaprizeTaball tags_text={3} />
       </TabPanel>
     </Box>
   );
