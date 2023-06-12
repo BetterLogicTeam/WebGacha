@@ -217,6 +217,8 @@ export default function Register_Step_One() {
                 </div>
               </div>
 
+              
+
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -233,7 +235,7 @@ export default function Register_Step_One() {
                   </Form.Item>
                 </div>
                 <div className="col-md-6 ">
-                  <Form.Item
+                  {/* <Form.Item
                     className=" passw d-flex"
                     label="建物・マンション・部屋番号"
                     name="建物・マンション・部屋番号"
@@ -246,7 +248,9 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Input placeholder="例：五反田マンション　101号室" />
-                  </Form.Item>
+                  </Form.Item> */}
+                  <label htmlFor="sssss" className="passw"> 建物・マンション・部屋番号</label>
+                  <input type="text" className="skfhhjjf" placeholder="例：五反田マンション　101号室" name="sssss" id="sssss" />
                 </div>
               </div>
             </div>
@@ -416,7 +420,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="last_vala_chkbox w-100 ps-5">
+            <div className="last_vala_chkbox w-100">
               <Checkbox className="last_vala_main_chkbox " onChange={onChange}>
                 <span className="mttt_ressspo">
                 <span   style={{ color: "#110F24" }}>を読み、同意します。</span>

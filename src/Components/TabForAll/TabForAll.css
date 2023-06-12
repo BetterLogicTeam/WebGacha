@@ -51,9 +51,9 @@
 
     .css-1l4w6pd {
         display: flex !important;
+        gap: 1.5rem !important;
         flex-direction: column !important;
         justify-content: center !important;
-        gap: 1rem !important;
 
     }
 

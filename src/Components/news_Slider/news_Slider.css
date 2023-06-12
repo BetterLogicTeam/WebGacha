@@ -79,6 +79,11 @@
   margin-left: -42rem;
 }
 
+.Slider_News_Bg {
+  background-color: #f2f6ff;
+}
+
+
 @media only screen and (min-width:371px) and (max-width:400px) {
   .swiper-button-next {
     width: 70px;
@@ -143,11 +148,6 @@
   }
 }
 
-.Slider_News_Bg {
-  background-color: #f2f6ff;
-}
-
-
 
 
 @media only screen and (max-width:370px){
@@ -160,6 +160,15 @@
   
     top: 21rem !important;
     left: 4rem !important;
+  }
+}
+
+
+
+@media only screen and (max-width:600px){
+  .swiper-wrapper {
+    /* transform: translate3d(-108px, 0px, 0px) !important; */
+    margin-left: -2rem;
   }
 }
 

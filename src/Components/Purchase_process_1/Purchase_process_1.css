@@ -1,3 +1,14 @@
+.docomo_btn_page{
+    border: 1px solid #E60058;
+border-radius: 45px;
+background: #FFFFFF;
+color: #E60058;
+width: 238px !important;
+height: 55px !important;
+font-size: 19px;
+font-weight: 900;
+
+}
 .purchase_process_1_main{
     background:#F2F6FF !important ;
     padding: 30px 20px !important;
@@ -105,6 +116,12 @@ padding: 18px 130px;
 
 
 @media only screen and (max-width:700px) {
+
+    .docomo_btn_page{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
     .respsss{
         flex-direction: column !important;
     }

@@ -1,3 +1,9 @@
+.word_color{
+color: #E60058;
+font-size: 19px;
+font-weight: 900;
+
+}
 .List_of_Results_main_div {
   background-color: #F2F6FF;
   height: 100%;

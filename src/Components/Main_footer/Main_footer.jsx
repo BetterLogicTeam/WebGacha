@@ -7,8 +7,8 @@ export default function Main_footer() {
   return (
     <div className="main_footer_bg">
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-5 text-center footerlftuper text-md-start">
+        <div className="row footer_aling">
+          <div className="col-md-5 text-center  text-md-start">
             <img src={logo} alt="" />
           </div>
 
@@ -78,9 +78,8 @@ export default function Main_footer() {
         </div>
       </div>
 
-      <div className="container mt-3 all-right text-center">
-        <p className="pt-3">Copyright ©2023 Webgacha. All Rights Reserved.</p>
-      </div>
+      <div className="container mt-3 all-right text-center py-3" style={{color:"#020140"}}>
+Copyright ©2023 Webgacha. All Rights Reserved.      </div>
     </div>
   );
 }

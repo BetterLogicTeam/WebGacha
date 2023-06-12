@@ -49,7 +49,6 @@
 }
 
 .login_check {
-  /* background: #FFFFFF !important */
   width: 24px !important;
   height: 24px !important;
   border: none !important;
@@ -83,7 +82,7 @@ input[type="checkbox"] {
 
 .new_member {
   background: #d2e9ff !important;
-  padding: 60px 20px !important;
+  padding: 40px 20px 100px 20px  !important;
   border-radius: 12px !important;
 }
 
@@ -126,7 +125,6 @@ input[type="checkbox"] {
   border-radius: 45px;
   background-color: #ffffff !important;
   border: 1px solid #e60058;
-  /* border-radius: 6px; */
   font-size: 14px !important;
 }
 
@@ -170,4 +168,15 @@ input[type="checkbox"] {
     font-size: 20px !important;
     font-weight: 800 !important;
   }
+}
+
+
+
+.login_white_btn{
+  background: #ffffff !important;
+  border: 1px solid #e60058 !important;
+  border-radius: 45px !important;
+  color: #e60058 !important;
+  height: 55px !important;
+  width: 100% ;
 }

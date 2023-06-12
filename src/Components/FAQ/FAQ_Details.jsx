@@ -2,8 +2,8 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 export default function FAQ_Details() {
   return (
-    <div className="container FrEndPd">
-         <h4 className="faq_heading">会員登録・ログインについて</h4>
+    <div className="container  FrEndPd">
+         <h4 className="faq_heading mt-5 mt-md-0">会員登録・ログインについて</h4>
       <Accordion defaultActiveKey="0">
         <Accordion.Item className="faq_acc" eventKey="0">
           <Accordion.Header className="acc_header text_clr">

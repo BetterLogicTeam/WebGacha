@@ -143,6 +143,7 @@ color: #E60058 !important;
 
 
 
+
 ::placeholder{
   color : #020140 !important;
   font-weight: 600;
@@ -345,4 +346,35 @@ Width:730px;
   :where(.css-dev-only-do-not-override-k7429z).ant-form-vertical .ant-form-item-row {
     flex-direction: row;
 }
+
+:where(.css-dev-only-do-not-override-k7429z).ant-checkbox {
+  box-sizing: border-box;
+  margin-bottom: 27px !important;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1;
+  list-style: none;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  align-self: center;
+}
+
+}
+/* .ant-col-8 {
+  display: block;
+  flex: 0 0 33.33333333333333%;
+  max-width: 100% !important;
+} */
+
+.skfhhjjf{
+  border: 1px solid #8ac7ff;
+  border-radius: 12px;
+  padding: 12px 30px;
+  height: 55px !important;
+  margin-left: 10px; 
+  width: 100%;
+  margin-top: 8px !important ;
 }

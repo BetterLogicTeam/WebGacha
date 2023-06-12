@@ -86,7 +86,7 @@ function ContactUs() {
                     placeholder="elunub3@gmail.com"
                   />
 
-                  <p className="mt-2 Contact_P">
+                  <p className=" Contact_P">
                     ドメイン指定受信をご利用の場合は、「@name.co.jp」からのメールが受信できるよう設定を行ってください。
                   </p>
                 </div>
@@ -111,7 +111,7 @@ function ContactUs() {
             <div className="row ">
               <div className="col-md-12 ">
                 <div className="my-4">
-                  <button className="w-100 red_button RdRpS"> 内容を確認する </button>
+                  <button className="w-100 contact_us_red_button RdRpS"> 内容を確認する </button>
                 </div>
               </div>
             </div>

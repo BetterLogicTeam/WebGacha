@@ -1,7 +1,6 @@
 .model_main_content{
     background: #FFFFFF !important;
     padding: 20px 15px !important;
-/* Light blue stroke */
 
 border-radius: 12px !important;
 }
@@ -18,5 +17,5 @@ border-radius:12px !important ;
     font-size: 20px !important;
     font-weight: 600;
     text-align: center;
-    padding-top: 1rem !important;
+    padding-top: 1.5rem !important;
 }
