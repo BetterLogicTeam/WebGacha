@@ -90,7 +90,7 @@ color: #E60058 !important;
   display: flex !important;
   align-items: center !important;
   font-size: 16px !important;
-  font-weight: 500 !important;
+  /* font-weight: 200 !important; */
 }
 
 
@@ -459,4 +459,11 @@ Width:730px;
   margin-left: 10px; 
   width: 100%;
   margin-top: 8px !important ;
+}
+
+
+.css-1l4w6pd {
+  display: flex !important;
+  justify-content: space-around !important;
+  -webkit-box-pack: center;
 }

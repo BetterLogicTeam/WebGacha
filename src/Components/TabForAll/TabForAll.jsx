@@ -64,7 +64,7 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <ListTaprizeTaball  tags_text={0} />
+        <ListTaprizeTaball  tags_text={0}  />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <ListTaprizeTaball tags_text={1} />
