@@ -82,7 +82,7 @@ input[type="checkbox"] {
 
 .new_member {
   background: #d2e9ff !important;
-  padding: 40px 20px 100px 20px  !important;
+  padding: 40px 20px 89px 20px  !important;
   border-radius: 12px !important;
 }
 
@@ -170,6 +170,12 @@ input[type="checkbox"] {
   }
 }
 
+@media (min-width:1400px) and (max-width:4000px) {
+  .login_white_btn{
+    
+    margin-top: 3.5rem !important;
+  }
+}
 
 
 .login_white_btn{
@@ -179,4 +185,5 @@ input[type="checkbox"] {
   color: #e60058 !important;
   height: 55px !important;
   width: 100% ;
+  margin-top: 2rem;
 }

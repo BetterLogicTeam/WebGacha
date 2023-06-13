@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Data from "./Data";
 import ListOfTaprizeCard from "./List_of_taprize_card";
 import Pagination from "@mui/material/Pagination";
@@ -6,16 +6,36 @@ import Stack from "@mui/material/Stack";
 
 function List_taprize_Taball({ tags_text }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(5);
+  const [postsPerPage] = useState(6);
+  const [FinalArray, setFinalArray] = useState([])
 
   const setPageNumber = (event, value) => {
     // setPage(value);
     setCurrentPage(value);
   };
+  let newArray=[]
+  function shuffleArray() {
+    // Create a copy of the original array
+     newArray = [...Data];
+    
+    // Shuffle the elements in the new array
+    for (let i = newArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    setFinalArray(newArray)
+    return newArray;
+  }
+
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentTokens = Data.slice(indexOfFirstPost, indexOfLastPost);
+  const currentTokens = FinalArray.slice(indexOfFirstPost, indexOfLastPost);
   console.log("Data", Data);
+
+  useEffect(() => {
+    shuffleArray()
+  }, [])
+  
   return (
     <div>
       <div className="container">
