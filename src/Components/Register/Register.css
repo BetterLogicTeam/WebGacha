@@ -81,6 +81,19 @@ color: #E60058 !important;
   margin-left: 10px !important;
 }
 
+.BDMain >.ant-select-selector{
+  /* width: 100% !important; */
+  width: 160px !important;
+  height: 55px !important;
+  padding: 0 11px;
+  border: 1px solid #8ac7ff !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+
 @media screen and (max-width: 800px) {
   .Register_ant {
     flex-direction: column;
@@ -104,7 +117,7 @@ color: #E60058 !important;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
   .resgister_next_buttton{
     width: 100% !important;
@@ -134,7 +147,83 @@ color: #E60058 !important;
   .next_btttn_main {
     flex-direction: column;
   }
+
+  .bdDateUpper{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .BDMain >.ant-select-selector{
+    width: 100% !important;
+  }
+
+  .bddateoption{
+    margin-top: 8px !important;
+    /* padding: 2px 10px !important; */
+  }
 }
+
+@media (min-width:605px) and (max-width:786px) {
+  .bdDateUpper{
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .BDMain >.ant-select-selector{
+    width: 160px !important;
+  }
+  .bdsltmainup{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+  }
+
+  .bdDateUpper{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+@media (min-width:800px) and (max-width:1024px) {
+  .bdsltmainup{
+    display: flex !important;
+    gap: 30px;
+  }
+}
+
+@media (min-width:1030px) and (max-width:1440px) {
+  .bdsltmainup{
+    display: flex !important;
+    gap: 20px;
+  }
+
+  .bdDateUpper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BDMain >.ant-select-selector{
+    width: 100% !important;
+  }
+}
+
+@media (min-width:1450px) and (max-width:2600px) {
+  .bdsltmainup{
+    display: flex !important;
+    gap: 20px;
+  }
+
+  .bdDateUpper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BDMain >.ant-select-selector{
+    width: 100% !important;
+  }
+}
+
+
 
 
 :where(.css-dev-only-do-not-override-k7429z).ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
@@ -224,13 +313,6 @@ color: #E60058 !important;
   font-size: 16px !important;
   line-height: 140% !important;
   color: #020140 !important;
-}
-
-.last_vala_chkbox {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center !important;
 }
 
 .last_vala_main_chkbox {

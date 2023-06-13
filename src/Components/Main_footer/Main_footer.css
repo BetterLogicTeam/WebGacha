@@ -92,9 +92,20 @@ h2,h3,h4,h5,h6,p,span,li{
     .footerrigtPart{
         margin-left: 0px !important;
     }
+
+    .footerLftside {
+        margin-left: 0px !important;
+    }
+
+    .upper > p {
+        font-weight: 700 !important;
+        letter-spacing: -2px !important;
+        font-size: 13px;
+    }
+
 }
 
-@media only screen and (min-width:768px) and (max-width:1024px) {
+@media only screen and (min-width:770px) and (max-width:1024px) {
     .footerrigtPart{
         margin-left: 28px !important;
     }
