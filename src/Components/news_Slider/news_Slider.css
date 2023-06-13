@@ -110,7 +110,7 @@
   }
 }
 
-@media only screen and (min-width:405px) and (max-width: 600px) {
+@media (min-width:405px) and (max-width: 600px) {
   .Rem {
     width: 70% !important;
   }
@@ -175,3 +175,13 @@
 }
 
 
+@media (min-width:768px) and (max-width:1400px){
+  .Rem{
+    width: 26%  !important;
+    height: 30%;
+  }
+}
+.swiper-wrapper {
+  /* transform: translate3d(-108px, 0px, 0px) !important; */
+  margin-left: 13rem !important;
+}

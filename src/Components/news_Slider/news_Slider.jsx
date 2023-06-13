@@ -19,7 +19,7 @@ export default function News_Slider() {
     <div className="Slider_News_Bg">
       <Swiper
         slidesPerView={4}
-        spaceBetween={30}
+        spaceBetween={10}
         centeredSlides={true}
         loop={true}
         navigation={true}
@@ -43,11 +43,11 @@ export default function News_Slider() {
           },
           768: {
             slidesPerView: 4,
-            spaceBetween: 40,
+            spaceBetween: 15,
           },
           1024: {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 15,
           },
         }}
         className="mySwiper"
