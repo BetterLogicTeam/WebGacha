@@ -1,7 +1,7 @@
 import React from "react";
-import { Checkbox, Form, Input } from "antd";
-import { DatePicker, TimePicker } from "antd";
-const { RangePicker } = DatePicker;
+import { Checkbox, Form, Input, Select } from "antd";
+import { useNavigate } from "react-router-dom";
+
 const onChange = (e) => {
   console.log(`checked = ${e.target.checked}`);
 };
@@ -13,6 +13,7 @@ const onFinishFailed = (errorInfo) => {
   console.log("Failed:", errorInfo);
 };
 export default function Register_Step_One() {
+  const history = useNavigate();
   const formItemLayout = {
     labelCol: {
       xs: {
@@ -31,37 +32,9 @@ export default function Register_Step_One() {
       },
     },
   };
-  const config = {
-    rules: [
-      {
-        type: "object",
-        required: true,
-        message: "Please select time!",
-      },
-    ],
-  };
+
   const onFinish = (fieldsValue) => {
     // Should format date value before submit.
-    const rangeValue = fieldsValue["range-picker"];
-    const rangeTimeValue = fieldsValue["range-time-picker"];
-    const values = {
-      ...fieldsValue,
-      "date-picker": fieldsValue["date-picker"].format("YYYY-MM-DD"),
-      "date-time-picker": fieldsValue["date-time-picker"].format(
-        "YYYY-MM-DD HH:mm:ss"
-      ),
-      "month-picker": fieldsValue["month-picker"].format("YYYY-MM"),
-      "range-picker": [
-        rangeValue[0].format("YYYY-MM-DD"),
-        rangeValue[1].format("YYYY-MM-DD"),
-      ],
-      "range-time-picker": [
-        rangeTimeValue[0].format("YYYY-MM-DD HH:mm:ss"),
-        rangeTimeValue[1].format("YYYY-MM-DD HH:mm:ss"),
-      ],
-      "time-picker": fieldsValue["time-picker"].format("HH:mm:ss"),
-    };
-    console.log("Received values of form: ", values);
   };
   return (
     <div>
@@ -83,7 +56,9 @@ export default function Register_Step_One() {
         >
           <div className="main_form_div">
             <div className="ajsiji">
-              <p>お名前（フリガナ）  <span className="star_clr"> *</span></p>
+              <p>
+                お名前（フリガナ） <span className="star_clr"> *</span>
+              </p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -98,7 +73,7 @@ export default function Register_Step_One() {
                   >
                     <Input placeholder="例：山田" />
                   </Form.Item>
-                </div>  
+                </div>
                 <div className="col-lg-6">
                   <Form.Item
                     label="名"
@@ -143,14 +118,19 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input className="resiss_page_inpu" placeholder="例：タロウ" />
+                    <Input
+                      className="resiss_page_inpu"
+                      placeholder="例：タロウ"
+                    />
                   </Form.Item>
                 </div>
               </div>
             </div>
 
             <div className="ajsiji my-3 my-md-5">
-              <p>住所 <span className="star_clr"> * </span></p>
+              <p>
+                住所 <span className="star_clr"> * </span>
+              </p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -217,8 +197,6 @@ export default function Register_Step_One() {
                 </div>
               </div>
 
-              
-
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -249,34 +227,263 @@ export default function Register_Step_One() {
                   >
                     <Input placeholder="例：五反田マンション　101号室" />
                   </Form.Item> */}
-                  <label htmlFor="sssss" className="passw"> 建物・マンション・部屋番号</label>
-                  <input type="text" className="skfhhjjf" placeholder="例：五反田マンション　101号室" name="sssss" id="sssss" />
+                  <label htmlFor="sssss" className="passw">
+                    {" "}
+                    建物・マンション・部屋番号
+                  </label>
+                  <input
+                    type="text"
+                    className="skfhhjjf"
+                    placeholder="例：五反田マンション　101号室"
+                    name="sssss"
+                    id="sssss"
+                  />
                 </div>
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">
-              <p>生年月日 <span className="star_clr"> * </span></p>
-              <div className="Register_ant">
-                <div className="col-lg-3">
-                  <Form.Item name="year-picker" label="年">
-                    <DatePicker picker="year" />
-                  </Form.Item>
+              <p>
+                生年月日 <span className="star_clr"> * </span>
+              </p>
+              <div className="Register_ant bdsltmainup">
+                <div className="col-lg-3 bdDateUpper">
+                <label htmlFor="sssss" className="passw">年</label>
+                  <Select className="BDMain"
+                    defaultValue="1990"
+                    
+                    options={[
+                      {
+                        value: "1990",
+                        label: "1990",
+                      }, {
+                        value: "1991",
+                        label: "1991",
+                      }, {
+                        value: "1992",
+                        label: "1992",
+                      }, {
+                        value: "1993",
+                        label: "1993",
+                      }, {
+                        value: "1994",
+                        label: "1994",
+                      }, {
+                        value: "1995",
+                        label: "1995",
+                      }, {
+                        value: "1996",
+                        label: "1996",
+                      }, {
+                        value: "1997",
+                        label: "1997",
+                      }, {
+                        value: "1998",
+                        label: "1998",
+                      }, {
+                        value: "1999",
+                        label: "1999",
+                      }, {
+                        value: "2000",
+                        label: "2000",
+                      },
+                      {
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },{
+                        value: "2000",
+                        label: "2000",
+                      },
+                     
+                    ]}
+                  />
                 </div>
-                <div className="col-lg-3">
-                  <Form.Item name="month-picker" label="月">
-                    <DatePicker picker="month" />
-                  </Form.Item>
+                <div className="col-lg-3 bdDateUpper">
+                <label htmlFor="sssss" className="passw bddateoption">月</label>
+                  <Select className="BDMain"
+                    defaultValue="00"
+                    options={[
+                      {
+                        value: "01",
+                        label: "01",
+                      }, 
+                      {
+                        value: "02",
+                        label: "02",
+                      }, {
+                        value: "03",
+                        label: "03",
+                      }, {
+                        value: "04",
+                        label: "04",
+                      }, {
+                        value: "05",
+                        label: "05",
+                      }, {
+                        value: "06",
+                        label: "06",
+                      }, {
+                        value: "07",
+                        label: "07",
+                      }, {
+                        value: "08",
+                        label: "08",
+                      }, {
+                        value: "09",
+                        label: "09",
+                      }, {
+                        value: "10",
+                        label: "10",
+                      }, {
+                        value: "11",
+                        label: "11",
+                      }, {
+                        value: "12",
+                        label: "12",
+                      }, 
+                     
+                    ]}
+                  />
                 </div>
 
-                <div className="col-lg-3">
-                  <Form.Item name="day-picker" label="日">
-                    <DatePicker picker="day" />
-                  </Form.Item>
+                <div className="col-lg-3 bdDateUpper">
+                <label htmlFor="sssss" className="passw bddateoption">
+                    {" "}
+                    日
+                  </label>
+                  <Select className="BDMain"
+                    defaultValue="00"
+                    options={[
+                      {
+                        value: "01",
+                        label: "01",
+                      }, 
+                      {
+                        value: "02",
+                        label: "02",
+                      }, {
+                        value: "03",
+                        label: "03",
+                      }, {
+                        value: "04",
+                        label: "04",
+                      }, {
+                        value: "05",
+                        label: "05",
+                      }, {
+                        value: "06",
+                        label: "06",
+                      }, {
+                        value: "07",
+                        label: "07",
+                      }, {
+                        value: "08",
+                        label: "08",
+                      }, {
+                        value: "09",
+                        label: "09",
+                      }, {
+                        value: "10",
+                        label: "10",
+                      }, {
+                        value: "11",
+                        label: "11",
+                      }, {
+                        value: "12",
+                        label: "12",
+                      }, {
+                        value: "13",
+                        label: "13",
+                      }, {
+                        value: "14",
+                        label: "14",
+                      }, {
+                        value: "15",
+                        label: "15",
+                      }, {
+                        value: "16",
+                        label: "16",
+                      }, {
+                        value: "17",
+                        label: "17",
+                      }, {
+                        value: "18",
+                        label: "18",
+                      }, {
+                        value: "19",
+                        label: "19",
+                      },  {
+                        value: "20",
+                        label: "20",
+                      }, 
+                      {
+                        value: "21",
+                        label: "21",
+                      },   {
+                        value: "22",
+                        label: "22",
+                      },   {
+                        value: "23",
+                        label: "23",
+                      },   {
+                        value: "24",
+                        label: "24",
+                      },   {
+                        value: "25",
+                        label: "25",
+                      },   {
+                        value: "26",
+                        label: "26",
+                      },   {
+                        value: "27",
+                        label: "27",
+                      },   {
+                        value: "28",
+                        label: "28",
+                      },   {
+                        value: "29",
+                        label: "29",
+                      },  {
+                        value: "30",
+                        label: "30",
+                      }, 
+                      {
+                        value: "31",
+                        label: "31",
+                      }, 
+                     
+                    ]}
+                  />
                 </div>
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">
-              <p>お名前（フリガナ） <span className="star_clr"> * </span></p>
+              <p>
+                お名前（フリガナ） <span className="star_clr"> * </span>
+              </p>
               <div className="Register_ant">
                 <div className="col-lg-4">
                   <Form.Item
@@ -289,7 +496,7 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Checkbox checked onChange={onChange}>
-                  <p className="mb-0 chcked_clr">    男性 </p>
+                      <p className="mb-0 chcked_clr"> 男性 </p>
                     </Checkbox>
                   </Form.Item>
                 </div>
@@ -323,7 +530,8 @@ export default function Register_Step_One() {
                 </div>
                 <div className="col-lg-6 text-start">
                   <p className="Register_ant_ka_p">
-                 <span className="star_clr2">   * </span> 半角数字で入力してください。
+                    <span className="star_clr2"> * </span>{" "}
+                    半角数字で入力してください。
                   </p>
                 </div>
               </div>
@@ -345,14 +553,19 @@ export default function Register_Step_One() {
                 </div>
                 <div className="col-lg-6">
                   <p className="Register_ant_ka_scnd_p">
-                   <span className="star_clr2"> * </span>ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。<br /> <span className="star_clr2"> * </span>このメールアドレスがログイン時のIDとなります。
+                    <span className="star_clr2"> * </span>
+                    ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。
+                    <br /> <span className="star_clr2"> * </span>
+                    このメールアドレスがログイン時のIDとなります。
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="ajsiji my-3 my-md-5">
-              <p>パスワード <span className="star_clr"> * </span></p>
+              <p>
+                パスワード <span className="star_clr"> * </span>
+              </p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -361,14 +574,12 @@ export default function Register_Step_One() {
                       {
                         required: true,
                         message: "Please input your 姓!",
-                      
                       },
                     ]}
                   >
                     <Input placeholder="******" />
                     <p className="Register_ant_ka_thrd_p">
-                      <span className="star_clr2"> *
-                      </span>                      
+                      <span className="star_clr2"> *</span>
                       半角英数字50文字以内で入力してください。
                     </p>
                   </Form.Item>
@@ -384,16 +595,19 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="*********"/>
+                    <Input placeholder="*********" />
                     <p className="Register_ant_ka_thrd_p ps-3">
-                     <span className="star_clr2"> *  </span> 確認のためパスワードを再入力してください。
+                      <span className="star_clr2"> * </span>{" "}
+                      確認のためパスワードを再入力してください。
                     </p>
                   </Form.Item>
                 </div>
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">
-              <p>メールマガジン <span className="star_clr"> * </span></p>
+              <p>
+                メールマガジン <span className="star_clr"> * </span>
+              </p>
               <p className="Register_ka_last_p">
                 メールマガジンにて、新商品やお得な情報などをお送りしています。
               </p>
@@ -409,8 +623,8 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Checkbox checked onChange={onChange}>
-              <p className="checked_text_clrrrr mb-0">        受け取る
-              </p>                </Checkbox>
+                      <p className="checked_text_clrrrr mb-0"> 受け取る</p>{" "}
+                    </Checkbox>
                   </Form.Item>
                 </div>
                 <div className="col-lg-6">
@@ -420,11 +634,22 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="last_vala_chkbox w-100">
-              <Checkbox className="last_vala_main_chkbox " onChange={onChange}>
+            <div className="d-flex justify-content-center w-100">
+              <Checkbox
+                className="last_vala_main_chkbox d-flex justify-content-center"
+                onChange={onChange}
+              >
                 <span className="mttt_ressspo">
-                <span   style={{ color: "#110F24" }}>を読み、同意します。</span>
-                <span className="" style={{ color: "#E60058" }}>利用規約に同意します。</span>
+                  {/* <span   style={{ color: "#110F24" }}>を読み、同意します。</span> */}
+                  <span
+                    className=""
+                    style={{ color: "#E60058" }}
+                    onClick={() => (
+                      history("/TermOfServices"), window.scrollTo(0, 0)
+                    )}
+                  >
+                    利用規約に同意します。
+                  </span>
                 </span>
               </Checkbox>
             </div>
