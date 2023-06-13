@@ -5,14 +5,19 @@ import ListOfTaprizeCard from "../List_of_taprize_card/List_of_taprize_card";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Taprise_on_sale() {
-  const history=useNavigate()
+  const history = useNavigate();
   return (
     <>
       <div className="Taprise_on_sale_bg">
-        <div className="container" >
-        
-            <><h1 style={{cursor:"pointer"}} onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中のタップライズ</h1></>
-          
+        <div className="container">
+          <>
+            <h1
+              style={{ cursor: "pointer" }}
+              onClick={() => (history("/ListOTaprize"), window.scrollTo(0, 0))}
+            >
+              販売中のタップライズ
+            </h1>
+          </>
 
           <div className="row mt-5">
             {Data.slice(0, 6).map((items, index) => {
@@ -26,15 +31,17 @@ export default function Taprise_on_sale() {
                       items={items}
                       tags_text="0"
                     />
-
-                 
                   </div>
                 </>
               );
             })}
           </div>
           <div className="d-flex justify-content-center mt-5">
-            <Link to="/ListOTaprize" className="text-decoration-none "   onClick={() => window.scrollTo(0, 0)}>
+            <Link
+              to="/ListOTaprize"
+              className="text-decoration-none "
+              onClick={() => window.scrollTo(0, 0)}
+            >
               <button className="gacha_Btn gachaAgn ">
                 販売中の販売中のウェブガチャをチェック！
               </button>
