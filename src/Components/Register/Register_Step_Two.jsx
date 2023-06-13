@@ -47,7 +47,7 @@ export default function Register_Step_Two() {
               </tr>
               <tr>
                 <td className="tdddd">メールアドレス</td>
-                <td colSpan={2}>elunub3@gmail.com</td>
+                <td colSpan={2}>xyz@gmail.com</td>
               </tr>
               <tr>
                 <td className="tdddd">パスワード</td>

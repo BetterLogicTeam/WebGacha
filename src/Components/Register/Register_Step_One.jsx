@@ -146,7 +146,7 @@ export default function Register_Step_One() {
                     <Input placeholder="例：100" />
                   </Form.Item>
                 </div>
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                   <Form.Item
                     label="〒"
                     name="〒"
@@ -160,7 +160,7 @@ export default function Register_Step_One() {
                   >
                     <Input placeholder="例：0001　etc..." />
                   </Form.Item>
-                </div>
+                </div> */}
               </div>
 
               <p className="p_pink">郵便番号がわからない方はこちら</p>
@@ -325,36 +325,36 @@ export default function Register_Step_One() {
                 <div className="col-lg-3 bdDateUpper">
                 <label htmlFor="sssss" className="passw bddateoption">月</label>
                   <Select className="BDMain"
-                    defaultValue="00"
+                    defaultValue="1"
                     options={[
                       {
-                        value: "01",
-                        label: "01",
+                        value: "1",
+                        label: "1",
                       }, 
                       {
-                        value: "02",
-                        label: "02",
+                        value: "2",
+                        label: "2",
                       }, {
-                        value: "03",
-                        label: "03",
+                        value: "3",
+                        label: "3",
                       }, {
-                        value: "04",
-                        label: "04",
+                        value: "4",
+                        label: "4",
                       }, {
-                        value: "05",
-                        label: "05",
+                        value: "5",
+                        label: "5",
                       }, {
-                        value: "06",
-                        label: "06",
+                        value: "6",
+                        label: "6",
                       }, {
-                        value: "07",
-                        label: "07",
+                        value: "7",
+                        label: "7",
                       }, {
-                        value: "08",
-                        label: "08",
+                        value: "8",
+                        label: "8",
                       }, {
-                        value: "09",
-                        label: "09",
+                        value: "9",
+                        label: "9",
                       }, {
                         value: "10",
                         label: "10",
@@ -376,36 +376,36 @@ export default function Register_Step_One() {
                     日
                   </label>
                   <Select className="BDMain"
-                    defaultValue="00"
+                    defaultValue="1"
                     options={[
                       {
-                        value: "01",
-                        label: "01",
+                        value: "1",
+                        label: "1",
                       }, 
                       {
-                        value: "02",
-                        label: "02",
+                        value: "2",
+                        label: "2",
                       }, {
-                        value: "03",
-                        label: "03",
+                        value: "3",
+                        label: "3",
                       }, {
-                        value: "04",
-                        label: "04",
+                        value: "4",
+                        label: "4",
                       }, {
-                        value: "05",
-                        label: "05",
+                        value: "5",
+                        label: "5",
                       }, {
-                        value: "06",
-                        label: "06",
+                        value: "6",
+                        label: "6",
                       }, {
-                        value: "07",
-                        label: "07",
+                        value: "7",
+                        label: "7",
                       }, {
-                        value: "08",
-                        label: "08",
+                        value: "8",
+                        label: "8",
                       }, {
-                        value: "09",
-                        label: "09",
+                        value: "9",
+                        label: "9",
                       }, {
                         value: "10",
                         label: "10",
@@ -549,7 +549,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="elunub3@gmail.com" />
+                    <Input placeholder="" />
                   </Form.Item>
                 </div>
                 <div className="col-lg-6">

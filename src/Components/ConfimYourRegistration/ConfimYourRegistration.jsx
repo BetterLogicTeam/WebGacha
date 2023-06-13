@@ -124,7 +124,7 @@ function ConfimYourRegistration() {
           <p> メールアドレス </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
-          <p className="T_PP">elunub3@gmail.com</p>
+          <p className="T_PP">xyz@gmail.com</p>
         </div>
       </div>
       <div className="row justify-content-center">

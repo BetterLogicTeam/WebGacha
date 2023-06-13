@@ -374,7 +374,7 @@ function MyPageEdit_1() {
                       >
                         <Form.Control
                           type="email"
-                          placeholder="elunub3@gmail.com"
+                          placeholder=""
                           className="Fld"
                         />
                       </Form.Group>

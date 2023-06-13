@@ -19,7 +19,7 @@ export default function Login_page() {
               <input
                 type="text"
                 id="login_first"
-                placeholder="elunub3@gmail.com"
+                placeholder="Eメール"
                 className="login_page_inputss"
               />
               <label className="Login_label my-4" htmlFor="login_second">
