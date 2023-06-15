@@ -44,8 +44,13 @@ export default function Main_footer() {
                 >
                   <p className="footerLnks">お問い合わせ</p>
                 </Link>
-
-                <p className="footerLnks">マイアカウント</p>
+                <Link
+                  to="/Login"
+                  className="text-decoration-none upper"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <p className="footerLnks">マイアカウント</p>
+                </Link>
               </div>
               <div className="upper d-flex     gap-3">
                 <Link
@@ -68,18 +73,20 @@ export default function Main_footer() {
                   className="text-decoration-none upper"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                   <p className="footerLnks">特定商取引法に基づく表記</p>
+                  <p className="footerLnks">特定商取引法に基づく表記</p>
                 </Link>
-             
-             
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container mt-3 all-right text-center py-3" style={{color:"#020140"}}>
-Copyright ©2023 Webgacha. All Rights Reserved.      </div>
+      <div
+        className="container mt-3 all-right text-center py-3"
+        style={{ color: "#020140" }}
+      >
+        Copyright ©2023 Webgacha. All Rights Reserved.{" "}
+      </div>
     </div>
   );
 }
