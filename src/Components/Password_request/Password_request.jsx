@@ -27,7 +27,7 @@ function Password_request() {
                 className=" my-3 w-100 pasword_input _border"
                 id="fname"
                 name="fname"
-                placeholder="elunub3@gmail.com"
+                placeholder=""
               />
 
               <button className="w-100 password_req_button"  onClick={()=>history(("/PaswordStepTwo"),window.scrollTo(0,0))}> 送信 </button>

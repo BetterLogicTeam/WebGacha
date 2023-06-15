@@ -36,7 +36,7 @@ function ContactUs() {
                     className="w-100 Contact_input"
                     id="fname"
                     name="fname"
-                    placeholder="アン"
+                    placeholder="姓"
                   />
                 </div>
               </div>
@@ -83,7 +83,7 @@ function ContactUs() {
                     className="w-100 Contact_input"
                     id="fname"
                     name="fname"
-                    placeholder="elunub3@gmail.com"
+                    placeholder="メールアドレスを入力してください"
                   />
 
                   <p className=" Contact_P">

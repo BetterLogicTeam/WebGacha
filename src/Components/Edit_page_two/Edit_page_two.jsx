@@ -68,7 +68,7 @@ export default function Edit_page_two({ prev, next }) {
               <p>メールアドレス</p>
             </div>
             <div className="col-9 tableBg notataion_border p-3">
-              <p className="edit_text">elunub3@gmail.com</p>
+              <p className="edit_text">xyz@gmail.com</p>
             </div>
           </div>
           <div className="row  borrrrrrrrr  justify-content-center">
