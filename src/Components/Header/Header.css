@@ -77,7 +77,7 @@
 }
 
 
-@media (min-width:991px) and (max-width:5000px) {
+@media (min-width:991px)  {
     .main_collapse{
         display: none;
     }
@@ -143,3 +143,8 @@
     .Nav_bar_Bg{
         height: auto !important;
     }}
+
+
+    .swiper-slide{
+        background-color: transparent !important;
+    }

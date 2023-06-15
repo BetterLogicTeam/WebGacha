@@ -103,6 +103,11 @@ color: #E60058 !important;
     margin-left: 0 !important;
   }
 
+  .radio_group{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
   .ant-checkbox-wrapper {
     width: 100% !important;
   }
@@ -268,7 +273,7 @@ color: #E60058 !important;
   padding: 12px 10px;
 }
 
-.ant-checkbox-wrapper {
+.ant-radio-wrapper {
   background: #f2f6ff;
   border: 1px solid #d2e9ff;
   border-radius: 12px;
@@ -466,4 +471,9 @@ Width:730px;
   display: flex !important;
   justify-content: space-around !important;
   -webkit-box-pack: center;
+}
+
+.radio_group{
+  display: flex;
+  width: 100% !important;
 }

@@ -6,7 +6,7 @@ import Stack from "@mui/material/Stack";
 
 function List_taprize_Taball({ tags_text }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(6);
+  const [postsPerPage] = useState(20);
   const [FinalArray, setFinalArray] = useState([])
 
   const setPageNumber = (event, value) => {

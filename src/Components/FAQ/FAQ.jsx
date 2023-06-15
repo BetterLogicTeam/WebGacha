@@ -28,17 +28,17 @@ export default function FAQ() {
           </div>
           <div className="col-md-9 px-0 px-md-1">
             {Faq_Tab === 0 ? (
-              <FAQDetails />
+              <FAQDetails length={5} />
             ) : Faq_Tab === 1 ? (
-              <FAQDetails />
+              <FAQDetails length={3} />
             ) : Faq_Tab === 2 ? (
-              <FAQDetails />
+              <FAQDetails length={2} />
             ) : Faq_Tab === 3 ? (
-              <FAQDetails />
+              <FAQDetails length={5} />
             ) : Faq_Tab === 4 ? (
-              <FAQDetails />
+              <FAQDetails length={4} />
             ) : (
-              <FAQDetails />
+              <FAQDetails length={2} />
             )}
           </div>
         </div>

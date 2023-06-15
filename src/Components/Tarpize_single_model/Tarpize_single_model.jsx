@@ -8,7 +8,7 @@ import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 import Card_Data from "../Taprize_single_main_card/Data_main_card";
 
 export default function Tarpize_single_model(props) {
-  const [spinner, setspinner] = useState(false)
+  const [spinner, setspinner] = useState(false);
 
   console.log("datalength", props.sliderName);
   const increment_data = async () => {
@@ -43,8 +43,16 @@ export default function Tarpize_single_model(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-       
-        <Modal.Body className="modla_content_main ">
+        <div className="model_main_content">
+          <img
+            src={Card_Data[props.sliderName]?.Image}
+            className="Slider_imge"
+            alt=""
+          />
+          <h5 className="modal_titlte">{Card_Data[props.sliderName]?.Name}</h5>
+        </div>
+
+        {/* <Modal.Body className="modla_content_main ">
           {spinner ? (
             <></>
           ) : (
@@ -69,7 +77,7 @@ export default function Tarpize_single_model(props) {
               />
             </>
           )}
-        </Modal.Body>
+        </Modal.Body> */}
       </Modal>
     </div>
   );

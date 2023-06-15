@@ -123,13 +123,13 @@ function MyPageEdit_1() {
 
                     <h5 className="mt-4 err">郵便番号がわからない方はこちら</h5>
                   </div>
-                  <div className="col-lg-6">
+                  {/* <div className="col-lg-6">
                     <Form className="tScnd">
                       <Form.Group
                         className=""
                         controlId="exampleForm.ControlInput1"
                       >
-                        {/* <Form.Label className="NameFld">名</Form.Label> */}
+                      
                         <Form.Control
                           type="text"
                           placeholder="001 etc..."
@@ -137,7 +137,7 @@ function MyPageEdit_1() {
                         />
                       </Form.Group>
                     </Form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-12 mt-3">

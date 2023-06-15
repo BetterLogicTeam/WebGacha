@@ -4,9 +4,11 @@ import Tarpize_all_cards from "../Tarpize_all_cards/Tarpize_all_cards";
 import Taprize_single_main_card from "../Taprize_single_main_card/Taprize_single_main_card";
 import D_info from "../D_info/D_info";
 import News_Slider from "../news_Slider/news_Slider";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+
 
 export default function Tarpize_single_full_page() {
+  const histtory= useNavigate()
   const location=useLocation()
   console.log("location",location);
   return (
@@ -19,7 +21,10 @@ export default function Tarpize_single_full_page() {
         <News_Slider/>
         <div className="d-flex justify-content-center">
 
-        <button className="gacha_Btn AgainW  responsive_gachah_a mb-5 ">もっと見る</button>
+
+
+        <button className="gacha_Btn AgainW  responsive_gachah_a mb-5 " onClick={()=>(histtory("/ListOTaprize"),window.scrollTo(0,0))} >もっと見る</button>
+
         </div>
       </div>
     </div>
