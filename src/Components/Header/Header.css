@@ -2,7 +2,6 @@
     background: #F2F6FF;
     border-bottom: 1px solid #D2E9FF;
     height: 74px !important;
-   
 }
 
 .Nav_bar_Link {
@@ -34,18 +33,9 @@
     gap: 6px;
     font-weight: 800 !important;
     color: #000 !important;
-    
-    /* width: 134px;
-    height: 44px; */
-    
-    /* Yellow */
-    
     background: #FFD600;
     border-radius: 39px;
     border: none;
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -87,13 +77,13 @@
 }
 
 
-@media (min-width:800px) and (max-width:5000px) {
+@media (min-width:991px) and (max-width:5000px) {
     .main_collapse{
         display: none;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:992px) {
     .navbar_nav{
         display: flex;
         flex-direction: column;
@@ -104,9 +94,17 @@
     .btn_rep{
         display: none;
     }
+    .Nav_bar_Bg {
+        background: #F2F6FF;
+        border-bottom: 1px solid #D2E9FF;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto !important;
+       
+    }
 }
 
-@media only screen and (min-width:800px) and (max-width:1024px) {
+@media (min-width:831px) and (max-width:1024px) {
     .Nav_bar_Link {
         margin-top: 0.7rem;
            /* font-style: normal; */
@@ -117,6 +115,14 @@
            color: #010124 !important;
            font-family: 'Barlow', sans-serif;
        }
+       .Nav_bar_Bg {
+        background: #F2F6FF;
+        border-bottom: 1px solid #D2E9FF;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto !important;
+       
+    }
 }
 
 
