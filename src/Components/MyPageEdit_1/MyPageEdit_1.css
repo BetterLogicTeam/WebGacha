@@ -67,7 +67,7 @@ line-height: 140% !important;
 }
 
 .tScnd{
-    margin-top: 31px;
+    margin-top: 48px;
 }
 
 .addressUpper{
@@ -116,29 +116,6 @@ line-height: 140% !important;
     color: #020140;
 }
 
-
-@media only screen and (max-width:600px) {
-    .BothPad{
-        padding: 0px 10px !important;
-    }
-
-    .fld2Upper{
-        margin-top: 1rem;
-    }
-    .myEdidTitle {
-        font-size: 26px !important;
-    }
-    .nameTitle{
-        font-size: 18px !important;
-    
-.edit_paaaaa{
-    font-size: 26px !important;
-}
-}
-
-}
-
-
 .myPageLastButton_white{
     width: 238px;
 height: 55px;
@@ -178,6 +155,32 @@ color: #FFFFFF;
 
 
 
+@media only screen and (max-width:600px) {
+    .BothPad{
+        padding: 0px 10px !important;
+    }
+
+    .fld2Upper{
+        margin-top: 1rem;
+    }
+    .myEdidTitle {
+        font-size: 26px !important;
+    }
+    .nameTitle{
+        font-size: 18px !important;
+    
+    }
+    .edit_paaaaa{
+        font-size: 26px !important;
+    }
+
+    .tScnd{
+        margin-top: 17px;
+    }
+
+}
+
+
 @media only screen and (max-width:800px){
 .myPageLastButton_white{
     width: 100%;
@@ -185,4 +188,9 @@ color: #FFFFFF;
 .myPageLastButton_red{
     width: 100% !important;
 }
+
+.tScnd{
+    margin-top: 15px;
+}
+
 }
