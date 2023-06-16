@@ -1,10 +1,8 @@
-import React from "react";
-import { Checkbox, Form, Input, Select } from "antd";
+import React, { useState } from "react";
+import { Checkbox, Form, Input, Radio, Select } from "antd";
 import { useNavigate } from "react-router-dom";
 
-const onChange = (e) => {
-  console.log(`checked = ${e.target.checked}`);
-};
+
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -13,6 +11,13 @@ const onFinishFailed = (errorInfo) => {
   console.log("Failed:", errorInfo);
 };
 export default function Register_Step_One() {
+  const [value, setvalue] = useState(1)
+
+
+  const onChange = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue(e.target.value)
+  };
   const history = useNavigate();
   const formItemLayout = {
     labelCol: {
@@ -143,7 +148,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：100" />
+                    <Input placeholder="例：141-0022" />
                   </Form.Item>
                 </div>
                 {/* <div className="col-lg-6">
@@ -249,9 +254,13 @@ export default function Register_Step_One() {
                 <div className="col-lg-3 bdDateUpper">
                 <label htmlFor="sssss" className="passw">年</label>
                   <Select className="BDMain"
-                    defaultValue="1990"
+                    defaultValue="1989"
                     
                     options={[
+                      {
+                        value: "1989",
+                        label: "1989",
+                      },
                       {
                         value: "1990",
                         label: "1990",
@@ -486,32 +495,36 @@ export default function Register_Step_One() {
                 お名前（フリガナ） <span className="star_clr"> * </span>
               </p>
               <div className="Register_ant">
+              <Radio.Group onChange={onChange} value={value} className="radio_group">
+
                 <div className="col-lg-4">
-                  <Form.Item
+                <Radio  onChange={onChange} value={1}>
+                      <p className="mb-0 chcked_clr"> 男性 </p>
+                    </Radio>
+                  {/* <Form.Item
                     name="姓"
                     rules={[
                       {
                         required: true,
-                        message: "Please input your 姓!",
+                        // message: "Please input your 姓!",
                       },
                     ]}
                   >
-                    <Checkbox checked onChange={onChange}>
+                    <Radio  onChange={onChange} value={1}>
                       <p className="mb-0 chcked_clr"> 男性 </p>
-                    </Checkbox>
-                  </Form.Item>
+                    </Radio>
+                  </Form.Item> */}
                 </div>
                 <div className="col-lg-4">
-                  <Form.Item name="名">
-                    <Checkbox onChange={onChange}>女性</Checkbox>
-                  </Form.Item>
+                    <Radio onChange={onChange} value={2} >女性</Radio>
+               
                 </div>
 
                 <div className="col-lg-4">
-                  <Form.Item name="名">
-                    <Checkbox onChange={onChange}>その他</Checkbox>
-                  </Form.Item>
+                    <Radio onChange={onChange} value={3}>その他</Radio>
+                
                 </div>
+                </Radio.Group>
               </div>
             </div>
             <div className="ajsiji my-3 my-md-5">

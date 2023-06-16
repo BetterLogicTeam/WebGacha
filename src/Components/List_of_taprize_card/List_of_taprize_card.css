@@ -84,7 +84,7 @@
 /* Pagination style */
 
 .paginationBgC > ul > li > button{
-  background-color: white !important;
+  background-color: white   ;
   border: none !important;
 }
 .paginationBgC > ul > li{
@@ -93,7 +93,7 @@ padding: 8px !important;
 .paginationBgC > ul > li > button:focus{
   border-color: #e60058 !important;
 }
-.css-2gftvx.Mui-selected {
+.Mui-selected {
   background-color: #2EB3FF !important;
 }
 
@@ -218,7 +218,7 @@ padding: 8px !important;
   transform: scale(1.04);
 }
 
-
+.card 
 
 .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
   color: #fff !important;

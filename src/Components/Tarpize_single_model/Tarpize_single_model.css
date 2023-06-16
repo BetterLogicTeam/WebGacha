@@ -1,6 +1,6 @@
 .model_main_content {
     background: #FFFFFF !important;
-    padding: 20px 10px !important;
+    padding: 20px 4px !important;
 
     border-radius: 12px !important;
 }
@@ -9,9 +9,9 @@
 .modla_content_main {
     border: 1px solid #D2E9FF !important;
     border-radius: 12px !important;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 
@@ -38,8 +38,9 @@
 }
 
 .Slider_imge {
-    width: 566px !important;
+    width: 100% !important;
     height: 413px;
+    padding: 0px;
 }
 
 @media screen and (max-width:700px) {

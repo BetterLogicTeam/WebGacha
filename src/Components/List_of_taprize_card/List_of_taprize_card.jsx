@@ -33,8 +33,6 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
             tags_text==0 ?
               tag === "発売中"
             ? "#FFD600"
-            : tag === "販売終了"
-            ? "#D8D8D8"
             : "#8AC7FF"
             : tags_text==1 ? "#FFD600" : tags_text==2 ? "#8AC7FF":"#D8D8D8"
             
@@ -42,7 +40,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
           }}
         >
           {
-            tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" : tags_text==2 ? "近日発売":"販売終了"
+            tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" :  "近日発売"
 
           }
          

@@ -6,6 +6,7 @@ import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import Purchase_Popup_video from "../Purchase_Popup_video/Purchase_Popup_video";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { Select } from "antd";
 
 
 
@@ -59,9 +60,46 @@ export default function Tarpize_single({location}) {
               <p className="text-clr frmlfftr mb-0">数量:</p>
               <div className="d-flex gap-3 inptBtw">
                 <div className="imputdve">
+                <Select className="BDMain1"
+                    defaultValue="1"
+                    
+                    options={[
+                      {
+                        value: "1",
+                        label: "1",
+                      }, 
+                      {
+                        value: "2",
+                        label: "2",
+                      }, {
+                        value: "3",
+                        label: "3",
+                      }, {
+                        value: "4",
+                        label: "4",
+                      }, {
+                        value: "5",
+                        label: "5",
+                      }, {
+                        value: "6",
+                        label: "6",
+                      }, {
+                        value: "7",
+                        label: "7",
+                      }, {
+                        value: "8",
+                        label: "8",
+                      }, {
+                        value: "9",
+                        label: "9",
+                      }
+                     
+                     
+                    ]}
+                  />
 
                
-                  <input
+                  {/* <input
                     type="number"
                     placeholder="1"
                     className="number_tarpize"
@@ -69,8 +107,11 @@ export default function Tarpize_single({location}) {
                     id=""
                     value={value}
                   />
+                  <div className="icon_arrow_input">
+
                   <IoIosArrowUp className="icon_arrow" onClick={()=>incrementCount()}/>
                   <IoIosArrowDown className="icon_arrow_down" onClick={()=>decrementCount()}/>
+                  </div> */}
 
                 </div>
 
