@@ -116,7 +116,7 @@ export default function Tarpize_single({location}) {
                 </div>
 
                 <button className="white_button BdrRdiS" onClick={()=>history("/PurchaseTab")} >
-                  10連ガチャ  (ボイス付き){" "}
+                  購入する - 1回660円(税込)
                 </button>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Tarpize_single({location}) {
               <div className="col-md-9">
                 <button className="red_button exRDB" onClick={()=>history("/PurchaseTab")}>
                   {" "}
-                  購入する - 1回660円(税込)
+                  10連ガチャ  (ボイス付き){" "}
                 </button>
               </div>
               <div className="col-md-2 mt-3 mt-md-0">

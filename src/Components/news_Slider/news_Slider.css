@@ -185,3 +185,38 @@
   /* transform: translate3d(-108px, 0px, 0px) !important; */
   margin-left: 13rem !important;
 }
+
+
+@media (min-width:2560px) and (max-width:10000px) {
+  .BigScreenslidr{
+    width: 95%;
+  }
+
+  .card_slider .slider_date {
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 140%;
+}
+
+.card_slider .slider_text {
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 140%;
+  text-align: left;
+}
+
+.bigmoretxt{
+  padding: 2.5rem !important;
+}
+
+.Slider_News_Bg {
+  background-color: #f2f6ff;
+  padding-top: 203px;
+  padding-bottom: 36px;
+}
+
+.News_Heading {
+  font-size: 195px;
+}
+
+}

@@ -12,11 +12,21 @@ const onFinishFailed = (errorInfo) => {
 };
 export default function Register_Step_One() {
   const [value, setvalue] = useState(1)
+  const [value2, setvalue2] = useState(1)
+  const [value3, setvalue3] = useState(1)
 
 
   const onChange = (e) => {
     console.log(`checked = ${e.target.checked}`);
     setvalue(e.target.value)
+  };
+  const onChange1 = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue2(e.target.value)
+  };
+  const onChange2 = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue3(e.target.value)
   };
   const history = useNavigate();
   const formItemLayout = {
@@ -132,7 +142,7 @@ export default function Register_Step_One() {
               </div>
             </div>
 
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>
                 住所 <span className="star_clr"> * </span>
               </p>
@@ -168,7 +178,7 @@ export default function Register_Step_One() {
                 </div> */}
               </div>
 
-              <p className="p_pink">郵便番号がわからない方はこちら</p>
+              <a href="https://www.post.japanpost.jp/zipcode/"  target="_blank" className="p_pink" > 郵便番号がわからない方はこちら</a>
 
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -246,7 +256,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>
                 生年月日 <span className="star_clr"> * </span>
               </p>
@@ -490,7 +500,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>
                 お名前（フリガナ） <span className="star_clr"> * </span>
               </p>
@@ -527,7 +537,7 @@ export default function Register_Step_One() {
                 </Radio.Group>
               </div>
             </div>
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>電話番号 *</p>
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -550,7 +560,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>メールアドレス *</p>
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -576,7 +586,7 @@ export default function Register_Step_One() {
               </div>
             </div>
 
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>
                 パスワード <span className="star_clr"> * </span>
               </p>
@@ -618,7 +628,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-3 my-md-5">
+            <div className="ajsiji my-3 my-md-3">
               <p>
                 メールマガジン <span className="star_clr"> * </span>
               </p>
@@ -626,28 +636,34 @@ export default function Register_Step_One() {
                 メールマガジンにて、新商品やお得な情報などをお送りしています。
               </p>
               <div className="Register_ant">
+                <Radio.Group onChange={onChange1} value={value2} className="radio_group">
                 <div className="col-lg-6">
-                  <Form.Item
-                    name="受け取る"
-                    rules={[
-                      {
-                        required: true,
-                        message: "Please input your 姓!",
-                      },
-                    ]}
-                  >
-                    <Checkbox checked onChange={onChange}>
-                      <p className="checked_text_clrrrr mb-0"> 受け取る</p>{" "}
-                    </Checkbox>
-                  </Form.Item>
+                    <Radio onChange={onChange1} value={1}>受け取る</Radio>
                 </div>
                 <div className="col-lg-6">
-                  <Form.Item name="受け取らない">
-                    <Checkbox onChange={onChange}>受け取らない</Checkbox>
-                  </Form.Item>
+                <Radio onChange={onChange1} value={2}>受け取らない</Radio>
                 </div>
+                </Radio.Group>
               </div>
             </div>
+
+            <div className="ajsiji my-3 my-md-3">
+              <p>
+                配信モードをオンにしますか？ <span className="star_clr"> * </span>
+              </p>
+              <div className="Register_ant">
+                <Radio.Group onChange={onChange2} value={value3} className="radio_group">
+                <div className="col-lg-6">
+                    <Radio onChange={onChange2} value={1}>はい</Radio>
+                </div>
+                <div className="col-lg-6">
+                <Radio onChange={onChange2} value={2}>いいえ</Radio>
+                </div>
+                </Radio.Group>
+              </div>
+            </div>
+
+
             <div className="d-flex justify-content-center w-100">
               <Checkbox
                 className="last_vala_main_chkbox d-flex justify-content-center"

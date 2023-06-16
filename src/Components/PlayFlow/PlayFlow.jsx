@@ -23,8 +23,8 @@ function PlayFlow() {
                         <div className="flowImgUpper d-flex align-items-center gap-4">
                             <img src={flowStepOne} alt="#" className='flowImmg' />
                             <div>
-                            <button className='stp1Button mt-2'>ステップ1</button>
-                            <h4 className='joinFree mt-4'>無料会員登録</h4>
+                            <button className='stp1Button mt-2' onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))} >ステップ1</button>
+                            <h4 className='joinFree mt-4' >無料会員登録</h4>
                             </div>
                         </div>
                     </div>

@@ -63,10 +63,9 @@
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-
   border-radius: 12px !important;
   background-position: center;
-  height: 70vh;
+  height: 254px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +118,55 @@ padding: 8px !important;
   margin-top: 15px;
 }
 
+
+
+
+.hvrBx{
+  overflow: hidden !important;
+}
+.hvrImg{
+  transition: transform 0.7s ease;
+}
+.hvrBx:hover .hvrImg{
+  transform: scale(1.04);
+}
+
+.card 
+
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #fff !important;
+ 
+  background-color: #2EB3FF !important;
+}
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.MuiPaginationItem-previousNext{
+border: 1px solid #e60058 !important;
+  color: #e60058 !important;
+}
+
+
+
+
+/* .listCrd_fst_txt:hover{
+  background-color: red !important;
+} */
+
+.card_list_of_taprize:hover .listCrd_fst_txt {
+  color: #6f6f70 !important;
+}
+.card_list_of_taprize:hover .listCrd_scnd_txt {
+  color: #6f6f70 !important;
+}
+
+.card_list_of_taprize:hover{
+  transition: all 0.5s !important;
+}
+
 @media only screen and (max-width:700px) {
+
+  .innerpadlstriz{
+    padding-top: 1.5rem;
+  }
+
   .gok{
     padding: 0px !important;
   }
@@ -146,7 +193,7 @@ padding: 8px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 0px;
+    padding: 43px 0px;
   }
   .gacha_Btn{
     height: 70px !important;
@@ -207,43 +254,49 @@ padding: 8px !important;
 
 }
 
+@media (min-width:710px) and (max-width:768px) {
+  .webGachaList_title {
+    width: 100%;
+    border-radius: 12px !important;
+    background-position: center;
+    height:154px;
+  }
 
-.hvrBx{
-  overflow: hidden !important;
-}
-.hvrImg{
-  transition: transform 0.7s ease;
-}
-.hvrBx:hover .hvrImg{
-  transform: scale(1.04);
-}
-
-.card 
-
-.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
-  color: #fff !important;
- 
-  background-color: #2EB3FF !important;
-}
-.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.MuiPaginationItem-previousNext{
-border: 1px solid #e60058 !important;
-  color: #e60058 !important;
+  .page_header {
+    font-size: 49px;
 }
 
+}
 
+@media (min-width:770px) and (max-width:1024px) {
 
+  .webGachaList_title {
+    width: 100%;
+    border-radius: 12px !important;
+    background-position: center;
+    height: 202px;
+  }
+}
 
-/* .listCrd_fst_txt:hover{
-  background-color: red !important;
+/* @media (min-width:1030px) and (max-width:1440px) {
+  .webGachaList_title {
+    width: 100%;
+    border-radius: 12px !important;
+    background-position: center;
+    height: 80vh;
+  }
 } */
 
-.card_list_of_taprize:hover .listCrd_fst_txt {
-  color: #6f6f70 !important;
-}
-.card_list_of_taprize:hover .listCrd_scnd_txt {
-  color: #6f6f70 !important;
+@media (min-width:1450px) and (max-width:3000px) {
+  .webGachaList_title {
+    width: 100%;
+    border-radius: 12px !important;
+    background-position: center;
+    height: 500px;
+  }
+
+.page_header {
+    font-size: 115px;
 }
 
-.card_list_of_taprize:hover{
-  transition: all 0.5s !important;
 }
