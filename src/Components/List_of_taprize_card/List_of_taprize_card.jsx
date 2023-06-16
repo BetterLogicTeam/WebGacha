@@ -20,8 +20,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
           onClick={() => (
             history(`/TarpizeSingleFullPage`, { state: items }),
             window.scrollTo(0, 0)
-          )}
-        >
+          )}>
           <div className="hvrBx">
           <Card.Img variant="top" src={Image} className="w-100 hvrImg " />
           </div>
@@ -37,8 +36,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
             : tags_text==1 ? "#FFD600" : tags_text==2 ? "#8AC7FF":"#D8D8D8"
             
              
-          }}
-        >
+          }}>
           {
             tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" :  "近日発売"
 
