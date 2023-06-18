@@ -51,4 +51,13 @@
     .gacha_Btn{
         padding: 18px 56px !important;
     }
+
+    .gybBBtn{
+        display: none;
+    }
+
+    .Taprise_on_sale_bg {
+        padding-top: 100px;
+        padding-bottom: 5px;
+    }
 }

@@ -1,15 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MyPageEdit_1.css";
+import { Radio} from "antd";
 import Form from "react-bootstrap/Form";
-
-import Radio from "@mui/material/Radio";
-import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import { useNavigate } from "react-router-dom";
 
 function MyPageEdit_1() {
+  const [value, setvalue] = useState(1)
+  const [value2, setvalue2] = useState(1)
+  const [value3, setvalue3] = useState(1)
+
+
+  const onChange = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue(e.target.value)
+  };
+  const onChange1 = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue2(e.target.value)
+  };
+   const onChange2 = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue3(e.target.value)
+  };
+
   const history=useNavigate()
   return (
     <div style={{ backgroundColor: "#F2F6FF" }}>
@@ -115,7 +131,7 @@ function MyPageEdit_1() {
                         <Form.Label className="NameFld">〒</Form.Label>
                         <Form.Control
                           type="text"
-                          placeholder="100"
+                          placeholder="例：141-0022"
                           className="Fld"
                         />
                       </Form.Group>
@@ -281,48 +297,21 @@ function MyPageEdit_1() {
                 性別 <span style={{ color: "rgba(230, 0, 88, 1)" }}>*</span>
               </h3>
             <div className="row justify-content-center py-2 mt-3">
+              <Radio.Group onChange={onChange} value={value} className="radio_group">
               <div className="col-lg-4">
-                <div className="Fld2">
-                <FormControl>
-                  {/* <FormLabel id="demo-radio-buttons-group-label">性別</FormLabel> */}
-                  <RadioGroup
-                    aria-labelledby="demo-radio-buttons-group-label"
-                    defaultValue="female"
-                    name="radio-buttons-group"
-                  >
-                    <FormControlLabel
-                      value="male"
-                      className="dfff_clr edit_main_lebal_here"
-                      control={<Radio />}
-                      label="男性"
-                    />
-                  </RadioGroup>
-                </FormControl>
-                </div>
+              <Radio  onChange={onChange} value={1}>
+                      <p className="mb-0 chcked_clr"> 男性 </p>
+                    </Radio>
               </div>
 
               <div className="col-lg-4 fld2Upper">
-                <div className="Fld2">
-                <FormControlLabel
-                  value="female"
-                  className="edit_main_lebal_here"
-                  control={<Radio />}
-                  label="女性"
-                />
-                </div>
+              <Radio onChange={onChange} value={2} >女性</Radio>
               </div>
 
               <div className="col-lg-4 fld2Upper">
-                <div className="Fld2">
-                <FormControlLabel
-                  value="others"
-                  control={<Radio />}
-                  label="その他"
-                  className="edit_main_lebal_here"
-                />
-                </div>
+              <Radio onChange={onChange} value={3}>その他</Radio>
               </div>
-
+              </Radio.Group>
             </div>
           </div>
 
@@ -444,37 +433,40 @@ function MyPageEdit_1() {
             <div className="row justify-content-center py-2 mt-3">
 
               <p className="magadetail">メールマガジンにて、新商品やお得な情報などをお送りしています。</p>
+              <Radio.Group onChange={onChange1} value={value2} className="radio_group">
               <div className="col-lg-6">
-                <div className="Fld2">
-                <FormControl>
-                  {/* <FormLabel id="demo-radio-buttons-group-label">性別</FormLabel> */}
-                  <RadioGroup
-                    aria-labelledby="demo-radio-buttons-group-label"
-                    defaultValue="female"
-                    name="radio-buttons-group"
-                  >
-                    <FormControlLabel
-                      value=""
-                      control={<Radio />}
-                      label="受け取る"
-                      className="dfff_clr adlamadmd"
-                    />
-                  </RadioGroup>
-                </FormControl>
-                </div>
+              <Radio onChange={onChange1} value={1}>受け取る</Radio>
               </div>
 
               <div className="col-lg-6 fld2Upper">
-                <div className="Fld2">
-                <FormControlLabel
-                  value="female"
-                  control={<Radio />}
-                  label="受け取らない"
-                />
-                </div>
+              <Radio onChange={onChange1} value={2}>受け取らない</Radio>
               </div>
+              </Radio.Group>
             </div>
           </div>
+
+          <div
+            className="col-lg-8 py-3  mt-5"
+            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" ,padding:"32px 30px" }}
+          >
+            <h3 className="nameTitle">
+                {" "}
+                配信モードをオンにしますか？ 
+              </h3>
+            <div className="row justify-content-center py-2 mt-3">
+
+              <Radio.Group onChange={onChange2} value={value3} className="radio_group">
+              <div className="col-lg-6">
+              <Radio onChange={onChange2} value={1}>はい</Radio>
+              </div>
+
+              <div className="col-lg-6 fld2Upper">
+              <Radio onChange={onChange2} value={2}>いいえ</Radio>
+              </div>
+              </Radio.Group>
+            </div>
+          </div>
+
 
           <div className="col-lg-8 mt-5">
             <div className="row justify-content-center">
