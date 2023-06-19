@@ -42,7 +42,7 @@ export default function Taprise_on_sale() {
               className="text-decoration-none "
               onClick={() => window.scrollTo(0, 0)}
             >
-              <button className="gacha_Btn gachaAgn ">
+              <button className="gacha_Btn gachaAgn gybBBtn ">
                 販売中の販売中のウェブガチャをチェック！
               </button>
             </Link>

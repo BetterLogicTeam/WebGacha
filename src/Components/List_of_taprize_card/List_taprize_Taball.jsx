@@ -30,7 +30,7 @@ function List_taprize_Taball({ tags_text }) {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentTokens = FinalArray.slice(indexOfFirstPost, indexOfLastPost);
-  console.log("Data", Data);
+  // console.log("Data", Data);
 
   useEffect(() => {
     shuffleArray()

@@ -30,6 +30,14 @@
   font-weight: 800;
 }
 
+.forred{
+  cursor: pointer;
+}
+.forred:hover{
+  color: #e60058;
+}
+
+
 .joinDetails {
   font-size: 17px;
   font-weight: 599;

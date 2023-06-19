@@ -128,10 +128,10 @@ input[type="checkbox"] {
   font-size: 14px !important;
 }
 
-.white_button:hover {
+/* .white_button:hover {
   background-color: #e60058 !important;
   color: #ffffff !important;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .welU {

@@ -38,7 +38,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
              
           }}>
           {
-            tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" :  "近日発売"
+            tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" : tags_text==2? "近日発売":"販売終了"
 
           }
          

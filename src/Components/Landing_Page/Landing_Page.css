@@ -141,3 +141,52 @@
   }
 } 
 
+
+@media (min-width:2560px) and (max-width:10000px) {
+  .landing_Bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 74vh !important;
+    padding-bottom: 100px !important;
+    padding-top: 170px  !important;
+    position: relative;
+  }
+
+  .landing_Bg h1 {
+    font-size: 275px;
+    line-height: 315px;
+    text-align: center;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  }
+
+  .landing_Bg p {
+    font-weight: 1000 !important;
+    font-size: 95px !important;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 1rem !important;
+    text-transform: uppercase;
+    text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff, 0.5px 0px 0 #fff;
+    letter-spacing: -1.5px;
+  }
+
+  .main_div_Landing{
+    margin-top: 29rem;
+  }
+
+  .landing_Bg button {
+    font-weight: 700;
+    font-size: 76px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4rem !important;
+    color: #ffffff;
+    width: 1478px;
+    height: 290px;
+    background: #e60058;
+    border: 1px solid #ffffff;
+    border-radius: 151px;
+}
+
+}

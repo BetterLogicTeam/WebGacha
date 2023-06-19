@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import {AiOutlineClose} from "react-icons/ai"
 import Modal from "react-bootstrap/Modal";
 import "./Tarpize_single_model.css";
 import cat from "../Assets/cat.png";
@@ -10,7 +10,6 @@ import Card_Data from "../Taprize_single_main_card/Data_main_card";
 export default function Tarpize_single_model(props) {
   const [spinner, setspinner] = useState(false);
 
-  console.log("datalength", props.sliderName);
   const increment_data = async () => {
     try {
       if (props.sliderName === props.datalength - 1) {
@@ -37,12 +36,15 @@ export default function Tarpize_single_model(props) {
 
   return (
     <div className="main_modal_tarpize">
-      <Modal
+      <Modal 
         {...props}
         size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
+        <div className="model_clone_btn">
+        <AiOutlineClose onClick={()=>props.onHide()} className="clone_icon"/>
+        </div>
         <div className="model_main_content">
           <img
             src={Card_Data[props.sliderName]?.Image}
