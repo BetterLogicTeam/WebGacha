@@ -1,10 +1,10 @@
-.main_ntaa{
+.bgconfirmationimg{
     background-image: url("../Assets/bgnotation.svg");
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover ;
      height: 50vh !important;
-
+    border-radius: 0px !important;
      display: flex;
      justify-content: center;
      align-items: center
@@ -21,9 +21,7 @@ line-height: 72px !important;
 text-align: center !important;
 
 }
-.notation_bor{
-border-radius: 10px;
-}
+
 
 .NwCls{
 padding: 10px 15px !important;

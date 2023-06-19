@@ -40,11 +40,11 @@ function App() {
 
 
 
-      <Header />
+      {/* <Header /> */}
 
+<MainConfirmationPage />
 
-
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/TermOfServices" element={<TermOfServices />} />
@@ -84,9 +84,9 @@ function App() {
           path="/ShippingStatusDetails"
           element={<ShippingStatusDetails />}
         />
-      </Routes> 
+      </Routes>  */}
 
-      <MainFooter />
+      {/* <MainFooter /> */}
     </div>
   );
 }
