@@ -13,15 +13,15 @@ function MyPageEdit_1() {
   const [value3, setvalue3] = useState(1);
 
   const onChange = (e) => {
-    console.log(`checked = ${e.target.checked}`);
+    // console.log(`checked = ${e.target.checked}`);
     setvalue(e.target.value);
   };
   const onChange1 = (e) => {
-    console.log(`checked = ${e.target.checked}`);
+    // console.log(`checked = ${e.target.checked}`);
     setvalue2(e.target.value);
   };
   const onChange2 = (e) => {
-    console.log(`checked = ${e.target.checked}`);
+    // console.log(`checked = ${e.target.checked}`);
     setvalue3(e.target.value);
   };
 

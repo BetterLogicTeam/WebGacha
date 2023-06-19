@@ -34,7 +34,7 @@ export default function Tarpize_single({location}) {
     }, [value]);
   return (
     <div className="tarpize_single_main">
-      <div className="container-fulid">
+      <div className="container">
         <div className="row m-0">
           <div className="col-md-6 col-lg-7 text-center lftgacHPiCUpEr">
             <img src={location.state.Image} className="lftgacHPiC" alt="" />

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Edit_page_two({ prev, next }) {
   let url = window.location.pathname;
-  console.log("url", url);
+  // console.log("url", url);
   const history = useNavigate();
   return (
     <div className="edit_main_page ">
