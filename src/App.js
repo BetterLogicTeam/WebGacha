@@ -29,12 +29,20 @@ import MyPageEditThree from "./Components/MyPageEditThree/MyPageEditThree";
 import CouponTab from "./Components/CouponTab/CouponTab";
 import ListOfResults from "./Components/List_of_Results/List_of_Results";
 import ShippingStatusDetails from "./Components/Shipping_status_Details/Shipping_status_Details";
+import Confirmataion from "./Components/Confirmataion/Confirmataion";
+import BgConfirmation from "./Components/BgConfirmation/BgConfirmation";
+import MainConfirmationPage from "./Components/MainConfirmationPage/MainConfirmationPage";
 // import NewsSlider from './Components/news_Slider/news_Slider';
 
 function App() {
   return (
     <div className="App">
+
+
+
       <Header />
+
+
 
       <Routes>
         <Route path="/" element={<MainHome />} />
@@ -76,7 +84,7 @@ function App() {
           path="/ShippingStatusDetails"
           element={<ShippingStatusDetails />}
         />
-      </Routes>
+      </Routes> 
 
       <MainFooter />
     </div>
