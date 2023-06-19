@@ -201,12 +201,12 @@ export default function Register_Step_One() {
                     
                     options={[
                       {
-                        value: "選択してください",
-                        label: "選択してください",
+                        value: "選択し",
+                        label: "選択し",
                       },
                       {
-                        value: "選択してください",
-                        label: "選択してください",
+                        value: "選択してく",
+                        label: "選択してく",
                       }
                     ]}
                   />
