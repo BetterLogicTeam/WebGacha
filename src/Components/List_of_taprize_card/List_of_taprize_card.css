@@ -161,6 +161,10 @@ border: 1px solid #e60058 !important;
   transition: all 0.5s !important;
 }
 
+.innerpadlstriz{
+  padding-top: 7px;
+}
+
 @media only screen and (max-width:700px) {
 
   .innerpadlstriz{

@@ -15,7 +15,7 @@ const Data = [
   {
     Image: pic_2,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_3,
@@ -30,7 +30,7 @@ const Data = [
   {
     Image: pic_5,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "発売中",
   },
   {
     Image: pic_6,
@@ -45,7 +45,7 @@ const Data = [
   {
     Image: pic_2,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_3,
@@ -60,7 +60,7 @@ const Data = [
   {
     Image: pic_5,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_6,
@@ -75,7 +75,7 @@ const Data = [
   {
     Image: pic_2,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_3,
@@ -90,7 +90,7 @@ const Data = [
   {
     Image: pic_5,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_6,
@@ -105,7 +105,7 @@ const Data = [
   {
     Image: pic_2,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_3,
@@ -120,7 +120,7 @@ const Data = [
   {
     Image: pic_5,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_6,
@@ -135,7 +135,7 @@ const Data = [
   {
     Image: pic_2,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_3,
@@ -150,7 +150,7 @@ const Data = [
   {
     Image: pic_5,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_6,
@@ -165,7 +165,7 @@ const Data = [
   {
     Image: pic_2,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_3,
@@ -180,7 +180,7 @@ const Data = [
   {
     Image: pic_5,
     Name: "台スマ境報コリホ直西時のご表74更ヘヤ無車のも",
-    tag: "販売終了",
+    tag: "近日発売",
   },
   {
     Image: pic_6,

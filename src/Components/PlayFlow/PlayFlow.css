@@ -28,8 +28,15 @@
   font-size: 26px;
   line-height: 39px;
   font-weight: 800;
+}
+
+.forred{
   cursor: pointer;
 }
+.forred:hover{
+  color: #e60058;
+}
+
 
 .joinDetails {
   font-size: 17px;

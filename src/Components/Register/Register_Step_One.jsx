@@ -182,7 +182,7 @@ export default function Register_Step_One() {
 
               <div className="Register_ant">
                 <div className="col-lg-6">
-                  <Form.Item
+                  {/* <Form.Item
                     label="都道府県"
                     name="都道府県"
                     rules={[
@@ -193,7 +193,23 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Input placeholder="選択してください" />
-                  </Form.Item>
+                  </Form.Item> */}
+                  <label htmlFor="sssss" className="passw">都道府県</label>
+                  <Select className="BDMainagain w-100" 
+                  style={{marginTop:"9px"}}
+                    defaultValue="選択してください"
+                    
+                    options={[
+                      {
+                        value: "選択してください",
+                        label: "選択してください",
+                      },
+                      {
+                        value: "選択してください",
+                        label: "選択してください",
+                      }
+                    ]}
+                  />
                 </div>
                 <div className="col-lg-6">
                   <Form.Item
@@ -256,6 +272,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
+            
             <div className="ajsiji my-3 my-md-3">
               <p>
                 生年月日 <span className="star_clr"> * </span>
@@ -267,6 +284,22 @@ export default function Register_Step_One() {
                     defaultValue="1989"
                     
                     options={[
+                      {
+                        value: "1985",
+                        label: "1985",
+                      },
+                      {
+                        value: "1986",
+                        label: "1986",
+                      },
+                      {
+                        value: "1987",
+                        label: "1987",
+                      },
+                      {
+                        value: "1988",
+                        label: "1988",
+                      },
                       {
                         value: "1989",
                         label: "1989",
@@ -500,6 +533,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
+
             <div className="ajsiji my-3 my-md-3">
               <p>
                 お名前（フリガナ） <span className="star_clr"> * </span>

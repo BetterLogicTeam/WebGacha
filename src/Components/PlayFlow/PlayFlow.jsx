@@ -24,7 +24,7 @@ function PlayFlow() {
                             <img src={flowStepOne} alt="#" className='flowImmg' />
                             <div>
                             <button className='stp1Button mt-2' >ステップ1</button>
-                            <h4 className='joinFree mt-4' onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))} >無料会員登録</h4>
+                            <h4 className='joinFree forred mt-4' onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))} >無料会員登録</h4>
                             </div>
                         </div>
                     </div>
