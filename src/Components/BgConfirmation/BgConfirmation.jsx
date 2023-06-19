@@ -5,7 +5,7 @@ function BgConfirmation() {
   return (
     <div className="container-fluid px-3 NwCls">
     <div className="row">
-        <div className="col-12 bgconfirmationimg notation_bor">
+        <div className="col-12 bgconfirmationimg ">
         
         <h1 className='Notation_h1 text-white'>
         お問い合わせ

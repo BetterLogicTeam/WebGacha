@@ -142,7 +142,7 @@
 } 
 
 
-@media (min-width:2560px) and (max-width:10000px) {
+/* @media (min-width:2560px) and (max-width:10000px) {
   .landing_Bg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,4 +189,4 @@
     border-radius: 151px;
 }
 
-}
+} */

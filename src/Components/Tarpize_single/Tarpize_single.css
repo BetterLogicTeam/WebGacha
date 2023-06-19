@@ -456,3 +456,22 @@ input::-webkit-inner-spin-button {
   vertical-align: top;
   color: #e60058 !important;
 }
+
+  
+@media (min-width:1900px){
+  .containerrrr{
+    min-width:1880px !important;
+    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+
+
+@media  only screen and  (min-width:700px) and (max-width:800px){
+  .containerrrr{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

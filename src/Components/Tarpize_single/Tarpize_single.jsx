@@ -34,12 +34,12 @@ export default function Tarpize_single({location}) {
     }, [value]);
   return (
     <div className="tarpize_single_main">
-      <div className="container">
+      <div className="containerrrr">
         <div className="row m-0">
-          <div className="col-md-6 col-lg-7 text-center lftgacHPiCUpEr">
+          <div className="col-md-12 col-lg-7 text-center lftgacHPiCUpEr">
             <img src={location.state.Image} className="lftgacHPiC" alt="" />
           </div>
-          <div className="col-md-6 col-lg-5">
+          <div className="col-md-12 mt-3 mt-lg-0 col-lg-5">
             <div className="tarsize_content text-start">
               <p className="sigleFull1st">コレクションページに戻る</p>
               <h3 className="text_clr">

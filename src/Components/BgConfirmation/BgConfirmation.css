@@ -2,9 +2,10 @@
     background-image: url("../Assets/bgnotation.svg");
      background-position: center center;
      background-repeat: no-repeat;
+     padding: 5px 25px !important;
      background-size: cover ;
-     height: 50vh !important;
-    border-radius: 0px !important;
+     height: 254px !important;
+    border-radius: 24px !important;
      display: flex;
      justify-content: center;
      align-items: center
@@ -24,7 +25,7 @@ text-align: center !important;
 
 
 .NwCls{
-padding: 10px 15px !important;
+padding: 30px 30px !important;
 }
 
 @media only screen and (max-width:700px){

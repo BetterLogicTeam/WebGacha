@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./MyPageEdit_1.css";
 import { Radio, Select } from "antd";
 import Form from "react-bootstrap/Form";
@@ -11,6 +11,8 @@ function MyPageEdit_1() {
   const [value, setvalue] = useState(1);
   const [value2, setvalue2] = useState(1);
   const [value3, setvalue3] = useState(1);
+  const [SelectYear, setSelectYear] = useState([]);
+
 
   const onChange = (e) => {
     // console.log(`checked = ${e.target.checked}`);
@@ -26,6 +28,20 @@ function MyPageEdit_1() {
   };
 
   const history = useNavigate();
+
+  const AddYear = () => {
+    let YearArray = [];
+    for (let i = 1; i <= 99; i++) {
+      let data = 1923;
+      YearArray = [...YearArray, { year: data + i }];
+      
+    }
+    setSelectYear(YearArray);
+  };
+
+  useEffect(() => {
+    AddYear();
+  }, []);
   return (
     <div style={{ backgroundColor: "#F2F6FF" }}>
       <div className="container py-5">
@@ -144,7 +160,14 @@ function MyPageEdit_1() {
                       </Form.Group>
                     </Form>
 
-                    <h5 className="mt-4 err">郵便番号がわからない方はこちら</h5>
+                    <a
+                      href="https://www.post.japanpost.jp/zipcode/"
+                      target="_blank"
+                      className="p_pink"
+                    >
+                      {" "}
+                      郵便番号がわからない方はこちら
+                    </a>
                   </div>
                   {/* <div className="col-lg-6">
                     <Form className="tScnd">
@@ -166,16 +189,40 @@ function MyPageEdit_1() {
               <div className="col-lg-12 mt-3">
                 <div className="row">
                   <div className="col-lg-6">
-                    <Form.Label className="NameFld">都道府県</Form.Label>
-                    <Form.Select
-                      aria-label="Default select example"
-                      className="Fld"
-                    >
-                      <option>選択してください</option>
-                      <option value="1">選択してください</option>
-                      <option value="2">選択してください</option>
-                      <option value="3">選択してください</option>
-                    </Form.Select>
+                  <label htmlFor="sssss" className="NameFld">
+                    都道府県
+                  </label>
+                  <Select
+                    className="BDMainagain w-100"
+                    style={{ marginTop: "0px" }}
+                    defaultValue="選択してください"
+                    options={[
+                      {
+                        value: "山形県",
+                        label: "山形県",
+                      },
+                      {
+                        value: "秋田県",
+                        label: "秋田県",
+                      },
+                      {
+                        value: "宮城県",
+                        label: "宮城県",
+                      },
+                      {
+                        value: "岩手県",
+                        label: "岩手県",
+                      },
+                      {
+                        value: "福島県",
+                        label: "福島県",
+                      },
+                      {
+                        value: "茨城県",
+                        label: "茨城県",
+                      },
+                    ]}
+                  />
                   </div>
                   <div className="col-lg-6">
                     <Form>
@@ -232,7 +279,11 @@ function MyPageEdit_1() {
 
           <div
             className="col-lg-8 py-3 dateOfBirthUpper mt-5"
-            style={{ backgroundColor: "#FFFFFF", borderRadius: "12px" , padding:"32px 30px" }}
+            style={{
+              backgroundColor: "#FFFFFF",
+              borderRadius: "12px",
+              padding: "32px 30px",
+            }}
           >
             <div className="row justify-content-start py-2">
               <h3 className="nameTitle">
@@ -240,305 +291,219 @@ function MyPageEdit_1() {
               </h3>
 
               <div className="Register_ant bdsltmainup">
-              <div className="col-lg-3 bdDateUpper">
-                <label htmlFor="sssss" className="passw">
-                  年
-                </label>
-                <Select
-                  className="BDMain"
-                  defaultValue="1989"
-                  options={[
-                    {
-                      value: "1989",
-                      label: "1989",
-                    },
-                    {
-                      value: "1990",
-                      label: "1990",
-                    },
-                    {
-                      value: "1991",
-                      label: "1991",
-                    },
-                    {
-                      value: "1992",
-                      label: "1992",
-                    },
-                    {
-                      value: "1993",
-                      label: "1993",
-                    },
-                    {
-                      value: "1994",
-                      label: "1994",
-                    },
-                    {
-                      value: "1995",
-                      label: "1995",
-                    },
-                    {
-                      value: "1996",
-                      label: "1996",
-                    },
-                    {
-                      value: "1997",
-                      label: "1997",
-                    },
-                    {
-                      value: "1998",
-                      label: "1998",
-                    },
-                    {
-                      value: "1999",
-                      label: "1999",
-                    },
-                    {
-                      value: "2001",
-                      label: "2001",
-                    },
-                    {
-                      value: "2002",
-                      label: "2002",
-                    },
-                    {
-                      value: "2003",
-                      label: "2003",
-                    },
-                    {
-                      value: "2004",
-                      label: "2004",
-                    },
-                    {
-                      value: "2005",
-                      label: "2005",
-                    },
-                    {
-                      value: "2006",
-                      label: "2006",
-                    },
-                    {
-                      value: "2007",
-                      label: "2007",
-                    },
-                    {
-                      value: "2008",
-                      label: "2008",
-                    },
-                    {
-                      value: "2009",
-                      label: "2009",
-                    },
-                    {
-                      value: "2010",
-                      label: "2010",
-                    },
-                    {
-                      value: "2011",
-                      label: "2011",
-                    },
-                  ]}
-                />
-              </div>
-              <div className="col-lg-3 bdDateUpper">
-                <label htmlFor="sssss" className="passw bddateoption">
-                  月
-                </label>
-                <Select
-                  className="BDMain"
-                  defaultValue="1"
-                  options={[
-                    {
-                      value: "1",
-                      label: "1",
-                    },
-                    {
-                      value: "2",
-                      label: "2",
-                    },
-                    {
-                      value: "3",
-                      label: "3",
-                    },
-                    {
-                      value: "4",
-                      label: "4",
-                    },
-                    {
-                      value: "5",
-                      label: "5",
-                    },
-                    {
-                      value: "6",
-                      label: "6",
-                    },
-                    {
-                      value: "7",
-                      label: "7",
-                    },
-                    {
-                      value: "8",
-                      label: "8",
-                    },
-                    {
-                      value: "9",
-                      label: "9",
-                    },
-                    {
-                      value: "10",
-                      label: "10",
-                    },
-                    {
-                      value: "11",
-                      label: "11",
-                    },
-                    {
-                      value: "12",
-                      label: "12",
-                    },
-                  ]}
-                />
-              </div>
+                <div className="col-lg-3 bdDateUpper">
+                  <label htmlFor="sssss" className="passw">
+                    年
+                  </label>
+                  <Select className="BDMain" defaultValue="1990"
+                  //  value={option}
+                  >
+                    {SelectYear.map((option) => (
+                            <Select.Option key={option} value={option.year}>
+                              {option.year}
+                            </Select.Option>
+                          ))}
+                  </Select>
+                </div>
+                <div className="col-lg-3 bdDateUpper">
+                  <label htmlFor="sssss" className="passw bddateoption">
+                    月
+                  </label>
+                  <Select
+                    className="BDMain"
+                    defaultValue="1"
+                    options={[
+                      {
+                        value: "1",
+                        label: "1",
+                      },
+                      {
+                        value: "2",
+                        label: "2",
+                      },
+                      {
+                        value: "3",
+                        label: "3",
+                      },
+                      {
+                        value: "4",
+                        label: "4",
+                      },
+                      {
+                        value: "5",
+                        label: "5",
+                      },
+                      {
+                        value: "6",
+                        label: "6",
+                      },
+                      {
+                        value: "7",
+                        label: "7",
+                      },
+                      {
+                        value: "8",
+                        label: "8",
+                      },
+                      {
+                        value: "9",
+                        label: "9",
+                      },
+                      {
+                        value: "10",
+                        label: "10",
+                      },
+                      {
+                        value: "11",
+                        label: "11",
+                      },
+                      {
+                        value: "12",
+                        label: "12",
+                      },
+                    ]}
+                  />
+                </div>
 
-              <div className="col-lg-3 bdDateUpper">
-                <label htmlFor="sssss" className="passw bddateoption">
-                  {" "}
-                  日
-                </label>
-                <Select
-                  className="BDMain"
-                  defaultValue="1"
-                  options={[
-                    {
-                      value: "1",
-                      label: "1",
-                    },
-                    {
-                      value: "2",
-                      label: "2",
-                    },
-                    {
-                      value: "3",
-                      label: "3",
-                    },
-                    {
-                      value: "4",
-                      label: "4",
-                    },
-                    {
-                      value: "5",
-                      label: "5",
-                    },
-                    {
-                      value: "6",
-                      label: "6",
-                    },
-                    {
-                      value: "7",
-                      label: "7",
-                    },
-                    {
-                      value: "8",
-                      label: "8",
-                    },
-                    {
-                      value: "9",
-                      label: "9",
-                    },
-                    {
-                      value: "10",
-                      label: "10",
-                    },
-                    {
-                      value: "11",
-                      label: "11",
-                    },
-                    {
-                      value: "12",
-                      label: "12",
-                    },
-                    {
-                      value: "13",
-                      label: "13",
-                    },
-                    {
-                      value: "14",
-                      label: "14",
-                    },
-                    {
-                      value: "15",
-                      label: "15",
-                    },
-                    {
-                      value: "16",
-                      label: "16",
-                    },
-                    {
-                      value: "17",
-                      label: "17",
-                    },
-                    {
-                      value: "18",
-                      label: "18",
-                    },
-                    {
-                      value: "19",
-                      label: "19",
-                    },
-                    {
-                      value: "20",
-                      label: "20",
-                    },
-                    {
-                      value: "21",
-                      label: "21",
-                    },
-                    {
-                      value: "22",
-                      label: "22",
-                    },
-                    {
-                      value: "23",
-                      label: "23",
-                    },
-                    {
-                      value: "24",
-                      label: "24",
-                    },
-                    {
-                      value: "25",
-                      label: "25",
-                    },
-                    {
-                      value: "26",
-                      label: "26",
-                    },
-                    {
-                      value: "27",
-                      label: "27",
-                    },
-                    {
-                      value: "28",
-                      label: "28",
-                    },
-                    {
-                      value: "29",
-                      label: "29",
-                    },
-                    {
-                      value: "30",
-                      label: "30",
-                    },
-                    {
-                      value: "31",
-                      label: "31",
-                    },
-                  ]}
-                />
+                <div className="col-lg-3 bdDateUpper">
+                  <label htmlFor="sssss" className="passw bddateoption">
+                    {" "}
+                    日
+                  </label>
+                  <Select
+                    className="BDMain"
+                    defaultValue="1"
+                    options={[
+                      {
+                        value: "1",
+                        label: "1",
+                      },
+                      {
+                        value: "2",
+                        label: "2",
+                      },
+                      {
+                        value: "3",
+                        label: "3",
+                      },
+                      {
+                        value: "4",
+                        label: "4",
+                      },
+                      {
+                        value: "5",
+                        label: "5",
+                      },
+                      {
+                        value: "6",
+                        label: "6",
+                      },
+                      {
+                        value: "7",
+                        label: "7",
+                      },
+                      {
+                        value: "8",
+                        label: "8",
+                      },
+                      {
+                        value: "9",
+                        label: "9",
+                      },
+                      {
+                        value: "10",
+                        label: "10",
+                      },
+                      {
+                        value: "11",
+                        label: "11",
+                      },
+                      {
+                        value: "12",
+                        label: "12",
+                      },
+                      {
+                        value: "13",
+                        label: "13",
+                      },
+                      {
+                        value: "14",
+                        label: "14",
+                      },
+                      {
+                        value: "15",
+                        label: "15",
+                      },
+                      {
+                        value: "16",
+                        label: "16",
+                      },
+                      {
+                        value: "17",
+                        label: "17",
+                      },
+                      {
+                        value: "18",
+                        label: "18",
+                      },
+                      {
+                        value: "19",
+                        label: "19",
+                      },
+                      {
+                        value: "20",
+                        label: "20",
+                      },
+                      {
+                        value: "21",
+                        label: "21",
+                      },
+                      {
+                        value: "22",
+                        label: "22",
+                      },
+                      {
+                        value: "23",
+                        label: "23",
+                      },
+                      {
+                        value: "24",
+                        label: "24",
+                      },
+                      {
+                        value: "25",
+                        label: "25",
+                      },
+                      {
+                        value: "26",
+                        label: "26",
+                      },
+                      {
+                        value: "27",
+                        label: "27",
+                      },
+                      {
+                        value: "28",
+                        label: "28",
+                      },
+                      {
+                        value: "29",
+                        label: "29",
+                      },
+                      {
+                        value: "30",
+                        label: "30",
+                      },
+                      {
+                        value: "31",
+                        label: "31",
+                      },
+                    ]}
+                  />
+                </div>
               </div>
-            </div>
             </div>
           </div>
-
 
           <div
             className="col-lg-8 py-3  mt-5"

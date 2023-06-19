@@ -4,7 +4,7 @@ import Confirmataion from '../Confirmataion/Confirmataion'
 
 function MainConfirmationPage() {
   return (
-    <div>
+    <div className='confirmation_bg'>
 
      <BgConfirmation />
      <Confirmataion />

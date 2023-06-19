@@ -18,6 +18,13 @@ export default function Purchase_Popup_video({
     setIsModalOpen(false);
     history("/ListOfResults");
   };
+  const myCallback = () =>{
+    console.log('Video has ended')
+    history("/ListOfResults");
+    window.scrollTo(0, 0)
+
+  } 
+    
   return (
     <>
       <Modal
@@ -29,11 +36,12 @@ export default function Purchase_Popup_video({
         centered
       >
         <ReactPlayer
-          loop={true}
+          // loop={true}
           playing
           autoplay
           url="./_Cartoon88.mp4"
           width="100%"
+          onEnded={() => myCallback()}
         />
       </Modal>
     </>

@@ -187,20 +187,20 @@
 }
 
 
-@media (min-width:2560px) and (max-width:10000px) {
+/* @media (min-width:2560px) and (max-width:10000px) {
   .BigScreenslidr{
     width: 95%;
   }
 
   .card_slider .slider_date {
     font-weight: 600;
-    font-size: 78px;
+    font-size: 25px;
     line-height: 140%;
 }
 
 .card_slider .slider_text {
   font-weight: 700;
-  font-size: 68px;
+  font-size: 25px;
   line-height: 140%;
   text-align: left;
 }
@@ -219,4 +219,4 @@
   font-size: 195px;
 }
 
-}
+} */

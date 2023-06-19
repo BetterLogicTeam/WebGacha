@@ -30,6 +30,10 @@
   font-weight: 600;
   line-height: 19px;
 }
+.first_li a{
+  color: #fff !important;
+
+}
 
 .first_li {
   background: #2eb3ff !important;
@@ -153,4 +157,9 @@
     padding: 10px;
     max-height: 565px !important;
   }
+}
+
+.link_text_d{
+  text-decoration: none;
+  color: #020140
 }
