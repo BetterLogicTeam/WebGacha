@@ -3,6 +3,7 @@
 }
 .bg_clr {
   background: #f5f5f5 !important;
+  /* background-color: red !important; */
 }
 
 .main_faq_img {
@@ -56,8 +57,8 @@
 
 .side_bar {
   background: #ffffff;
-  /* Blue */
-
+  position: sticky !important;
+  top: 0% !important;
   border: 1px solid #2eb3ff;
   border-radius: 12px;
   padding: 10px;

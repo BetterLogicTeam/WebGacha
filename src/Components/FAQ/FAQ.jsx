@@ -7,7 +7,7 @@ export default function FAQ() {
   return (
     <div className="main_faq bg_clr">
       <div className="main_faq_img">
-        <h1 className="main_heading">よくあるご質問</h1>
+        <h1 className="main_heading">よくあるご質問 </h1>
       </div>
       <div className="container pt-2 pt-md-5 my-4">
         <div className="row">

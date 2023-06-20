@@ -635,7 +635,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="******" />
+                    <Input type="password" />
                     <p className="Register_ant_ka_thrd_p">
                       <span className="star_clr2"> *</span>
                       半角英数字50文字以内で入力してください。
@@ -653,7 +653,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="*********" />
+                    <Input   type="password"/>
                     <p className="Register_ant_ka_thrd_p ps-3">
                       <span className="star_clr2"> * </span>{" "}
                       確認のためパスワードを再入力してください。
@@ -662,14 +662,14 @@ export default function Register_Step_One() {
                 </div>
               </div>
             </div>
-            <div className="ajsiji my-3 my-md-3">
+            <div className="ajsiji my-3 my-md-3" >
               <p>
                 メールマガジン <span className="star_clr"> * </span>
               </p>
               <p className="Register_ka_last_p">
                 メールマガジンにて、新商品やお得な情報などをお送りしています。
               </p>
-              <div className="Register_ant">
+              <div  className="Register_ant">
                 <Radio.Group
                   onChange={onChange1}
                   value={value2}
@@ -689,7 +689,7 @@ export default function Register_Step_One() {
               </div>
             </div>
 
-            <div className="ajsiji my-3 my-md-3">
+            <div className="ajsiji my-3 my-md-3" >
               <p>
                 配信モードをオンにしますか？{" "}
                 <span className="star_clr"> * </span>
