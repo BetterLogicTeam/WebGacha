@@ -3,7 +3,6 @@
 }
 .bg_clr {
   background: #f5f5f5 !important;
-  /* background-color: red !important; */
 }
 
 .main_faq_img {
@@ -11,7 +10,6 @@
   background-position: center !important;
   background-repeat: no-repeat;
   background-size: cover !important;
-  /* min-height: 60vh !important; */
   height: 254px;
   display: flex !important;
   justify-content: center;
