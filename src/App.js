@@ -32,17 +32,11 @@ import ShippingStatusDetails from "./Components/Shipping_status_Details/Shipping
 import Confirmataion from "./Components/Confirmataion/Confirmataion";
 import BgConfirmation from "./Components/BgConfirmation/BgConfirmation";
 import MainConfirmationPage from "./Components/MainConfirmationPage/MainConfirmationPage";
-// import NewsSlider from './Components/news_Slider/news_Slider';
 
 function App() {
   return (
     <div className="App">
-
-
-
       <Header />
-
-
 
       <Routes>
         <Route path="/" element={<MainHome />} />
@@ -84,12 +78,11 @@ function App() {
           path="/ShippingStatusDetails"
           element={<ShippingStatusDetails />}
         />
-         <Route
+        <Route
           path="/ContactUs_Confirmation"
           element={<MainConfirmationPage />}
         />
-      </Routes> 
-      
+      </Routes>
 
       <MainFooter />
     </div>
