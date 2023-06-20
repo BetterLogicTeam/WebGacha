@@ -45,7 +45,7 @@ export default function FAQ_Details({ length }) {
 
         </div>
 
-        <div className=" my-5" >
+        <div className="" style={{marginTop:"7rem "}} >
           <h4 className="faq_heading">商品について</h4>
           {FAQData.slice(length, 9).map((items, index) => {
             return (
