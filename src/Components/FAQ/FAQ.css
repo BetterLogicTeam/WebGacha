@@ -44,6 +44,10 @@
   /* margin-top: 10px !important; */
 }
 
+.fqqabl{
+  font-size: 16px !important;
+}
+
 .faq_heading {
   font-weight: 600 !important;
   color: #020140 !important;
@@ -61,6 +65,8 @@
   border-radius: 12px;
   padding: 10px;
   max-height: 440px !important;
+  position: sticky !important;
+  top: 115px !important;
 }
 
 .accordion-button:focus {
@@ -143,6 +149,10 @@
     font-size: 16px !important;
     font-weight: 590 !important;
   }
+
+  .side_bar{
+    position: static !important;
+  }
 }
 
 
@@ -155,6 +165,7 @@
     border-radius: 12px;
     padding: 10px;
     max-height: 565px !important;
+    position: static !important;
   }
 }
 

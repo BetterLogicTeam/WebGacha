@@ -35,7 +35,7 @@ function ContactUs() {
                 <div className="w-100">
                   <input
                     type="text"
-                    className="w-100 Contact_input"
+                    className="w-100 Contact_input forGraycllr"
                     id="fname"
                     name="fname"
                     placeholder="姓"
@@ -46,7 +46,7 @@ function ContactUs() {
                 <input
                   type="text"
                   id="fname"
-                  className="w-100  Contact_input"
+                  className="w-100  Contact_input forGraycllr"
                   name="fname"
                   placeholder="名"
                 />
@@ -58,7 +58,7 @@ function ContactUs() {
                 <div className="w-100">
                   <input
                     type="text"
-                    className="w-100 Contact_input"
+                    className="w-100 Contact_input forGraycllr"
                     id="fname"
                     name="fname"
                     placeholder="セイ"
@@ -69,7 +69,7 @@ function ContactUs() {
                 <input
                   type="text"
                   id="fname"
-                  className="w-100  Contact_input"
+                  className="w-100  Contact_input forGraycllr"
                   name="fname"
                   placeholder="メイ"
                 />
@@ -82,7 +82,7 @@ function ContactUs() {
                 <div className="w-100">
                   <input
                     type="text"
-                    className="w-100 Contact_input"
+                    className="w-100 Contact_input forGraycllr"
                     id="fname"
                     name="fname"
                     placeholder="メールアドレスを入力してください"
@@ -100,7 +100,7 @@ function ContactUs() {
               <div className="col-md-12 PDngEnd">
                 <textarea
                   id="w3review"
-                  className="Contact_input w-100"
+                  className="Contact_input w-100 forGraycllr"
                   name="w3review"
                   rows="8"
                   placeholder="お問い合わせ内容を記入ください。"
