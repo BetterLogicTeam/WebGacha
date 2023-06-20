@@ -47,6 +47,8 @@
     width:21% !important;
 }
 
+
+
 @media only screen and (max-width:600px) {
     .gacha_Btn{
         padding: 18px 56px !important;
@@ -73,5 +75,11 @@
         /* Black */
     
         color: #020140;
+    }
+}
+
+@media (min-width:605px) and (max-width:992px) {
+    .gybBBtn{
+        display: none;
     }
 }

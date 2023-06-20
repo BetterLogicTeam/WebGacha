@@ -33,7 +33,7 @@ export default function FAQ() {
                 className={Faq_Tab === 2 ? "first_li " : ""}
                 style={{ cursor: "pointer" }}
               >
-                <a className="link_text_d" href="#ウェブガチャのプレイについて">ウェブガチャのプレイについて</a>
+                <a className="link_text_d fqqabl" href="#ウェブガチャのプレイについて">ウェブガチャのプレイについて</a>
                 
               </li>
               <li

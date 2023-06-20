@@ -38,7 +38,7 @@ export default function Tarpize_single_model(props) {
     <div className="main_modal_tarpize">
       <Modal 
         {...props}
-        size="md"
+        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
