@@ -118,7 +118,7 @@ export default function CouponTab() {
           <ConfimYourRegistration />
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <div className="container">
+          <div className="container favLst">
             <div className="Favorites_list">
               <h1> お気に入りリスト：企画</h1>
             </div>
