@@ -16,7 +16,17 @@
   line-height: 72px !important;
   /* letter-spacing: 0em; */
   text-align: center !important;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
 }
+.Notation_titleMain{
+  font-family: Barlow;
+  font-size: 60px !important;
+  font-weight: 600 !important;
+  line-height: 72px !important;
+  text-align: center !important;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
 .notation_bor {
   border-radius: 10px;
 }
@@ -26,13 +36,22 @@
   background-color: #F2F6FF;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width:374px) {
+  .Notation_titleMain{
+    font-size: 24px !important;
+    line-height: 33px !important;
+  }
+}
+
+@media (min-width:375px) and (max-width: 700px) {
   .main_ntaa {
     height: auto !important;
     padding: 70px 10px !important;
   }
 
-  /* margin-top: 20px; */
-
+  .Notation_titleMain{
+    font-size: 31px !important;
+    line-height: 37px !important;
+  }
 
 }
