@@ -3,13 +3,13 @@ import Accordion from "react-bootstrap/Accordion";
 import FAQData from "./FAQ_Data";
 export default function FAQ_Details({ length }) {
   return (
-    <div className="container  FrEndPd">
+    <div className="container  FrEndPd " id="会員登録・ログインについて">
     
       <Accordion defaultActiveKey="0">
         
-        <div >
+        <div  className="" >
     
-          <h4 className="faq_heading mt-5 mt-md-0" id="会員登録・ログインについて"  style={{marginBottom:"5rem"}}>
+          <h4 className="faq_heading mt-5 mt-md-0"   style={{marginBottom:"5rem"}}>
             会員登録・ログインについて
           </h4>
           <Accordion.Item className="faq_acc" defaultActiveKey="0" eventKey="0">
@@ -45,7 +45,7 @@ export default function FAQ_Details({ length }) {
 
         </div>
 
-        <div className="" style={{marginTop:"7rem "}} >
+        <div className="nav_scroll" >
           <h4 className="faq_heading">商品について</h4>
           {FAQData.slice(length, 9).map((items, index) => {
             return (
@@ -64,7 +64,7 @@ export default function FAQ_Details({ length }) {
             <div id="ウェブガチャのプレイについて" style={{marginBottom:"5rem"}}></div>
           
         </div>
-        <div className=" my-5">
+        <div  className="nav_scroll">
           <h4 className="faq_heading">ウェブガチャのプレイについて</h4>
           {FAQData.slice(length, 9).map((items, index) => {
             return (
@@ -83,7 +83,7 @@ export default function FAQ_Details({ length }) {
           <div id="メールの受信について" style={{marginBottom:"5rem"}}></div>
        
         </div>
-        <div className=" my-5">
+        <div  className="nav_scroll">
           <h4 className="faq_heading">メールの受信について</h4>
           {FAQData.slice(length, 9).map((items, index) => {
             return (
@@ -103,7 +103,7 @@ export default function FAQ_Details({ length }) {
 
         </div>
 
-        <div className=" my-5">
+        <div  className="nav_scroll">
           <h4 className="faq_heading">商品のお届けについて</h4>
           {FAQData.slice(length, 9).map((items, index) => {
             return (
@@ -122,7 +122,7 @@ export default function FAQ_Details({ length }) {
           <div id="お支払い方法について" style={{marginBottom:"5rem"}}></div>
 
         </div>
-        <div className=" my-5" >
+        <div  className="nav_scroll" >
           <h4 className="faq_heading">お支払い方法について</h4>
           {FAQData.slice(length, 9).map((items, index) => {
             return (
