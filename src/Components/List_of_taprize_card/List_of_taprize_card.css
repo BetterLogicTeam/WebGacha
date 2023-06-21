@@ -43,6 +43,13 @@
   height:55px !important;
 }
 
+.like_hrt:hover .hrt{
+  background-color: #e60058 !important;
+  color: #ffffff !important;  
+  height:55px !important;
+  border-radius: 39px;
+}
+
 .endSale {
   background-color: #d8d8d8;
   border-radius: 40px;

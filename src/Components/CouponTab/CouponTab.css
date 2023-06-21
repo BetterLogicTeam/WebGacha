@@ -39,4 +39,12 @@
         background-color: #F2F6FF;
         padding: 40px 16px;
     }
+
+    .third_Tab {
+        padding: 43px 10px;
+    }
+
+    .favLst{
+        margin-top: 40px;
+    }
 }
