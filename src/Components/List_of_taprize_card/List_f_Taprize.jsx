@@ -12,7 +12,7 @@ function List_f_Taprize() {
        
       </div>
       <div className="container aGNPad">
-        <div className="taBs pt-1 pb-3">
+        <div className="taBs pt-2 pb-3">
           <TabForAll/>
         </div>
       </div>

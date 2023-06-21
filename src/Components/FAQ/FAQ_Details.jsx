@@ -8,7 +8,6 @@ export default function FAQ_Details({ length }) {
       <Accordion defaultActiveKey="0">
         
         <div  className="" >
-    
           <h4 className="faq_heading mt-5 mt-md-0"   style={{marginBottom:"5rem"}}>
             会員登録・ログインについて
           </h4>

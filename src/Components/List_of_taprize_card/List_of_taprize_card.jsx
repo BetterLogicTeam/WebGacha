@@ -58,7 +58,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
                 window.scrollTo(0, 0)
               )}
             >
-              販売中の販売中のウェブガチャをチェック！
+              販売中のタップライズ
             </button>
             <div className="like_hrt ">
               <Checkbox

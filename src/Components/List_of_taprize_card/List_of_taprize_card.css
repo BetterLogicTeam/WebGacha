@@ -40,13 +40,13 @@
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  height:55px !important;
+  height: 55px !important;
 }
 
-.like_hrt:hover .hrt{
+.like_hrt:hover .hrt {
   background-color: #e60058 !important;
-  color: #ffffff !important;  
-  height:55px !important;
+  color: #ffffff !important;
+  height: 55px !important;
   border-radius: 39px;
 }
 
@@ -89,16 +89,19 @@
 
 /* Pagination style */
 
-.paginationBgC > ul > li > button{
-  background-color: white   ;
+.paginationBgC>ul>li>button {
+  background-color: white;
   border: none !important;
 }
-.paginationBgC > ul > li{
-padding: 8px !important;
+
+.paginationBgC>ul>li {
+  padding: 8px !important;
 }
-.paginationBgC > ul > li > button:focus{
+
+.paginationBgC>ul>li>button:focus {
   border-color: #e60058 !important;
 }
+
 .Mui-selected {
   background-color: #2EB3FF !important;
 }
@@ -121,32 +124,33 @@ padding: 8px !important;
   padding: 24px 5px !important;
 }
 
-.gok{
+.gok {
   margin-top: 15px;
 }
 
 
 
 
-.hvrBx{
+.hvrBx {
   overflow: hidden !important;
 }
-.hvrImg{
+
+.hvrImg {
   transition: transform 0.7s ease;
 }
-.hvrBx:hover .hvrImg{
+
+.hvrBx:hover .hvrImg {
   transform: scale(1.04);
 }
 
-.card 
-
-.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+.card .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
   color: #fff !important;
- 
+
   background-color: #2EB3FF !important;
 }
-.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.MuiPaginationItem-previousNext{
-border: 1px solid #e60058 !important;
+
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.MuiPaginationItem-previousNext {
+  border: 1px solid #e60058 !important;
   color: #e60058 !important;
 }
 
@@ -160,31 +164,34 @@ border: 1px solid #e60058 !important;
 .card_list_of_taprize:hover .listCrd_fst_txt {
   color: #6f6f70 !important;
 }
+
 .card_list_of_taprize:hover .listCrd_scnd_txt {
   color: #6f6f70 !important;
 }
 
-.card_list_of_taprize:hover{
+.card_list_of_taprize:hover {
   transition: all 0.5s !important;
 }
 
-.innerpadlstriz{
+.innerpadlstriz {
   padding-top: 7px;
 }
 
 @media only screen and (max-width:700px) {
 
-  .innerpadlstriz{
+  .innerpadlstriz {
     padding-top: 1.5rem;
   }
 
-  .gok{
+  .gok {
     padding: 0px !important;
   }
+
   .hrt {
     display: none !important;
   }
-  .like_hrt{
+
+  .like_hrt {
     display: none !important;
   }
 
@@ -192,7 +199,7 @@ border: 1px solid #e60058 !important;
     padding: 10px 22px !important;
     margin-top: 15px !important;
     height: 78px !important;
-}
+  }
 
   .webGachaList_title {
     background-image: url(../Assets/hero2.png);
@@ -206,7 +213,8 @@ border: 1px solid #e60058 !important;
     align-items: center;
     padding: 43px 0px;
   }
-  .gacha_Btn{
+
+  .gacha_Btn {
     height: 70px !important;
   }
 
@@ -220,28 +228,28 @@ border: 1px solid #e60058 !important;
     position: absolute;
     top: 20px;
     left: 17px;
-}
+  }
 
-.page_header {
-  color: #ffffff;
-  font-size: 27px !important;
-  font-weight: 600;
-  /* -webkit-text-stroke: 1.7px black !important; */
-  display: flex !important;
-  text-align: center !important;
-  padding: 28px 46px !important;
-}
+  .page_header {
+    color: #ffffff;
+    font-size: 27px !important;
+    font-weight: 600;
+    /* -webkit-text-stroke: 1.7px black !important; */
+    display: flex !important;
+    text-align: center !important;
+    padding: 28px 46px !important;
+  }
 
-.listCrd_scnd_txt{
-  display: none !important;
-}
+  .listCrd_scnd_txt {
+    display: none !important;
+  }
 
-.css-19kzrtu {
-  padding: 0px !important;
-}
+  .css-19kzrtu {
+    padding: 0px !important;
+  }
 
-.paginationBgC > ul > li{
-  padding: 4px !important;
+  .paginationBgC>ul>li {
+    padding: 4px !important;
   }
 
   .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
@@ -258,7 +266,7 @@ border: 1px solid #e60058 !important;
     color: rgba(0, 0, 0, 0.87);
   }
 
-  .aGNPad{
+  .aGNPad {
     padding: 0px !important;
     margin-top: 39px !important;
   }
@@ -270,16 +278,16 @@ border: 1px solid #e60058 !important;
     width: 100%;
     border-radius: 12px !important;
     background-position: center;
-    height:154px;
+    height: 154px;
   }
 
   .page_header {
     font-size: 49px;
-}
+  }
 
 }
 
-@media (min-width:770px) and (max-width:1024px) {
+@media (min-width:770px) and (max-width:1450px) {
 
   .webGachaList_title {
     width: 100%;
@@ -298,16 +306,17 @@ border: 1px solid #e60058 !important;
   }
 } */
 
-@media (min-width:1450px) and (max-width:3000px) {
+@media (min-width:1450px) and (max-width:1700px) {
   .webGachaList_title {
     width: 100%;
     border-radius: 12px !important;
     background-position: center;
-    height: 500px;
+    height: 300px;
   }
 
-.page_header {
+  .page_header {
     font-size: 60px !important;
-}
+  }
 
 }
+

@@ -1,10 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./FAQ.css";
 import FAQDetails from "./FAQ_Details";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 
 export default function FAQ() {
   const [Faq_Tab, setFaq_Tab] = useState(0);
+  const [activeSection, setActiveSection] = useState('');
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    const sections = document.querySelectorAll('section');
+    const scrollPosition = window.pageYOffset;
+
+    sections.forEach((section) => {
+      const { top, height, id } = section.getBoundingClientRect();
+      if (top <= scrollPosition && top + height > scrollPosition) {
+        setActiveSection(id);
+      }
+    });
+  };
   return (
     <div className="main_faq bg_clr">
       <div className="main_faq_img">

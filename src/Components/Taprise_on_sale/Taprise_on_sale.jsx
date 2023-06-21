@@ -99,7 +99,7 @@ export default function Taprise_on_sale() {
               onClick={() => window.scrollTo(0, 0)}
             >
               <button className="gacha_Btn gachaAgn gybBBtn ">
-                販売中の販売中のウェブガチャをチェック！
+                販売中のタップライズ
               </button>
             </Link>
           </div>

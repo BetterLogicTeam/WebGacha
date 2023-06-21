@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Checkbox, Form, Input, Radio, Select } from "antd";
 import { useNavigate } from "react-router-dom";
+import './Register.css'
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -381,7 +382,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   /> */}
-                  <select name="state" className="BDMain dop_mainond mt-2">
+                  <select name="state" className="BDMain dop_mainond mt-2 form-select shadow-none ">
                     <option value="">選択してください</option>
                     <option value="北海道">北海道</option>
                     <option value="青森県">青森県</option>
@@ -505,7 +506,7 @@ export default function Register_Step_One() {
                   </label>
                   <select
                     // class="form-select"
-                    className="BDMain dop_mainond"
+                    className="BDMain dop_mainond form-select shadow-none"
                     aria-label="Default select example"
                   >
                     <option selected>1990</option>
@@ -533,7 +534,7 @@ export default function Register_Step_One() {
                   <label htmlFor="sssss" className="passw bddateoption">
                     月
                   </label>
-                  <select name="birthday_month" className="BDMain dop_mainond">
+                  <select name="birthday_month" className="BDMain dop_mainond form-select shadow-none">
                     <option selected value={1}>
                       1
                     </option>
@@ -613,7 +614,7 @@ export default function Register_Step_One() {
                   <select
                     id="sel-birth-day"
                     name="birthday_day"
-                    className="BDMain dop_mainond"
+                    className="BDMain dop_mainond form-select shadow-none"
                   >
                     <option selected value={1}>
                       1
@@ -827,7 +828,7 @@ export default function Register_Step_One() {
               </div>
             </div>
             <div className="ajsiji my-3 my-md-3">
-              <p>電話番号 *</p>
+              <p>電話番号 <span className="star_clr"> * </span></p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -850,7 +851,9 @@ export default function Register_Step_One() {
               </div>
             </div>
             <div className="ajsiji my-3 my-md-3">
-              <p>メールアドレス *</p>
+              
+              <p>メールアドレス <span className="star_clr"> * </span> </p>
+
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -947,7 +950,7 @@ export default function Register_Step_One() {
             <div className="ajsiji my-3 my-md-3">
               <p>
                 配信モードをオンにしますか？{" "}
-                <span className="star_clr"> * </span>
+                {/* <span className="star_clr"> * </span> */}
               </p>
               <div className="Register_ant">
                 <Radio.Group

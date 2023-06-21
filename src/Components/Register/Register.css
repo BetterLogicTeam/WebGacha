@@ -549,3 +549,8 @@ Width:730px;
 }
 
 
+.form-control:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+
+}

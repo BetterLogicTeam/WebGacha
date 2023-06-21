@@ -32,6 +32,7 @@ import ShippingStatusDetails from "./Components/Shipping_status_Details/Shipping
 import Confirmataion from "./Components/Confirmataion/Confirmataion";
 import BgConfirmation from "./Components/BgConfirmation/BgConfirmation";
 import MainConfirmationPage from "./Components/MainConfirmationPage/MainConfirmationPage";
+import Text from "./text";
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
         <Route
           path="/ShippingStatusDetails"
           element={<ShippingStatusDetails />}
+        />
+          <Route
+          path="/Text"
+          element={<Text />}
         />
         <Route
           path="/ContactUs_Confirmation"

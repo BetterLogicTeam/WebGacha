@@ -192,7 +192,7 @@ function MyPageEdit_1() {
                   <label htmlFor="sssss" className="NameFld">
                     都道府県
                   </label>
-                  <select name="state" className="BDMain dop_mainond ">
+                  <select name="state" className="BDMain dop_mainond form-select shadow-none ">
                     <option value="">選択してください</option>
                     <option value="北海道">北海道</option>
                     <option value="青森県">青森県</option>
@@ -316,7 +316,7 @@ function MyPageEdit_1() {
                   </label>
                   <select
                     // class="form-select"
-                    className="BDMain dop_mainond"
+                    className="BDMain dop_mainond form-select shadow-none"
                     aria-label="Default select example"
                   >
                     <option selected>1990</option>
@@ -333,7 +333,7 @@ function MyPageEdit_1() {
                   <label htmlFor="sssss" className="passw bddateoption">
                     月
                   </label>
-                  <select name="birthday_month" className="BDMain dop_mainond">
+                  <select name="birthday_month" className="BDMain dop_mainond form-select shadow-none">
                     <option selected value={1}>
                       1
                     </option>
@@ -359,7 +359,7 @@ function MyPageEdit_1() {
                   <select
                     id="sel-birth-day"
                     name="birthday_day"
-                    className="BDMain dop_mainond"
+                    className="BDMain dop_mainond form-select shadow-none"
                   >
                     <option selected value={1}>
                       1
