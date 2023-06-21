@@ -174,21 +174,7 @@ export default function Register_Step_One() {
                     <Input placeholder="例：141-0022" />
                   </Form.Item>
                 </div>
-                {/* <div className="col-lg-6">
-                  <Form.Item
-                    label="〒"
-                    name="〒"
-                    className="passw"
-                    rules={[
-                      {
-                        required: true,
-                        message: "Please input your 〒!",
-                      },
-                    ]}
-                  >
-                    <Input placeholder="例：0001　etc..." />
-                  </Form.Item>
-                </div> */}
+           
               </div>
 
               <a
@@ -871,27 +857,61 @@ export default function Register_Step_One() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center w-100">
+        
+          </div>
+        </Form>
+
+<div className="container">
+  <div className="row justify-content-center">
+    <div className="col-md-9">
+    <div className="scroll_text">
+              <p>「ウェブガチャ」ご利用規約</p>
+              <p>第1条 (会員)</p>
+              <p>
+                1.
+                「会員」とは、当社が定める手続に従い本規約に同意の上、入会の申し込みを行う個人をいいます。2.
+                「会員情報」とは、会員が当社に開示した会員の属性に関する情報および会員の取引に関する履歴等の情報をいいます。3.
+                本規約はすべての会員に適用され、登録手続時および登録後にお守りいただく規約です。
+              </p>
+              <p>第2条 (登録)</p>
+              <p>
+                1.
+                会員資格本規約に同意の上、所定の入会申込みをされたお客様は所定の登録手続完了後に会員としての資格を有します。会員登録手続は、会員となるご本人が行ってください。代理による登録は一切認められません。なお、過去に会員資格が取り消された方やその他当社が相応しくないと判断した方からの会員申込はお断りする場合があります。
+              </p>
+              <p>
+                2.
+                会員情報の入力会員登録手続の際には入力上の注意をよく読み、所定の入力フォームに必要事項を正確に入力してください。会員情報の登録において特殊記号・旧漢字・ローマ数字などはご使用になれません。これらの文字が登録された場合は当社にて変更致します。
+              </p>
+              <p>
+                3. パスワードの管理(1)
+                パスワードは会員本人のみが利用できるものとし、第三者に譲渡・貸与できないものとします。(2)
+                パスワードは他人に知られることがないよう定期的に変更する等、会員本人が責任をもって管理してください。(3)
+                パスワードを用いて当社に対して行われた意思表示は会員本人の意思表示とみなし、そのために生じる支払等はすべて会員の責任となります。
+              </p>
+            </div>
+    </div>
+  </div>
+</div>
+        
+              <div className="d-flex justify-content-center align-items-center w-100">
               <Checkbox
-                className="last_vala_main_chkbox d-flex justify-content-center"
+                className="last_vala_main_chkbox d-flex justify-content-center align-items-center"
                 onChange={onChange}
               >
-                <span className="mttt_ressspo">
-                  {/* <span   style={{ color: "#110F24" }}>を読み、同意します。</span> */}
+                <span className="mttt_ressspo" style={{color:"#110F24"}}>
+                を読み、同意します。
                   <span
                     className=""
                     style={{ color: "#E60058" }}
-                    onClick={() => (
-                      history("/TermOfServices"), window.scrollTo(0, 0)
-                    )}
+                    // onClick={() => (
+                    //   history("/TermOfServices"), window.scrollTo(0, 0)
+                    // )}
                   >
-                    利用規約に同意します。
+          利用規約に同意します。
                   </span>
                 </span>
               </Checkbox>
             </div>
-          </div>
-        </Form>
       </div>
     </div>
   );

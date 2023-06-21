@@ -33,3 +33,21 @@ padding: 10px !important;
 .FrEndPd{
     cursor: pointer;
 }
+
+
+.pop_up_img_tar{
+    width: 100% !important;
+}
+
+
+
+/* @media only screen and (max-width:700px){
+    .pop_up_img_tar{
+        width: 200px !important;
+    }
+}
+@media  (min-width:705px) and (max-width:950px){
+    .pop_up_img_tar{
+        width: 350px !important;
+    }
+} */
