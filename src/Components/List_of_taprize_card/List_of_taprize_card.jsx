@@ -60,7 +60,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
             >
               販売中の販売中のウェブガチャをチェック！
             </button>
-            <div className="like_hrt">
+            <div className="like_hrt ">
               <Checkbox
                 {...label}
                 icon={<FavoriteBorder />}
