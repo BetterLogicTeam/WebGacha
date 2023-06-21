@@ -899,8 +899,8 @@ export default function Register_Step_One() {
                 onChange={onChange}
               >
                 <span className="mttt_ressspo" style={{color:"#110F24"}}>
-                を読み、同意します。
-                  <span
+                利用規約を読み、同意します。  
+                  {/* <span
                     className=""
                     style={{ color: "#E60058" }}
                     // onClick={() => (
@@ -908,7 +908,7 @@ export default function Register_Step_One() {
                     // )}
                   >
           利用規約に同意します。
-                  </span>
+                  </span> */}
                 </span>
               </Checkbox>
             </div>
