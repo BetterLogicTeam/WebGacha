@@ -4,6 +4,7 @@ import Taprize_single_pic from "../Assets/single_1.svg";
 import "./Taprize_single_main_card.css";
 import Tarpize_single_model from "../Tarpize_single_model/Tarpize_single_model";
 import Card_Data from "./Data_main_card";
+import { Image } from "antd";
 
 function Taprize_single_main_card() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -12,14 +13,14 @@ function Taprize_single_main_card() {
 
   return (
     <div className="my-5">
-      <Tarpize_single_model
+      {/* <Tarpize_single_model
         show={modalShow}
         onHide={() => setModalShow(false)}
         Image_url={Image_url}
         sliderName={sliderName}
         setsliderName={setsliderName}
         datalength={Card_Data.length}
-      />
+      /> */}
       <div className="container FrEndPd">
         <div className="row">
           {Card_Data.slice(0,3).map((items, index) => {
@@ -27,10 +28,11 @@ function Taprize_single_main_card() {
               <>
                 <div className="col-md-4 mt-3 mt-md-0">
                   <div className="tarpize_single_main_carrd">
-                    <img
+                    <Image
                       src={Taprize_single_pic}
                       onClick={() => (setModalShow(true), setsliderName(index))}
                       className="w-100"
+                      
                       alt=""
                     />
 

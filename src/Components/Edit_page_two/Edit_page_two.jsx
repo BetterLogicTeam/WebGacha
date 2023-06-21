@@ -96,7 +96,7 @@ export default function Edit_page_two({ prev, next }) {
             <>
               {" "}
              
-                <button className="editED_white">戻る</button>
+                <button onClick={()=>(history('/MyPageEdit1'),window.scrollTo(0,0))} className="editED_white"> 戻る</button>
              
              
                 <button className="editEDE_red ms-0 ms-md-4 mt-3 mt-md-0" onClick={()=>(history('/MyPageEditThree'),window.scrollTo(0,0))}>

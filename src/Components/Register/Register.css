@@ -457,7 +457,7 @@ Width:730px;
 
 :where(.css-dev-only-do-not-override-k7429z).ant-checkbox {
   box-sizing: border-box;
-  margin-bottom: 27px !important;
+  /* margin-bottom: 27px !important; */
   padding: 0;
   color: rgba(0, 0, 0, 0.88);
   font-size: 14px;
@@ -498,3 +498,12 @@ Width:730px;
   display: flex;
   width: 100% !important;
 }
+
+
+
+.rdoalin{
+  display: flex !important;
+  align-items: center !important;
+}
+
+
