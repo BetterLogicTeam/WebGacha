@@ -107,6 +107,25 @@ color: #E60058 !important;
   /* font-weight: 200 !important; */
 }
 
+.dop_mainond{
+  width: 100% !important;
+  height: 55px !important;
+  padding: 0 11px;
+  border: 1px solid #8ac7ff !important;
+  border-radius: 10px;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 16px !important;
+  background-color: #FFFFFF; 
+}
+
+
+.dop_mainond:focus{
+  height: 55px !important;
+  border: 1px solid #8ac7ff !important;
+outline: none;
+}
+
 .versionBx{
   border: 1px solid #8ac7ff;
   border-radius: 12px;
@@ -188,6 +207,10 @@ color: #E60058 !important;
     width: 100% !important;
   }
 
+  .dop_mainond{
+    width: 100% !important;
+  }
+
   .bddateoption{
     margin-top: 8px !important;
     /* padding: 2px 10px !important; */
@@ -203,6 +226,10 @@ color: #E60058 !important;
 
   .BDMain >.ant-select-selector{
     width: 160px !important;
+  }
+
+  .dop_mainond{
+    width: 100% ;
   }
   .bdsltmainup{
     display: flex !important;
@@ -237,6 +264,10 @@ color: #E60058 !important;
   .BDMain >.ant-select-selector{
     width: 100% !important;
   }
+
+  .dop_mainond{
+    width: 100% ;
+  }
 }
 
 @media (min-width:1450px) and (max-width:2600px) {
@@ -251,6 +282,9 @@ color: #E60058 !important;
   }
 
   .BDMain >.ant-select-selector{
+    width: 100% !important;
+  }
+  .dop_mainond{
     width: 100% !important;
   }
 }

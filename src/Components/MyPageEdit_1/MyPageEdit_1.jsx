@@ -192,37 +192,56 @@ function MyPageEdit_1() {
                   <label htmlFor="sssss" className="NameFld">
                     都道府県
                   </label>
-                  <Select
-                    className="BDMainagain w-100"
-                    style={{ marginTop: "0px" }}
-                    defaultValue="選択してください"
-                    options={[
-                      {
-                        value: "山形県",
-                        label: "山形県",
-                      },
-                      {
-                        value: "秋田県",
-                        label: "秋田県",
-                      },
-                      {
-                        value: "宮城県",
-                        label: "宮城県",
-                      },
-                      {
-                        value: "岩手県",
-                        label: "岩手県",
-                      },
-                      {
-                        value: "福島県",
-                        label: "福島県",
-                      },
-                      {
-                        value: "茨城県",
-                        label: "茨城県",
-                      },
-                    ]}
-                  />
+                  <select name="state" className="BDMain dop_mainond ">
+                    <option value="">選択してください</option>
+                    <option value="北海道">北海道</option>
+                    <option value="青森県">青森県</option>
+                    <option value="岩手県">岩手県</option>
+                    <option value="宮城県">宮城県</option>
+                    <option value="秋田県">秋田県</option>
+                    <option value="山形県">山形県</option>
+                    <option value="福島県">福島県</option>
+                    <option value="茨城県">茨城県</option>
+                    <option value="栃木県">栃木県</option>
+                    <option value="群馬県">群馬県</option>
+                    <option value="埼玉県">埼玉県</option>
+                    <option value="千葉県">千葉県</option>
+                    <option value="東京都">東京都</option>
+                    <option value="神奈川県">神奈川県</option>
+                    <option value="新潟県">新潟県</option>
+                    <option value="富山県">富山県</option>
+                    <option value="石川県">石川県</option>
+                    <option value="福井県">福井県</option>
+                    <option value="山梨県">山梨県</option>
+                    <option value="長野県">長野県</option>
+                    <option value="岐阜県">岐阜県</option>
+                    <option value="静岡県">静岡県</option>
+                    <option value="愛知県">愛知県</option>
+                    <option value="三重県">三重県</option>
+                    <option value="滋賀県">滋賀県</option>
+                    <option value="京都府">京都府</option>
+                    <option value="大阪府">大阪府</option>
+                    <option value="兵庫県">兵庫県</option>
+                    <option value="奈良県">奈良県</option>
+                    <option value="和歌山県">和歌山県</option>
+                    <option value="鳥取県">鳥取県</option>
+                    <option value="島根県">島根県</option>
+                    <option value="岡山県">岡山県</option>
+                    <option value="広島県">広島県</option>
+                    <option value="山口県">山口県</option>
+                    <option value="徳島県">徳島県</option>
+                    <option value="香川県">香川県</option>
+                    <option value="愛媛県">愛媛県</option>
+                    <option value="高知県">高知県</option>
+                    <option value="福岡県">福岡県</option>
+                    <option value="佐賀県">佐賀県</option>
+                    <option value="長崎県">長崎県</option>
+                    <option value="熊本県">熊本県</option>
+                    <option value="大分県">大分県</option>
+                    <option value="宮崎県">宮崎県</option>
+                    <option value="鹿児島県">鹿児島県</option>
+                    <option value="沖縄県">沖縄県</option>
+                  </select>
                   </div>
                   <div className="col-lg-6">
                     <Form>
@@ -295,74 +314,41 @@ function MyPageEdit_1() {
                   <label htmlFor="sssss" className="passw">
                     年
                   </label>
-                  <Select className="BDMain" defaultValue="1990"
-                  //  value={option}
+                  <select
+                    // class="form-select"
+                    className="BDMain dop_mainond"
+                    aria-label="Default select example"
                   >
+                    <option selected>1990</option>
+
                     {SelectYear.map((option) => (
-                            <Select.Option key={option} value={option.year}>
-                              {option.year}
-                            </Select.Option>
-                          ))}
-                  </Select>
+                      // <Select.Option key={option} value={option.year}>
+                      //   {option.year}
+                      // </Select.Option>
+                      <option value={option.year}>{option.year}</option>
+                    ))}
+                  </select>
                 </div>
                 <div className="col-lg-3 bdDateUpper">
                   <label htmlFor="sssss" className="passw bddateoption">
                     月
                   </label>
-                  <Select
-                    className="BDMain"
-                    defaultValue="1"
-                    options={[
-                      {
-                        value: "1",
-                        label: "1",
-                      },
-                      {
-                        value: "2",
-                        label: "2",
-                      },
-                      {
-                        value: "3",
-                        label: "3",
-                      },
-                      {
-                        value: "4",
-                        label: "4",
-                      },
-                      {
-                        value: "5",
-                        label: "5",
-                      },
-                      {
-                        value: "6",
-                        label: "6",
-                      },
-                      {
-                        value: "7",
-                        label: "7",
-                      },
-                      {
-                        value: "8",
-                        label: "8",
-                      },
-                      {
-                        value: "9",
-                        label: "9",
-                      },
-                      {
-                        value: "10",
-                        label: "10",
-                      },
-                      {
-                        value: "11",
-                        label: "11",
-                      },
-                      {
-                        value: "12",
-                        label: "12",
-                      },
-                    ]}
-                  />
+                  <select name="birthday_month" className="BDMain dop_mainond">
+                    <option selected value={1}>
+                      1
+                    </option>
+                    <option value={2}>2</option>
+                    <option value={3}>3</option>
+                    <option value={4}>4</option>
+                    <option value={5}>5</option>
+                    <option value={6}>6</option>
+                    <option value={7}>7</option>
+                    <option value={8}>8</option>
+                    <option value={9}>9</option>
+                    <option value={10}>10</option>
+                    <option value={11}>11</option>
+                    <option value={12}>12</option>
+                  </select>
                 </div>
 
                 <div className="col-lg-3 bdDateUpper">
@@ -370,136 +356,45 @@ function MyPageEdit_1() {
                     {" "}
                     日
                   </label>
-                  <Select
-                    className="BDMain"
-                    defaultValue="1"
-                    options={[
-                      {
-                        value: "1",
-                        label: "1",
-                      },
-                      {
-                        value: "2",
-                        label: "2",
-                      },
-                      {
-                        value: "3",
-                        label: "3",
-                      },
-                      {
-                        value: "4",
-                        label: "4",
-                      },
-                      {
-                        value: "5",
-                        label: "5",
-                      },
-                      {
-                        value: "6",
-                        label: "6",
-                      },
-                      {
-                        value: "7",
-                        label: "7",
-                      },
-                      {
-                        value: "8",
-                        label: "8",
-                      },
-                      {
-                        value: "9",
-                        label: "9",
-                      },
-                      {
-                        value: "10",
-                        label: "10",
-                      },
-                      {
-                        value: "11",
-                        label: "11",
-                      },
-                      {
-                        value: "12",
-                        label: "12",
-                      },
-                      {
-                        value: "13",
-                        label: "13",
-                      },
-                      {
-                        value: "14",
-                        label: "14",
-                      },
-                      {
-                        value: "15",
-                        label: "15",
-                      },
-                      {
-                        value: "16",
-                        label: "16",
-                      },
-                      {
-                        value: "17",
-                        label: "17",
-                      },
-                      {
-                        value: "18",
-                        label: "18",
-                      },
-                      {
-                        value: "19",
-                        label: "19",
-                      },
-                      {
-                        value: "20",
-                        label: "20",
-                      },
-                      {
-                        value: "21",
-                        label: "21",
-                      },
-                      {
-                        value: "22",
-                        label: "22",
-                      },
-                      {
-                        value: "23",
-                        label: "23",
-                      },
-                      {
-                        value: "24",
-                        label: "24",
-                      },
-                      {
-                        value: "25",
-                        label: "25",
-                      },
-                      {
-                        value: "26",
-                        label: "26",
-                      },
-                      {
-                        value: "27",
-                        label: "27",
-                      },
-                      {
-                        value: "28",
-                        label: "28",
-                      },
-                      {
-                        value: "29",
-                        label: "29",
-                      },
-                      {
-                        value: "30",
-                        label: "30",
-                      },
-                      {
-                        value: "31",
-                        label: "31",
-                      },
-                    ]}
-                  />
+                  <select
+                    id="sel-birth-day"
+                    name="birthday_day"
+                    className="BDMain dop_mainond"
+                  >
+                    <option selected value={1}>
+                      1
+                    </option>
+                    <option value={2}>2</option>
+                    <option value={3}>3</option>
+                    <option value={4}>4</option>
+                    <option value={5}>5</option>
+                    <option value={6}>6</option>
+                    <option value={7}>7</option>
+                    <option value={8}>8</option>
+                    <option value={9}>9</option>
+                    <option value={10}>10</option>
+                    <option value={11}>11</option>
+                    <option value={12}>12</option>
+                    <option value={13}>13</option>
+                    <option value={14}>14</option>
+                    <option value={15}>15</option>
+                    <option value={16}>16</option>
+                    <option value={17}>17</option>
+                    <option value={18}>18</option>
+                    <option value={19}>19</option>
+                    <option value={20}>20</option>
+                    <option value={21}>21</option>
+                    <option value={22}>22</option>
+                    <option value={23}>23</option>
+                    <option value={24}>24</option>
+                    <option value={25}>25</option>
+                    <option value={26}>26</option>
+                    <option value={27}>27</option>
+                    <option value={28}>28</option>
+                    <option value={29}>29</option>
+                    <option value={30}>30</option>
+                    <option value={31}>31</option>
+                  </select>
                 </div>
               </div>
             </div>

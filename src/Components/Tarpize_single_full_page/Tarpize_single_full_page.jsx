@@ -10,7 +10,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 export default function Tarpize_single_full_page() {
   const histtory= useNavigate()
   const location=useLocation()
-  // console.log("location",location);
+  console.log("location",location);
   return (
     <div>
       <Tarpize_single location={location} />

@@ -32,15 +32,15 @@ export default function Taprise_on_sale() {
                 Image={pic_1}
                 tag={Data[0].tag}
                 Name={Data[0].Name}
-                // items={items}
+                items={Data[0]}
                 tags_text="7"
               />
             </div> <div className="col-lg-6">
               <ListOfTaprizeCard
-                Image={pic_2}
+                Image={Data[1].Image}
                 tag="近日発売"
                 Name={Data[1].Name}
-                // items={items}
+                items={Data[1]}
                 tags_text="7"
               />
             </div> <div className="col-lg-6">
@@ -48,15 +48,15 @@ export default function Taprise_on_sale() {
                 Image={pic_3}
                 tag={Data[2].tag}
                 Name={Data[2].Name}
-                // items={items}
+                items={Data[7]}
                 tags_text="7"
               />
             </div> <div className="col-lg-6">
               <ListOfTaprizeCard
-                Image={pic_4}
+                Image={Data[8].Image}
                 tag="近日発売"
                 Name={Data[3].Name}
-                // items={items}
+                items={Data[8]}
                 tags_text="7"
               />
             </div> <div className="col-lg-6">
@@ -64,15 +64,15 @@ export default function Taprise_on_sale() {
                 Image={pic_5}
                 tag={Data[4].tag}
                 Name={Data[4].Name}
-                // items={items}
+                items={Data[17]}
                 tags_text="7"
               />
             </div> <div className="col-lg-6">
               <ListOfTaprizeCard
-                Image={pic_6}
+                Image={pic_1}
                 tag="近日発売"
                 Name={Data[5].Name}
-                // items={items}
+                items={Data[0]}
                 tags_text="7"
               />
             </div>
