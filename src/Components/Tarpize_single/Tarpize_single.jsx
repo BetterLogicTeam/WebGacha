@@ -133,7 +133,7 @@ export default function Tarpize_single({location}) {
                 <div className="circula d-flex justify-content-center align-items-center">
                   <Checkbox
                     {...label}
-                    icon={<FavoriteBorder />}
+                    icon={<FavoriteBorder className="FavoriteBorder" />}
                     checkedIcon={<Favorite />}
                     className="hrtt d-block "
                   />

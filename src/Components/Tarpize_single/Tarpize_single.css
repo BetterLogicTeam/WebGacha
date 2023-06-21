@@ -51,7 +51,7 @@
 
   border: 1px solid #ffffff;
   border-radius: 45px;
-  padding: 13px 15px !important;
+  padding: 13px 10px !important;
   color: white !important;
   width: 100% !important;
 }
@@ -483,4 +483,8 @@ input::-webkit-inner-spin-button {
     display: flex !important;
     flex-direction: column !important;
   }
+}
+
+.FavoriteBorder:hover{
+  background-color: #d2e9ff !important;
 }

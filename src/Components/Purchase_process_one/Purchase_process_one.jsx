@@ -13,10 +13,10 @@ export default function Purchase_process_one({ next }) {
   const [selectedValue, setSelectedValue] = React.useState("a");
   const handleChange = (event) => {
    
-    setisCoupon(event.target.checked)
+    // setisCoupon(event.target.checked)
   };
   const handleChange1 = (event) => {
-    setSelectedValue(event.target.value);
+    // setSelectedValue(event.target.value);
     
   };
   const [isCoupon, setisCoupon] = useState(false);
@@ -192,8 +192,9 @@ export default function Purchase_process_one({ next }) {
                       <div className="d-flex gap-1 align-items-center">
                         <Radio
                           name="purc"
-                          checked={isCoupon === true}
+                          // checked={isCoupon === true}
                           onChange={handleChange}
+                          // onClick={()=>window.scrollTo(0, 0)}
                           value="f"
                           inputProps={{ "aria-label": "true" }}
                           sx={{
