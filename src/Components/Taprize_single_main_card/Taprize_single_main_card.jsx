@@ -31,7 +31,7 @@ function Taprize_single_main_card() {
                     <Image
                       src={Taprize_single_pic}
                       onClick={() => (setModalShow(true), setsliderName(index))}
-                      className="w-100"
+                      width={380}
                       
                       alt=""
                     />

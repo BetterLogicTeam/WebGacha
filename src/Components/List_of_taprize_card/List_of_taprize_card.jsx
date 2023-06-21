@@ -30,15 +30,17 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
           style={{
             backgroundColor:
             tags_text==0 ?
-              tag === "発売中"
-            ? "#FFD600"
-            : "#8AC7FF"
+              tag === "発売中" ? "#FFD600" : tag === "近日発売" ?"#8AC7FF":"#D8D8D8"
+              : tags_text==7 ?
+              tag === "発売中" ? "#FFD600" : "#8AC7FF"
+
+
             : tags_text==1 ? "#FFD600" : tags_text==2 ? "#8AC7FF":"#D8D8D8"
             
              
           }}>
           {
-            tags_text==0 ? <> {tag}</>:tags_text==1?"発売中" : tags_text==2? "近日発売":"販売終了"
+            tags_text==0 ? <> {tag}</>:tags_text==7 ?  tag === "発売中" ? "発売中" : "近日発売": tags_text==1?"発売中" : tags_text==2? "近日発売":"販売終了"
 
           }
          

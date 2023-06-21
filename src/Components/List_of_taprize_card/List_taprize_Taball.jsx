@@ -15,10 +15,7 @@ function List_taprize_Taball({ tags_text }) {
   };
   let newArray=[]
   function shuffleArray() {
-    // Create a copy of the original array
      newArray = [...Data];
-    
-    // Shuffle the elements in the new array
     for (let i = newArray.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i));
       [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
@@ -29,12 +26,12 @@ function List_taprize_Taball({ tags_text }) {
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentTokens = FinalArray.slice(indexOfFirstPost, indexOfLastPost);
+  const currentTokens = Data.slice(indexOfFirstPost, indexOfLastPost);
   // console.log("Data", Data);
 
-  useEffect(() => {
-    shuffleArray()
-  }, [])
+  // useEffect(() => {
+  //   shuffleArray()
+  // }, [])
   
   return (
     <div>
@@ -68,6 +65,8 @@ function List_taprize_Taball({ tags_text }) {
                 variant="outlined"
                 shape="rounded"
                 className="paginationBgC"
+                onClick={()=>window.scrollTo(0, 0)}
+                
               />
             </Stack>
           </div>
