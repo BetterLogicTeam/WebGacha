@@ -1,12 +1,11 @@
-
-.myEdidTitle{
+.myEdidTitle {
     color: #020140;
     font-size: 36px;
     line-height: 43px;
     font-weight: 600;
 }
 
-.NameFld{
+.NameFld {
     color: #020140 !important;
     font-size: 18px !important;
     padding-top: 10px !important;
@@ -15,76 +14,82 @@
     margin-bottom: 1rem !important;
 }
 
-.Fld{
-    border: 1.8px solid #8AC7FF !important ;
-    padding:10px 15px !important;
+.Fld {
+    border: 1.8px solid #8AC7FF !important;
+    padding: 10px 15px !important;
     border-radius: 10px !important;
     font-weight: 300 !important;
     height: 55px !important;
 }
-.bobvv{
+
+.bobvv {
     box-shadow: 0px 0px 4px #8AC7FF !important;
 }
 
-.dfff_clr{
+.dfff_clr {
     color: #8AC7FF !important;
 }
 
-.adlamadmd{
+.adlamadmd {
     font-weight: 700 !important;
 }
-.edit_main_lebal_here{
-    color: #020140 ;
+
+.edit_main_lebal_here {
+    color: #020140;
     font-weight: 700 !important;
-font-size: 20px !important;
-line-height: 140% !important;
+    font-size: 20px !important;
+    line-height: 140% !important;
 }
 
 
-.classs_edit_textkadk{
-    font-weight: 500 ;
+.classs_edit_textkadk {
+    font-weight: 500;
 }
-.Fld:focus{
+
+.Fld:focus {
     box-shadow: none !important;
 }
-.Fld2{
-    border: 1.8px solid #8AC7FF !important ;
-    padding: 5px 15px!important;
+
+.Fld2 {
+    border: 1.8px solid #8AC7FF !important;
+    padding: 5px 15px !important;
     border-radius: 10px !important;
 }
 
-.nameTitle{
+.nameTitle {
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
     color: rgba(35, 0, 248, 1);
 }
 
-.err{
+.err {
     color: #E60058;
     font-size: 16px;
     font-weight: 600;
 }
 
-.tScnd{
+.tScnd {
     margin-top: 48px;
 }
 
-.addressUpper{
+.addressUpper {
     margin-top: 3rem;
 }
 
-.year{
+.year {
     width: 40%;
 }
-.month{
-    width: 35%;
-}
-.day{
+
+.month {
     width: 35%;
 }
 
-.myPageLastButton{
+.day {
+    width: 35%;
+}
+
+.myPageLastButton {
     border: 1.8px solid #E60058;
     background-color: #ffffff;
     color: #E60058;
@@ -95,102 +100,106 @@ line-height: 140% !important;
     padding: 7px 0px;
 }
 
-.myPageLastButton:hover{
+.myPageLastButton:hover {
     background-color: #E60058;
     color: #ffffff;
 }
 
-.maildetail{
+.maildetail {
     font-size: 14px;
     font-weight: 500;
 }
 
-.passwordDetail{
+.passwordDetail {
     font-size: 14px;
     font-weight: 500;
 }
 
-.magadetail{
+.magadetail {
     font-size: 16px;
     font-weight: 600;
     color: #020140;
 }
 
-.myPageLastButton_white{
+.myPageLastButton_white {
     width: 238px;
-height: 55px;
-background: #FFFFFF;
-/* Main red */
+    height: 55px;
+    background: #FFFFFF;
+    /* Main red */
 
-border: 1px solid #E60058;
-border-radius: 45px;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-text-transform: uppercase;
+    border: 1px solid #E60058;
+    border-radius: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
 
-/* Main red */
+    /* Main red */
 
-color: #E60058;
+    color: #E60058;
 }
 
 
-.myPageLastButton_red{
+.myPageLastButton_red {
     background: #E60058;
-/* White */
+    /* White */
 
-border: 1px solid #FFFFFF;
-border-radius: 45px;
-width: 238px;
-height: 55px;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    width: 238px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
 
 @media only screen and (max-width:600px) {
-    .BothPad{
+    .BothPad {
         padding: 0px 10px !important;
     }
 
-    .fld2Upper{
+    .fld2Upper {
         margin-top: 1rem;
     }
+
     .myEdidTitle {
         font-size: 26px !important;
     }
-    .nameTitle{
+
+    .nameTitle {
         font-size: 18px !important;
-    
+
     }
-    .edit_paaaaa{
+
+    .edit_paaaaa {
         font-size: 26px !important;
     }
 
-    .tScnd{
+    .tScnd {
         margin-top: 17px;
     }
 
 }
 
 
-@media only screen and (max-width:800px){
-.myPageLastButton_white{
-    width: 100%;
-}
-.myPageLastButton_red{
-    width: 100% !important;
-}
+@media only screen and (max-width:800px) {
+    .myPageLastButton_white {
+        width: 100%;
+    }
 
-.tScnd{
-    margin-top: 15px;
-}
+    .myPageLastButton_red {
+        width: 100% !important;
+    }
+
+    .tScnd {
+        margin-top: 15px;
+    }
 
 }

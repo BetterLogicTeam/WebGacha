@@ -650,12 +650,12 @@ function MyPageEdit_1() {
 
           <div className="col-lg-8 mt-5">
             <div className="row justify-content-center">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-12">
                 <button   onClick={() => (
                     history("/RegisterationTab"), window.scrollTo(0, 0)
                   )} className="myPageLastButton_white"> バック</button>
               </div>
-              <div className="col-lg-4 mt-3 mt-lg-0 fld2Upper">
+              <div className="col-lg-4 col-md-12 mt-3 mt-lg-0 fld2Upper">
                 <button
                   className="myPageLastButton_red "
                   onClick={() => (

@@ -213,10 +213,10 @@ export default function Purchase_process_one({ next }) {
               </div>
 
               <div className="d-flex respsss gap-2 justify-content-center mt-5">
-                <button className=" nodeB1 atm_white_btn  "  onClick={() => (history("/TarpizeSingleFullPage"), window.scrollTo(0, 0))} >戻る </button>
+                <button className=" nodeB1 atm_white_btn  " onClick={() => (history("/ListOTaprize"), window.scrollTo(0, 0))}  >戻る </button>
                 <button
                   className="atm_red_btn nodeB2  p-0"
-                  // onClick={() => (setsteps(2), window.scrollTo(0, 0))}
+                  onClick={() => (setsteps(2), window.scrollTo(0, 0))}
                 >
                   {" "}
                   購入する{" "}

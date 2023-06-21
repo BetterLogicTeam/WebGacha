@@ -107,12 +107,12 @@ export default function Edit_page_two({ prev, next }) {
           ) : (
             <>
               {" "}
-              <div className="col-md-4">
+              <div className=" col-lg-4 col-md-12">
                 <button className="editED_white" onClick={() => prev()}>
                   戻る
                 </button>
               </div>
-              <div className="col-md-4 editPageLsttBotton">
+              <div className="col-md-12 col-lg-4 editPageLsttBotton">
                 <button className="editEDE_red " onClick={() => (next(),window.scrollTo(0,0))}>
                 続ける{" "}
                 </button>
