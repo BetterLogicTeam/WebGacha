@@ -112,7 +112,7 @@
     }
 }
 
-@media (min-width:831px) and (max-width:1024px) {
+@media (min-width:831px) and (max-width:1200px) {
     .Nav_bar_Link {
         margin-top: 0.7rem;
         /* font-style: normal; */

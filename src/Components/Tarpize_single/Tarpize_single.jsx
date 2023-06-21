@@ -34,6 +34,8 @@ export default function Tarpize_single({location}) {
     }, [value]);
   return (
     <div className="tarpize_single_main">
+      <div className="conta_uper">
+
       <div className="containerrrr">
         <div className="row m-0">
           <div className="col-md-12 col-lg-7 text-center lftgacHPiCUpEr">
@@ -140,6 +142,7 @@ export default function Tarpize_single({location}) {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
