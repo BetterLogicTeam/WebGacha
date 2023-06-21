@@ -67,7 +67,23 @@
   margin-top: 62px !important;
 }
 
+.privacyTitleMainaga{
+  font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
 @media only screen and (max-width:600px) {
+
+  .privacyTitleMainaga{
+    font-size: 30px !important;
+    line-height: 33px !important;
+  }
+
   .mnhDd{
     padding: 0px 27px !important;
   }

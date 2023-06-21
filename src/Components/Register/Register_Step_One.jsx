@@ -87,11 +87,9 @@ export default function Register_Step_One() {
               <p>
                 お名前（フリガナ） <span className="star_clr"> *</span>
               </p>
-              <div className="Register_ant">
+              <div className="Register_ant rgestopAgain">
                 <div className="col-lg-6">
-                  <Form.Item
-                    label="姓"
-                    name="姓"
+                  <Form.Item label="姓" name="姓"
                     rules={[
                       {
                         required: true,
@@ -119,7 +117,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
 
-              <div className="Register_ant">
+              <div className="Register_ant rgestopAgain">
                 <div className="col-lg-6">
                   <Form.Item
                     label="セイ"

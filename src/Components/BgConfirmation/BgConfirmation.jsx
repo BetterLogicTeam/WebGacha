@@ -7,7 +7,7 @@ function BgConfirmation() {
     <div className="row">
         <div className="col-12 bgconfirmationimg ">
         
-        <h1 className='Notation_h1 text-white'>
+        <h1 className='Notation_h1 conforNewcls text-white'>
         お問い合わせ
         </h1>
         </div>

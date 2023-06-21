@@ -11,7 +11,7 @@ function Notation() {
         <div className="row">
             <div className="col-12 main_ntaa notation_bor">
             
-            <h1 className='Notation_h1 text-white'>
+            <h1 className='Notation_titleMain text-white'>
 
             特定商取引法に基づく表記
             </h1>

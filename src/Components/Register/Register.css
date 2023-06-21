@@ -112,6 +112,10 @@ color: #E60058 !important;
   border-radius: 12px;
 }
 
+.rgestopAgain{
+  margin-top: 0px !important;
+}
+
 @media screen and (max-width: 800px) {
   .Register_ant {
     flex-direction: column;
@@ -141,6 +145,10 @@ color: #E60058 !important;
 }
 
 @media only screen and (max-width: 600px) {
+
+  .rgestopAgain{
+    margin-top: 0px !important;
+  }
 
   .resgister_next_buttton{
     width: 100% !important;
