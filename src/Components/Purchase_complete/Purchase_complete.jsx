@@ -13,7 +13,8 @@ export default function Purchase_complete() {
         <div className="row justify-content-center">
           <div className="col-md-5">
             <div className="complete_content">
-              <h2>購入完了     </h2>
+         
+              <h2>購入完了    </h2>
               <p>
                 ご購入ありがとうございます！ <br />
                 下記ボタンを押すと、プレイ画面へ移します。{" "}

@@ -49,6 +49,8 @@ export default function Purchase_Tab() {
     marginTop: 16,
   };
   return (
+ 
+    
     <div className="Purchase_tab_bg">
       <div className="">
         <div className="container">
@@ -60,6 +62,7 @@ export default function Purchase_Tab() {
           ) : current === 1 ? (
             <Purchase_process_2 prev={prev}  next={next} />
           ) : (
+  
             <Purchase_complete />
           )}
           {/* <div style={contentStyle}>{steps[current].content}</div> */}

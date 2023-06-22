@@ -84,10 +84,10 @@ export default function Purchase_process_1({ next,setsteps }) {
                       {/* <input type="radio" name="" id="left_rdio" className='radio_innput' /> */}
                       <Radio
                         name="purc"
-                        checked={selectedValue === "z "}
+                        checked={selectedValue === "z"}
                         onChange={handleChange}
-                        value="z  "
-                        inputProps={{ "aria-label": "z  " }}
+                        value="z"
+                        inputProps={{ "aria-label": "z" }}
                         sx={{
                           color: "#2EB3FF",
                           "& .MuiSvgIcon-root": {
@@ -95,7 +95,7 @@ export default function Purchase_process_1({ next,setsteps }) {
                           },
                         }}
                       />
-                      <img src={plog_1} style={{ width: "66%" }} alt="" />
+                      <img src={plog_1} style={{ width: "66%" }} alt="" /> 
                     </div>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export default function Purchase_process_1({ next,setsteps }) {
                           },
                         }}
                       />
-                      <img src={plogo_2} style={{ width: "66%" }} alt="" />
+                      <img src={plogo_2} style={{ width: "66%" }} alt="" /> 
                     </div>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ export default function Purchase_process_1({ next,setsteps }) {
                           },
                         }}
                       />
-                      <img src={plogo_3} style={{ width: "66%" }} alt="" />
+                      <img src={plogo_3} style={{ width: "66%" }} alt="" /> 
                     </div>
                   </div>
                 </div>
