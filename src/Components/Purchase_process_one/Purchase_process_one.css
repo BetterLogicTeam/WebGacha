@@ -41,6 +41,11 @@ border-radius: 45px;
     font-weight: 600 !important;
 }
 
+.purchaseCredit{
+    font-weight: 600 !important;
+    height: 55px !important;
+}
+
 .cradit_inpit{
     background: #FFFFFF;
 /* Light Blue */
@@ -145,7 +150,13 @@ padding: 40px 0px !important;
 }
 }
 
-@media only screen and (min-width:600px) and (max-width:768px) {
+@media (min-width:600px) and (max-width:768px) {
+
+    .creditUpper{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
     .credit_card_lable{
         font-style: normal;
         font-weight: 600;

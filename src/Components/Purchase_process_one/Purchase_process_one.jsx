@@ -1,25 +1,30 @@
 import React, { useState } from "react";
 import "./Purchase_process_one.css";
-import Radio from "@mui/material/Radio";
+import { Radio } from "antd";
+// import Radio from "@mui/material/Radio";
 import card_img from "../Assets/card_img.png";
-
 import { FormLabel } from "@mui/material";
 import Purchase_process_1 from "../Purchase_process_1/Purchase_process_1";
 import { useNavigate } from "react-router-dom";
 
 export default function Purchase_process_one({ next }) {
   const [steps, setsteps] = useState(1);
-  const history=useNavigate()
+  const history = useNavigate();
   const [selectedValue, setSelectedValue] = React.useState("a");
   const handleChange = (event) => {
-   
     // setisCoupon(event.target.checked)
   };
   const handleChange1 = (event) => {
     // setSelectedValue(event.target.value);
-    
   };
   const [isCoupon, setisCoupon] = useState(false);
+
+  const [value4, setvalue4] = useState(1);
+
+  const onChange2 = (e) => {
+    console.log(`checked = ${e.target.checked}`);
+    setvalue4(e.target.value);
+  };
   return (
     <>
       {steps === 1 ? (
@@ -36,13 +41,10 @@ export default function Purchase_process_one({ next }) {
                       <div className="purchse_first_Card">
                         <p className="pusrchae_text">お支払い方法 </p>
                         <div className="row">
-                          <div className="col-md-6 mt-3 mt-md-0 ">
-                            <div
-                              className="left_in"
-                              style={{ background: "#F2F6FF" }}
-                            >
+                          <Radio.Group onChange={onChange2} value={value4} className="radio_group creditUpper">
+                            <div className="col-md-6 mt-3 mt-md-0 pe-0 pe-md-2">
+                              {/* <div className="left_in" style={{ background: "#F2F6FF" }}>
                               <div className="d-flex gap-1 align-items-center">
-                                {/* <input type="radio" name="" id="left_rdio" className='radio_innput' /> */}
                                 <Radio
                                   name="purc"
                                   checked={selectedValue === "a"}
@@ -63,12 +65,12 @@ export default function Purchase_process_one({ next }) {
                                   クレジットカード
                                 </FormLabel>
                               </div>
+                            </div> */}
+                              <Radio className="rdoalin w-100 purchaseCredit" onChange={onChange2} value={1}> クレジットカード</Radio>
                             </div>
-                          </div>
-                          <div className="col-md-6 mt-3 mt-md-0 ">
-                            <div className="left_in">
+                            <div className="col-md-6 mt-3 mt-md-0 ps-0 ps-md-2">
+                              {/* <div className="left_in">
                               <div className="d-flex gap-1 align-items-center">
-                                {/* <input type="radio" name="" id="left_rdio" className='radio_innput' /> */}
                                 <Radio
                                   name="purc"
                                   checked={selectedValue === "b"}
@@ -86,8 +88,10 @@ export default function Purchase_process_one({ next }) {
                                   キャリア決済
                                 </FormLabel>
                               </div>
+                            </div> */}
+                              <Radio className="rdoalin w-100 purchaseCredit" onChange={onChange2} value={2}> キャリア決済 </Radio>
                             </div>
-                          </div>
+                          </Radio.Group>
                         </div>
 
                         {/* second_row */}
@@ -117,7 +121,6 @@ export default function Purchase_process_one({ next }) {
                                     type="number"
                                     className="cradit_inpit  resposssss "
                                     placeholder="00"
-                                    // defaultValue="00"
                                     id="cnn"
                                   />
                                   <input
@@ -186,15 +189,12 @@ export default function Purchase_process_one({ next }) {
                   <div className="purchse_first_Card">
                     <p className="pusrchae_text">クーポン利用 </p>
                     <div
-                      className="left_in cridtt_res"
-                      style={{ background: "#F2F6FF" }}
-                    >
-                      <div className="d-flex gap-1 align-items-center">
+                      className="cridtt_res">
+                        <Radio className="rdoalin w-100 purchaseCredit">利用しない</Radio>
+                      {/* <div className="d-flex gap-1 align-items-center">
                         <Radio
                           name="purc"
-                          // checked={isCoupon === true}
                           onChange={handleChange}
-                          // onClick={()=>window.scrollTo(0, 0)}
                           value="f"
                           inputProps={{ "aria-label": "true" }}
                           sx={{
@@ -207,14 +207,22 @@ export default function Purchase_process_one({ next }) {
                         <FormLabel className="purc_nam" id="purc">
                           利用しない
                         </FormLabel>
-                      </div>
+                        
+                       </div> */}
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="d-flex respsss gap-2 justify-content-center mt-5">
-                <button className=" nodeB1 atm_white_btn  " onClick={() => (history("/ListOTaprize"), window.scrollTo(0, 0))}  >戻る </button>
+                <button
+                  className=" nodeB1 atm_white_btn  "
+                  onClick={() => (
+                    history("/ListOTaprize"), window.scrollTo(0, 0)
+                  )}
+                >
+                  戻る{" "}
+                </button>
                 <button
                   className="atm_red_btn nodeB2  p-0"
                   onClick={() => (setsteps(2), window.scrollTo(0, 0))}

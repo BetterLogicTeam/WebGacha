@@ -928,10 +928,7 @@ export default function Register_Step_One() {
                 メールマガジンにて、新商品やお得な情報などをお送りしています。
               </p>
               <div className="Register_ant">
-                <Radio.Group
-                  onChange={onChange1}
-                  value={value2}
-                  className="radio_group"
+                <Radio.Group onChange={onChange1} value={value2} className="radio_group"
                 >
                   <div className="col-lg-6">
                     <Radio className="rdoalin" onChange={onChange1} value={1}>
@@ -953,11 +950,7 @@ export default function Register_Step_One() {
                 {/* <span className="star_clr"> * </span> */}
               </p>
               <div className="Register_ant">
-                <Radio.Group
-                  onChange={onChange2}
-                  value={value3}
-                  className="radio_group"
-                >
+                <Radio.Group onChange={onChange2} value={value3} className="radio_group">
                   <div className="col-lg-6">
                     <Radio className="rdoalin" onChange={onChange2} value={1}>
                       はい
