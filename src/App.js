@@ -50,35 +50,20 @@ function App() {
         <Route path="/NotationTable" element={<NotationTable />} />
         <Route path="/PasswordRequest" element={<PasswordRequest />} />
         <Route path="/PaswordStepTwo" element={<PaswordStepTwo />} />
-        <Route
-          path="/PasswordRequestStepThree"
-          element={<PasswordRequestStepThree />}
-        />
-        <Route
-          path="/PasswordRequestStepFour"
-          element={<PasswordRequestStepFour />}
-        />
-        <Route
-          path="/TarpizeSingleFullPage"
-          element={<TarpizeSingleFullPage />}
-        />
+        <Route path="/PasswordRequestStepThree" element={<PasswordRequestStepThree />}/>
+        <Route path="/PasswordRequestStepFour" element={<PasswordRequestStepFour />}/>
+        <Route path="/TarpizeSingleFullPage" element={<TarpizeSingleFullPage />}/>
         <Route path="/PurchaseProcess1" element={<PurchaseProcess1 />} />
         <Route path="/PurchaseProcessOne" element={<PurchaseProcessOne />} />
         <Route path="/PurchaseTab" element={<PurchaseTab />} />
-        <Route
-          path="/PurchaseListFullPage"
-          element={<PurchaseListFullPage />}
-        />
+        <Route path="/PurchaseListFullPage" element={<PurchaseListFullPage />}/>
         <Route path="/RegisterationTab" element={<RegisterationTab />} />
         <Route path="/MyPageEdit1" element={<MyPageEdit1 />} />
         <Route path="/EditPageTwo" element={<EditPageTwo />} />
         <Route path="/MyPageEditThree" element={<MyPageEditThree />} />
         <Route path="/CouponTab" element={<CouponTab />} />
         <Route path="/ListOfResults" element={<ListOfResults />} />
-        <Route
-          path="/ShippingStatusDetails"
-          element={<ShippingStatusDetails />}
-        />
+        <Route path="/ShippingStatusDetails" element={<ShippingStatusDetails />} />
           <Route
           path="/Text"
           element={<Text />}
