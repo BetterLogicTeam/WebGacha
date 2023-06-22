@@ -104,3 +104,10 @@ line-height: 140%;
     text-align: left !important;
     }
 }
+
+
+/* @media ( min-width:1610px)  {
+    .Purchase_list_full_page_main{
+      height: 60vh;
+    }
+  } */

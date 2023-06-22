@@ -12,10 +12,19 @@
         border-radius: 15px;
         padding: 15px 15px 15px 0px;
     }
+    .ant-steps .ant-steps-item-container {
+        outline: none;
+        padding-top: 0.3rem;
+        /* background-color: #2EB3FF !important; */
+    }
 
 }
 
 
 .padding_bttt{
     padding-bottom: 5rem;
+}
+.ant-steps.ant-steps-vertical >.ant-steps-item {
+    display: flex;
+    align-items: center;
 }

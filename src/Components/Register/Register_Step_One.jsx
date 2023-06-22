@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Checkbox, Form, Input, Radio, Select } from "antd";
+import { Checkbox, Form, Input, Select } from "antd";
 import { useNavigate } from "react-router-dom";
-import './Register.css'
+import "./Register.css";
+import { FormLabel, Radio } from "@mui/material";
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -14,7 +15,20 @@ export default function Register_Step_One() {
   const [value2, setvalue2] = useState(1);
   const [value3, setvalue3] = useState(1);
   const [SelectYear, setSelectYear] = useState([]);
+  const [selectedValue, setSelectedValue] = React.useState("a");
+  const [selectedValue1, setSelectedValue1] = React.useState("a");
+  const [selectedValue2, setSelectedValue2] = React.useState("a");
 
+
+  const handleChange = (event) => {
+    setSelectedValue(event.target.value);
+  };
+  const handleChange1 = (event) => {
+    setSelectedValue1(event.target.value);
+  };
+  const handleChange2 = (event) => {
+    setSelectedValue2(event.target.value);
+  };
   const onChange = (e) => {
     // console.log(`checked = ${e.target.checked}`);
     setvalue(e.target.value);
@@ -382,7 +396,10 @@ export default function Register_Step_One() {
                       },
                     ]}
                   /> */}
-                  <select name="state" className="BDMain dop_mainond mt-2 form-select shadow-none ">
+                  <select
+                    name="state"
+                    className="BDMain dop_mainond mt-2 form-select shadow-none "
+                  >
                     <option value="">選択してください</option>
                     <option value="北海道">北海道</option>
                     <option value="青森県">青森県</option>
@@ -450,7 +467,7 @@ export default function Register_Step_One() {
                 </div>
               </div>
 
-              <div className="Register_ant">
+              <div className="Register_ant row">
                 <div className="col-lg-6">
                   <Form.Item
                     label="番地"
@@ -465,21 +482,8 @@ export default function Register_Step_One() {
                     <Input placeholder="例：西五反田 1-1-11" />
                   </Form.Item>
                 </div>
-                <div className="col-md-6 ">
-                  {/* <Form.Item
-                    className=" passw d-flex"
-                    label="建物・マンション・部屋番号"
-                    name="建物・マンション・部屋番号"
-                    rules={[
-                      {
-                        required: true,
-                        message:
-                          "Please input your 建物・マンション・部屋番号!",
-                      },
-                    ]}
-                  >
-                    <Input placeholder="例：五反田マンション　101号室" />
-                  </Form.Item> */}
+                <div className="col-lg-6 ">
+                 
                   <label htmlFor="sssss" className="passw">
                     {" "}
                     建物・マンション・部屋番号
@@ -499,7 +503,7 @@ export default function Register_Step_One() {
               <p>
                 生年月日 <span className="star_clr"> * </span>
               </p>
-              <div className="Register_ant bdsltmainup">
+              <div className="Register_ant row bdsltmainup">
                 <div className="col-lg-3 bdDateUpper">
                   <label htmlFor="sssss" className="passw">
                     年
@@ -534,7 +538,10 @@ export default function Register_Step_One() {
                   <label htmlFor="sssss" className="passw bddateoption">
                     月
                   </label>
-                  <select name="birthday_month" className="BDMain dop_mainond form-select shadow-none">
+                  <select
+                    name="birthday_month"
+                    className="BDMain dop_mainond form-select shadow-none"
+                  >
                     <option selected value={1}>
                       1
                     </option>
@@ -790,45 +797,116 @@ export default function Register_Step_One() {
                 お名前（フリガナ） <span className="star_clr"> * </span>
               </p>
               <div className="Register_ant">
-                <Radio.Group
-                  onChange={onChange}
-                  value={value}
-                  className="radio_group"
-                >
-                  <div className="col-lg-4">
-                    <Radio className="rdoalin" onChange={onChange} value={1}>
+                <div className="col-lg-4 ">
+                  {/* <Radio className="rdoalin" onChange={onChange} value={1}>
                       <p className="mb-0 chcked_clr"> 男性 </p>
-                    </Radio>
-                    {/* <Form.Item
-                    name="姓"
-                    rules={[
-                      {
-                        required: true,
-                        // message: "Please input your 姓!",
-                      },
-                    ]}
+                    </Radio> */}
+                  <div
+                    className={
+                      selectedValue === "a" ? "left_in9 left_in1" : "left_in9"
+                    }
                   >
-                    <Radio  onChange={onChange} value={1}>
-                      <p className="mb-0 chcked_clr"> 男性 </p>
-                    </Radio>
-                  </Form.Item> */}
+                    <div className="d-flex align-items-center">
+                      {/* <input type="radio" name="" id="left_rdio" className='radio_innput' /> */}
+                      <Radio
+                        name="purc"
+                        checked={selectedValue === "a"}
+                        onChange={handleChange}
+                        value="a"
+                        inputProps={{ "aria-label": "A" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue === "a"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        男性
+                      </FormLabel>
+                    </div>
                   </div>
-                  <div className="col-lg-4">
-                    <Radio className="rdoalin" onChange={onChange} value={2}>
-                      女性
-                    </Radio>
+                </div>
+                <div className="col-lg-4 ">
+                  <div
+                    className={
+                      selectedValue === "b" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue === "b"}
+                        onChange={handleChange}
+                        value="b"
+                        inputProps={{ "aria-label": "b" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue === "b"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        女性
+                      </FormLabel>
+                    </div>
                   </div>
+                </div>
 
-                  <div className="col-lg-4">
-                    <Radio className="rdoalin" onChange={onChange} value={3}>
-                      その他
-                    </Radio>
+                <div className="col-lg-4">
+                  <div
+                    className={
+                      selectedValue === "c" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue === "c"}
+                        onChange={handleChange}
+                        value="c"
+                        inputProps={{ "aria-label": "c" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue === "c"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam  "
+                        }
+                        id="purc"
+                      >
+                        その他
+                      </FormLabel>
+                    </div>
                   </div>
-                </Radio.Group>
+                </div>
               </div>
             </div>
             <div className="ajsiji my-3 my-md-3">
-              <p>電話番号 <span className="star_clr"> * </span></p>
+              <p>
+                電話番号 <span className="star_clr"> * </span>
+              </p>
               <div className="Register_ant">
                 <div className="col-lg-6">
                   <Form.Item
@@ -851,8 +929,9 @@ export default function Register_Step_One() {
               </div>
             </div>
             <div className="ajsiji my-3 my-md-3">
-              
-              <p>メールアドレス <span className="star_clr"> * </span> </p>
+              <p>
+                メールアドレス <span className="star_clr"> * </span>{" "}
+              </p>
 
               <div className="Register_ant">
                 <div className="col-lg-6">
@@ -928,19 +1007,81 @@ export default function Register_Step_One() {
                 メールマガジンにて、新商品やお得な情報などをお送りしています。
               </p>
               <div className="Register_ant">
-                <Radio.Group onChange={onChange1} value={value2} className="radio_group"
-                >
-                  <div className="col-lg-6">
-                    <Radio className="rdoalin" onChange={onChange1} value={1}>
-                      受け取る
-                    </Radio>
+                {/* <Radio.Group
+                  onChange={onChange1}
+                  value={value2}
+                  className="radio_group"
+                > */}
+                <div className="col-lg-6">
+                  {/* <Radio className="rdoalin" onChange={onChange1} value={1}>
+                    受け取る
+                  </Radio> */}
+                  <div
+                    className={
+                      selectedValue1 === "a" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue1 === "a"}
+                        onChange={handleChange1}
+                        value="a"
+                        inputProps={{ "aria-label": "a" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue1 === "a"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        受け取る
+                      </FormLabel>
+                    </div>
                   </div>
-                  <div className="col-lg-6">
-                    <Radio className="rdoalin" onChange={onChange1} value={2}>
-                      受け取らない
-                    </Radio>
+                </div>
+                <div className="col-lg-6">
+                  <div
+                    className={
+                      selectedValue1 === "b" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue1 === "b"}
+                        onChange={handleChange1}
+                        value="b"
+                        inputProps={{ "aria-label": "b" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue1 === "b"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        受け取らない
+                      </FormLabel>
+                    </div>
                   </div>
-                </Radio.Group>
+                </div>
+                {/* </Radio.Group> */}
               </div>
             </div>
 
@@ -950,18 +1091,78 @@ export default function Register_Step_One() {
                 {/* <span className="star_clr"> * </span> */}
               </p>
               <div className="Register_ant">
-                <Radio.Group onChange={onChange2} value={value3} className="radio_group">
-                  <div className="col-lg-6">
-                    <Radio className="rdoalin" onChange={onChange2} value={1}>
-                      はい
-                    </Radio>
+                {/* <Radio.Group
+                  onChange={onChange2}
+                  value={value3}
+                  className="radio_group"
+                > */}
+                <div className="col-lg-6">
+                  <div
+                    className={
+                      selectedValue2 === "a" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue2 === "a"}
+                        onChange={handleChange2}
+                        value="a"
+                        inputProps={{ "aria-label": "a" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue2 === "a"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        はい
+                      </FormLabel>
+                    </div>
                   </div>
-                  <div className="col-lg-6">
-                    <Radio className="rdoalin" onChange={onChange2} value={2}>
-                      いいえ
-                    </Radio>
+                </div>
+                <div className="col-lg-6">
+                  <div
+                    className={
+                      selectedValue2 === "b" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue2 === "b"}
+                        onChange={handleChange2}
+                        value="b"
+                        inputProps={{ "aria-label": "b" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue2 === "b"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        いいえ
+                      </FormLabel>
+                    </div>
                   </div>
-                </Radio.Group>
+                </div>
+                {/* </Radio.Group> */}
               </div>
             </div>
           </div>
@@ -969,7 +1170,7 @@ export default function Register_Step_One() {
 
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-9">
+            <div className="col-lg-9">
               <div className="scroll_text">
                 <p>「ウェブガチャ」ご利用規約</p>
                 <p>第1条 (会員)</p>

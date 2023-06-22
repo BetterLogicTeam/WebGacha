@@ -1,6 +1,7 @@
 .main_Register_page_3{
     background:#F2F6FF ;
     padding: 30px 20px !important;
+    height: 100vh;
 }
 
 
@@ -61,3 +62,4 @@ color: #E60058;
         width: 100% !important;
     }
 }
+

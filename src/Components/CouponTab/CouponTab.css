@@ -48,3 +48,12 @@
         margin-top: 40px;
     }
 }
+
+@media ( min-width:1610px)  {
+}
+.third_Tab{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

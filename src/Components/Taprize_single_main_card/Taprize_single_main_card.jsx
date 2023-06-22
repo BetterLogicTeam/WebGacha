@@ -29,7 +29,7 @@ function Taprize_single_main_card() {
                 <div className="col-md-4 mt-3 mt-md-0">
                   <div className="tarpize_single_main_carrd">
                     <Image
-                      src={Taprize_single_pic}
+                      src={items.Image}
                       onClick={() => (setModalShow(true), setsliderName(index))}
                       className="pop_up_img_tar"
                       
@@ -59,85 +59,7 @@ function Taprize_single_main_card() {
               </>
             );
           })}
-          {/* <div className="col-md-4 mt-3 mt-md-0">
-            <div className="tarpize_single_main_carrd">
-              <img
-                src={Taprize_single_pic}
-                onClick={() => (setModalShow(true),setImage_url(Taprize_single_pic),setsliderName("特別賞 -1 特大タオル"))}
-                className="w-100"
-                alt=""
-              />
-              
-              <div className="d-flex gap-3 my-3">
-                <h6 className="blue_heading">特別賞 -1</h6>
-                <h6 className="black_heading">特大タオル</h6>
-              </div>
-              <div className="row">
-                <div className="col-6">
-                  <div className="lower_content">
-                    <p>各賞の当選率</p>
-                    <p>1%</p>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="lower_content ">
-                    <p style={{ color: "#020140" }}>各賞の当選率</p>
-                    <p style={{ color: "#020140" }}>1%</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mt-3 mt-md-0">
-            <div className="tarpize_single_main_carrd">
-              <img src={Taprize_single_pic} className="w-100" alt=""
-              onClick={() => (setModalShow(true),setImage_url(Taprize_single_pic),setsliderName("特別賞 -2 特大タオル"))}
-              />
-              <div className="d-flex gap-3 my-3">
-                <h6 className="blue_heading">特別賞 -2</h6>
-                <h6 className="black_heading">特大タオル</h6>
-              </div>
-              <div className="row">
-                <div className="col-6">
-                  <div className="lower_content">
-                    <p>各賞の当選率</p>
-                    <p>1%</p>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="lower_content ">
-                    <p style={{ color: "#020140" }}>各賞の当選率</p>
-                    <p style={{ color: "#020140" }}>1%</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mt-3 mt-md-0">
-            <div className="tarpize_single_main_carrd">
-              <img src={Taprize_single_pic} className="w-100" alt="" 
-               onClick={() => (setModalShow(true),setImage_url(Taprize_single_pic),setsliderName("特別賞 -3 特大タオル"))}
-              />
-              <div className="d-flex gap-3 my-3">
-                <h6 className="blue_heading">特別賞 -1</h6>
-                <h6 className="black_heading">特大タオル</h6>
-              </div>
-              <div className="row">
-                <div className="col-6">
-                  <div className="lower_content">
-                    <p>各賞の当選率</p>
-                    <p>1%</p>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="lower_content ">
-                    <p style={{ color: "#020140" }}>各賞の当選率</p>
-                    <p style={{ color: "#020140" }}>1%</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+        
         </div>
       </div>
     </div>

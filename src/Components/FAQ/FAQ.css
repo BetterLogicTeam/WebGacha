@@ -31,6 +31,8 @@
 }
 .first_li a{
   color: #fff !important;
+  text-decoration: none;
+
 
 }
 
@@ -39,7 +41,8 @@
   border-radius: 12px !important;
   color: #fff !important;
   cursor: pointer;
-  padding: 15px !important;
+  padding: 15px 10px !important;
+  text-decoration: none;
 
   /* margin-top: 10px !important; */
 }
@@ -195,4 +198,13 @@
 }
 .nav_scroll{
   margin-top: 7rem;
+}
+
+.active3{
+  background-color: red;
+}
+
+.link_text{
+  color: #020140;
+  text-decoration: none !important;
 }

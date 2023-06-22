@@ -1,6 +1,7 @@
 .main_login_page {
   background: #f2f6ff !important;
   padding: 60px 20px !important;
+  height: auto;
 }
 
 .input_login_side {
@@ -171,11 +172,21 @@ input[type="checkbox"] {
   }
 }
 
-@media (min-width:1400px) and (max-width:4000px) {
+@media (min-width:1400px)  {
   .login_white_btn{
     
     margin-top: 3.5rem !important;
   }
+  .login_white_btn{
+    background: #ffffff !important;
+    border: 1px solid #e60058 !important;
+    border-radius: 45px !important;
+    color: #e60058 !important;
+    height: 55px !important;
+    width: 100% ;
+    margin-top: 4.5rem !important;
+  }
+ 
 }
 
 
@@ -187,4 +198,16 @@ input[type="checkbox"] {
   height: 55px !important;
   width: 100% ;
   margin-top: 3rem;
+}
+
+@media (min-width:1610px)  {
+ 
+  /* .main_login_page {
+    background: #f2f6ff !important;
+    padding: 60px 20px !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 }

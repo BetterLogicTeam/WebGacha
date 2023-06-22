@@ -51,3 +51,10 @@
     font-size: 14px !important;
   }
 }
+
+
+@media ( min-width:1610px)  {
+  .MyPageCouponContentBg{
+    height: 100vh;
+  }
+}

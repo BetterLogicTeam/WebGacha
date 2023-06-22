@@ -1,9 +1,9 @@
-import Taprize_single_pic from "../Assets/single_1.svg";
-import cat from "../Assets/cat.png";
-import green from "../Assets/green.png";
-import man from "../Assets/man.png";
-import caat from "../Assets/caat.png";
-import girls from "../Assets/girls.png";
+import Taprize_single_pic from "../Assets/特賞.jpg";
+import cat from "../Assets/A.png";
+import green from "../Assets/B.png";
+import man from "../Assets/C.png";
+import caat from "../Assets/D.png";
+import girls from "../Assets/E.png";
 
 const Card_Data = [
   {

@@ -117,7 +117,7 @@
     border-radius: 25px !important;
     padding: 11px 10px !important;
     gap: 2 !important;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 .ant-steps-item-finish .ant-steps-item-title  {
 color: #fff !important;
@@ -160,6 +160,6 @@ color: #fff !important;
         border-radius: 25px !important;
         padding: 5px 10px !important;
         gap: 2 !important;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     }
 }

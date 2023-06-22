@@ -35,18 +35,7 @@ export default function Purchase_list_full_page() {
 
           <New_copenPurchaseCard/>
           
-          {/* <div className="row justify-content-center py-5">
-            <div className="col-lg-10 d-flex justify-content-center">
-              <Stack spacing={5}>
-                <Pagination
-                  count={10}
-                  variant="outlined"
-                  shape="rounded"
-                  className="paginationBgC"
-                />
-              </Stack>
-            </div>
-          </div> */}
+         
         </div>
       </div>
     </div>

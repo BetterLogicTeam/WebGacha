@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 export default function Register_complete() {
   const history=useNavigate()
   return (
-    <div className='register_main_bg py-5'>
+    <div className='register_main_bg main_Register_page_4 py-5'>
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-md-6">
