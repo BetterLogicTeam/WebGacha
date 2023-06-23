@@ -28,4 +28,3 @@ export default function   Landing_Page() {
   );
 }
 
-//font family japanese language barlow
