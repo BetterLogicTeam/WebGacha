@@ -10,7 +10,7 @@
 }
 
 .landing_Bg h1 {
-  font-family: "Barlow, sans-serif";
+  font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
   /* font-weight: 700; */
   font-size: 60px;
@@ -39,7 +39,7 @@
 }
 
 .landing_Bg button {
-  font-family: "Barlow, sans-serif";
+  font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -66,7 +66,6 @@
 }
 
 .News_Heading {
-  font-family: "Barlow";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
