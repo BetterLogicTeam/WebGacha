@@ -190,6 +190,11 @@
     cursor: pointer;
 
   }
+  .tarsize_content>h3 {
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    line-height: 43px !important;
+  }
 }
 
 

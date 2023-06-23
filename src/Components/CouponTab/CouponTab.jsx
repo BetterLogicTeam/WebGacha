@@ -68,10 +68,10 @@ export default function CouponTab() {
             className="tbUper"
             indicatorColor={false}
           >
-            <Tab className="tabcor" label="クーポン一覧" {...a11yProps(0)} />
-            <Tab className="tabcor" label="購入履歴" {...a11yProps(1)} />
+            <Tab className="tabcor Coupon_list1" label="クーポン一覧" {...a11yProps(0)} />
+            <Tab className="tabcor Coupon_list2" label="購入履歴" {...a11yProps(1)} />
             <Tab
-              className="tabcor"
+              className="tabcor Coupon_list3"
               label="登録情報の変更・確認"
               {...a11yProps(2)}
             />

@@ -72,6 +72,14 @@
   .tarpize_cards_main {
     padding: 30px 0px !important;
   }
+  .tarpize_content_cards > h2 {
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    padding: 1rem 0rem;
+    line-height: 48px !important;
+    text-align: center !important;
+    color: #020140 !important;
+  }
 
   .fornt_row {
     gap: 1rem !important;
