@@ -69,7 +69,7 @@ export default function Tarpize_single({ location }) {
               </div>
               <div className="bor_content align-items-center border-none">
                 <p className="text-clr frmlfftr mb-0">数量:</p>
-                <div className="d-flex gap-3 inptBtw">
+                <div className="d-flex gap-3 align-items-center inptBtw">
                   <div className="imputdve">
                     <select
                       class="form-select BDMain1 shadow-none" 

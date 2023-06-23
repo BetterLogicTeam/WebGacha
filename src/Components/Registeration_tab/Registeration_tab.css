@@ -10,7 +10,7 @@
     .outlone_tab {
         border: 1px solid #2EB3FF;
         border-radius: 15px;
-        padding: 15px 15px 15px 0px;
+        padding: 15px 15px 15px 15px;
     }
     .ant-steps .ant-steps-item-container {
         outline: none;

@@ -113,7 +113,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：山田" />
+                    <Input placeholder="例：山田" className="RegisterPHcolor" />
                   </Form.Item>
                 </div>
                 <div className="col-lg-6">
@@ -128,7 +128,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：太郎" />
+                    <Input placeholder="例：太郎" className="RegisterPHcolor" />
                   </Form.Item>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：ヤマダ" />
+                    <Input placeholder="例：ヤマダ" className="RegisterPHcolor" />
                   </Form.Item>
                 </div>
                 <div className="col-lg-6">
@@ -161,7 +161,7 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Input
-                      className="resiss_page_inpu"
+                      className="resiss_page_inpu RegisterPHcolor"
                       placeholder="例：タロウ"
                     />
                   </Form.Item>
@@ -185,7 +185,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：141-0022" />
+                    <Input placeholder="例：141-0022" className="RegisterPHcolor2" />
                   </Form.Item>
                 </div>
               </div>
@@ -462,7 +462,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：品川区" />
+                    <Input placeholder="例：品川区" className="RegisterPHcolor2" />
                   </Form.Item>
                 </div>
               </div>
@@ -479,7 +479,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：西五反田 1-1-11" />
+                    <Input placeholder="例：西五反田 1-1-11" className="RegisterPHcolor2" />
                   </Form.Item>
                 </div>
                 <div className="col-lg-6 ">
@@ -490,10 +490,11 @@ export default function Register_Step_One() {
                   </label>
                   <input
                     type="text"
-                    className="skfhhjjf"
+                    className="skfhhjjf RegisterPHcolor2"
                     placeholder="例：五反田マンション　101号室"
                     name="sssss"
                     id="sssss"
+                    
                   />
                 </div>
               </div>
@@ -917,7 +918,7 @@ export default function Register_Step_One() {
                       },
                     ]}
                   >
-                    <Input placeholder="例：090 - 1234 - 5678 " />
+                    <Input placeholder="例：090 - 1234 - 5678 " className="RegisterPHcolor2" />
                   </Form.Item>
                 </div>
                 <div className="col-lg-6 text-start">

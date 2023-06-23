@@ -22,7 +22,19 @@
 .tabcor:focus {
     background-color: #2EB3FF !important;
     color: #ffffff !important;
+}
 
+.tabNowSale:focus{
+    background-color: rgb(255, 214, 0) !important;
+    color: black !important;
+}
+.tabSoon:focus{
+    background-color: rgb(138, 199, 255) !important;
+    color: black !important;
+}
+.tabEndsale:focus{
+    background-color: rgb(216, 216, 216) !important;
+    color: black !important;
 }
 
 .Mui-selected {

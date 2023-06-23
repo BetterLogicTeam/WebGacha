@@ -58,9 +58,9 @@ export default function BasicTabs() {
           indicatorColor={false}
         >
           <Tab className="tabcor" label="全て" {...a11yProps(0)} />
-          <Tab className="tabcor" label="発売中" {...a11yProps(1)} />
-          <Tab className="tabcor" label="近日発売" {...a11yProps(2)} />
-          <Tab className="tabcor" label="販売終了" {...a11yProps(3)} />
+          <Tab className="tabcor tabNowSale" label="発売中" {...a11yProps(1)} />
+          <Tab className="tabcor tabSoon" label="近日発売" {...a11yProps(2)} />
+          <Tab className="tabcor tabEndsale" label="販売終了" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
