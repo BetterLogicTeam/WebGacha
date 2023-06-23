@@ -55,7 +55,7 @@ export default function Purchase_Tab() {
       <div className="">
         <div className="container">
           <div className="outlone_tab ">
-            <Steps current={current} items={items} />
+            <Steps className="purchasetabspc" current={current} items={items} />
           </div>
           {current === 0 ? (
             <Purchase_process_one next={next}  />
