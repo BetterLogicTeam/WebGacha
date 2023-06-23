@@ -5,15 +5,7 @@ import { HashLink, NavHashLink } from "react-router-hash-link";
 import Accordion from "react-bootstrap/Accordion";
 import FAQData from "./FAQ_Data";
 import { useInView } from "react-intersection-observer";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller, } from "react-scroll";
 
 export default function FAQ() {
   const [Faq_Tab, setFaq_Tab] = useState("");
