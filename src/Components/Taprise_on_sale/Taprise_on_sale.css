@@ -7,17 +7,12 @@
 }
 
 .Taprise_on_sale_bg h1 {
-    font-family: 'Barlow';
+    font-family: 'Noto Sans JP', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* Black */
-
     color: #020140;
 }
 
@@ -27,7 +22,7 @@
     background: #E60058;
     border: 1px solid #FFFFFF;
     border-radius: 45px;
-    font-family: 'Barlow';
+    font-family: 'Noto Sans JP', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -63,7 +58,7 @@
         padding-bottom: 5px;
     }
     .Taprise_on_sale_bg h1 {
-        font-family: 'Barlow';
+        font-family: 'Noto Sans JP', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 29px;

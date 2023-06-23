@@ -58,7 +58,7 @@ font-weight: 900;
 .List_of_Results_fst_span {
   width: 33px;
   height: 28px;
-  font-family: "Barlow";
+  font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -70,7 +70,7 @@ font-weight: 900;
 
 .List_of_Results_scnd_span {
   width: 216px;
-  font-family: "Barlow";
+  font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;

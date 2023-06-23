@@ -92,7 +92,7 @@
     border-radius: 25px !important;
     padding: 12px !important;
     gap: 2 !important;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 .ant-steps-item-active {
@@ -102,8 +102,7 @@
     border-radius: 25px;
     padding: 12px 12px !important;
     gap: 2;
-    margin-left: 1rem;
-
+    /* margin-left: 1rem; */
 }
 
 .ant-steps-item-active .ant-steps-item-title {
@@ -123,6 +122,20 @@
 color: #fff !important;
 }
 
+:where(.css-dev-only-do-not-override-k7429z).ant-steps {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 0;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    display: flex !important;
+    gap: 10px !important;
+    width: 100%;
+    text-align: initial;
+}
+
 
 @media only screen and (max-width:600px){
     .ant-steps-item-active {
@@ -132,8 +145,7 @@ color: #fff !important;
         border-radius: 25px;
         padding: 4px 12px !important;
         gap: 2;
-        margin-left: 1rem;
-    
+        /* margin-left: 1rem; */
     }
 
     .ant-steps-item-wait {
@@ -144,7 +156,7 @@ color: #fff !important;
         border-radius: 25px !important;
         padding: 4px 12px !important;
         gap: 2 !important;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     }
 
     :where(.css-k7429z).ant-steps.ant-steps-vertical {

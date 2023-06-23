@@ -84,7 +84,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="山田"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -99,7 +99,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="太郎"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -118,7 +118,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="ヤマダ"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -133,7 +133,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="タロウ"
-                          className="Fld bobvv"
+                          className="Fld bobvv RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -167,7 +167,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="例：141-0022"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -268,7 +268,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="品川区"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -284,7 +284,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="西五反田 1-1-11"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -301,7 +301,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="五反田マンション　101号室"
-                          className="Fld"
+                          className="Fld RegisterPHcolor"
                         />
                       </Form.Group>
                     </Form>
@@ -561,7 +561,7 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="text"
                           placeholder="090 - 1234 - 5678 "
-                          className="Fld"
+                          className="Fld RegisterPHcolor2"
                         />
                       </Form.Group>
                     </Form>
