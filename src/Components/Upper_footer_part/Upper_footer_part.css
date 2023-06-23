@@ -49,13 +49,8 @@
   font-weight: 900 !important;
   font-size: 20px !important;
   line-height: 140%;
-
-
   text-align: center;
   text-transform: uppercase;
-
- 
-
   color: #020140;
 }
 
@@ -125,7 +120,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:480px !important;
+    height:430px !important;
     display: flex;
     justify-content: center;
     align-items: center;
