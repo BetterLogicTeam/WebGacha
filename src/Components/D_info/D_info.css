@@ -1,61 +1,61 @@
-.main_dinof_bg{
-    background-image:url(../Assets/d_info.png) ;
-    background-position: center;
-    background-size: cover ;
-    background-repeat: no-repeat;
-    /* height: 80vh !important; */
-    padding: 40px 10px !important;
+.main_dinof_bg {
+  background-image: url(../Assets/d_info.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 80vh !important; */
+  padding: 40px 10px !important;
 }
 
-.main_dinof_bg >h2{
-font-weight: 600px !important;
-font-size: 40px;
-color: #000E31;
+.main_dinof_bg > h2 {
+  font-weight: 600px !important;
+  font-size: 40px;
+  color: #000e31;
 }
 
-
-
-.notataion_border p{
-    
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 140%;
-color: #020140;
+.notataion_border p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #020140;
 }
-.T_p{
-    font-style: normal;
-font-weight: 500 !important;
-font-size: 16px !important;
-line-height: 140% !important;
+.T_p {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 140% !important;
 }
 
-.main_cont{
-    text-align: center;
-    /* background-color: white  !important; */
-    /* border: 1px solid     #D2E9FF; */
-    border-radius: 12px !important;
+.main_cont {
+  text-align: center;
+  /* background-color: white  !important; */
+  /* border: 1px solid     #D2E9FF; */
+  border-radius: 12px !important;
 }
-
-
 
 .main p {
-    margin-bottom: 0px !important;
-    text-align: left;
+  margin-bottom: 0px !important;
+  text-align: left;
 }
 
-.dInfo{
-    font-weight: 600 !important;
-    font-size: 40px;
-    line-height: 48px !important;
-    color: #000E31;
+.dInfo {
+  font-weight: 500 !important;
+  font-size: 40px;
+  line-height: 48px !important;
+  color: #000e31;
 }
 
+@media only screen and (max-width: 700px) {
+  .T_p {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  }
 
+  .dInfo {
+  font-weight: 500 !important;
+  font-size: 27px;
+  line-height: 48px !important;
+}
 
-@media only screen and (max-width:700px ){
-    .T_p{
-        font-weight: 700 !important;
-        font-size: 15px !important;
-    }
 }

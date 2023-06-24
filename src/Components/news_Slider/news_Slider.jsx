@@ -23,10 +23,10 @@ export default function News_Slider() {
         centeredSlides={true}
         loop={true}
         navigation={true}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         modules={[Navigation, Autoplay]}
         breakpoints={{
           425: {

@@ -5,7 +5,7 @@
   background-position: center;
   height: auto !important;
   padding-bottom: 100px !important;
-  padding-top: 170px !important;
+  padding-top: 100px !important;
   position: relative;
 }
 
@@ -57,15 +57,10 @@
 
 .News_Heading {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  /* identical to box height */
-
   text-align: center;
-
-  /* Black */
-
   color: #020140;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -87,10 +82,15 @@
     height: auto !important;
   } */
 
+  .News_Heading {
+    font-weight: 500;
+    font-size: 29px;
+  }
+
   .landing_Bg {
     background-position-x: 38% !important;
     height: auto !important;
-    padding-bottom: 104px !important;
+    padding-bottom: 86px !important;
     padding-top: 83px !important;
     background-size: 350%;
   }

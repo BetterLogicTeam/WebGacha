@@ -1,7 +1,7 @@
 .flowTitle {
   color: #020140;
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .stp1Button {
@@ -25,9 +25,9 @@
 
 .joinFree {
   color: #020140;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 39px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .forred{
@@ -39,8 +39,8 @@
 
 
 .joinDetails {
-  font-size: 17px;
-  font-weight: 599;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 22.4px;
   color: #020140;
   width: 71%;
@@ -64,7 +64,7 @@
   border: none;
   border-radius: 30px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 14px 0px;
   width: 392px !important;
   height: 55px !important;
@@ -83,12 +83,12 @@
     color: #020140;
     font-size: 22px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .flowTitle {
-    font-size: 34px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 500;
   }
 
   .btween {
@@ -120,7 +120,7 @@
     border: none;
     border-radius: 30px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 14px 0px;
     width: 100%;
 }
@@ -154,7 +154,7 @@
     border: none;
     border-radius: 30px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 14px 0px;
     width: 100% !;
 }

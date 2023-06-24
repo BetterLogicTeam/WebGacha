@@ -50,7 +50,7 @@ export default function Purchase_process_one({ next }) {
                       <div className="purchse_first_Card">
                         <p className="pusrchae_text">お支払い方法 </p>
                         <div className="row">
-                          <div className="col-md-6 mt-3 mt-md-0 pe-0 pe-md-2">
+                          <div className="col-md-6 mt-0 mt-md-0 pe-0 pe-md-2">
                             <div
                               className={
                                 selectedValue === "a"

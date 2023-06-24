@@ -4,7 +4,7 @@
 }
 
 .tarsize_content>h3 {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   font-size: 36px !important;
   line-height: 43px !important;
 }
@@ -79,7 +79,7 @@
 .frmlfftr {
   font-size: 16px !important;
   color: #020140 !important;
-  font-weight: 800 !important;
+  font-weight: 500 !important;
   line-height: 22px !important;
 }
 
@@ -108,7 +108,7 @@
 
   .frmlfftr {
     font-size: 16px !important;
-    font-weight: 800 !important;
+    font-weight: 500 !important;
     line-height: 22px !important;
     width: 28%;
   }
@@ -118,8 +118,8 @@
   }
 
   .yellowTxt {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 15px !important;
+    font-weight: 500 !important;
   }
 
   .bor_content {
@@ -138,7 +138,7 @@
   }
 
   .tarsize_content>P {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     font-size: 14px !important;
     line-height: 140% !important;
     /* identical to box height, or 20px */
@@ -191,7 +191,7 @@
 
   }
   .tarsize_content>h3 {
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     font-size: 28px !important;
     line-height: 43px !important;
   }
@@ -228,22 +228,16 @@
     width: 95% !important;
   }
 
-
-  /* .sigleFull1st {
-    font-size: 18px !important;
-  } */
-
-
   .tarsize_content>P {
-    font-weight: 600 !important;
-    font-size: 18px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
     line-height: 19.6px !important;
     color: #020140;
   }
 
   .tarsize_content>h3 {
-    font-weight: 700 !important;
-    font-size: 31px !important;
+    font-weight: 500 !important;
+    font-size: 36px !important;
     line-height: 43px !important;
     margin-top: 2rem;
   }
@@ -253,9 +247,9 @@
   }
 
   .frmlfftr {
-    font-size: 21px !important;
+    font-size: 16px !important;
     color: #020140 !important;
-    font-weight: 800 !important;
+    font-weight: 500 !important;
     line-height: 22px !important;
   }
 
@@ -336,7 +330,7 @@
   }
 
   .tarsize_content>h3 {
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     font-size: 50px !important;
     line-height: 43px !important;
     margin-top: 3rem;

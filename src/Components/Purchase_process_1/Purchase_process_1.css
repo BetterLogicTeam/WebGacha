@@ -34,7 +34,7 @@
 }
 
 .pusrchae_text {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 140%;
 
@@ -65,7 +65,6 @@
     font-weight: 900 !important;
     font-size: 16px;
     line-height: 140%;
-
 }
 
 
@@ -88,8 +87,8 @@
 }
 
 .responsiceeeee_wiss {
-    font-size: 39px !important;
-    font-weight: 800 !important;
+    font-size: 36px !important;
+    font-weight: 500 !important;
     text-align: center !important;
     color: #020140 !important;
 }
@@ -132,7 +131,8 @@
     }
 
     .pusrchae_text {
-        font-size: 25px !important;
+        font-size: 19px !important;
+        font-weight: 500;
     }
 
     .pad_side {
@@ -140,8 +140,8 @@
     }
 
     .responsiceeeee_wiss {
-        font-size: 39px !important;
-        font-weight: 800 !important;
+        font-size: 25px !important;
+        font-weight: 500 !important;
         text-align: center !important;
     }
 

@@ -6,7 +6,7 @@ export default function D_info() {
     <div className="main_dinof_bg">
       <div className="container FrEndPd">
         <h2 className="text-center dInfo">詳細情報 </h2>
-        <div className="container main_cont my-5 ">
+        <div className="container main_cont mt-4 mt-md-5 mb-5 ">
           <div className=" text-start">
             <div className="row borrrrrrrrr justify-content-center">
               <div className="col-5 col-md-4 border_table borrrrrrrrr_right tableBg  notataion_border p-3">

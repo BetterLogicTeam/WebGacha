@@ -62,7 +62,9 @@
 
 .Nav_collps {
     /* padding: 0px 1rem; */
-    padding: 15px 23px !important;
+    padding: 10px 16px !important;
+    width: 56px;
+    height: 44px;
     font-size: 1.25rem;
     /* line-height: 1; */
     background-color: transparent;
@@ -119,7 +121,7 @@
         margin-top: 0.7rem;
         /* font-style: normal; */
         font-weight: 800 !important;
-        font-size: 18px;
+        font-size: 16px;
         /* line-height: 140%; */
         margin-left: 0rem !important;
         color: #010124 !important;
