@@ -46,7 +46,7 @@ function Confirmataion() {
       </div>
 
       <div className="row justify-content-center my-4 gap-4">
-        <button className='new_white_btn' onClick={()=>history('/ContactUs')} > 戻る</button>
+        <button className='new_white_btn hgfdf' onClick={()=>history('/ContactUs')} > 戻る</button>
         <button className='new_red_btn  mb-5'> 送信する </button>
 
       </div>

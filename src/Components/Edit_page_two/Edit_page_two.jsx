@@ -8,7 +8,7 @@ export default function Edit_page_two({ prev, next }) {
   const history = useNavigate();
   return (
     <div className="edit_main_page ">
-      <h3 className="h3_text text-center mt-5">登録内容の確認</h3>
+      <h3 className="h3_text text-center mt-5">登録内容の確認 </h3>
       <div className="container main_cont my-5 ">
         <div className=" text-start">
           <div className="row   borrrrrrrrr justify-content-center">
