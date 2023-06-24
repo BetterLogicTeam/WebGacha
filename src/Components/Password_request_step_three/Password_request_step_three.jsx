@@ -10,7 +10,7 @@ export default function Password_request_step_three() {
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="new_password_com">
-              <h3 className="mt-2 mb-0">パスワード再設定</h3>
+              <h3 className="mt-2 mb-2">パスワード再設定</h3>
               <label htmlFor="new_pass" className="pass_three_text mt-2 mb-3" style={{fontWeight:"600"}}>
                 新パスワード
               </label>{" "}

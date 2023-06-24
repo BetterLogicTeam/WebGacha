@@ -1,6 +1,6 @@
 .Privacy_policy{
     background: #F2F6FF;
-    padding: 30px 10px !important;
+    padding: 24px 24px 50px 24px !important;
 }
 
 .main_privacy_img{
@@ -16,10 +16,17 @@
     ;
 }
 
+
+.ppp_heading{
+    font-size: 60px !important;
+    color: #ffffff;
+    font-weight: 500;
+}
 .main_heading{
    
     
     font-size: 60px !important;
+    font-weight: 500 !important;
 }
 
 .privacy_content>h5{
@@ -32,11 +39,13 @@
     font-weight: 600;
 font-size: 20px;
 line-height: 140%;
-/* identical to box height, or 28px */
+margin-bottom: 0px !important;
+padding-top: 24px ;
+padding-bottom: 24px !important;
 
 text-transform: uppercase;
 
-/* Black */
+
 
 color: #020140;
 }
@@ -63,6 +72,45 @@ color: #020140;
         font-size: 15px !important;
     }
 }
+
+
+
+
+
+@media only screen and (max-width:349px){
+.ressss_hhhhhea{
+    font-size: 23px !important;
+    line-height:32px !important;
+}
+  }
+
+
+  @media only screen and (min-width:350px) and (max-width:410px) {
+    .ressss_hhhhhea{
+        font-size: 28px !important;
+        line-height:37px !important;
+    }
+  }
+
+  @media only screen and (min-width:411px) and (max-width:699px) {
+    .ressss_hhhhhea{
+        font-size: 22px !important;
+        line-height:30px !important;
+    }
+
+
+  }
+
+
+
+
+  @media only screen and (min-width:700px) and (max-width:999px){
+    .ressss_hhhhhea{
+        font-size: 50px !important;
+        line-height: 66px !important;
+
+    }
+  }
 
 
 

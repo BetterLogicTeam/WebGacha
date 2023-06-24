@@ -110,9 +110,9 @@
 }
 
 .main_heading {
-  font-size: 60px !important;
+  font-size: 60px ;
   color: #ffffff;
-  font-weight: 600 !important;
+  font-weight: 600 ;
 }
 
 @media only screen and (max-width: 700px) {
@@ -125,7 +125,7 @@
     height: auto !important;
   }
   .main_heading {
-    font-size: 39px !important;
+    font-size: 39px ;
   }
 
   .veryLsBtn {
