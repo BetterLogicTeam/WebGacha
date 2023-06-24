@@ -5,7 +5,7 @@
   background-position: center;
   height: auto !important;
   padding-bottom: 100px !important;
-  padding-top: 170px  !important;
+  padding-top: 170px !important;
   position: relative;
 }
 
@@ -31,7 +31,7 @@
   text-align: center;
   margin-top: 1rem !important;
   text-transform: uppercase;
-  text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff, 0.5px 0px 0 #fff;
+  text-shadow: -0.3px -0.3px 0 #fff, 0.5px -0.3px 0 #fff, -0.5px 0.3px 0 #fff, 0.5px 0px 0 #fff;
   /* -webkit-text-stroke: 0.2px #fff; */
   color: #020140;
   letter-spacing: -1.5px;
@@ -82,54 +82,80 @@
   margin-bottom: 0px !important;
 }
 
-.VeryfstButton:hover{
+.VeryfstButton:hover {
   background-color: red !important;
   color: #fff !important;
 }
 
-@media screen and (max-width: 600px) {
-  .landing_Bg {
+
+
+@media screen and (max-width: 767px) {
+  /* .landing_Bg {
     padding-bottom: 44px !important;
     padding-top: 66px !important;
     background-position-x: 32% !important;
     height: auto !important;
+  } */
+
+  .landing_Bg {
+    background-position-x: 38% !important;
+    height: auto !important;
+    padding-bottom: 104px !important;
+    padding-top: 83px !important;
+    background-size: 350%;
   }
+
   .landing_Bg button {
     font-size: 15px;
     width: 320px;
     height: 65px !important;
     padding: 13px 24px !important;
   }
+  .brack{
+    display: block !important;
+  }
+
   .landing_Bg h1 {
     font-weight: 1000 !important;
-    font-size: 50px ;
-    line-height: 65px !important;
+    font-size: 28px;
+    line-height: 40px !important;
     letter-spacing: -1px !important;
     padding: 0px 18px !important;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
   }
 
   .landing_Bg p {
     padding: 0px 18px !important;
+    font-size: 17px !important;
+  text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff, 0.5px 0px 0 #fff;
+
   }
 }
 
+.brack{
+  display: none;
+}
 
- @media (min-width:767px) and (max-width:950px) {
+
+@media (min-width:767px) and (max-width:950px) {
   .landing_Bg {
     padding-bottom: 44px !important;
     padding-top: 150px !important;
     background-position-x: 32% !important;
     height: auto !important;
   }
+
   .landing_Bg button {
     font-size: 15px;
     width: 320px;
     height: 65px !important;
     padding: 13px 24px !important;
   }
+
   .landing_Bg h1 {
     font-weight: 1000 !important;
-    font-size: 56px ;
+    font-size: 56px;
     line-height: 65px !important;
     letter-spacing: -1px !important;
     padding: 0px 18px !important;
@@ -138,54 +164,4 @@
   .landing_Bg p {
     padding: 0px 18px !important;
   }
-} 
-
-
-/* @media (min-width:2560px) and (max-width:10000px) {
-  .landing_Bg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 74vh !important;
-    padding-bottom: 100px !important;
-    padding-top: 170px  !important;
-    position: relative;
-  }
-
-  .landing_Bg h1 {
-    font-size: 275px;
-    line-height: 315px;
-    text-align: center;
-    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
-  }
-
-  .landing_Bg p {
-    font-weight: 1000 !important;
-    font-size: 95px !important;
-    line-height: 140%;
-    text-align: center;
-    margin-top: 1rem !important;
-    text-transform: uppercase;
-    text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff, 0.5px 0px 0 #fff;
-    letter-spacing: -1.5px;
-  }
-
-  .main_div_Landing{
-    margin-top: 29rem;
-  }
-
-  .landing_Bg button {
-    font-weight: 700;
-    font-size: 76px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 4rem !important;
-    color: #ffffff;
-    width: 1478px;
-    height: 290px;
-    background: #e60058;
-    border: 1px solid #ffffff;
-    border-radius: 151px;
 }
-
-} */

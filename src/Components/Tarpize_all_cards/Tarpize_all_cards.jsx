@@ -42,7 +42,7 @@ export default function Tarpize_all_cards() {
             {Card_Data.slice(3, 6).map((items, index) => {
               return (
                 <>
-                  <div className="col-md-4 mt-3 mt-md-0 FrEndPd">
+                  <div className="col-md-4  mt-3 mt-md-0 FrEndPd">
                     <Single_tarpize_card
                       card_p="特大タオル"
                       carddimg={items.Image}

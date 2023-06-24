@@ -49,11 +49,34 @@
     }
 }
 
-@media ( min-width:1610px)  {
-}
+
 .third_Tab{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+.Coupon_list1.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+.Coupon_list2.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+.Coupon_list3.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
 }

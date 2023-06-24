@@ -15,7 +15,8 @@ export default function   Landing_Page() {
             </p>
             <div className="d-flex justify-content-center mt-1">
 
-            <button className="VeryfstButton" onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中のタップライズをチェック！</button>
+            <button className="VeryfstButton" onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中の <br className="brack"/>
+タップライズをチェック！</button>
             </div>
           </div>
         </div>
@@ -28,4 +29,3 @@ export default function   Landing_Page() {
   );
 }
 
-//font family japanese language barlow
