@@ -32,7 +32,7 @@ export default function Registeration_tab() {
     const next = () => {
       setCurrent(current + 1);
     };
-    const prev = () => {
+    const prev = () => {  
       setCurrent(current - 1);
     };
     const items = steps.map((item) => ({
