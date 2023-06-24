@@ -68,10 +68,7 @@ function App() {
           path="/Text"
           element={<Text />}
         />
-        <Route
-          path="/ContactUs_Confirmation"
-          element={<MainConfirmationPage />}
-        />
+        <Route path="/ContactUs_Confirmation" element={<MainConfirmationPage />} />
       </Routes>
 
       <MainFooter />
