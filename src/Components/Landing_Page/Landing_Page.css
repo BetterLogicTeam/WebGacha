@@ -12,7 +12,7 @@
 .landing_Bg h1 {
   font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
-  /* font-weight: 700; */
+  /* font-weight: 600; */ 
   font-size: 60px;
   line-height: 72px;
   text-align: center;
@@ -26,7 +26,7 @@
 .landing_Bg p {
   font-style: normal;
   font-weight: 900 !important;
-  font-size: 25px !important;
+  font-size: 20px !important;
   line-height: 140%;
   text-align: center;
   margin-top: 1rem !important;
@@ -47,20 +47,10 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 1rem !important;
-
-
   color: #ffffff;
-  /* position: absolute; */
   width: 392px;
   height: 55px;
-  /* left: calc(50% - 392px/2); */
-  /* top: 432px; */
-
-  /* Main red */
-
   background: #e60058;
-  /* White */
-
   border: 1px solid #ffffff;
   border-radius: 45px;
 }

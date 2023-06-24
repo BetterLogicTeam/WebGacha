@@ -8,7 +8,7 @@
     margin-top: 0.7rem;
     /* font-style: normal; */
     font-weight: 800 !important;
-    font-size: 18px;
+    font-size: 16px;
     /* line-height: 140%; */
 
     margin-left: 10px !important;
@@ -30,8 +30,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px 23px !important;
+    padding: 10px 20px !important;
     gap: 6px;
+    font-size: 16px !important;
     font-weight: 700 !important;
     color: #000 !important;
     background: #FFD600;
