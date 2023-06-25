@@ -108,7 +108,7 @@ export default function Register_Step_One() {
                     name="姓"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your 姓!",
                       },
                     ]}
@@ -123,7 +123,7 @@ export default function Register_Step_One() {
                     className="passw"
                     rules={[
                       {
-                        required: true,
+                      
                         message: "Please input your 名!",
                       },
                     ]}
@@ -140,7 +140,7 @@ export default function Register_Step_One() {
                     name="セイ"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your セイ!",
                       },
                     ]}
@@ -155,7 +155,7 @@ export default function Register_Step_One() {
                     className="passw"
                     rules={[
                       {
-                        required: true,
+                       
                         message: "Please input your メイ!",
                       },
                     ]}
@@ -180,7 +180,7 @@ export default function Register_Step_One() {
                     name="〒"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your 〒!",
                       },
                     ]}
@@ -206,7 +206,7 @@ export default function Register_Step_One() {
                     name="都道府県"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your 都道府県!",
                       },
                     ]}
@@ -450,14 +450,14 @@ export default function Register_Step_One() {
                     <option value="沖縄県">沖縄県</option>
                   </select>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 mt-3 mt-md-0">
                   <Form.Item
                     label="市区町村"
                     name="市区町村"
                     className="passw"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your 市区町村!",
                       },
                     ]}
@@ -467,14 +467,14 @@ export default function Register_Step_One() {
                 </div>
               </div>
 
-              <div className="Register_ant row">
+              <div className="Register_ant row mt-0">
                 <div className="col-lg-6">
                   <Form.Item
                     label="番地"
                     name="番地"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your 番地!",
                       },
                     ]}
@@ -505,7 +505,9 @@ export default function Register_Step_One() {
                 生年月日 <span className="star_clr"> * </span>
               </p>
               <div className="Register_ant row bdsltmainup">
-                <div className="col-lg-3 bdDateUpper">
+              <div className="row">
+
+                <div className="col-lg-3 col-4  bdDateUpper">
                   <label htmlFor="sssss" className="passw">
                     年
                   </label>
@@ -535,7 +537,7 @@ export default function Register_Step_One() {
                     ))}
                   </Select> */}
                 </div>
-                <div className="col-lg-3 bdDateUpper">
+                <div className="col-lg-3 col-4 bdDateUpper">
                   <label htmlFor="sssss" className="passw bddateoption">
                     月
                   </label>
@@ -614,7 +616,7 @@ export default function Register_Step_One() {
                   /> */}
                 </div>
 
-                <div className="col-lg-3 bdDateUpper">
+                <div className="col-lg-3 col-4 bdDateUpper">
                   <label htmlFor="sssss" className="passw bddateoption">
                     {" "}
                     日
@@ -791,6 +793,7 @@ export default function Register_Step_One() {
                   /> */}
                 </div>
               </div>
+              </div>
             </div>
 
             <div className="ajsiji my-3 my-md-3">
@@ -913,7 +916,7 @@ export default function Register_Step_One() {
                   <Form.Item
                     rules={[
                       {
-                        required: true,
+                       
                         message: "Please input your 姓!",
                       },
                     ]}
@@ -922,8 +925,8 @@ export default function Register_Step_One() {
                   </Form.Item>
                 </div>
                 <div className="col-lg-6 text-start">
-                  <p className="Register_ant_ka_p">
-                    <span className="star_clr2"> * </span>{" "}
+                  <p className="Register_ant_ka_p text-start text-md-center">
+                    <span className="star_clr2 "> * </span>{" "}
                     半角数字で入力してください。
                   </p>
                 </div>
@@ -939,7 +942,7 @@ export default function Register_Step_One() {
                   <Form.Item
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your メールアドレス!",
                       },
                     ]}
@@ -968,13 +971,13 @@ export default function Register_Step_One() {
                     name="姓"
                     rules={[
                       {
-                        required: true,
+                     
                         message: "Please input your 姓!",
                       },
                     ]}
                   >
                     <Input type="password" />
-                    <p className="Register_ant_ka_thrd_p resfsjfnwkfkj">
+                    <p className="Register_ant_ka_thrd_p fnkwmkwmkk resfsjfnwkfkj">
                       <span className="star_clr2 "> *</span>
                       半角英数字50文字以内で入力してください。
                     </p>
@@ -986,14 +989,14 @@ export default function Register_Step_One() {
                     className="passw"
                     rules={[
                       {
-                        required: true,
+                      
                         message: "Please input your 名!",
                       },
                     ]}
                   >
                     <Input type="password" />
-                    <p className="Register_ant_ka_thrd_p ps-3">
-                      <span className="star_clr2"> * </span>{" "}
+                    <p className="Register_ant_ka_thrd_p fnkwmkwmkk ps-md-3">
+                      <span className="star_clr2 text-start text-md-center"> * </span>{" "}
                       確認のためパスワードを再入力してください。
                     </p>
                   </Form.Item>

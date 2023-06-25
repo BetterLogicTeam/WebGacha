@@ -7,7 +7,7 @@ function ContactUs() {
   return (
     <><div className="Contact_us_bg">
 
-      <div className="main_faq_img">
+      <div className="main_faq_img rehsgfhsghwdg">
         <h1 className="main_heading">  お問い合わせ</h1>
       </div>
       <div className="container">
@@ -102,7 +102,8 @@ function ContactUs() {
                   id="w3review"
                   className="Contact_input w-100 forGraycllr"
                   name="w3review"
-                  rows="8"
+                  rows="30"
+                  cols="40"
                   placeholder="お問い合わせ内容を記入ください。"
                 ></textarea>
               </div>
