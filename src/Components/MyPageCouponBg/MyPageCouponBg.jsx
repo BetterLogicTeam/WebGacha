@@ -12,8 +12,8 @@ function MyPageCouponBg() {
           </div>
 
           <br />
-          <div className="border-0 ">
-            <button className="btn_coupon p-2   ">
+          <div className="border-0 mt-0">
+            <button className="btn_coupon p-2 mt-0">
               <img src={power} className="px-2" alt="" />
               グアウト{" "}
             </button>
