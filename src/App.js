@@ -1,3 +1,4 @@
+import React,{useEffect} from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Components/Header/Header";
@@ -35,6 +36,14 @@ import MainConfirmationPage from "./Components/MainConfirmationPage/MainConfirma
 import Text from "./text";
 
 function App() {
+
+  useEffect(() => {
+    // Yahan hum 'theme-color' meta tag ko add kar rahe hain
+    const meta = document.createElement('meta');
+    meta.name = "theme-color";
+    meta.content = "#ffffff";
+    document.getElementsByTagName('head')[0].appendChild(meta);
+  }, []);
   return (
     <div className="App">
       <Header />
