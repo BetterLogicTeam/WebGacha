@@ -100,10 +100,10 @@ function ContactUs() {
               <div className="col-md-12 PDngEnd">
                 <textarea
                   id="w3review"
-                  className="Contact_input w-100 forGraycllr"
+                  className="tex_Aaa w-100 forGraycllr"
                   name="w3review"
-                  rows="30"
-                  cols="40"
+                  rows="10"
+                  cols="10"
                   placeholder="お問い合わせ内容を記入ください。"
                 ></textarea>
               </div>

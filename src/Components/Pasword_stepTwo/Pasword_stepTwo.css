@@ -98,3 +98,14 @@ font-weight: 600 ;
     font-size: 20px ;
   }
 }
+
+
+
+@media only screen and (min-width:2300px){
+  .passwordStepTwo_bg{
+    height: 74vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

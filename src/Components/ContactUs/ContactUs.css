@@ -14,6 +14,15 @@
     border: 1px solid #8AC7FF !important;
 }
 
+.tex_Aaa{
+    border-radius: 12px;
+    padding: 15px 10px;
+    outline: none ;
+    border: none ;
+
+    border: 1px solid #8AC7FF !important; 
+}
+
 .Contact_P {
     font-style: normal;
     font-weight: 500;
