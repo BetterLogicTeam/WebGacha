@@ -94,7 +94,7 @@ export default function CouponTab() {
           {second_tab_steps === 1 ? (
             <>
               {" "}
-              <div className="third_Tab">
+              <div className="third_Tab ">
                 <h2>
                   まだ購入はしていません。初めてのガチャポンを買うなら、
                   <span

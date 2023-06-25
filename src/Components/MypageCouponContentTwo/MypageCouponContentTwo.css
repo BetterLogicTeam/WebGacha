@@ -1,3 +1,16 @@
+.size-btan{
+    color: #e60058;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-size: 16px;
+    padding: 12px 15px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #e60058;
+    border-radius: 45px;
+    font-size: 16px !important;
+}
+
 .MyPageCoupon_h3{
     font-style: normal;
 font-weight: 600;
@@ -43,6 +56,7 @@ color: #020140;
       flex-direction: column;
       
     }
+    
     .MyPageCoupon_h3{
         font-size: 26px !important;
         margin-top: 0px;

@@ -89,8 +89,9 @@
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
-        padding-left: 13px !important;
-        gap: 0.5rem !important;
+        /* padding-left: 13px !important; */
+        /* padding-right: 0px !important; */
+        gap: 0.8rem !important;
 
     }
 
@@ -126,5 +127,15 @@
     .css-1wf8b0h-MuiTabs-flexContainer {
         display: flex !important;
         gap: 14px !important;
+    }
+    .tabcor {
+        color: #2d3b5d !important;
+        font-size: 11px !important;
+        font-weight: 700 !important;
+        line-height: 19px;
+        background-color: #ffffff !important;
+        border-radius: 50px !important;
+        width: 23% !important;
+        transition: 1s;
     }
 }

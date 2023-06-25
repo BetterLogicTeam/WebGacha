@@ -23,6 +23,22 @@
   width: 100% !important;
   height: 55PX !important;
 }
+.fazol{
+
+
+
+  background-color: #ffffff;
+  color: #e60058;
+  border: none;
+  border-radius: 45px;
+  font-weight: 500 !important;
+  padding: 8px 22px;
+  font-size: 16px;
+  border: 1px solid  #e60058;
+  width: 100% !important;
+  height: 55PX !important;
+
+}
 
 .listCrd_button:hover {
   background-color: red;

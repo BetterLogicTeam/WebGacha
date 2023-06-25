@@ -1,4 +1,4 @@
-.BgNotation {
+.Bgcoopon {
     background-image: url("../Assets/yellowbg.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -30,7 +30,9 @@
 }
 
 .btn_coupon {
-    background-color: #FFF4B8;
+     
+    
+     background-color: linear-gradient(#FFF4B8 ,#FFE55C ,#F2F6FF);
     opacity: 0.72;
     border-radius: 12px;
     border: none !important;
@@ -38,6 +40,16 @@
 }
 @media only screen and  (min-width: 300px) and (max-width: 450px) {
    
+    
+.btn_coupon {
+    background-color: #FFF4B8;
+    opacity: 0.72;
+    border-radius: 12px;
+    width: 162px;
+    height: 55px;
+    border: none !important;
+    outline: none !important;
+}
 .Notation_h1 {
 
     font-size: 42px;
@@ -64,6 +76,5 @@
         justify-content: center;
         align-items: center
     }
-
-   
-}}
+}
+}

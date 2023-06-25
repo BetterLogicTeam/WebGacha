@@ -71,10 +71,10 @@ function ConfimYourRegistration() {
       </div>
 
       <div className="row justify-content-center ">
-        <div className="col-5 col-md-2 notataion_border p-3 border_table tableBg">
+        <div className="col-5 col-md-4 col-lg-2 notataion_border p-3 border_table tableBg">
           <p> お名前（フリガナ） </p>
         </div>
-        <div className="col-7 notataion_border p-3 border_table1 tableBg">
+        <div className="col-md-8 col-7 col-lg-10 notataion_border p-3 border_table1 tableBg">
           <p className="T_PP">
             <span className="me-3" style={{fontSize:"14px",fontWeight:"400"}}>お名前</span>{" "}
             <span className="ms-5" style={{fontSize:"14px",fontWeight:"400"}}>フリガナ </span>
@@ -84,10 +84,10 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 col-md-2 notataion_border p-3 tableBg">
+        <div className="col-5 col-md-4 col-lg-2 notataion_border p-3 tableBg">
           <p> 住所 </p>
         </div>
-        <div className="col-7 notataion_border p-3 tableBg">
+        <div className="col-md-8 col-7 col-lg-10  notataion_border p-3 tableBg">
           <p className="T_PP">
             〒100 0001 <br />
             青森県 品川区 西五反田 1-1-11 <br />
@@ -95,63 +95,63 @@ function ConfimYourRegistration() {
           </p>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+       <div className="row justify-content-center">
+        <div className="col-5 col-md-4 col-lg-2 tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> 生年月日 </p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3">
+        <div className="col-md-8 col-7 col-lg-10  tableBg notataion_border p-3">
           <p className="T_PP">1995年11月09日</p>
         </div>
       </div>
-      <div className="row  justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+     <div className="row  justify-content-center">
+        <div className="col-5 col-md-4 col-lg-2  tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> 性別 </p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3">
+        <div className="col-md-8 col-7 col-lg-10  tableBg notataion_border p-3">
           <p className="T_PP"> 女性 </p>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 col-md-4 col-lg-2  tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> 電話番号 </p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3">
+        <div className="col-md-8 col-7 col-lg-10  tableBg notataion_border p-3">
           <p className="T_PP">090 1234 5678 </p>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 col-md-4 col-lg-2  tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> メールアドレス </p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3">
+        <div className="col-md-8 col-7 col-lg-10  tableBg notataion_border p-3">
           <p className="T_PP">xyz@gmail.com</p>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 col-md-4 col-lg-2  tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> パスワード </p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3">
+        <div className="col-md-8 col-7 col-lg-10  tableBg notataion_border p-3">
           <p className="T_PP">************ </p>
         </div>
       </div>
       <div className="row justify-content-center mb-5">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3 border_table2 ">
+        <div className="col-5 col-md-4 col-lg-2  tableBg col-md-3 col-lg-2 notataion_border p-3 border_table2 ">
           <p> メールマガジン </p>
         </div>
-        <div className="col-7 tableBg notataion_border p-3 border_table3">
+        <div className="col-md-8 col-7 col-lg-10  tableBg notataion_border p-3 border_table3">
           <p className="T_PP"> 受け取る </p>
         </div>
       </div>
 
       <div className="row justify-content-center mt-5 ">
-        <div className=" col-9  inputbtn">
+        <div className=" col-12 col-md-12 col-lg-12  inputbtn">
           <div className="d-flex justify-content-between rssssssspomm">
-            <button className="red_buttonnn  text-white"> 変更する</button>
+            <button className="red_buttonnn order-md-0 order-1 text-white"> 変更する</button>
 
             <p className="aligment">
               プライバシーモード
-              <span className="ps-3">
+              <span className="ps-3 ">
                 <FormControlLabel
                   // label="iOS style"
                   control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
@@ -160,7 +160,7 @@ function ConfimYourRegistration() {
             </p>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
