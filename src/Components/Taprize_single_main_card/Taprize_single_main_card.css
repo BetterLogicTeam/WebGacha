@@ -1,45 +1,41 @@
-.tarpize_single_main_carrd{
-    background: #FFFFFF !important;
-border-radius: 12px !important;
-padding: 10px !important;
+.tarpize_single_main_carrd {
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  padding: 10px !important;
 }
 
-
-.blue_heading{
-    color: #2EB3FF;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
+.blue_heading {
+  color: #2eb3ff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.black_heading{
-    font-weight: 600;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #020140;
+.black_heading {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #020140;
 }
 
-.lower_content{
-    display: flex ;
-    gap: 10px !important;
+.lower_content {
+  display: flex;
+  gap: 10px !important;
 }
 
-.lower_content>p{
-    color: #2EB3FF;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
+.lower_content > p {
+  color: #2eb3ff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
 }
-.FrEndPd{
-    cursor: pointer;
-}
-
-
-.pop_up_img_tar{
-    width: 100% !important;
+.FrEndPd {
+  cursor: pointer;
 }
 
-
+.pop_up_img_tar {
+  width: 100% !important;
+}
 
 /* @media only screen and (max-width:700px){
     .pop_up_img_tar{
@@ -52,11 +48,47 @@ padding: 10px !important;
     }
 } */
 
-
-@media only screen and (max-width:700px){
-    .tarpize_single_main_carrd{
+@media only screen and (max-width: 700px) {
+  .tarpize_single_main_carrd {
     display: flex !important;
-    flex-direction: column !important;    
-    
-    }
+    flex-direction: column !important;
+  }
+
+  .blue_heading {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .black_heading {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .lstlowwer {
+    display: flex;
+    flex-direction: column;
+  }
+  .lowwerInr{
+    width: 100% !important;
+  }
+}
+
+@media (min-width:705px) and (max-width:768px) {
+  .blue_heading {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .black_heading {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .lstlowwer {
+    display: flex;
+    flex-direction: column;
+  }
+  .lowwerInr{
+    width: 100% !important;
+  }
 }

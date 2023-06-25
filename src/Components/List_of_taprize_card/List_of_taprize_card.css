@@ -1,7 +1,7 @@
 .listCrd_fst_txt {
   color: #020140;
   font-size: 20px;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
   transition: all 0.5s !important;
 }
 
@@ -17,9 +17,9 @@
   color: #ffffff;
   border: none;
   border-radius: 45px;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   padding: 8px 22px;
-  font-size: 18px;
+  font-size: 16px;
   width: 100% !important;
   height: 55PX !important;
 }
@@ -55,8 +55,9 @@
   border-radius: 40px;
   border: 1px solid #ffffff;
   font-size: 16px;
+  font-weight: 600;
   width: 18%;
-  padding: 3px 2px;
+  padding: 5px 2px;
   position: absolute;
   top: 27px;
   left: 38px;
@@ -81,7 +82,7 @@
 .page_header {
   color: #ffffff;
   font-size: 60px !important;
-  font-weight: 600;
+  font-weight: 500;
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
   /* text-shadow: 3px 4px 3px black !important; */
 }
@@ -155,12 +156,6 @@
 }
 
 
-
-
-/* .listCrd_fst_txt:hover{
-  background-color: red !important;
-} */
-
 .card_list_of_taprize:hover .listCrd_fst_txt {
   color: #6f6f70 !important;
 }
@@ -179,8 +174,18 @@
 
 @media only screen and (max-width:700px) {
 
+  .listCrd_fst_txt {
+    font-size: 15px;
+    font-weight: 600 !important;
+    letter-spacing: -0.5px;
+    line-height: 140%;
+    transition: all 0.5s !important;
+  }
+
   .innerpadlstriz {
     padding-top: 1.5rem;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .gok {
@@ -198,7 +203,7 @@
   .listCrd_button {
     padding: 10px 22px !important;
     margin-top: 15px !important;
-    height: 78px !important;
+    height: 60px !important;
   }
 
   .webGachaList_title {
@@ -224,7 +229,7 @@
     border: 1px solid #ffffff;
     font-size: 16px;
     width: 28%;
-    padding: 3px 2px;
+    padding: 5px 0px;
     position: absolute;
     top: 20px;
     left: 17px;
@@ -232,9 +237,8 @@
 
   .page_header {
     color: #ffffff;
-    font-size: 27px !important;
-    font-weight: 600;
-    /* -webkit-text-stroke: 1.7px black !important; */
+    font-size: 29px !important;
+    font-weight: 500;
     display: flex !important;
     text-align: center !important;
     padding: 28px 46px !important;
@@ -268,7 +272,7 @@
 
   .aGNPad {
     padding: 0px !important;
-    margin-top: 39px !important;
+    margin-top: 20px !important;
   }
 
 }
@@ -282,8 +286,18 @@
   }
 
   .page_header {
-    font-size: 49px;
+    font-size: 49px !important;
+    font-weight: 500 !important;
   }
+
+  .endSale {
+    padding: 8px 2px;
+  }
+
+  .gok {
+    padding: 0px 0px !important;
+  }
+
 
 }
 

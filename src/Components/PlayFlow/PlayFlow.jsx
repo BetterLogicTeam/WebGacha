@@ -15,7 +15,7 @@ function PlayFlow() {
   return (
     <div style={{backgroundColor:"#F2F6FF"}}>
       <div className="container-fluid py-5">
-            <h2 className='py-5 flowTitle text-center'>プレイの流れ</h2>
+            <h2 className='pt-5 pb-4 pb-md-5 flowTitle text-center'>プレイの流れ</h2>
         <div className="row justify-content-center PadBothside">
             <div className="col-lg-5">
                 <div className="row justify-content-center leftSidebg py-4">

@@ -19,6 +19,15 @@
 
 .single_tarpize_card {
     cursor: pointer;
+    width: 95% !important;
+}
+
+@media only screen and (max-width:600px) {
+    .card_single_content {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+    }
+    
 }
 
 /* @media screen and (max-width:767px) {

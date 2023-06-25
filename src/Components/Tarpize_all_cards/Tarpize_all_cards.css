@@ -7,7 +7,7 @@
 }
 
 .tarpize_content_cards > h2 {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   font-size: 40px !important;
   padding: 1rem 0rem;
   line-height: 48px !important;
@@ -44,7 +44,7 @@
 
 .yellowTxt{
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .blu_boxe {
@@ -64,17 +64,53 @@
 .fornt_row > h6 {
   text-transform: uppercase;
   color: #020140 !important;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
 }
 
+.sectitl{
+  text-transform: uppercase;
+    color: #020140 !important;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.winning_probability{
+  color: #595E6A;
+font-size: 20px;
+font-family: Noto Sans JP;
+font-weight: 500;
+line-height: 140%;
+text-transform: uppercase;
+}
+
+.probupper{
+  display: flex !important;
+  gap: 90px !important;
+}
+
 @media only screen and (max-width: 700px) {
+
+  .probupper{
+    display: flex !important;
+    flex-direction: column;
+    gap: 8px !important;
+  }
+
+  .yellow {
+    background: #ffd600;
+    border-radius: 80px;
+    width: 87px;
+    height: 60px;
+    padding: 18px 20px !important;
+  }
+
   .tarpize_cards_main {
     padding: 30px 0px !important;
   }
   .tarpize_content_cards > h2 {
-    font-weight: 600 !important;
-    font-size: 28px !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
     padding: 1rem 0rem;
     line-height: 48px !important;
     text-align: center !important;
@@ -86,8 +122,18 @@
   }
 
   .fornt_row > h6 {
-    font-size: 18px !important;
+    font-size: 14px !important;
   }
+
+  .sectitl{
+    font-size: 16px !important;
+  }
+
+  .winning_probability {
+    font-size: 16px;
+    font-weight: 500;
+}
+
   .fade .modal .show {
     padding-left: 0px !important;
   }

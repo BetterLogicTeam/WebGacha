@@ -9,7 +9,7 @@
 .Taprise_on_sale_bg h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     text-align: center;
@@ -17,14 +17,13 @@
 }
 
 .gacha_Btn {
-    padding: 12px 0px;
     height: 55px;
     background: #E60058;
     border: 1px solid #FFFFFF;
     border-radius: 45px;
     font-family: 'Noto Sans JP', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -34,12 +33,12 @@
 }
 
 .gachaAgn{
-    width: 100%;
-    padding: 13px 25px !important;
+    width: 392px !important;
+    padding: 18px 36px !important;
 }
 
 .AgainW{
-    width:21% !important;
+    width:24% !important;
 }
 
 
@@ -54,14 +53,14 @@
     }
 
     .Taprise_on_sale_bg {
-        padding-top: 100px;
+        padding-top: 57px;
         padding-bottom: 5px;
     }
     .Taprise_on_sale_bg h1 {
         font-family: 'Noto Sans JP', sans-serif;
         font-style: normal;
-        font-weight: 600;
-        font-size: 29px;
+        font-weight: 500;
+        font-size: 26px;
         line-height: 48px;
         /* identical to box height */
     
@@ -76,5 +75,14 @@
 @media (min-width:605px) and (max-width:992px) {
     .gybBBtn{
         display: none;
+    }
+
+    .last1{
+        margin-top: 40px !important;
+    }
+
+    .Taprise_on_sale_bg {
+        padding-top: 100px !important;
+        padding-bottom: 40px !important;
     }
 }

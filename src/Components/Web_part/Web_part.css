@@ -19,7 +19,7 @@
 .main_web_part h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 60px;
     line-height: 72px;
     text-align: center;
@@ -31,8 +31,8 @@
 
 .web_part_title {
     font-style: normal;
-    font-weight: 900 !important;
-    font-size: 18px;
+    font-weight: 500 !important;
+    font-size: 16px;
     line-height: 140%;
     text-align: center;
     color: #020140;
@@ -44,7 +44,7 @@
 .web_part_para {
 
     font-style: normal;
-    font-weight: 599 !important;
+    font-weight: 500 !important;
     font-size: 14px;
     line-height: 140%;
     text-align: center;
@@ -68,11 +68,14 @@
     .main_web_part h1 {
         font-family: 'Noto Sans JP', sans-serif;
         font-style: normal;
-        font-weight: 600;
-        font-size: 44px;
+        font-weight: 500;
+        font-size: 28px;
         line-height: 52px;
         text-align: center;
         color: #FFFFFF;
-       
+    }
+
+    .lstch2{
+        margin-top: 22px !important;
     }
 }

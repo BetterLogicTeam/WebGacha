@@ -34,6 +34,17 @@ padding: 30px 30px !important;
     padding: 70px 10px !important;
 }
 
+.Notation_h1{
+
+    font-family: Barlow;
+    font-size: 42px !important;
+    font-weight: 600 !important;
+    line-height: 72px !important;
+    /* letter-spacing: 0em; */
+    text-align: center !important;
+    
+    }
+
 .conforNewcls{
     font-size: 39px !important;
 }

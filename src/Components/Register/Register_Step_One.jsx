@@ -81,7 +81,7 @@ export default function Register_Step_One() {
   return (
     <div>
       <div>
-        <h1 className="text-center py-5">新規会員登録</h1>
+        <h1 className="text-center pt-5 pb-3">新規会員登録</h1>
         <Form
           className=""
           name="horizontal_login"

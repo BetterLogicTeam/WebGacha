@@ -34,7 +34,7 @@
 }
 
 .mainSEa_heaidn {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   padding: 1rem 0rem !important;
   line-height: 41px;
@@ -46,7 +46,7 @@
 }
 
 .main_sea_part > p {
-  font-weight: 900 !important;
+  font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 140%;
   text-align: center;
@@ -60,14 +60,15 @@
   border: 1px solid #e60058 !important;
   border-radius: 45px !important;
   color: #e60058 !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
+  font-size: 16px;
   background-color: #fff;
 }
 
 .upper_footer_main_red_button {
   background: #e60058;
-  font-weight: 600 !important;
-
+  font-weight: 500 !important;
+font-size: 16px;
   border: 1px solid #ffffff;
   border-radius: 45px;
   color: white !important;
@@ -78,9 +79,19 @@
 }
 
 @media only screen and (max-width: 700px) {
+
+  .main_sea_part > p {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 140%;
+  }
+
+  .bbrr{
+    display: none;
+  }
+
   .main_sea_part {
     height: auto !important;
-    /* padding: 30px 20px !important; */
     padding-top: 30px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -88,8 +99,8 @@
   }
 
   .mainSEa_heaidn {
-    font-weight: 900 !important;
-    font-size: 39px !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
     line-height: 41px;
     text-align: center !important;
     color: #020140;

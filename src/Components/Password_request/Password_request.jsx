@@ -24,7 +24,7 @@ function Password_request() {
 
               <input
                 type="text"
-                className=" my-3 w-100 pasword_input _border"
+                className=" my-3 w-100 neewewewe pasword_input _border"
                 id="fname"
                 name="fname"
                 placeholder=""

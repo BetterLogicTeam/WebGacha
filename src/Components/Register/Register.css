@@ -467,8 +467,9 @@
   text-align: center;
   text-transform: uppercase;
 
+  /* color: #F2F6FF; */
   color: #ffffff;
-  background: #e60058;
+  background: #E60058;
   /* White */
 
   border: 1px solid #ffffff;

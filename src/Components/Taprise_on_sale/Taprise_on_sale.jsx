@@ -25,7 +25,7 @@ export default function Taprise_on_sale() {
             </h1>
           </>
 
-          <div className="row mt-5">
+          <div className="row mt-3 mt-md-5 last1">
           
             <div className="col-lg-6">
               <ListOfTaprizeCard

@@ -22,14 +22,14 @@ export default function Web_part() {
               ウェブガチャはWeb上で行うカプセルプライズです。Web上での販売となるため、24時間お好きな時にプレイができ、商品販売に必要な実店舗や人員の手配は必要ありません。最短２週間で販売をスタートすることができます。
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 lstch2">
             <img src={book} alt="" />
             <p className="web_part_title">オリジナルページでのカプセルプライズが可能！</p>
             <p className="web_part_para">
             作品ページではメインビジュアルや、ロゴ、背景色など自由にカスタマイズが可能です。作品にあった雰囲気のページを生成することができるので、世界観を崩すことなくお客様にご提供致します。
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 lstch2">
             <img src={box} alt="" />
             <p className="web_part_title">オリジナル商品のご提案から製作～配送まで一括対応！</p>
             <p className="web_part_para">
