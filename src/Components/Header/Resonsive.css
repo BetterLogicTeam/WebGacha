@@ -1,0 +1,73 @@
+@media only screen and (min-width:1300px)  and (max-width:1500px){
+.mmmrmrrrmrmrm{
+margin-right: 32px !important;
+}
+
+.hai_tamana{
+    margin-left: 1rem !important;
+}
+
+.swiper-wrapper{
+    margin-left: -46rem !important;
+}
+
+.landing_Bg{
+    display: flex !important;
+align-items: center !important;
+padding: 0px !important;
+justify-content: center !important;
+}
+
+
+.caerd_heart{
+    display: flex !important;
+    justify-content: space-between !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media  only screen and (min-width:2450px ) and  (max-width:5000px ){
+    .landing_Bg{
+        display: flex !important;
+    align-items: center !important;
+    padding: 0px !important;
+    justify-content: center !important;
+    }
+}
+
+
+
+/* @media only screen and (max-width:370px ){
+    .landing_Bg h1{
+        font-size: 46px !important;
+    }
+} */
+
+
+
+
+
+.paaadankd{
+    padding: 28px 14px  !important;
+}
+
+
+
+.hggt{
+    height: 55px !important;
+}

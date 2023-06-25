@@ -1,10 +1,15 @@
 .main_web_part {
-    background-image: url(../Assets/three.svg);
+    background-image: url(../Assets/three.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 10px !important;
-    height: 50vh !important;
+    height: 60vh !important;
+    /* height: 373px !important; */
+    display: flex !important;
+    justify-content: center ;
+    align-items: center !important;
+    border-radius: 24px !important;
 }
 
 .design {
@@ -12,32 +17,62 @@
 }
 
 .main_web_part h1 {
-    font-family: 'Barlow';
+    font-family: 'Noto Sans JP', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 60px;
     line-height: 72px;
     text-align: center;
     color: #FFFFFF;
-
-    -webkit-text-stroke: 2px #E60058;
+    text-shadow: -2px -2px 0 #E60058 , 2px -2px 0 #E60058 , -2px 2px 0 #E60058 , 2px 2px 0 #E60058 !important;
+    /* text-shadow: 3px 4px 3px #E60058 !important; */
+    /* -webkit-text-stroke: 2px #E60058; */
 }
 
 .web_part_title {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500 !important;
     font-size: 16px;
     line-height: 140%;
     text-align: center;
     color: #020140;
+    margin-top: 1rem !important;
+  /* text-shadow: -0.5px -1px 0 #000, 0.5px -0.5px 0 #000, 0.51px 0.5px 0 #000,0.5px 0.5px 0 #000; */
+
 }
 
 .web_part_para {
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500 !important;
     font-size: 14px;
     line-height: 140%;
     text-align: center;
     color: #020140;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .main_web_part{
+        height:   auto !important;
+        border-radius: 24px !important;
+        padding: 63px 10px !important;
+        background-position-x: -100px !important;
+    }
+
+    .ftrUpprAGN{
+        padding: 0px 10px !important;
+    }
+
+    .main_web_part h1 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 52px;
+        text-align: center;
+        color: #FFFFFF;
+       
+    }
 }

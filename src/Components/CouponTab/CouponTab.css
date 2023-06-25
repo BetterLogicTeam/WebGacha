@@ -1,0 +1,83 @@
+.Coupon_Tab_Bg {
+    background-color: #F2F6FF;
+    padding: 40px 20px;
+}
+
+.third_Tab h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #020140;
+}
+
+.third_Tab {
+
+    padding: 100px 10px;
+}
+
+.third_Tab h2 span {
+    color: #E60058 !important;
+}
+
+.Favorites_list h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #020140;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .Coupon_Tab_Bg {
+        background-color: #F2F6FF;
+        padding: 40px 16px;
+    }
+
+    .third_Tab {
+        padding: 43px 10px;
+    }
+
+    .favLst{
+        margin-top: 40px;
+    }
+}
+
+
+.third_Tab{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Coupon_list1.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+.Coupon_list2.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+.Coupon_list3.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}

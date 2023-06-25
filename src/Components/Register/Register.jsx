@@ -5,99 +5,30 @@ import Register_Step_One from "./Register_Step_One";
 import Register_Step_Two from "./Register_Step_Two";
 import Register_Step_Three from "./Register_Step_Three";
 
-const steps = [
-  {
-    title: "続ける",
-    content: <Register_Step_One />,
-  },
-  {
-    title: "Second",
-    content: "Second-content",
-  },
-  {
-    title: "Last",
-    content: "Last-content",
-  },
-];
-const Register = () => {
-  const { token } = theme.useToken();
-  const [current, setCurrent] = useState(0);
-  const next = () => {
-    setCurrent(current + 1);
-  };
-  const prev = () => {
-    setCurrent(current - 1);
-  };
-  const items = steps.map((item) => ({
-    key: item.title,
-    title: item.title,
-  }));
 
-  // Date,Time Picker
+const Register = ({next}) => {
+ 
+ 
 
   return (
     <div className="Register_main">
-      <div className="container">
-        <Steps current={current} items={items} />
-        {current === 0 ? (
-          <>
-            {" "}
+      <div className="container px-0 py-2">
+       
             <Register_Step_One />
-          </>
-        ) : (
-          <> </>
-        )}
-        {current === 1 ? (
-          <>
-            {" "}
-            <Register_Step_Two />
-          </>
-        ) : (
-          <> </>
-        )}
-        {current === 2 ? (
-          <>
-            {" "}
-            <Register_Step_Three />
-          </>
-        ) : (
-          <> </>
-        )}
-
-        <div
-          style={{
-            marginTop: 24,
-          }}
-          className="next_btttn_main"
-        >
-          {current < steps.length - 1 && (
-            <div className="">
-              <Button className="next_btttn" onClick={() => next()}>
+     
+  
+           
+        
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+          <div style={{ marginTop: 24,}} className="next_btttn_main">
+           <Button className="resgister_next_buttton" onClick={() => (next(),window.scrollTo(0,0))}>
                 続ける
               </Button>
-            </div>
-          )}
-          {current === steps.length - 1 && (
-            <Button
-              type="primary"
-              onClick={() => message.success("Processing complete!")}
-              className="next_btttn"
-            >
-              マイページへ
-            </Button>
-          )}
-          {current > 0 && (
-            <Button
-              style={{
-                margin: "0 8px",
-              }}
-              onClick={() => prev()}
-              className="next_btttn"
-            >
-              前
-            </Button>
-          )}
         </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

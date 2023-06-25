@@ -10,12 +10,14 @@ import image_9 from "../Assets/Taprize materials/image_9.png";
 import image_88 from "../Assets/Taprize materials/image_88.png";
 import image_10 from "../Assets/Taprize materials/image_10.png";
 import List_of_Results_Card from "../List_of_Results_Card/List_of_Results_Card";
+import { useNavigate } from "react-router-dom";
 
 function List_of_Results() {
+  const history=useNavigate()
   return (
-    <div className="List_of_Results_main_div">
-      <h1 className="text-center pt-5">結果一覧</h1>
-      <div className="container mt-5">
+    <div className="List_of_Results_main_div py-4">
+      <h1 className="text-center ressssss_heaaaaaddddd pt-5">結果一覧</h1>
+      <div className="container mt-5" >
         <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
             <List_of_Results_Card image={image_8} />
@@ -48,9 +50,10 @@ function List_of_Results() {
             <List_of_Results_Card image={image_8} />
           </div>
         </div>
-<div className="List_of_Results_btttn">
-        <button>戻る</button>
+        <div className="List_of_Results_btttn">
+          <button onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))} > <span className="word_color ">  戻る  </span>  </button>
         </div>
+        
       </div>
     </div>
   );

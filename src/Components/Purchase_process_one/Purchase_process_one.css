@@ -1,0 +1,302 @@
+.atm_white_btn {
+    width: 238px !important;
+    height: 55px !important;
+    padding: 0px !important;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #E60058;
+
+    background: #FFFFFF;
+    /* Main red */
+
+    border: 1px solid #E60058;
+    border-radius: 45px;
+}
+
+.atm_red_btn {
+    width: 238px !important;
+    height: 55px !important;
+    padding: 0px !important;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #FFFFFF;
+
+    background: #E60058;
+    /* Main red */
+
+    border: 1px solid #E60058;
+    border-radius: 45px;
+
+}
+
+.Purchase_process_one {
+    background: #F2F6FF;
+    padding: 40px 20px !important;
+}
+
+.purc_nam {
+    font-weight: 600 !important;
+}
+
+.purchaseCredit {
+    font-weight: 600 !important;
+    height: 55px !important;
+}
+
+.cradit_inpit {
+    background: #FFFFFF;
+    /* Light Blue */
+
+    border: 1px solid #8AC7FF;
+    border-radius: 12px;
+    padding: 20px 20px !important;
+    /* width: 100% !important; */
+}
+
+.linesheights {
+    line-height: 25px !important;
+}
+
+.credit_card_lable {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #020140;
+    padding: 1.5rem 0rem;
+}
+
+.for_start {
+    color: #8AC7FF;
+}
+
+.cradit_inpit:focus {
+    outline: none;
+    border: 1px solid #8AC7FF;
+}
+
+.resposssss {
+    width: 50% !important;
+}
+
+
+.card_caridt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+
+    /* Black */
+
+    color: #020140;
+}
+
+.card_caridt>p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    padding: 1rem 0rem !important;
+    margin-bottom: 0px !important;
+
+    color: #020140;
+}
+
+
+.cridtt_res {
+    width: 25% !important;
+}
+
+.lftCrd {
+    width: 100%;
+}
+
+.nodeB2:hover {
+    background-color: red !important;
+    color: #ffffff;
+}
+
+.nodeB1:hover {
+    background-color: #E60058 !important;
+    color: #ffffff;
+}
+
+@media only screen and (max-width:700px) {
+    .atm_white_btn {
+
+        width: 100% !important;
+        padding: 0px !important;
+        /* height: 50% !important; */
+    }
+
+    .atm_red_btn {
+
+        width: 100% !important;
+
+    }
+
+    .change-dir {
+        flex-direction: column !important;
+
+    }
+
+    .resposssss {
+        width: 100% !important;
+    }
+
+    .cridtt_res {
+        width: 100% !important;
+    }
+
+    .Purchase_process_one {
+        padding: 40px 0px !important;
+    }
+    .left_in{
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:600px) and (max-width:768px) {
+
+    .creditUpper {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .credit_card_lable {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140%;
+        color: #020140;
+        padding: 1.5rem 0rem;
+
+    }
+    .left_in{
+        margin-top: 1rem;
+    }
+
+    .button_Direction_red {
+
+        flex-direction: row !important;
+        /* background-color: #8AC7FF !important; */
+
+    }
+
+    .atm_down_row {
+        padding: 0px !important;
+    }
+   
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .credit_card_lable {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        color: #020140;
+        padding: 1.5rem 0rem;
+    }
+
+    .lftCrd {
+        width: 100%;
+    }
+}
+
+
+
+.Mui-checked {
+    color: #2EB3FF !important;
+}
+
+.clr_chhha {
+    color: #2EB3FF !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.left_in1 {
+    background: rgb(242, 246, 255) !important;
+}
+.coupon_code{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    gap: 2;
+}
+.login_page_inputss74 {
+    background: #ffffff;
+    border: 1px solid #8ac7ff;
+    color: #020140 !important;
+    border-radius: 12px;
+    padding: 10px 15px !important;
+    width: 70% !important;
+    /* height: 55px; */
+    /* margin-top: 17px; */
+    /* width: 71% !important; */
+    margin-left: 1rem;
+}
+
+.login_page_inputss74::placeholder {
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-weight: 100;
+    font-size: 16px !important;
+  }
+
+.text_input_code{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media  (min-width:992px) and (max-width:1200px) {
+  
+    .login_page_inputss74 {
+        background: #ffffff;
+        border: 1px solid #8ac7ff;
+        color: #020140 !important;
+        border-radius: 12px;
+        padding: 10px 15px !important;
+        width: 60% !important;
+        /* height: 55px; */
+        /* margin-top: 17px; */
+        /* width: 71% !important; */
+        margin-left: 1rem;
+    }
+}
+
+@media  (min-width:800px) and   (max-width:992px) {
+    .left_in{
+        margin-top: 1rem;
+    }
+   
+    
+}
+
+@media    (max-width:415px) {
+    .login_page_inputss74 {
+        background: #ffffff;
+        border: 1px solid #8ac7ff;
+        color: #020140 !important;
+        border-radius: 12px;
+        padding: 10px 15px !important;
+        width: 60% !important;
+        /* height: 55px; */
+        /* margin-top: 17px; */
+        /* width: 71% !important; */
+        margin-left: 1rem;
+    }
+    
+}
+
+.login_page_inputss74:focus{
+    /* border: none; */
+    outline: none;
+
+}

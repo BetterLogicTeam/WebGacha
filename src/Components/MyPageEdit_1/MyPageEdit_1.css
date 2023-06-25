@@ -1,0 +1,217 @@
+.myEdidTitle {
+    color: #020140;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+}
+
+.NameFld {
+    color: #020140 !important;
+    font-size: 18px !important;
+    padding-top: 10px !important;
+    line-height: 22px;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+}
+
+.Fld {
+    border: 1.8px solid #8AC7FF !important;
+    padding: 10px 15px !important;
+    border-radius: 10px !important;
+    font-weight: 300 !important;
+    height: 55px !important;
+}
+
+.bobvv {
+    box-shadow: 0px 0px 4px #8AC7FF !important;
+}
+
+.dfff_clr {
+    color: #8AC7FF !important;
+}
+
+.adlamadmd {
+    font-weight: 700 !important;
+}
+
+.edit_main_lebal_here {
+    color: #020140;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 140% !important;
+}
+
+
+.classs_edit_textkadk {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.Fld:focus {
+    box-shadow: none !important;
+}
+
+.Fld2 {
+    border: 1.8px solid #8AC7FF !important;
+    padding: 5px 15px !important;
+    border-radius: 10px !important;
+}
+
+.nameTitle {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: rgba(35, 0, 248, 1);
+}
+
+.err {
+    color: #E60058;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tScnd {
+    margin-top: 48px;
+}
+
+.addressUpper {
+    margin-top: 3rem;
+}
+
+.year {
+    width: 40%;
+}
+
+.month {
+    width: 35%;
+}
+
+.day {
+    width: 35%;
+}
+
+.myPageLastButton {
+    border: 1.8px solid #E60058;
+    background-color: #ffffff;
+    color: #E60058;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.myPageLastButton:hover {
+    background-color: #E60058;
+    color: #ffffff;
+}
+
+.jisko_right{
+    /* display: flex; */
+    float: right !important;
+}
+
+.maildetail {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.passwordDetail {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.magadetail {
+    font-size: 16px;
+    font-weight: 600;
+    color: #020140;
+}
+
+.myPageLastButton_white {
+    width: 238px;
+    height: 55px;
+    background: #FFFFFF;
+    /* Main red */
+
+    border: 1px solid #E60058;
+    border-radius: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Main red */
+
+    color: #E60058;
+}
+
+
+.myPageLastButton_red {
+    background: #E60058;
+    /* White */
+
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    width: 238px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .BothPad {
+        padding: 0px 10px !important;
+    }
+
+    .fld2Upper {
+        margin-top: 1rem;
+    }
+
+    .myEdidTitle {
+        font-size: 26px !important;
+    }
+
+    .nameTitle {
+        font-size: 18px !important;
+
+    }
+
+    .edit_paaaaa {
+        font-size: 26px !important;
+    }
+
+    .tScnd {
+        margin-top: 17px;
+    }
+
+}
+
+
+@media only screen and (max-width:800px) {
+    .myPageLastButton_white {
+        width: 100%;
+    }
+
+    .myPageLastButton_red {
+        width: 100% !important;
+    }
+
+    .tScnd {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+    .myPageLastButton_white, .myPageLastButton_red {
+        width: 195px;
+    }
+}

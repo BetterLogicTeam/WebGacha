@@ -1,0 +1,52 @@
+.MyPageCoupon_h3{
+    font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+color: #020140;
+margin-top: 36px;
+
+}
+.MyPageCoupon_p1{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -2px;
+/* text-align: center; */
+color: #020140;
+margin-top: 17px;
+}
+
+.MyPageCoupon_p{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -2px;
+text-align: center;
+color: #020140;
+}
+
+.MypageCouponContentTwoBg{
+    background-color: #F2F6FF;
+}
+
+.thisCouponBorder{
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+    .medi_two_btn{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .MyPageCoupon_h3{
+        font-size: 26px !important;
+    }
+    .down_btn{
+        margin-top: 10px;
+    }
+  }

@@ -1,0 +1,166 @@
+.flowTitle {
+  color: #020140;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.stp1Button {
+  background-color: #2eb3ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 6px 30px;
+}
+
+.leftSidebg {
+  background-color: #f9fcff;
+  border-radius: 12px;
+}
+.RightSidebg {
+  border-radius: 12px;
+  background-color: #fdfeff;
+}
+
+.joinFree {
+  color: #020140;
+  font-size: 28px;
+  line-height: 39px;
+  font-weight: 500;
+}
+
+.forred{
+  cursor: pointer;
+}
+.forred:hover{
+  color: #e60058;
+}
+
+
+.joinDetails {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  color: #020140;
+  width: 71%;
+}
+
+.bluHand {
+  margin-top: 6rem;
+}
+.fstLine {
+  width: 100%;
+}
+
+.turnVector {
+  margin-top: 26px;
+  margin-left: 17rem;
+}
+
+.lastBtnn {
+  background-color: #e60058;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 0px;
+  width: 392px !important;
+  height: 55px !important;
+}
+.lastBtnn:hover {
+  background-color: red;
+}
+
+.flowImmg {
+  width: 25% !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .joinFree{
+    color: #020140;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .flowTitle {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .btween {
+    display: none !important;
+  }
+
+  .flowImmg {
+    width: 35% !important;
+  }
+
+  .joinDetails {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    color: #020140;
+    width: 100%;
+  }
+
+  .bluHand {
+    margin-top: 2rem;
+  }
+  .ForUpperSpc {
+    margin-top: 2rem !important;
+  }
+
+  .lastBtnn {
+    background-color: #e60058;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 0px;
+    width: 100%;
+}
+
+.PadBothside{
+  padding: 0px 20px;
+}
+
+}
+
+
+@media  (min-width:600px) and (max-width:830px) {
+  .btween {
+    display: none !important;
+  }
+
+  .flowImmg {
+    width: 25% !important;
+  }
+
+  .bluHand {
+    margin-top: 2rem;
+  }
+  .ForUpperSpc {
+    margin-top: 2rem !important;
+  }
+
+  .lastBtnn {
+    background-color: #e60058;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 0px;
+    width: 100% !;
+}
+
+.PadBothside{
+  padding: 0px 20px;
+}
+
+}

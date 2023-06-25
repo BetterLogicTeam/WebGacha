@@ -1,27 +1,29 @@
 import React from "react";
 import "./Login_page.css";
 import login_right from "../Assets/login_right.svg";
+import { useNavigate } from "react-router-dom";
 
 export default function Login_page() {
+  const history= useNavigate()
   return (
     <div className="main_login_page">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 PDngEnd">
             <div className="input_login_side">
-              <h3>ログイン</h3>
-              <label className="login_lebales" htmlFor="login_first">
+              <h3 className="my-4">ログイン</h3>
+              <label className="Login_label" htmlFor="login_first">
                 ログインID
               </label>{" "}
               <br />
               <input
                 type="text"
                 id="login_first"
-                placeholder="elunub3@gmail.com"
+                placeholder="Eメール"
                 className="login_page_inputss"
               />
-              <label className="login_lebales my-4" htmlFor="login_second">
-                ログインID
+              <label className="Login_label my-4" htmlFor="login_second">
+              パスワード
               </label>{" "}
               <br />
               <input
@@ -41,17 +43,18 @@ export default function Login_page() {
                   ログインIDを保存する
                 </label>
               </div>
-              <button className="red_button">ログイン</button>
-              <p className="left_side_p">パスワードを忘れた方はこちら</p>
+              <button className="login_red_button">ログイン</button>
+              <p className="left_side_p" onClick={()=>history(("/PasswordRequest"),window.scrollTo(0,0))} style={{cursor:"pointer"}} >パスワードを忘れた方はこちら</p>
             </div>
           </div>
 
-          <div className="col-md-6 mt-3 mt-md-0">
+          <div className="col-md-6 mt-3 mt-md-0 PDngEnd">
             <div className="new_member text-center">
-              <img src={login_right} alt="" />
+              <img src={login_right} className="my-2" alt="" />
               <h2>新規会員登録</h2>
-              <h6>まだ会員でない方は下記ボタンより会員登録を行ってください</h6>
-              <button className="white_button">新規会員登録</button>
+              <h6 className="mb-4">まだ会員でない方は下記ボタンより会員登録を行ってください</h6>
+              
+              <button className=" login_white_btn   welU" onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))}>新規会員登録</button>
             </div>
           </div>
         </div>

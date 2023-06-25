@@ -1,0 +1,61 @@
+.tab_two_white_btn{
+    width: 350px;
+height: 55px;
+background: #FFFFFF;
+border: 1px solid #E60058;
+border-radius: 45px;
+ color: #E60058;
+ font-size: 16px;
+ font-weight: 500;
+}
+.tab_two_red_btn{
+    width: 350px;
+    height: 55px;
+    background: #E60058;
+    border: 1px solid #E60058;
+    border-radius: 45px;
+     color: white;
+
+}
+
+.Purchase_process_2_main{
+    background:#F2F6FF !important ;
+    padding: 40px 20px !important;
+}
+
+ .border_table{
+    border-radius: 12px 0px 0px  0px;
+}
+.border_table1{
+    border-radius: 0px 12px 0px  0px;
+}
+.border_table2{
+    border-radius: 0px 0px 0px  12px;
+}
+.border_table3{
+    border-radius: 0px 0px 12px  0px;
+} 
+
+.kkjnfkfnfn{
+    border:red !important;
+}
+
+.T_pp{
+    font-weight: 600 !important;
+}
+
+
+@media only screen and (max-width:700px ){
+    .Purchase_process_2_main{
+padding: 30px 0px !important;
+}
+
+.tab_two_white_btn{
+    width: 100%;
+}
+.tab_two_red_btn{
+    width: 100%;
+    padding: 0px !important;
+
+}
+}

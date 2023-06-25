@@ -3,17 +3,17 @@ import "./Term_of_services.css";
 
 export default function Term_of_services() {
   return (
-    <div className="Privacy_policy">
+    <div className="term_of_serivrssf">
       <div className="main_privacy_img">
-        <h1 className="main_heading">会員登録：ご利用規約に同意してください</h1>
+        <h1 className="mnhDd privacyTitleMainaga">会員登録：ご利用規約に同意してください</h1>
       </div>
-      <div className="container mt-4">
+      <div className="container trmupperTop">
         <div className="row justify-content-center">
           <div className="col-md-10">
             <h4 className="term_heading">
               【重要】 会員登録をされる前に必ず下記ご利用規約をお読みください。
             </h4>
-            <p>
+            <p className=" mb-0 trmTowPera">
               規約には、ウェブガチャを使用するに当たってお客様の権利と義務が規定されております。会員登録画面にて「同意して進む」ボタンをクリックするとお客様は本規約の全ての条件に同意したことになります
             </p>
             <div className="scroll_text">

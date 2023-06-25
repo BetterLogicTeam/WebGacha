@@ -1,17 +1,49 @@
-.single_card_bg{
+.single_card_bg {
     background: #FFFFFF;
-border-radius: 12px;
-padding: 15px 10px !important;
+    border-radius: 12px;
+    padding: 15px 10px !important;
+    cursor: pointer;
 }
 
-.card_single_content{
+.card_single_content {
     display: flex;
     gap: 15px !important;
 }
 
 
-.card_single_content{
+.card_single_content {
     font-weight: 600;
-font-size: 20px;
-color: #2EB3FF
+    font-size: 20px;
+    color: #2EB3FF
 }
+
+.single_tarpize_card {
+    cursor: pointer;
+}
+
+/* @media screen and (max-width:767px) {
+    .single_card_bg {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 15px 10px !important;
+        cursor: pointer;
+        margin-left: 0.7rem;
+    }
+    .card_single_content {
+        font-weight: 600;
+        font-size: 14px;
+        color: #2EB3FF;
+    }
+    .lower_content>p {
+        color: #2EB3FF;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .lower_content {
+        display: flex;
+        flex-direction: row-reverse;
+        
+        gap: 10px !important;
+    }
+} */

@@ -1,19 +1,22 @@
 import React from "react";
 import "./Landing_Page.css";
-export default function Landing_Page() {
+import { useNavigate } from 'react-router-dom'
+export default function   Landing_Page() {
+  const history=useNavigate()
   return (
     <>
       <div className="landing_Bg">
         <div className="main_div_Landing">
           <div className="inner_text_landing">
             <h1>限定グッズが必ず当たる！</h1>
-            <h1> ウェブ版カプセルプライズ！</h1>
-            <p>
+            <h1> Web版カプセルプライズ！</h1>
+            <p className="mb-0 py-3 ">
               企画・製造・販売まで手掛けているから、ここにしかない商品をお届け。
             </p>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mt-1">
 
-            <button>販売中の販売中のウェブガチャをチェック！</button>
+            <button className="VeryfstButton" onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中の <br className="brack"/>
+タップライズをチェック！</button>
             </div>
           </div>
         </div>
@@ -26,4 +29,3 @@ export default function Landing_Page() {
   );
 }
 
-//font family japanese language barlow

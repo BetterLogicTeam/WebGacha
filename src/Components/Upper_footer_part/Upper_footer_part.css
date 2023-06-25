@@ -1,48 +1,141 @@
-.main_sea_part{
+.main_sea_part {
+  background-image: url(../Assets/sea.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.white_button {
+  background: #ffffff !important;
+ 
+
+  border: 1px solid #e60058 !important;
+  border-radius: 45px !important;
+  color: #e60058 !important;
+  width: 100%;
+  padding: 13px 15px !important;
+}
+
+.red_button {
+  background: #e60058;
+ 
+
+  border: 1px solid #ffffff;
+  border-radius: 45px;
+  color: white !important;
+  
+  padding: 13px 15px !important;
+  width: 100%;
+}
+
+.mainSEa_heaidn {
+  font-weight: 500;
+  font-size: 40px;
+  padding: 1rem 0rem !important;
+  line-height: 41px;
+  text-align: center;
+
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px 2px 0 #fff !important;
+  color: #020140;
+}
+
+.main_sea_part > p {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #020140;
+}
+
+.upper_footer_main_button {
+  width: 318px !important;
+  height: 55px !important;
+  border: 1px solid #e60058 !important;
+  border-radius: 45px !important;
+  color: #e60058 !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.upper_footer_main_red_button {
+  background: #e60058;
+  font-weight: 500 !important;
+font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 45px;
+  color: white !important;
+
+  padding: 13px 15px !important;
+  width: 318px !important;
+  height: 55px !important;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .main_sea_part > p {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 140%;
+  }
+
+  .bbrr{
+    display: none;
+  }
+
+  .main_sea_part {
+    height: auto !important;
+    padding-top: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-position-x: 36% !important;
+  }
+
+  .mainSEa_heaidn {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 41px;
+    text-align: center !important;
+    color: #020140;
+  }
+
+
+
+  .upper_footer_main_red_button{
+    width: 100% !important;
+  }
+  .upper_footer_main_button{
+    width: 100% !important;
+  }
+  .hgh9{
+    display: flex;
+    flex-direction: column !important;
+ 
+  }
+}
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 850px)
+{
+
+  .main_sea_part {
     background-image: url(../Assets/sea.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh !important;
+    height:430px !important;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
-}
+  }
 
-.white_button{
-    background: #FFFFFF !important;
-/* Main red */
-
-border: 1px solid #E60058 !important;
-border-radius: 45px !important;
-color: #E60058 !important;
-width: 100%;
-padding: 10px 15px !important;
-
-}
-
-
-.red_button{
-    background: #E60058;
-/* White */
-
-border: 1px solid #FFFFFF;
-border-radius: 45px;
-color: white !important;
-/* width:600px; */
-padding: 10px 15px !important;
-width: 100%;
-}
-/* .main_sea_part>h2,p{
-    text-align: center;
-} */
-
-
-
-@media only screen and (max-width:700px){
-    .main_sea_part{
-        height: auto !important;
-    }
 }

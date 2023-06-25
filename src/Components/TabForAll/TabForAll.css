@@ -1,11 +1,10 @@
-
-.tbUper{
+.tbUper {
     border: 2px solid #2EB3FF !important;
     border-radius: 50px !important;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
-.tabcor{
+.tabcor {
     color: #2d3b5d !important;
     font-size: 16px !important;
     font-weight: 700 !important;
@@ -15,29 +14,95 @@
     width: 23% !important;
     transition: 1s;
 }
-.tabcor:hover{
+
+.tabcor:hover {
     color: #2EB3FF !important;
 }
-.tabcor:focus{
+
+.tabcor:focus {
     background-color: #2EB3FF !important;
     color: #ffffff !important;
-    
 }
 
-.css-1wf8b0h-MuiTabs-flexContainer{
+.tabNowSale:focus {
+    background-color: rgb(255, 214, 0) !important;
+    color: black !important;
+}
+
+.tabSoon:focus {
+    background-color: rgb(138, 199, 255) !important;
+    color: black !important;
+}
+
+.tabEndsale:focus {
+    background-color: rgb(216, 216, 216) !important;
+    color: black !important;
+}
+
+.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+.allTabs.Mui-selected {
+    background-color: #2EB3FF !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.tabNowSale.Mui-selected {
+    background-color: rgb(255, 214, 0) !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.tabSoon.Mui-selected {
+    background-color: rgb(138, 199, 255) !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.tabEndsale.Mui-selected {
+    background-color: rgb(216, 216, 216) !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.css-1wf8b0h-MuiTabs-flexContainer {
     display: flex !important;
-    gap: 1rem !important;
+    gap: 1.5rem !important;
 }
 
 @media only screen and (max-width:600px) {
-    
-    .css-1wf8b0h-MuiTabs-flexContainer{
+
+    .css-1wf8b0h-MuiTabs-flexContainer {
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
+        padding-left: 13px !important;
+        gap: 0.5rem !important;
+
     }
 
-    .tabcor{
+    .css-1l4w6pd {
+        display: flex !important;
+        gap: 1.5rem !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+
+    .tabcor {
         color: #000E31 !important;
         font-size: 16px !important;
         font-weight: 700 !important;
@@ -48,18 +113,18 @@
         transition: 1s;
     }
 
-    .tbUper{
+    .tbUper {
         border: 2px solid #2EB3FF !important;
         border-radius: 15px !important;
         padding: 10px 8px;
     }
-    
+
 
 }
-.Mui-selected{
-    background-color: #2EB3FF !important;
-    color: #ffffff !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-    outline: none !important;
+
+@media only screen and (min-width:605px) and (max-width:768px) {
+    .css-1wf8b0h-MuiTabs-flexContainer {
+        display: flex !important;
+        gap: 14px !important;
+    }
 }

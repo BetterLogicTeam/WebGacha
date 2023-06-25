@@ -1,0 +1,114 @@
+.tab_three_btn_only{
+    width: 318px;
+    height: 55px;
+    font-size: 19px;
+    font-weight: 500 !important;  
+    line-height: 19px;
+    text-align: center;
+
+    
+    /* Main red */
+    
+    color: #E60058;
+    background: #FFFFFF;
+    /* Main red */
+    
+    border: 1px solid #E60058;
+    border-radius: 45px;
+}
+
+
+
+
+
+
+.complete_content h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    /* Black */
+
+    color: #020140;
+
+}
+
+.Purchase_complete_main {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    height: 100vh;
+
+}
+
+.complete_content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 2rem;
+ 
+
+    text-align: center;
+
+   
+
+    color: #020140
+}
+
+.cmplt_btn {
+    background: #FFFFFF;
+    /* Main red */
+
+    border: 1px solid #E60058;
+    border-radius: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Main red */
+
+    color: #E60058;
+}
+
+.ReRng{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Main red */
+    
+    color: #E60058;
+    background: #FFFFFF;
+    /* Main red */
+    
+    border: 1px solid #E60058;
+    border-radius: 45px;
+  
+}
+
+.ReRng:hover{
+    background-color: #E60058 !important;
+    color: #FFFFFF !important;
+}
+
+
+
+@media  only screen and (max-width:600px){
+    .complete_content h2{
+        font-size: 36px !important;
+        font-weight: 500;
+    }
+    .ReRng {
+        width: 100% !important;
+
+    }
+
+    .tab_three_btn_only{
+        width: 100%;
+ 
+    }
+}

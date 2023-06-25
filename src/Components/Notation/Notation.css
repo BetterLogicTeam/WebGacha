@@ -1,27 +1,84 @@
-.BgNotation{
-        background-image: url("../Assets/bgnotation.svg");
-         background-position: center center;
-         background-repeat: no-repeat;
-         background-size: cover ;
-         height: 50vh !important;
-         border-radius: 20px !important;
-         display: flex;
-         justify-content: center;
-         align-items: center
+.main_ntaa {
+  background-image: url("../Assets/bgnotation.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh !important;
+  border-radius: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Notation_h1 {
+  font-family: Barlow;
+  font-size: 60px !important;
+  font-weight: 600 !important;
+  line-height: 72px !important;
+  /* letter-spacing: 0em; */
+  text-align: center !important;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+.Notation_titleMain{
+  font-family: Barlow;
+  font-size: 60px !important;
+  font-weight: 600 !important;
+  line-height: 72px !important;
+  text-align: center !important;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
+.notation_bor {
+  border-radius: 10px;
+}
+
+.NwCls {
+  padding: 10px 15px !important;
+  background-color: #F2F6FF;
+}
+
+@media only screen and (max-width:374px) {
+  /* .Notation_titleMain{
+    font-size: 24px !important;
+    line-height: 33px !important;
+  } */
+}
+
+@media (min-width:375px) and (max-width: 700px) {
+  .main_ntaa {
+    height: auto !important;
+    padding: 70px 10px !important;
+  }
+
+  /* .Notation_titleMain{
+    font-size: 31px !important;
+    line-height: 37px !important;
+  } */
+
+}
+
+@media only screen and (max-width:349px){
+  .Notation_titleMain{
+font-size: 21px !important;
+  }
+}
+
+
+@media only screen and (min-width:350px) and (max-width:410px) {
+  .Notation_titleMain{
+    font-size: 25px !important;
+      }
+}
+
+@media only screen and (min-width:411px) and (max-width:699px) {
+  .Notation_titleMain{
+    font-size: 30px !important;
+      }
 
 
 }
-.Notation_h1{
-   
-font-family: Barlow;
-font-size: 60px;
-font-weight: 600;
-line-height: 72px;
-letter-spacing: 0em;
-text-align: center;
 
-}
-.notation_bor{
-    border-radius: 10px;
-
+@media only screen and (min-width:700px) and (max-width:999px){
+  .Notation_titleMain{
+    font-size: 28px !important;
+      }
 }

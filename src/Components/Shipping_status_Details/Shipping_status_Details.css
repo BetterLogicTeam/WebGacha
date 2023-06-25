@@ -1,10 +1,15 @@
 .Shipping_status_Details{
-    background-color: #d2e9ff;
+    background-color: #F2F6FF;
   height: 100%;
+}
+.bgtableicon{
+    
+    background-color: #F7FBFF;
+
 }
 
 .Shipping_status_Details h1{
-    font-family: 'Barlow';
+    font-family: 'Noto Sans JP', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
@@ -27,6 +32,25 @@ color: #020140;
     font-weight: 900;
 }
 
+.border_table{
+    border-radius: 12px 0px 0px  0px;
+}
+.border_table1{
+    border-radius: 0px 12px 0px  0px;
+}
+.border_table2{
+    border-radius: 0px 0px 0px  12px;
+}
+.border_table3{
+    border-radius: 0px 0px 12px  0px;
+}
+
+.T_pp{
+    font-weight: 600 !important;
+    font-size: 12px !important;
+
+}
+
 .baggg{
     padding: 10px 20px;
 gap: 10px;
@@ -40,8 +64,12 @@ border-radius: 6px;
     align-items: center;
 }
 
+.h1_table_icons{
+    font-size: 27px !important;
+    font-weight: 900 !important;
+}
 .text-pink{
-    font-family: 'Barlow';
+    font-family: 'Noto Sans JP', sans-serif;
 font-style: normal;
 font-weight: 500 !important;
 font-size: 16px !important;
@@ -49,6 +77,91 @@ line-height: 140%;
 color: #E60058 !important;
 }
 
+.Shipping_ka_new_btn{
+    font-family: 'Noto Sans JP', sans-serif;
+font-style: normal;
+font-weight: 500 !important;
+font-size: 16px !important;
+padding: 12px 70px;
+border-radius: 36px;
+border: none;
+color: white;
+background-color: #E60058 !important;
+}
+
+.new_fntt p{
+    font-family: Barlow !important;
+font-style: italic !important;
+font-weight: 400;
+}
+
 .Shipping_status_Details table{
     background: white;
 }
+
+
+
+@media only screen and (max-width:600px){
+    .T_pp {
+        font-weight: 600 !important;
+        font-size: 15px !important;
+    }
+
+    .Shipping_ka_new_btn{
+    padding: 12px 20px;
+    }
+}
+
+.tabcor_achsg{
+    color: #2d3b5d !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    background: #2d3b5d !important;
+    line-height: 19px;
+    background-color: #ffffff !important;
+    border-radius: 50px !important;
+    width: 45% !important;
+    transition: 1s;
+}
+
+@media screen and (max-width: 850px) {
+    .desktop_vala_stauts{
+        display: none !important;
+    }
+
+    .mobile_main_img{
+        width: 50px !important;
+        height: 40px !important;
+    }
+
+    
+}
+
+@media screen and (max-width: 550px) {
+    .left_valy_ka_txt{
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+
+    .tabcor_achsg{
+        width: 100% !important;
+    }
+
+    .tabcor_achsg_ka_container{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 10000px) {
+    .mobile_vala_stauts{
+        display: none !important;
+    }
+}
+
+
+
+/* .tabcor_achsg .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    max-width: 269px !important;
+    min-width: 90px;
+    min-height: 58px;
+} */

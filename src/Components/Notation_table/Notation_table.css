@@ -1,5 +1,5 @@
 .notataion_border{
-    border: 1px solid #D2E9FF;
+    border: 1px solid #D2E9FF;   
 }
 
 
@@ -16,4 +16,33 @@ color: #020140;
 font-weight: 500;
 font-size: 16px;
 line-height: 140%;
+}
+.bbgg{
+    background-color: 
+    #F2F6FF;
+}
+
+.forNewBrdRds{
+    border-radius: 12px 0px 0px 0px ;
+}
+.forNewBrdRds_2{
+    border-radius: 0px 12px 0px 0px ;
+}
+
+.notation_listUpper{
+    padding: 42px 0px 95px 0px;
+}
+
+
+@media only screen and (max-width:700px ){
+    .fwwwwwwwww_ttttt{
+        font-weight: 900 !important;
+        font-size: 17px !important;
+    }
+
+    .notation_listUpper{
+        padding: 30px 18px 80px 18px;
+    }
+
+   
 }

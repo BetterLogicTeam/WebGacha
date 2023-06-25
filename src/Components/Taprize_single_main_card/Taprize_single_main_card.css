@@ -9,11 +9,11 @@ padding: 10px !important;
     color: #2EB3FF;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .black_heading{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     text-transform: uppercase;
     color: #020140;
@@ -29,4 +29,38 @@ padding: 10px !important;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
+}
+.FrEndPd{
+    cursor: pointer;
+}
+
+
+.pop_up_img_tar{
+    width: 100% !important;
+}
+
+
+
+/* @media only screen and (max-width:700px){
+    .pop_up_img_tar{
+        width: 200px !important;
+    }
+}
+@media  (min-width:705px) and (max-width:950px){
+    .pop_up_img_tar{
+        width: 350px !important;
+    }
+} */
+
+
+@media only screen and (max-width:700px){
+    .tarpize_single_main_carrd{
+    display: flex !important;
+    flex-direction: column !important;    
+    }
+
+    .blue_heading{
+        font-size: 20px;
+        font-weight: 500;
+    }
 }

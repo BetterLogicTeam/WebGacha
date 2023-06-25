@@ -1,3 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@900&family=Barlow+Semi+Condensed&family=Barlow:wght@900&display=swap'); */
+
+
+
+/* font-family for main heading  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+/* noto font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+
+
+h1{
+   
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+h2,h3,h4,h5,h6,p,span,li{
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+
+
 .main_footer_bg{
     background-color: white !important;
     padding: 40px 30px 15px 30px !important;
@@ -5,19 +28,97 @@
 
 .upper > p {
     color: #020140 !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
+    letter-spacing: -2px !important;
 }
-
-.all-right{
-    border-top: 1px solid #000;
     
+.all-right{
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+
 }
 
+.footer_aling{
+    padding-bottom: 35px !important;
+}
+
+
+.footerrigtPart{
+    margin-left: 68px !important;
+}
+
+.footerrigtuper{
+    display: flex;
+    align-items: center;
+}
+
+.footerlftuper{
+    display: flex;
+    justify-content: center;
+}
+
+.footerLftside{
+    margin-left: 50px !important;
+}
 
 
 @media only screen and (max-width:700px){
+
+    .footerLftsideupper{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .footerLftside{
+        margin-left:  0px !important;
+    }
+
+    .footerrigtuper{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+
+    .footerrigtPart{
+        margin-left: 0px !important;
+    }
+
     .upper{
         flex-direction:column !important;
         text-align: center;
     }
+
+
+}
+
+@media only screen and (min-width:705px) and (max-width:768px) {
+    .footerrigtPart{
+        margin-left: 0px !important;
+    }
+
+    .footerLftside {
+        margin-left: 0px !important;
+    }
+
+    .upper > p {
+        font-weight: 700 !important;
+        letter-spacing: -2px !important;
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (min-width:770px) and (max-width:1024px) {
+    .footerrigtPart{
+        margin-left: 28px !important;
+    }
+
+    .footerLnks{
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width:1300px) and (max-width:1900px) {
+    .footerLftside{
+        margin-left: 50px !important;
+    } 
 }

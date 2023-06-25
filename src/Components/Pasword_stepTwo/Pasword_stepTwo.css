@@ -1,40 +1,100 @@
-.passtpTwo_h3{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 27px;
-    line-height: 43px;
-    color: #020140;
+.passtpTwo_h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 0px ;
+  padding-bottom: 15px !important;
+  line-height: 43px;
+  color: #020140;
 }
-.white_button{
-    color: #E60058;
-    text-align: center;
-text-transform: uppercase;
-font-weight: 500;
-font-size: 16px;
-padding: 10px 15px !important;
-background-color: #FFFFFF !important;
-border: 1px solid #E60058;
-border-radius: 6px;
-font-size: 14px !important;
+.white_button {
+  color: #e60058;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px !important;
+  padding: 10px 15px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #e60058;
+  border-radius: 6px;
+  font-size: 14px !important;
 }
-.passwordStepTwo_bg{
-    background: #F2F6FF;
-    
-    
+.passwordStepTwo_bg {
+  background: #f2f6ff;
 }
-.bordd{
+.bordd {
+  border-radius: 12px;
+}
+.passwordstepTwo_p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
 
-    border-radius: 12px;
+  color: #020140;
 }
-.passwordstepTwo_p{
-    font-style: normal;
+
+.ppp_req_two {
+  height: 55px;
+
+  background: #ffffff;
+
+  border: 1px solid #e60058;
+  color: #e60058;
+  font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+font-weight: 600 ;
+  border-radius: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .passwordstepTwo_p {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    /* or 22px */
-    
-    
-    /* Black */
-    
-    color: #020140;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:349px){
+  .privacyTitleMainaga{
+    font-size: 13px !important;
+    line-height: 45px !important;
+  }
+
+  .passtpTwo_h3{
+    font-size: 20px ;
+  }
+
+  .term_heading {
+    font-size: 16px !important;
+  }
+}
+
+
+@media only screen and (min-width:350px) and (max-width:410px) {
+  .passtpTwo_h3{
+    font-size: 25px ;
+  }
+}
+
+@media only screen and (min-width:411px) and (max-width:699px) {
+  .passtpTwo_h3{
+    font-size: 29px ;
+  }
+
+
+}
+
+
+
+
+@media only screen and (min-width:700px) and (max-width:999px){
+  .passtpTwo_h3{
+    font-size: 20px ;
+  }
 }

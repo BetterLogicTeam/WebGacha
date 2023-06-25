@@ -1,43 +1,42 @@
 .Contact_h {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
     line-height: 140%;
 }
 
 .Contact_input {
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 12px;
+    padding: 15px 10px;
+    outline: none ;
+    border: none ;
+    border: 1px solid #8AC7FF !important;
 }
 
 .Contact_P {
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 140%;
     color: #020140;
+    padding: 1rem 0rem !important;
+    margin-bottom: 0px !important;
 }
 
-/* .contact_btn{
-    background-color: #E60058 !important;
-    border-radius: 45px;
-    font-family: 'Barlow';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-text-transform: uppercase;
-padding: 10px;
+.Contact_input:focus{
+    box-shadow: none !important;
 
-color: #FFFFFF;
-} */
+}
 
-.red_button {
+
+
+
+.contact_us_red_button {
     background: #E60058;
     border: 1px solid #FFFFFF;
+    height: 55px !important;
     border-radius: 45px;
+    font-weight: 600 ;
     padding: 10px 15px !important;
     color: white !important;
     width: 100% !important;
@@ -45,4 +44,33 @@ color: #FFFFFF;
 
 .Contact_us_bg {
     padding: 30px 20px;
+    background: #F2F6FF !important;
+}
+
+.RdRpS{
+    padding: 13px 15px !important;
+}
+
+.forGraycllr::placeholder{
+    color: #020140;
+    opacity: 0.48;
+}
+
+
+@media only screen and (max-width:700px){
+    .Contact_us_bg{
+        padding: 30px 15px !important;
+    }
+
+    .PDngEnd{
+        padding: 0px !important;
+    }
+    .Contact_h {
+        font-size: 20px !important;
+        font-weight: 700 !important;
+    }
+    .Contact_P {
+
+        font-weight: 600 !important;
+}
 }

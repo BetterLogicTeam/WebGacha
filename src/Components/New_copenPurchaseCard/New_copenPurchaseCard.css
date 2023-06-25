@@ -1,0 +1,231 @@
+.newCopencrdImg {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.titleofnewcrd {
+  color: #000e31;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.detailsTitleUpper {
+  margin-top: 17px;
+}
+
+.copenCrdDetailTitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #020140;
+  opacity: 0.6;
+}
+
+.copnCrdDetal {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #020140;
+  padding-right: 42px;   
+}
+
+.purchaseTitle {
+  color: #020140;
+  opacity: 0.6;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.purchaseAmount {
+  color: #020140;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.Purchase_quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.lnk_cpn {
+  color: #e60058;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* .copnPicUpperrMain {
+  padding-left: 0px;
+}
+.copen_card_priceUpperr {
+  padding-right: 0px;
+} */
+
+.orderTitle {
+  color: #020140;
+  opacity: 0.6;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.orderDetails {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000e31;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.newCpnBlubbtn {
+  background: #8ac7ff;
+  border-radius: 6px;
+  width: 120px;
+  height: 42px;
+  left: 950px;
+  top: 40px;
+  color: #020140;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  border: none;
+}
+
+.firstRw{
+    padding: 28px 10px 5px 10px;
+    border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+.scndRw{
+    padding: 0px 10px;
+}
+
+.titleforsmall{
+    display: none;
+    color: #000e31;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+@media only screen and (max-width:600px) {
+
+  .copnCrdDetal {
+    margin-top: 17px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #020140;
+    padding-right: 0px;   
+  }
+
+    .orderDetails {
+        font-size: 12px;
+    }
+    .hou{
+        padding: 0px 0px;
+    }
+
+    .nichewl{
+        margin-top: 13px;
+    }
+
+    .copen_card_priceUpperr{
+        margin-top: 12px;
+        padding: 0px 0px;
+    }
+
+    .Purchase_quantity {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+    .fifthcll{
+        padding: 0px 0px;
+        margin-top: 10px;
+    }
+    .copnPicUpperrMain{
+        padding: 0px 0px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .titleforsmall{
+        display: block;
+        letter-spacing: -1px;
+    }
+
+    .titleofnewcrd {
+        display: none;
+    }
+
+    .newCopencrdImg {
+        width: 37%;
+        border-radius: 12px;
+      }
+}
+
+@media (min-width:605px) and (max-width:768px) { 
+
+  .copnCrdDetal {
+    margin-top: 17px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #020140;
+    padding-right: 0px;   
+  }
+
+    .newCopencrdImg {
+        width: 50%;
+        border-radius: 12px;
+      }
+      .titleforsmall{
+        display: block;
+        font-size: 22px;
+    }
+    .titleofnewcrd {
+        display: none;
+    }
+
+    .copnPicUpperrMain{
+        padding: 0px 0px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .copen_card_priceUpperr {
+        margin-top: 12px;
+        padding: 0px 0px;
+    }
+}
+
+@media (min-width:770px) and (max-width:1024px) {
+    
+.purchaseTitle {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.purchaseAmount {
+    font-weight: 500;
+    font-size: 13px;
+}
+}
