@@ -50,15 +50,26 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
           <Card.Text className="text-start listCrd_scnd_txt mb-0 py-4">
             発売期間 05/ 5(金)～05/26(金)
           </Card.Text>
-          <div className="d-flex gap-3 caerd_heart">
+          <div className="d-flex flex-column flex-md-row gap-3 caerd_heart">
             <button
-              className="listCrd_button "
+              className="listCrd_button  "
               onClick={() => (
                 history("/TarpizeSingleFullPage", { state: items }),
                 window.scrollTo(0, 0)
               )}
             >
               販売中のタップライズ
+            </button>
+
+
+            <button
+              className="fazol d-block d-md-none "
+              onClick={() => (
+                history("/TarpizeSingleFullPage", { state: items }),
+                window.scrollTo(0, 0)
+              )}
+            >
+      <Favorite />  お気に入りから外す
             </button>
             <div className="like_hrt ">
               <Checkbox

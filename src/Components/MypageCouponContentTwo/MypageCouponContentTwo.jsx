@@ -6,7 +6,7 @@ function MypageCouponContentTwo() {
    
     <div className="container-fluid MypageCouponContentTwoBg">
         <div className="row py-5 px-3 justify-content-center">
-            <div className="col-md-8 col-12 p-4 bg-white thisCouponBorder">
+            <div className="col-md-6 col-12 p-4 bg-white thisCouponBorder">
 
                 <h3 className='MyPageCoupon_h3 text-start'>
                 クーポン取得 
