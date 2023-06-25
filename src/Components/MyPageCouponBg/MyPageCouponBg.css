@@ -30,7 +30,9 @@
 }
 
 .btn_coupon {
-    background-color: #FFF4B8;
+     
+    
+     background-color: linear-gradient(#FFF4B8 ,#FFE55C ,#F2F6FF);
     opacity: 0.72;
     border-radius: 12px;
     border: none !important;
