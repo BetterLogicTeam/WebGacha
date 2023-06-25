@@ -170,6 +170,10 @@
     /* transform: translate3d(-108px, 0px, 0px) !important; */
     margin-left: -2rem;
   }
+  .Slider_News_Bg {
+    padding-top:20px ;
+    padding-bottom: 0px !important;
+  }
 }
 
 @media (min-width:768px) and (max-width:1400px){
@@ -234,12 +238,6 @@
 
 .bigmoretxt{
   padding: 2.5rem !important;
-}
-
-.Slider_News_Bg {
-  background-color: #f2f6ff;
-  padding-top: 203px;
-  padding-bottom: 36px;
 }
 
 .News_Heading {

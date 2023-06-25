@@ -85,21 +85,24 @@
   .News_Heading {
     font-weight: 500;
     font-size: 29px;
+    padding-bottom: 0px;
   }
 
   .landing_Bg {
-    background-position-x: 38% !important;
+    background-image: url("../Assets/small_screenhero.png");
+    background-position: center !important;
     height: auto !important;
-    padding-bottom: 86px !important;
+    padding-bottom: 55px !important;
     padding-top: 83px !important;
-    background-size: 350%;
+    background-size: 100%;
   }
 
   .landing_Bg button {
     font-size: 15px;
-    width: 320px;
-    height: 65px !important;
+    width: 339px !important;
+    height: 75px !important;
     padding: 13px 24px !important;
+    border: none;
   }
   .brack{
     display: block !important;
