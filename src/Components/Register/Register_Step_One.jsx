@@ -81,7 +81,7 @@ export default function Register_Step_One() {
   return (
     <div>
       <div>
-        <h1 className="text-center pt-5 pb-3">新規会員登録</h1>
+        <h1 className="text-center pt-5 pb-3 fw-bold">新規会員登録</h1>
         <Form
           className=""
           name="horizontal_login"
@@ -974,8 +974,8 @@ export default function Register_Step_One() {
                     ]}
                   >
                     <Input type="password" />
-                    <p className="Register_ant_ka_thrd_p">
-                      <span className="star_clr2"> *</span>
+                    <p className="Register_ant_ka_thrd_p resfsjfnwkfkj">
+                      <span className="star_clr2 "> *</span>
                       半角英数字50文字以内で入力してください。
                     </p>
                   </Form.Item>
@@ -1206,7 +1206,7 @@ export default function Register_Step_One() {
             className="last_vala_main_chkbox d-flex justify-content-center align-items-center"
             onChange={onChange}
           >
-            <span className="mttt_ressspo" style={{ color: "#110F24" }}>
+            <span className="mttt_ressspo" style={{ color: "#110F24" , fontWeight:"500" }}>
               利用規約を読み、同意します。
               {/* <span
                     className=""

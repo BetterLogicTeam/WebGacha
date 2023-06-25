@@ -7,7 +7,7 @@ function Confirmataion() {
 
   return (
    <div className="container-fluid confirmation_bg px-4">
-   <h1 className='d-flex justify-content-center py-5 '>お問い合わせ 確認</h1>
+   <h1 className='d-flex justify-content-center py-5 csjjidh '>お問い合わせ 確認</h1>
     <div className="row justify-content-center">
         <div className="col-5 tableBg col-md-3  notataion_border p-3 border_mob border_table">
           <p className="ghgh">お問い合わせ種別</p>
@@ -21,9 +21,9 @@ function Confirmataion() {
           <p className="ghgh">お名前（フリガナ）</p>
         </div>
         <div className="col-7 tableBg notataion_border p-3 ">
-          <p className="T_p"> <span className='pe-3'> お名前 </span> <span className='ps-5'> フリガナ </span> <br />
+          <p className="T_p"> <span className='pe-3 afjjnkn'> お名前 </span> <span className='ps-0 afjjnkn ps-md-5'> フリガナ </span> <br />
           
-          <span className='hjhj'>山田 太郎</span> <span className='ps-5 hjhj'> ヤマダ タロウ </span>
+          <span className='hjhj afjjnkn'>山田 太郎</span> <span className='ps-1 ps-md-5 afjjnkn hjhj'>  ヤマダ タロウ </span>
            </p>
         </div>
       </div>
@@ -45,9 +45,14 @@ function Confirmataion() {
         </div>
       </div>
 
-      <div className="row justify-content-center my-4 gap-4">
-        <button className='new_white_btn hgfdf' onClick={()=>history('/ContactUs')} > 戻る</button>
-        <button className='new_red_btn  mb-5'> 送信する </button>
+      <div className="row justify-content-center d-none d-md-flex my-4 gap-4">
+        <button className='new_white_btn   hgfdf' onClick={()=>history('/ContactUs')} > 戻る</button>
+        <button className='new_red_btn   mb-5'> 送信する </button>
+
+      </div>
+      <div className="row justify-content-center d-block d-md-none my-4 gap-4">
+        <button className='new_red_btn   mb-3'> 送信する </button>
+        <button className='new_white_btn   hgfdf' onClick={()=>history('/ContactUs')} > 戻る</button>
 
       </div>
    </div>

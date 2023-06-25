@@ -60,9 +60,9 @@ font-weight: 600 ;
 
 
 
-@media only screen and (max-width:349px){
+@media only screen and (max-width:350px){
   .privacyTitleMainaga{
-    font-size: 13px !important;
+    font-size: 12px !important;
     line-height: 45px !important;
   }
 
@@ -76,7 +76,7 @@ font-weight: 600 ;
 }
 
 
-@media only screen and (min-width:350px) and (max-width:410px) {
+@media only screen and (min-width:351px) and (max-width:410px) {
   .passtpTwo_h3{
     font-size: 25px ;
   }

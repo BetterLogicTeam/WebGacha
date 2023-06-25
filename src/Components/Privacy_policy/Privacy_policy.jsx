@@ -8,11 +8,11 @@ export default function Privacy_policy() {
       <div className="main_privacy_img">
         <h1 className="main_heading ressss_hhhhhea mnhDd">会員規約・ <br className="d-block d-lg-none" />プライバシーポリシー</h1>
       </div>
-      <div className="privacy_content py-5">
+      <div className="privacy_content pt-3 pb-5 ">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10">
-              <h5 className="privcy_heading_main">「ウェブガチャ」会員規約</h5>
+              <h5 className="privcy_heading_main mb-3 py-3">「ウェブガチャ」会員規約</h5>
             
               <p className="ptext priiiivay">第2条 (登録)</p>
               <p className='ptext priiiivay'>

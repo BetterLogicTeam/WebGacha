@@ -6,7 +6,8 @@ function Pasword_stepTwo() {
   const history=useNavigate()
 
   return (
-    <div className="container-fluid passwordStepTwo_bg ">
+    <div className="passwordStepTwo_bg">
+    <div className="container passwordStepTwo_bg ">
       <div className="row justify-content-center">
         <div className="col-12 px-2 col-md-5  py-5  ">
           <div className="bg-white py-5 px-4 bordd">
@@ -24,6 +25,7 @@ function Pasword_stepTwo() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

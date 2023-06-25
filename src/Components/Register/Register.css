@@ -370,7 +370,7 @@
 
 .Register_ant_ka_thrd_p {
   font-weight: 500 !important;
-  font-size: 15px !important;
+  font-size: 15px ;
   line-height: 140% !important;
   color: #020140 !important;
   padding-top: 10px;
@@ -575,5 +575,36 @@
     padding: 6px 15px !important;
     width: 100% !important;
     margin-top: 1rem;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:350px){
+  .p_pink {
+    font-size: 15px !important;
+  }
+
+  .resfsjfnwkfkj{
+    font-size: 11px !important;
+  }
+}
+
+
+@media only screen and (min-width:351px) and (max-width:400px){
+  .resfsjfnwkfkj{
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width:401px) and (max-width:699px){
+  .resfsjfnwkfkj{
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width:700px) and (max-width:999px){
+  .resfsjfnwkfkj{
+    font-size: 18px !important;
   }
 }
