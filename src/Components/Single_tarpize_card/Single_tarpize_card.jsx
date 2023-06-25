@@ -11,7 +11,7 @@ export default function Single_tarpize_card({
   index,
 }) {
   return (
-    <div className="single_tarpize_card mt-5">
+    <div className="single_tarpize_card mt-3 mt-md-5">
       <div
         className="single_card_bg"
         // onClick={() => (setModalShow(true), setsliderName(index))}
@@ -24,18 +24,18 @@ export default function Single_tarpize_card({
           alt=""
         />
         <div className="card_single_content py-2">
-          <p>{a1}</p>
-          <p style={{ color: "#020140" }}>{card_p}</p>
+          <p className="mb-0">{a1}</p>
+          <p className="mb-0" style={{ color: "#020140" }}>{card_p}</p>
         </div>
 
-        <div className="row">
-          <div className="col-6">
+        <div className="row lstlowwer">
+          <div className="col-6 lowwerInr">
             <div className="lower_content">
-              <p>各賞の当選率</p>
-              <p>1%</p>
+              <p className="mb-1">各賞の当選率</p>
+              <p className="mb-1">1%</p>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-6 lowwerInr">
             <div className="lower_content ">
               <p style={{ color: "#020140" }}>各賞の当選率</p>
               <p style={{ color: "#020140" }}>1%</p>

@@ -68,7 +68,34 @@
   font-size: 24px;
 }
 
+.sectitl{
+  text-transform: uppercase;
+    color: #020140 !important;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.winning_probability{
+  color: #595E6A;
+font-size: 20px;
+font-family: Noto Sans JP;
+font-weight: 500;
+line-height: 140%;
+text-transform: uppercase;
+}
+
+.probupper{
+  display: flex !important;
+  gap: 90px !important;
+}
+
 @media only screen and (max-width: 700px) {
+
+  .probupper{
+    display: flex !important;
+    flex-direction: column;
+    gap: 8px !important;
+  }
 
   .yellow {
     background: #ffd600;
@@ -97,6 +124,16 @@
   .fornt_row > h6 {
     font-size: 14px !important;
   }
+
+  .sectitl{
+    font-size: 16px !important;
+  }
+
+  .winning_probability {
+    font-size: 16px;
+    font-weight: 500;
+}
+
   .fade .modal .show {
     padding-left: 0px !important;
   }

@@ -126,7 +126,7 @@ export default function Purchase_process_one({ next }) {
 
                         {selectedValue == "a" ? (
                           <>
-                            <div className="row">
+                            <div className="row ">
                               <div className="col-md-5">
                                 <label
                                   htmlFor="cn"
@@ -141,8 +141,8 @@ export default function Purchase_process_one({ next }) {
                                 />
                               </div>
                               <div className="col-md-7 ">
-                                <div className="row">
-                                  <div className="col-md-6">
+                                <div className="row expdateUpper">
+                                  <div className="col-md-6 brlo">
                                     <label
                                       htmlFor="cnc"
                                       className="credit_card_lable"
@@ -150,7 +150,7 @@ export default function Purchase_process_one({ next }) {
                                       有効期限(月/年)
                                     </label>{" "}
                                     <br />
-                                    <div className="d-flex change-dir  gap-3">
+                                    <div className="d-flex change-dir  gap-2 gap-md-3 expdateUpper dattimetow">
                                       <input
                                         type="number"
                                         className="cradit_inpit  resposssss "
@@ -419,7 +419,7 @@ export default function Purchase_process_one({ next }) {
                   戻る{" "}
                 </button>
                 <button
-                  className="atm_red_btn nodeB2  p-0"
+                  className="atm_red_btn nodeB2  p-0 mt-md-0 mt-2"
                   onClick={() => (next(), window.scrollTo(0, 0))}
                 >
                   {" "}

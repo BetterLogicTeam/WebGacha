@@ -34,7 +34,7 @@ export default function News_Slider() {
             spaceBetween: 20,
           },
           375: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           300: {
@@ -56,7 +56,7 @@ export default function News_Slider() {
           return (
             <>
               <SwiperSlide className="Rem">
-                <div className="card card_slider hvrBx BigScreenslidr" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
+                <div className="card dko card_slider hvrBx BigScreenslidr" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
                   <img src={items.Image} alt="" width="50%" className="hvrImg" />
                   <div className="row mt-4 p-2 crddSldAGN bigmoretxt">
                     <div className="col-lg-3 text-start">

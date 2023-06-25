@@ -73,6 +73,9 @@
         line-height: 52px;
         text-align: center;
         color: #FFFFFF;
-       
+    }
+
+    .lstch2{
+        margin-top: 22px !important;
     }
 }

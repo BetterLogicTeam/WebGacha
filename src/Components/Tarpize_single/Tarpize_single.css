@@ -103,6 +103,10 @@
 
 @media only screen and (max-width: 700px) {
 
+  .BDMain1{
+    height: 46px !important;
+  }
+
   .lftgacHPiCUpEr{
     padding: 0px 6px !important;
   }
@@ -113,7 +117,7 @@
 
   .frmlfftr {
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     line-height: 22px !important;
     width: 28%;
   }
@@ -140,6 +144,7 @@
 
   .circula {
     width: 100% !important;
+    height: 55px !important;
   }
 
   .tarsize_content>P {
@@ -166,7 +171,7 @@
   }
 
   .responsive_gachah_a {
-    width: 80% !important;
+    width: 92% !important;
   }
 
   .imputdve {
@@ -206,6 +211,10 @@
   .imputdve .form-select {
 
     /* margin-top: 1rem !important; */
+  }
+
+  .BDMain1{
+    height: 46px !important;
   }
 }
 
@@ -252,7 +261,7 @@
   .frmlfftr {
     font-size: 16px !important;
     color: #020140 !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     line-height: 22px !important;
   }
 
@@ -494,7 +503,6 @@ input::-webkit-inner-spin-button {
   vertical-align: top;
   color: #e60058 !important;
 }
-
 
 @media (min-width:1441px) {
   .containerrrr {

@@ -38,7 +38,7 @@
 }
 
 .AgainW{
-    width:21% !important;
+    width:24% !important;
 }
 
 
@@ -60,7 +60,7 @@
         font-family: 'Noto Sans JP', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 26px;
         line-height: 48px;
         /* identical to box height */
     
@@ -75,5 +75,14 @@
 @media (min-width:605px) and (max-width:992px) {
     .gybBBtn{
         display: none;
+    }
+
+    .last1{
+        margin-top: 40px !important;
+    }
+
+    .Taprise_on_sale_bg {
+        padding-top: 100px !important;
+        padding-bottom: 40px !important;
     }
 }

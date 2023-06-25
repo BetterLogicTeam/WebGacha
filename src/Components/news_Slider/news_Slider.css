@@ -28,7 +28,7 @@
 }
 
 .card_slider img {
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .card_slider .slider_date {
@@ -85,6 +85,10 @@
   padding-bottom: 20px;
 }
 
+.dko{
+  border-radius: 12px !important;
+}
+
 
 @media only screen and (min-width:371px) and (max-width:400px) {
   .swiper-button-next {
@@ -95,7 +99,7 @@
     border-radius: 45px;
     margin-left: -2rem;
     position: absolute !important;
-    top: 21rem !important;
+    top: 22.5rem !important;
     right: 7rem !important;
   }
   .swiper-button-prev {
@@ -105,8 +109,13 @@
     border: 1px solid #8ac7ff !important;
     border-radius: 45px;
     position: absolute !important;
-    top: 21rem !important;
+    top: 22.5rem !important;
     left: 7rem !important;
+  }
+
+  .Rem{
+    width: 70%  !important;
+    height: 30%;
   }
 }
 

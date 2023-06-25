@@ -10,16 +10,17 @@
 }
 
 .landing_Bg h1 {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
-  /* font-weight: 600; */ 
+  /* font-weight: 600; */
   font-size: 60px;
   line-height: 72px;
   text-align: center;
   color: #020140;
   /* text-shadow: 3px 4px 3px #fff; */
   /* text-shadow: 2px 0px #fff, -2px 0px #fff, 0px 2px #fff, 0px -2px #fff !important; */
-  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px 2px 0 #fff;
   /* text-shadow: #fff 5px 4px 5\px; */
 }
 
@@ -31,17 +32,17 @@
   text-align: center;
   margin-top: 1rem !important;
   text-transform: uppercase;
-  text-shadow: -0.3px -0.3px 0 #fff, 0.5px -0.3px 0 #fff, -0.5px 0.3px 0 #fff, 0.5px 0px 0 #fff;
+  text-shadow: -0.3px -0.3px 0 #fff, 0.5px -0.3px 0 #fff, -0.5px 0.3px 0 #fff,
+    0.5px 0px 0 #fff;
   /* -webkit-text-stroke: 0.2px #fff; */
   color: #020140;
   letter-spacing: -1.5px;
-
 }
 
 .landing_Bg button {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -62,8 +63,8 @@
   line-height: 48px;
   text-align: center;
   color: #020140;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 17px !important;
   margin-bottom: 0px !important;
 }
 
@@ -71,8 +72,6 @@
   background-color: red !important;
   color: #fff !important;
 }
-
-
 
 @media screen and (max-width: 767px) {
   /* .landing_Bg {
@@ -85,7 +84,8 @@
   .News_Heading {
     font-weight: 500;
     font-size: 29px;
-    padding-bottom: 0px;
+    padding-top: 29px !important;
+    padding-bottom: 0px !important;
   }
 
   .landing_Bg {
@@ -104,7 +104,7 @@
     padding: 13px 24px !important;
     border: none;
   }
-  .brack{
+  .brack {
     display: block !important;
   }
 
@@ -114,27 +114,26 @@
     line-height: 40px !important;
     letter-spacing: -1px !important;
     padding: 0px 18px !important;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+      2px 2px 0 #fff;
   }
 
   .landing_Bg p {
     padding: 0px 18px !important;
     font-size: 17px !important;
-  text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff, 0.5px 0px 0 #fff;
-
+    text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -1px 0.5px 0 #fff,
+      0.5px 0px 0 #fff;
   }
 }
 
-.brack{
+.brack {
   display: none;
 }
 
-
-@media (min-width:767px) and (max-width:950px) {
+@media (min-width: 767px) and (max-width: 950px) {
   .landing_Bg {
     padding-bottom: 44px !important;
-    padding-top: 150px !important;
+    padding-top: 63px !important;
     background-position-x: 32% !important;
     height: auto !important;
   }
@@ -147,7 +146,7 @@
   }
 
   .landing_Bg h1 {
-    font-weight: 1000 !important;
+    font-weight: 500 !important;
     font-size: 56px;
     line-height: 65px !important;
     letter-spacing: -1px !important;

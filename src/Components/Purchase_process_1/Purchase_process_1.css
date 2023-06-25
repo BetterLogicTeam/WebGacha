@@ -123,7 +123,7 @@
     }
 
     .respsss {
-        flex-direction: column !important;
+        flex-direction: column-reverse !important;
     }
 
     .purchase_process_1_main {

@@ -43,6 +43,11 @@ border-radius: 45px;
     color: #2300F8;
 }
 
+.nopD{
+    display: flex !important;
+    align-items: center !important;
+}
+
 @media only screen and (max-width: 700px) {
    .rssssssspomm{
     flex-direction: column !important;
@@ -63,4 +68,10 @@ border-radius: 45px;
    .ConfimYourRegistrationBg{
     margin-top: 27px;
 }
+
+.border_table1{
+    display: flex !important;
+    align-items: center !important;
+}
+
   }
