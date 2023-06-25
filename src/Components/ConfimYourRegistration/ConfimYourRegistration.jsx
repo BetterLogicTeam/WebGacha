@@ -71,7 +71,7 @@ function ConfimYourRegistration() {
       </div>
 
       <div className="row justify-content-center ">
-        <div className="col-5 col-md-2 notataion_border p-3 border_table tableBg">
+        <div className="col-5 col-md-3 col-lg-2 notataion_border p-3 border_table tableBg">
           <p> お名前（フリガナ） </p>
         </div>
         <div className="col-7 notataion_border p-3 border_table1 tableBg">
@@ -84,7 +84,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 col-md-2 notataion_border p-3 tableBg">
+        <div className="col-5    col-lg-2 notataion_border p-3 tableBg">
           <p> 住所 </p>
         </div>
         <div className="col-7 notataion_border p-3 tableBg">
@@ -96,7 +96,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> 生年月日 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -104,7 +104,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row  justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> 性別 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -112,7 +112,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> 電話番号 </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -120,7 +120,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> メールアドレス </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -128,7 +128,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3">
+        <div className="col-5 tableBg col-md-3 col-lg-2 notataion_border p-3">
           <p> パスワード </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3">
@@ -136,7 +136,7 @@ function ConfimYourRegistration() {
         </div>
       </div>
       <div className="row justify-content-center mb-5">
-        <div className="col-5 tableBg col-md-2 notataion_border p-3 border_table2 ">
+        <div className="col-5 tableBg col-md-3 col-lg-2 notataion_border p-3 border_table2 ">
           <p> メールマガジン </p>
         </div>
         <div className="col-7 tableBg notataion_border p-3 border_table3">
@@ -145,13 +145,13 @@ function ConfimYourRegistration() {
       </div>
 
       <div className="row justify-content-center mt-5 ">
-        <div className=" col-9  inputbtn">
+        <div className=" col-12 col-md-9  inputbtn">
           <div className="d-flex justify-content-between rssssssspomm">
-            <button className="red_buttonnn  text-white"> 変更する</button>
+            <button className="red_buttonnn order-md-0 order-1 text-white"> 変更する</button>
 
             <p className="aligment">
               プライバシーモード
-              <span className="ps-3">
+              <span className="ps-3 ">
                 <FormControlLabel
                   // label="iOS style"
                   control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}

@@ -34,10 +34,22 @@
     color: #020140;
 }
 
+
+@media only screen and (min-width:300px) and (max-width:450px) {
+
+    .third_Tab{
+        height: 60vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+}
+
 @media only screen and (max-width:600px) {
     .Coupon_Tab_Bg {
         background-color: #F2F6FF;
-        padding: 40px 16px;
+        margin-top: 0px !important;
+        padding: 40px 13px;
     }
 
     .third_Tab {
@@ -51,7 +63,7 @@
 
 
 .third_Tab{
-  height: 100vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -5,10 +5,10 @@ function MyPageCouponContent({setCoupon_Steps_Tab}) {
   return (
     <div className="container-fluid MyPageCouponContentBg ">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-8 py-5">
-          <h3 className="text-center MyPageCoupon_h3">クーポン一覧</h3>
+        <div className="col-12 col-md-8 py-5 py-md-4 px-1">
+          <h3 className="text-center MyPageCoupon_h3">クーポン一覧  </h3>
 
-          <p className="text-center MyPageCoupon_p">
+          <p className="text-center MyPageCoupon_p ">
             取得しているクーポン一覧です
             。クーポンを使用したい場合は、決済画面にて「クーポン利用」欄の{" "}
             
@@ -18,8 +18,8 @@ function MyPageCouponContent({setCoupon_Steps_Tab}) {
             い場合は、「クーポン取得」ボタンを押してください。
           </p>
 
-          <div className="d-flex justify-content-center">
-          <button className="mt-5 copn1stBt" onClick={()=>setCoupon_Steps_Tab(2)}>クーポン取得</button>
+          <div className="d-flex justify-content-center ">
+          <button className="mt-3 mt-md-4 copn1stBt" onClick={()=>setCoupon_Steps_Tab(2)}>クーポン取得  </button>
           </div>
         </div>
       </div>

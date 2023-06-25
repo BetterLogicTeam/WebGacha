@@ -21,9 +21,13 @@ color: #020140;
 }
 .red_buttonnn{
  
-padding: 18px 150px;
+/* padding: 18px 150px; */
 background: #E60058;
 border: 1px solid #FFFFFF;
+width: 350px !important;
+height: 58px !important;
+font-size: 16px;
+
 border-radius: 45px;
 }
 .colorofspan{
@@ -43,7 +47,46 @@ border-radius: 45px;
     color: #2300F8;
 }
 
+
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+
+.red_buttonnn{
+    background: #E60058;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    font-size: 16px;
+    border-radius: 45px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+
+    .red_buttonnn{
+        background: #E60058;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 240px !important;
+        font-size: 16px;
+        border-radius: 45px;
+         /* margin-right: 20px !important; */
+        }
+
+}
+
+
+
 @media only screen and (max-width: 700px) {
+  
+   
+    
    .rssssssspomm{
     flex-direction: column !important;
    }
@@ -57,7 +100,9 @@ border-radius: 45px;
    }
 
    .aligment{
-    text-align: center !important;
+    text-align: start !important;
+    width: 100% !important;
+    font-size: 16px;
    }
 
    .ConfimYourRegistrationBg{
