@@ -392,16 +392,16 @@ export default function Purchase_process_one({ next }) {
                               <div className="text_input_code">
 
                             利用する
-                              <input
-                            type="text"
-                            id="login_first"
-                            placeholder="コード"
-                            className="login_page_inputss74"
-                          />
+                     
                               </div>
                             </FormLabel>
+                              
                           </div>
                         </div>
+                          <div className="d-flex gap-3 align-items-center mt-3">
+                    <input type="text" placeholder="123" className="main_new_usnfjn" />
+                    <button className="new_bjhbfjen">適用</button>
+                          </div>
                     
                       </div>
                     </div>

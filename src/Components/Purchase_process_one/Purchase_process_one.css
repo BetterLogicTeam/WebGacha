@@ -322,3 +322,28 @@
     outline: none;
 
 }
+
+
+
+.main_new_usnfjn{
+    width: 237px;
+height: 55px;
+border-radius: 12px;
+border: 1px solid #8AC7FF;
+padding: 15px 20px !important;
+}
+
+
+.new_bjhbfjen{
+    display: flex;
+height: 55px;
+padding: 10px 20px;
+width: 110px ;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+color: #E60058 !important;
+font-weight: 500;
+border: 1px solid #E60058 !important;
+background-color: #fff;
+}
