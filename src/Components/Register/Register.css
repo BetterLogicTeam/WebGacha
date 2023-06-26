@@ -538,7 +538,7 @@
   border-radius: 12px;
   padding: 12px 30px;
   height: 55px !important;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   width: 100%;
   margin-top: 8px !important;
 }
