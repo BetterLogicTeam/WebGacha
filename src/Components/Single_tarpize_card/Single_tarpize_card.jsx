@@ -35,12 +35,12 @@ export default function Single_tarpize_card({
               <p className="mb-1">1%</p>
             </div>
           </div>
-          <div className="col-6 lowwerInr">
+          {/* <div className="col-6 lowwerInr">
             <div className="lower_content ">
               <p style={{ color: "#020140" }}>各賞の当選率</p>
               <p style={{ color: "#020140" }}>1%</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

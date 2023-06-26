@@ -101,7 +101,7 @@ font-weight: 600 ;
 
 
 
-@media only screen and (min-width:2300px){
+@media only screen and (min-width:2000px){
   .passwordStepTwo_bg{
     height: 74vh !important;
     display: flex !important;
