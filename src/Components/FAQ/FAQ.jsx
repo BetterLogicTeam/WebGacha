@@ -40,37 +40,37 @@ export default function FAQ() {
         <div className="row">
           <div className="col-md-3 side_bar ">
             <ul className="ps-0 faq_ul">
-              <li onClick={() => (activeSection==true ? (setFaq_Tab(0),scroll.scrollTo(200)):(setFaq_Tab(0),scroll.scrollTo(680)))} style={{ cursor: "pointer" }}>
+              <li className={Faq_Tab==0?"first_li":""} onClick={() => (activeSection==true ? (setFaq_Tab(0),scroll.scrollTo(200)):(setFaq_Tab(0),scroll.scrollTo(680)))} style={{ cursor: "pointer" }}>
                 {/* <Link activeClass="first_li"  spy to="section1"> */}
                   <a className="link_text">会員登録・ログインについて</a>
                 {/* </Link> */}
               </li>
 
-              <li style={{ cursor: "pointer" }} onClick={() => (activeSection==true ? (setFaq_Tab(1),scroll.scrollTo(820)):(setFaq_Tab(1),scroll.scrollTo(1220)))}>
+              <li className={Faq_Tab==1?"first_li":""}  style={{ cursor: "pointer" }} onClick={() => (activeSection==true ? (setFaq_Tab(1),scroll.scrollTo(820)):(setFaq_Tab(1),scroll.scrollTo(1220)))}>
                 {/* <Link activeClass="first_li"  spy to="section2"> */}
                   <a className="link_text"> 商品について</a>
                 {/* </Link> */}
               </li>
 
-              <li onClick={() => (activeSection==true ? (setFaq_Tab(2),scroll.scrollTo(1240)):(setFaq_Tab(2),scroll.scrollTo(1770)))} style={{ cursor: "pointer" }}>
+              <li className={Faq_Tab==2?"first_li":""} onClick={() => (activeSection==true ? (setFaq_Tab(2),scroll.scrollTo(1240)):(setFaq_Tab(2),scroll.scrollTo(1770)))} style={{ cursor: "pointer" }}>
                 {/* <Link activeClass="first_li"  spy to="section3"> */}
                   <a className="link_text">ウェブガチャのプレイについて</a>
                 {/* </Link> */}
               </li>
 
-              <li onClick={() => (activeSection==true ? (setFaq_Tab(3),scroll.scrollTo(1690)):(setFaq_Tab(3),scroll.scrollTo(2250)))} style={{ cursor: "pointer" }}>
+              <li className={Faq_Tab==3?"first_li":""} onClick={() => (activeSection==true ? (setFaq_Tab(3),scroll.scrollTo(1690)):(setFaq_Tab(3),scroll.scrollTo(2250)))} style={{ cursor: "pointer" }}>
                 {/* <Link activeClass="first_li"  spy to="section4"> */}
                   <a className="link_text">メールの受信について</a>
                 {/* </Link> */}
               </li>
 
-              <li onClick={() => (activeSection==true ? (setFaq_Tab(4),scroll.scrollTo(2100)):(setFaq_Tab(4),scroll.scrollTo(2750)))} style={{ cursor: "pointer" }}>
+              <li className={Faq_Tab==4?"first_li":""} onClick={() => (activeSection==true ? (setFaq_Tab(4),scroll.scrollTo(2100)):(setFaq_Tab(4),scroll.scrollTo(2750)))} style={{ cursor: "pointer" }}>
                 {/* <Link activeClass="first_li"  spy to="section5"> */}
                   <a className="  link_text"> 商品のお届けについて</a>
                 {/* </Link> */}
               </li>
 
-              <li onClick={() => (activeSection==true ? (setFaq_Tab(5),scroll.scrollTo(2600)):(setFaq_Tab(5),scroll.scrollTo(3240)))}  style={{ cursor: "pointer" }}>
+              <li className={Faq_Tab==5?"first_li":""} onClick={() => (activeSection==true ? (setFaq_Tab(5),scroll.scrollTo(2550)):(setFaq_Tab(5),scroll.scrollTo(3240)))}  style={{ cursor: "pointer" }}>
                 {/* <Link activeClass="first_li"  spy to="section6"> */}
                   <a className="link_text">お支払い方法について</a>
                 {/* </Link> */}
