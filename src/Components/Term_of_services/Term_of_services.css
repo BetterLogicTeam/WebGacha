@@ -113,21 +113,23 @@
 
   @media only screen and (max-width:349px){
     .privacyTitleMainaga{
-      font-size: 13px !important;
+      font-size: 16px !important;
       line-height: 45px !important;
+      font-weight: 700px !important;
     }
 
     .term_heading {
-      font-size: 16px !important;
+      font-size: 20px !important;
+      font-weight: 700px;
     }
   }
 
 
   @media only screen and (min-width:350px) and (max-width:410px) {
     .privacyTitleMainaga{
-      font-size: 16px !important;
+      font-size: 22px !important;
       line-height: 45px !important;
-      font-weight: 600;
+      font-weight: 600 !important;
     }
     .term_heading {
       font-size: 19px !important;
@@ -136,8 +138,9 @@
 
   @media only screen and (min-width:411px) and (max-width:699px) {
     .privacyTitleMainaga{
-      font-size: 18px !important;
+      font-size: 30px !important;
       line-height: 45px !important;
+      font-weight: 700 !important;
     }
     .term_heading {
       font-size: 21px !important;

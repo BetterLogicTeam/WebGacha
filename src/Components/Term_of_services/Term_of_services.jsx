@@ -5,7 +5,8 @@ export default function Term_of_services() {
   return (
     <div className="term_of_serivrssf">
       <div className="main_privacy_img">
-        <h1 className="mnhDd privacyTitleMainaga">会員登録：ご利用規約に同意してください</h1>
+        <h1 className="mnhDd privacyTitleMainaga d-none d-md-block">会員登録：ご利用規約に同意してください</h1>
+        <h1 className="mnhDd privacyTitleMainaga d-block d-md-none">会員登録・ご利用規約 </h1>
       </div>
       <div className="container trmupperTop">
         <div className="row justify-content-center">
