@@ -80,7 +80,7 @@ export default function CouponTab() {
               label={
                 <div className="d-flex justify-content-between align-items-center ">
                   <AiOutlineHeart className="me-4 fs-4" />{" "}
-                  <span>お気に入りs</span>
+                  <span>お気に入</span>
                 </div>
               }
               {...a11yProps(3)}
@@ -123,9 +123,9 @@ export default function CouponTab() {
         <TabPanel value={value} index={3}>
           <div className="container favLst">
             <div className="Favorites_list">
-              <h1> お気に入りリスト：企画</h1>
+              <h1 className='d-none d-md-block'> お気に入りリスト：企画</h1>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-4">
                   
                   {Data.slice(0,4).map((items, index) => {
             return (
