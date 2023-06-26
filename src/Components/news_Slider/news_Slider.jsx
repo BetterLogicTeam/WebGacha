@@ -27,7 +27,7 @@ export default function News_Slider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Navigation, Autoplay]}
+        // modules={[Navigation, Autoplay]}
         breakpoints={{
           425: {
             slidesPerView: 2,
@@ -58,7 +58,7 @@ export default function News_Slider() {
               <SwiperSlide className="Rem">
                 <div className="card dko card_slider hvrBx BigScreenslidr" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
                   <img src={items.Image} alt="" width="50%" className="hvrImg" />
-                  <div className="row mt-4 p-2 crddSldAGN bigmoretxt">
+                  <div className="row mt-3 p-2 mb-3 crddSldAGN bigmoretxt">
                     <div className="col-lg-3 text-start">
                       <p className="slider_date">2023.5.2</p>
                     </div>

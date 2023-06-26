@@ -30,7 +30,7 @@
 
 .scroll_text> p {
     color: #020140 !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     font-size: 16px !important;
     line-height: 20px;
 }
@@ -72,7 +72,7 @@
 
 .trmTowPera{
   font-size: 16px  !important;
-  font-weight:500   !important;
+  font-weight:400 !important   ;
   line-height: 22px  !important;
 }
 
@@ -93,7 +93,9 @@
 @media only screen and (max-width:600px) {
 
 
-
+  .trmupperTop{
+    margin-top: 13px !important;
+  }
   .mnhDd{
     padding: 0px 20px !important;
   }
@@ -102,11 +104,11 @@
     font-weight: 700 !important;
   }
   .trmTowPera {
-    font-weight: 600 !important;
+    /* font-weight: 600 !important;  */
     font-size: 15px !important;
   }
   .scroll_text> p{
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     
   }
 }
@@ -134,8 +136,9 @@
 
   @media only screen and (min-width:350px) and (max-width:410px) {
     .privacyTitleMainaga{
-      font-size: 15px !important;
+      font-size: 16px !important;
       line-height: 45px !important;
+      font-weight: 600;
     }
     .term_heading {
       font-size: 19px !important;
