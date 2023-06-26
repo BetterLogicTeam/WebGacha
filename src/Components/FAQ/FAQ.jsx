@@ -5,11 +5,31 @@ import { HashLink, NavHashLink } from "react-router-hash-link";
 import Accordion from "react-bootstrap/Accordion";
 import FAQData from "./FAQ_Data";
 import { useInView } from "react-intersection-observer";
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller, } from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 export default function FAQ() {
-  const [Faq_Tab, setFaq_Tab] = useState("");
-  const [activeSection, setActiveSection] = useState("");
+  const [Faq_Tab, setFaq_Tab] = useState(100)
+  const [activeSection, setActiveSection] = useState(false);
+
+  console.log("Width",window.innerWidth);
+  
+  useEffect(() => {
+    let width= window.innerWidth
+    if (width >= 768) {
+      setActiveSection(true) 
+    } else  if(width < 766) {
+      setActiveSection(false)
+    }
+  }, [])
+  
 
   return (
     <div className="main_faq bg_clr">
@@ -20,51 +40,55 @@ export default function FAQ() {
         <div className="row">
           <div className="col-md-3 side_bar ">
             <ul className="ps-0 faq_ul">
-              <li onClick={() => setFaq_Tab(0)} style={{ cursor: "pointer" }}>
-                <Link activeClass="first_li" smooth spy to="section1" >
+              <li onClick={() => (activeSection==true ? (setFaq_Tab(0),scroll.scrollTo(300)):(setFaq_Tab(0),scroll.scrollTo(690)))} style={{ cursor: "pointer" }}>
+                {/* <Link activeClass="first_li"  spy to="section1"> */}
                   <a className="link_text">会員登録・ログインについて</a>
-                </Link>
+                {/* </Link> */}
               </li>
 
-              <li style={{ cursor: "pointer" }} onClick={() => setFaq_Tab(1)}>
-                <Link activeClass="first_li" smooth spy to="section2" >
+              <li style={{ cursor: "pointer" }} onClick={() => (activeSection==true ? (setFaq_Tab(1),scroll.scrollTo(900)):(setFaq_Tab(1),scroll.scrollTo(1320)))}>
+                {/* <Link activeClass="first_li"  spy to="section2"> */}
                   <a className="link_text"> 商品について</a>
-                </Link>
+                {/* </Link> */}
               </li>
 
-              <li onClick={() => setFaq_Tab(2)} style={{ cursor: "pointer" }}>
-                <Link activeClass="first_li" smooth spy to="section3" >
+              <li onClick={() => (activeSection==true ? (setFaq_Tab(2),scroll.scrollTo(1400)):(setFaq_Tab(2),scroll.scrollTo(1890)))} style={{ cursor: "pointer" }}>
+                {/* <Link activeClass="first_li"  spy to="section3"> */}
                   <a className="link_text">ウェブガチャのプレイについて</a>
-                </Link>
+                {/* </Link> */}
               </li>
 
-              <li onClick={() => setFaq_Tab(3)} style={{ cursor: "pointer" }}>
-                <Link activeClass="first_li" smooth spy to="section4">
+              <li onClick={() => (activeSection==true ? (setFaq_Tab(3),scroll.scrollTo(1910)):(setFaq_Tab(3),scroll.scrollTo(2400)))} style={{ cursor: "pointer" }}>
+                {/* <Link activeClass="first_li"  spy to="section4"> */}
                   <a className="link_text">メールの受信について</a>
-                </Link>
+                {/* </Link> */}
               </li>
 
-              <li onClick={() => setFaq_Tab(4)} style={{ cursor: "pointer" }}>
-                <Link activeClass="first_li" smooth spy to="section5">
+              <li onClick={() => (activeSection==true ? (setFaq_Tab(4),scroll.scrollTo(2440)):(setFaq_Tab(4),scroll.scrollTo(2950)))} style={{ cursor: "pointer" }}>
+                {/* <Link activeClass="first_li"  spy to="section5"> */}
                   <a className="  link_text"> 商品のお届けについて</a>
-                </Link>
+                {/* </Link> */}
               </li>
 
-              <li onClick={() => setFaq_Tab(5)} style={{ cursor: "pointer" }}>
-                <Link activeClass="first_li" smooth spy to="section6">
+              <li onClick={() => (activeSection==true ? (setFaq_Tab(5),scroll.scrollTo(2950)):(setFaq_Tab(5),scroll.scrollTo(3520)))}  style={{ cursor: "pointer" }}>
+                {/* <Link activeClass="first_li"  spy to="section6"> */}
                   <a className="link_text">お支払い方法について</a>
-                </Link>
+                {/* </Link> */}
               </li>
             </ul>
           </div>
           <div className="col-md-9 px-0 px-md-1">
-            <div className="container  FrEndPd " >
+            <div className="container  FrEndPd ">
               <Accordion>
                 <section id="section1">
                   <div className="">
                     <h4
-                      className="faq_heading mt-5 mt-md-0"
-                      style={{ marginBottom: "5rem" }}
+                   
+                      className={
+                        Faq_Tab === 0
+                          ? " faq_heading_active"
+                          : "faq_heading  "
+                      }
                     >
                       会員登録・ログインについて
                     </h4>
@@ -100,17 +124,23 @@ export default function FAQ() {
                         </>
                       );
                     })}
-                    <div
-                      id="section12"
-                      style={{ marginBottom: "5rem" }}
-                    ></div>
+                   
                   </div>
                 </section>
-                </Accordion>
-                <Accordion>
-                <section id="section2" >
+              </Accordion>
+              <Accordion>
+                <section id="section2">
                   <div className="nav_scroll">
-                    <h4 className="faq_heading">商品について</h4>
+                    <h4
+                      className={
+                        Faq_Tab == 1
+                          ? "faq_heading_active"
+                          : "faq_heading mt-5 mt-md-0 "
+                      }
+                      style={{ paddingTop: "120px" }}
+                    >
+                      商品について
+                    </h4>
                     {FAQData.slice(5, 9).map((items, index) => {
                       return (
                         <>
@@ -128,14 +158,20 @@ export default function FAQ() {
                         </>
                       );
                     })}
-                    <div id="section13" style={{ marginBottom: "5rem" }}></div>
+                 
                   </div>
                 </section>
-                </Accordion>
-                <Accordion>
+              </Accordion>
+              <Accordion>
                 <section>
                   <div className="nav_scroll" id="section3">
-                    <h4 className="faq_heading">
+                    <h4
+                      className={
+                        Faq_Tab == 2
+                          ? "faq_heading_active"
+                          : "faq_heading mt-5 mt-md-0 "
+                      }
+                    >
                       ウェブガチャのプレイについて
                     </h4>
                     {FAQData.slice(5, 9).map((items, index) => {
@@ -155,11 +191,11 @@ export default function FAQ() {
                         </>
                       );
                     })}
-                    <div id="section14" style={{ marginBottom: "5rem" }}></div>
+                    <div id="section14" ></div>
                   </div>
                 </section>
-                </Accordion>
-                <Accordion>
+              </Accordion>
+              <Accordion>
                 <section>
                   <div className="nav_scroll" id="section4">
                     <h4 className="faq_heading">メールの受信について</h4>
@@ -180,11 +216,11 @@ export default function FAQ() {
                         </>
                       );
                     })}
-                    <div id="section15" style={{ marginBottom: "5rem" }}></div>
+                    <div id="section15" ></div>
                   </div>
                 </section>
-                </Accordion>
-                <Accordion>
+              </Accordion>
+              <Accordion>
                 <section id="section5">
                   <div className="nav_scroll">
                     <h4 className="faq_heading">商品のお届けについて</h4>
@@ -205,11 +241,11 @@ export default function FAQ() {
                         </>
                       );
                     })}
-                    <div id="section16" style={{ marginBottom: "5rem" }}></div>
+                    <div id="section16" ></div>
                   </div>
                 </section>
-                </Accordion>
-                <Accordion>
+              </Accordion>
+              <Accordion>
                 <section id="section6">
                   <div className="nav_scroll">
                     <h4 className="faq_heading">お支払い方法について</h4>

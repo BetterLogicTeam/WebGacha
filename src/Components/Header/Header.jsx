@@ -14,7 +14,7 @@ export default function Header() {
   const history = useNavigate();
   return (
     <div className="mmaaaaa">
-      <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg  " >
+      <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg fix  " >
         <Container className="hsfhwjfwjfhw">
           <Link className="hai_tamana" to="/">
             <Navbar.Brand href="/" className="nav_Responsive" onClick={()=>window.scrollTo({top:0,behavior:'instant'})}>

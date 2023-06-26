@@ -54,8 +54,20 @@
   color: #020140 !important;
   font-size: 28px !important;
   text-align: start !important;
-  padding: 0px 10px 25px 0px !important;
+  padding: 0px 10px 25px 0px !important ;
   margin-bottom: 0px !important;
+  
+}
+
+.faq_heading_active{
+  padding: 0px 10px 25px 0px !important ;
+  font-weight: 600 !important;
+  color: #020140 !important;
+  font-size: 28px !important;
+  text-align: start !important;
+
+  margin-bottom: 0px !important;
+
 }
 
 .side_bar {
@@ -138,6 +150,8 @@
   .faq_heading {
     font-weight: 700 !important;
     font-size: 23px !important;
+    padding-top: 20px !important
+    ;
   }
 
   .acc_header button {
@@ -151,9 +165,7 @@
     font-weight: 590 !important;
   }
 
-  .side_bar {
-    position: static !important;
-  }
+  
   .nav_scroll {
     margin-top: 8rem !important;
   }
@@ -205,4 +217,15 @@
 .link_text {
   color: #020140;
   text-decoration: none !important;
+}
+
+
+@media screen and (max-width:766px) {
+  .side_bar {
+    position: static !important;
+  }
+}
+
+.accordion{
+  margin: 0 0 !important;
 }

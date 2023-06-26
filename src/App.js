@@ -34,6 +34,7 @@ import Confirmataion from "./Components/Confirmataion/Confirmataion";
 import BgConfirmation from "./Components/BgConfirmation/BgConfirmation";
 import MainConfirmationPage from "./Components/MainConfirmationPage/MainConfirmationPage";
 import Text from "./text";
+import MySwiperComponent from "./text";
 
 function App() {
 
@@ -64,7 +65,7 @@ function App() {
         <Route path="/TarpizeSingleFullPage" element={<TarpizeSingleFullPage />}/>
         <Route path="/PurchaseProcess1" element={<PurchaseProcess1 />} />
         <Route path="/PurchaseProcessOne" element={<PurchaseProcessOne />} />
-        <Route path="/PurchaseTab" element={<PurchaseTab />} />
+        <Route path="/PurchaseTab/:id" element={<PurchaseTab />} />
         <Route path="/PurchaseListFullPage" element={<PurchaseListFullPage />}/>
         <Route path="/RegisterationTab" element={<RegisterationTab />} />
         <Route path="/MyPageEdit1" element={<MyPageEdit1 />} />
@@ -73,11 +74,10 @@ function App() {
         <Route path="/CouponTab" element={<CouponTab />} />
         <Route path="/ListOfResults" element={<ListOfResults />} />
         <Route path="/ShippingStatusDetails" element={<ShippingStatusDetails />} />
-          <Route
-          path="/Text"
-          element={<Text />}
-        />
+       
         <Route path="/ContactUs_Confirmation" element={<MainConfirmationPage />} />
+        {/* <Route path="/MySwiperComponent" element={<MySwiperComponent />} /> */}
+
       </Routes>
 
       <MainFooter />

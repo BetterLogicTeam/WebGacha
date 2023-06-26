@@ -6,6 +6,7 @@ import Purchase_process_one from "../Purchase_process_one/Purchase_process_one";
 import Purchase_process_1 from "../Purchase_process_1/Purchase_process_1";
 import Purchase_process_2 from "../Purchase_process_2/Purchase_process_2";
 import Purchase_complete from "../Purchase_complete/Purchase_complete";
+import { useParams } from "react-router-dom";
 const steps = [
   {
     title: "購入手続き",
@@ -24,6 +25,8 @@ const steps = [
 export default function Purchase_Tab() {
   const { token } = theme.useToken();
   const [current, setCurrent] = useState(0);
+  const {id}=useParams()
+  console.log("Params",id);
   const next = () => {
     setCurrent(current + 1);
   };
@@ -63,7 +66,7 @@ export default function Purchase_Tab() {
             <Purchase_process_2 prev={prev}  next={next} />
           ) : (
   
-            <Purchase_complete />
+            <Purchase_complete id={id} />
           )}
           {/* <div style={contentStyle}>{steps[current].content}</div> */}
           <div

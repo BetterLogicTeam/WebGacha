@@ -28,3 +28,6 @@
     display: flex;
     align-items: center;
 }
+.ant-input{
+    height: 55px !important;
+}

@@ -26,12 +26,12 @@ function List_taprize_Taball({ tags_text }) {
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentTokens = Data.slice(indexOfFirstPost, indexOfLastPost);
+  const currentTokens = tags_text==0? Data.slice(indexOfFirstPost, indexOfLastPost) : FinalArray.slice(indexOfFirstPost, indexOfLastPost)  ;
   // console.log("Data", Data);
 
-  // useEffect(() => {
-  //   shuffleArray()
-  // }, [])
+  useEffect(() => {
+    shuffleArray()
+  }, [])
   
   return (
     <div>

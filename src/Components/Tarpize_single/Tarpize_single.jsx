@@ -87,67 +87,12 @@ export default function Tarpize_single({ location }) {
                       <option value="8">8</option>
                       <option value="9">9</option>
                     </select>
-                    {/* <Select
-                      className="BDMain1"
-                      defaultValue="1"
-                      options={[
-                        {
-                          value: "1",
-                          label: "1",
-                        },
-                        {
-                          value: "2",
-                          label: "2",
-                        },
-                        {
-                          value: "3",
-                          label: "3",
-                        },
-                        {
-                          value: "4",
-                          label: "4",
-                        },
-                        {
-                          value: "5",
-                          label: "5",
-                        },
-                        {
-                          value: "6",
-                          label: "6",
-                        },
-                        {
-                          value: "7",
-                          label: "7",
-                        },
-                        {
-                          value: "8",
-                          label: "8",
-                        },
-                        {
-                          value: "9",
-                          label: "9",
-                        },
-                      ]}
-                    /> */}
-
-                    {/* <input
-                    type="number"
-                    placeholder="1"
-                    className="number_tarpize"
-                    name=""
-                    id=""
-                    value={value}
-                  />
-                  <div className="icon_arrow_input">
-
-                  <IoIosArrowUp className="icon_arrow" onClick={()=>incrementCount()}/>
-                  <IoIosArrowDown className="icon_arrow_down" onClick={()=>decrementCount()}/>
-                  </div> */}
+                  
                   </div>
 
                   <button
                     className=" snlstWhite BdrRdiS"
-                    onClick={() => history("/PurchaseTab")}
+                    onClick={() => history(`/PurchaseTab/1`)}
                   >
                     購入する - 1回660円(税込)
                   </button>
@@ -157,7 +102,7 @@ export default function Tarpize_single({ location }) {
                 <div className="col-md-9">
                   <button
                     className=" snlstTen  exRDB abbc"
-                    onClick={() => history("/PurchaseTab")}
+                    onClick={() => history(`/PurchaseTab/2`)}
                   >
                     {" "}
                     10連ガチャ (ボイス付き){" "}

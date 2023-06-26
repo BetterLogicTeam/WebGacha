@@ -322,11 +322,18 @@
     outline: none;
 
 }
+.main_new_usnfjn:focus{
+    outline: 0 !important;
+}
 
+.main_new_usnfjn::placeholder {
+    color: rgba(0, 0, 0, 0.6)   !important;
+    font-weight: 600;
+  }
 
 
 .main_new_usnfjn{
-    width: 237px;
+    width: 79%;
 height: 55px;
 border-radius: 12px;
 border: 1px solid #8AC7FF;

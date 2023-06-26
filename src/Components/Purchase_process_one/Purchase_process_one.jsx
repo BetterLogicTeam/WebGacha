@@ -50,7 +50,7 @@ export default function Purchase_process_one({ next }) {
                       <div className="purchse_first_Card">
                         <p className="pusrchae_text">お支払い方法 </p>
                         <div className="row">
-                          <div className="col-md-6 mt-0 mt-md-0 pe-0 pe-md-2">
+                          <div className="col-md-6 mt-0 mt-md-0  pe-md-2">
                             <div
                               className={
                                 selectedValue === "a"
@@ -86,7 +86,7 @@ export default function Purchase_process_one({ next }) {
                               </div>
                             </div>
                           </div>
-                          <div className="col-md-6 mt-3 mt-md-0 pe-0 pe-md-2">
+                          <div className="col-md-6 mt-3 mt-md-0  pe-md-2">
                             <div
                               className={
                                 selectedValue === "b"
@@ -127,22 +127,24 @@ export default function Purchase_process_one({ next }) {
                         {selectedValue == "a" ? (
                           <>
                             <div className="row ">
-                              <div className="col-md-5">
+                              <div className="col-md-5  ">
                                 <label
                                   htmlFor="cn"
                                   className="credit_card_lable"
                                 >
                                   クレジットカード番号
                                 </label>
-                                <input
-                                  type="number"
-                                  className="cradit_inpit w-100"
-                                  placeholder="0000 0000 00000 00"
-                                />
+                                  <input
+                                    type="number"
+                                    className="cradit_inpit w-100"
+                                    placeholder="0000 0000 00000 00"
+                                  />
                               </div>
                               <div className="col-md-7 ">
                                 <div className="row expdateUpper">
-                                  <div className="col-md-6 brlo">
+                                  <div className="col-md-6 brlo ">
+
+
                                     <label
                                       htmlFor="cnc"
                                       className="credit_card_lable"
@@ -150,7 +152,10 @@ export default function Purchase_process_one({ next }) {
                                       有効期限(月/年)
                                     </label>{" "}
                                     <br />
-                                    <div className="d-flex change-dir  gap-2 gap-md-3 expdateUpper dattimetow">
+
+
+
+                                    {/* <div className="d-flex change-dir   gap-2 gap-md-3 expdateUpper dattimetow">
                                       <input
                                         type="number"
                                         className="cradit_inpit  resposssss "
@@ -164,23 +169,85 @@ export default function Purchase_process_one({ next }) {
                                         // defaultValue="00"
                                         id="cnn"
                                       />
-                                    </div>
+                                    </div> */}
+
                                   </div>
-                                  <div className="col-md-6">
+                                  <div className="col-md-6 ">
                                     <label
                                       htmlFor="cncc"
                                       className=" credit_card_lable"
                                     >
                                       セキュリティーコード{" "}
-                                    </label>{" "}
+                                    </label>
+                                    {" "}
                                     <br />
+
+
+
+                                    {/* <input
+                                      type="number"
+                                      className="cradit_inpit w-100"
+                                      placeholder="000"
+                                      // defaultValue="00"
+                                      id="cncc"
+                                    /> */}
+
+
+                                  </div>
+                                </div>
+
+
+                                <div className="row expdateUpper">
+                                  <div className="col-md-6 brlo ">
+
+                                    
+                                    {/* <label
+                                      htmlFor="cnc"
+                                      className="credit_card_lable"
+                                    >
+                                      有効期限(月/年)
+                                    </label>{" "}
+                                    <br /> */}
+
+
+
+                                    <div className="d-flex change-dir   gap-2 gap-md-3 expdateUpper dattimetow">
+                                      <input
+                                        type="number"
+                                        className="cradit_inpit  resposssss "
+                                        placeholder="00"
+                                        id="cnn"
+                                      />
+                                      <input
+                                        type="number"
+                                        className="cradit_inpit  resposssss "
+                                        placeholder="00"
+                                        id="cnn"
+                                      />
+                                    </div>
+
+                                  </div>
+                                  <div className="col-md-6 ">
+                                    {/* <label
+                                      htmlFor="cncc"
+                                      className=" credit_card_lable"
+                                    >
+                                      セキュリティーコード{" "}
+                                    </label>
+                                    {" "}
+                                    <br /> */}
+
+
+
                                     <input
                                       type="number"
                                       className="cradit_inpit w-100"
-                                      placeholder="0000"
+                                      placeholder="000"
                                       // defaultValue="00"
                                       id="cncc"
                                     />
+
+
                                   </div>
                                 </div>
 
@@ -389,20 +456,25 @@ export default function Purchase_process_one({ next }) {
                               }
                               id="purc"
                             >
-                              <div className="text_input_code">
-
-                            利用する
-                     
-                              </div>
+                              <div className="text_input_code">利用する</div>
                             </FormLabel>
-                              
                           </div>
                         </div>
-                          <div className="d-flex gap-3 align-items-center mt-3">
-                    <input type="text" placeholder="123" className="main_new_usnfjn" />
-                    <button className="new_bjhbfjen">適用</button>
-                          </div>
-                    
+                        {
+                          selectedValue2=="b" ? <>
+                          
+                        <div className="d-flex gap-3 align-items-center mt-3">
+                          <input
+                            type="text"
+                            placeholder="コードを入力"
+                            className="main_new_usnfjn"
+                          />
+                          <button className="new_bjhbfjen">適用</button>
+                        </div>
+                          </>
+                          :
+                          <></>
+                        }
                       </div>
                     </div>
                   </div>
@@ -413,14 +485,17 @@ export default function Purchase_process_one({ next }) {
                 <button
                   className=" nodeB1 atm_white_btn  "
                   onClick={() => (
-                    history("/ListOTaprize"), window.scrollTo({top:0,behavior:'instant'})
+                    history("/ListOTaprize"),
+                    window.scrollTo({ top: 0, behavior: "instant" })
                   )}
                 >
                   戻る{" "}
                 </button>
                 <button
                   className="atm_red_btn nodeB2  p-0 mt-md-0 mt-2"
-                  onClick={() => (next(), window.scrollTo({top:0,behavior:'instant'}))}
+                  onClick={() => (
+                    next(), window.scrollTo({ top: 0, behavior: "instant" })
+                  )}
                 >
                   {" "}
                   購入する{" "}

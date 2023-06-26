@@ -1,56 +1,67 @@
-import React, { useState, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
+import Swiper from 'swiper';
 
-export default function Text() {
-    const [activeSection, setActiveSection] = useState('');
+const MySwiperComponent = () => {
+  const swiperRef = useRef(null);
+  let swiperInstance = null;
 
-    useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, []);
-  
-    const handleScroll = () => {
-      const sections = document.querySelectorAll('section');
-      const scrollPosition = window.pageYOffset;
-  
-      sections.forEach((section) => {
-        const { top, height, id } = section.getBoundingClientRect();
-        if (top <= scrollPosition && top + height > scrollPosition) {
-          setActiveSection(id);
-        }
+  useEffect(() => {
+    if (swiperRef.current) {
+      swiperInstance = new Swiper(swiperRef.current, {
+        slidesPerView: 4,
+        loop: false, // Disable loop
+        autoplay: {
+          delay: 200, // Set your desired autoplay delay
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          slideChange: () => {
+            handleAutoplay();
+          },
+        },
       });
-    };
-  
+    }
+  }, []);
+
+  const handleAutoplay = () => {
+    if (swiperInstance.autoplay.running) {
+      swiperInstance.autoplay.stop();
+      swiperInstance.autoplay.start();
+    }
+  };
+
   return (
-    <>
-      <div className="sidebar">
-        <ul>
-          <li className={activeSection === "section1" ? "active" : ""}>
-            <a href="#section1">Section 1</a>
-          </li>
-          <li className={activeSection === "section2" ? "active" : ""}>
-            <a href="#section2">Section 2</a>
-          </li>
-          <li className={activeSection === "section3" ? "active" : ""}>
-            <a href="#section3">Section 3</a>
-          </li>
-        </ul>
+    <div className="swiper-container" ref={swiperRef}>
+      <div className="swiper-wrapper">
+        {/* Add your slides here */}
+        <div className="swiper-slide">Slide 1</div>
+        <div className="swiper-slide">Slide 2</div>
+        <div className="swiper-slide">Slide 3</div>
+        <div className="swiper-slide">Slide 3</div>
+        <div className="swiper-slide">Slide 3</div>
+        <div className="swiper-slide">Slide 2</div>
+
+        <div className="swiper-slide">Slide 3</div>
+        <div className="swiper-slide">Slide 2</div>
+        <div className="swiper-slide">Slide 2</div>
+        <div className="swiper-slide">Slide 2</div>
+        <div className="swiper-slide">Slide 1</div>
+        <div className="swiper-slide">Slide 1</div>
+        <div className="swiper-slide">Slide 1</div>
+        <div className="swiper-slide">Slide 1</div>
+
+
+        {/* Add more slides as needed */}
       </div>
-      <div className="content">
-        <section id="section1">
-          <h2>Section 1</h2>
-          <p>Content of section 1.</p>
-        </section>
-        <section id="section2">
-          <h2>Section 2</h2>
-          <p>Content of section 2.</p>
-        </section>
-        <section id="section3">
-          <h2>Section 3</h2>
-          <p>Content of section 3.</p>
-        </section>
-      </div>
-    </>
+
+      {/* Add navigation buttons */}
+      <div className="swiper-button-next"></div>
+      <div className="swiper-button-prev"></div>
+    </div>
   );
-}
+};
+
+export default MySwiperComponent;
