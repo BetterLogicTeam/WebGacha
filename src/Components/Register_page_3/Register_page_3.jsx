@@ -26,7 +26,7 @@ export default function Register_page_3() {
                     </p>
                     <div className="row justify-content-center pt-3 pb-5">
                       <div className="col-lg-6">
-                        <button className="register_buttton" onClick={()=>(setRegistor_Step_cop(2),window.scrollTo(0,0))}>
+                        <button className="register_buttton" onClick={()=>(setRegistor_Step_cop(2),window.scrollTo({top:0,behavior:'instant'}))}>
                           再度、確認書を送付する
                         </button>
                       </div>

@@ -15,7 +15,7 @@ export default function   Landing_Page() {
             </p>
             <div className="d-flex justify-content-center mt-1">
 
-            <button className="VeryfstButton" onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>販売中の <br className="brack"/>
+            <button className="VeryfstButton" onClick={()=>(history('/ListOTaprize'),window.scrollTo({top:0,behavior:'instant'}))}>販売中の <br className="brack"/>
 タップライズをチェック！</button>
             </div>
           </div>

@@ -23,7 +23,7 @@ export default function Tarpize_single_full_page() {
 
 
 
-        <button className="gacha_Btn AgainW  responsive_gachah_a mb-5 " onClick={()=>(histtory("/ListOTaprize"),window.scrollTo(0,0))} >もっと見る</button>
+        <button className="gacha_Btn AgainW  responsive_gachah_a mb-5 " onClick={()=>(histtory("/ListOTaprize"),window.scrollTo({top:0,behavior:'instant'}))} >もっと見る</button>
 
         </div>
       </div>

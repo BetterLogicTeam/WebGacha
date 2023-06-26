@@ -32,7 +32,7 @@ function Password_request() {
                 placeholder=""
               />
 
-              <button className="w-100 password_req_button"  onClick={()=>history(("/PaswordStepTwo"),window.scrollTo(0,0))}> 送信 </button>
+              <button className="w-100 password_req_button"  onClick={()=>history(("/PaswordStepTwo"),window.scrollTo({top:0,behavior:'instant'}))}> 送信 </button>
             </div>
           </div>
         </div>

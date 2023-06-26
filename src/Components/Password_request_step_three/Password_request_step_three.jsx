@@ -33,7 +33,7 @@ export default function Password_request_step_three() {
                 className="login_page_inputss"
                 placeholder="********"
               />
-              <button className="w-100 passowrd_req_3_buttond mt-4" onClick={()=>history(("/PasswordRequestStepFour"),window.scrollTo(0,0))}>パスワード再設定</button>
+              <button className="w-100 passowrd_req_3_buttond mt-4" onClick={()=>history(("/PasswordRequestStepFour"),window.scrollTo({top:0,behavior:'instant'}))}>パスワード再設定</button>
             </div>
           </div>
         </div>

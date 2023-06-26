@@ -44,7 +44,7 @@ export default function Login_page() {
                 </label>
               </div>
               <button className="login_red_button">ログイン</button>
-              <p className="left_side_p" onClick={()=>history(("/PasswordRequest"),window.scrollTo(0,0))} style={{cursor:"pointer"}} >パスワードを忘れた方はこちら</p>
+              <p className="left_side_p" onClick={()=>history(("/PasswordRequest"),window.scrollTo({top:0,behavior:'instant'}))} style={{cursor:"pointer"}} >パスワードを忘れた方はこちら</p>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ export default function Login_page() {
               <h2>新規会員登録</h2>
               <h6 className="mb-4">まだ会員でない方は下記ボタンより会員登録を行ってく <br className="ajdkkdnd" />ださい</h6>
               
-              <button className=" login_white_btn   welU" onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))}>新規会員登録</button>
+              <button className=" login_white_btn   welU" onClick={()=>(history('/RegisterationTab'),window.scrollTo({top:0,behavior:'instant'}))}>新規会員登録</button>
             </div>
           </div>
         </div>

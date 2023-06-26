@@ -96,10 +96,10 @@ export default function Edit_page_two({ prev, next }) {
             <>
               {" "}
              
-                <button onClick={()=>(history('/MyPageEdit1'),window.scrollTo(0,0))} className="editED_white"> 戻る</button>
+                <button onClick={()=>(history('/MyPageEdit1'),window.scrollTo({top:0,behavior:'instant'}))} className="editED_white"> 戻る</button>
              
              
-                <button className="editEDE_red ms-0 ms-md-4 mt-3 mt-md-0" onClick={()=>(history('/MyPageEditThree'),window.scrollTo(0,0))}>
+                <button className="editEDE_red ms-0 ms-md-4 mt-3 mt-md-0" onClick={()=>(history('/MyPageEditThree'),window.scrollTo({top:0,behavior:'instant'}))}>
                   登録を変更する{" "}
                 </button>
    
@@ -113,7 +113,7 @@ export default function Edit_page_two({ prev, next }) {
                 </button>
               </div>
               <div className="col-md-12 px-0 col-lg-4 editPageLsttBotton">
-                <button className="editEDE_red " onClick={() => (next(),window.scrollTo(0,0))}>
+                <button className="editEDE_red " onClick={() => (next(),window.scrollTo({top:0,behavior:'instant'}))}>
                 続ける{" "}
                 </button>
               </div>{" "}

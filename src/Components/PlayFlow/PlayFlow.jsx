@@ -24,7 +24,7 @@ function PlayFlow() {
                             <img src={flowStepOne} alt="#" className='flowImmg' />
                             <div>
                             <button className='stp1Button mt-2' >ステップ1</button>
-                            <h4 className='joinFree forred mt-4' onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))} >無料会員登録</h4>
+                            <h4 className='joinFree forred mt-4' onClick={()=>(history('/RegisterationTab'),window.scrollTo({top:0,behavior:'instant'}))} >無料会員登録</h4>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ function PlayFlow() {
         </div>
 
         <div className='mt-5 d-flex justify-content-center pb-5'>
-           <button className='lastBtnn' onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>ウェブガチャ一覧はコチラ</button>
+           <button className='lastBtnn' onClick={()=>(history('/ListOTaprize'),window.scrollTo({top:0,behavior:'instant'}))}>ウェブガチャ一覧はコチラ</button>
         </div>
 
       </div>

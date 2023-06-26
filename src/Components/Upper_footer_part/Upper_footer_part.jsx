@@ -16,11 +16,11 @@ export default function Upper_footer_part() {
     <div className="container pt-3 pt-md-5 pb-5">
     <div className="d-flex gap-4 justify-content-center hgh9 ">
         <div className="">
-    <button className=' upper_footer_main_button me-3 me-md-0 ' onClick={()=>(history('/ContactUs'),window.scrollTo(0,0))}>お問い合わせ</button>
+    <button className=' upper_footer_main_button me-3 me-md-0 ' onClick={()=>(history('/ContactUs'),window.scrollTo({top:0,behavior:'instant'}))}>お問い合わせ</button>
 
         </div>
         <div className="">
-    <button className=' upper_footer_main_red_button hggt' onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))}>ウェブガチャ一覧はコチラ</button>
+    <button className=' upper_footer_main_red_button hggt' onClick={()=>(history('/ListOTaprize'),window.scrollTo({top:0,behavior:'instant'}))}>ウェブガチャ一覧はコチラ</button>
 
         </div>
     </div>

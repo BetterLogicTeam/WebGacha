@@ -51,7 +51,7 @@ function List_of_Results() {
           </div>
         </div>
         <div className="List_of_Results_btttn">
-          <button onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))} > <span className="word_color ">  戻る  </span>  </button>
+          <button onClick={()=>(history('/ListOTaprize'),window.scrollTo({top:0,behavior:'instant'}))} > <span className="word_color ">  戻る  </span>  </button>
         </div>
         
       </div>
