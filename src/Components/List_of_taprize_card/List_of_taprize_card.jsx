@@ -65,7 +65,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
 
 
             <button
-              className="fazol d-block d-md-none "
+              className="fazol d-block d-md-none rdhtgb"
               onClick={() => (
                 history("/TarpizeSingleFullPage", { state: items }),
                 window.scrollTo({top:0,behavior:'instant'})
