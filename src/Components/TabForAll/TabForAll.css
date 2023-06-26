@@ -80,8 +80,9 @@
 
 .css-1wf8b0h-MuiTabs-flexContainer {
     display: flex !important;
-    gap: 1.5rem !important;
+    gap: 26px !important;
 }
+
 
 @media only screen and (max-width:600px) {
 
@@ -91,13 +92,13 @@
         justify-content: center !important;
         /* padding-left: 13px !important; */
         /* padding-right: 0px !important; */
-        gap: 0.8rem !important;
+        gap: 10px !important;
 
     }
 
     .css-1l4w6pd {
         display: flex !important;
-        gap: 1.5rem !important;
+        gap: 12px !important;
         flex-direction: column !important;
         justify-content: center !important;
 
@@ -137,5 +138,12 @@
         border-radius: 50px !important;
         width: 23% !important;
         transition: 1s;
+    }
+}
+
+@media (min-width:770px) and (min-width:1024px) {
+    .css-1wf8b0h-MuiTabs-flexContainer {
+        display: flex !important;
+        gap: 24px !important;
     }
 }

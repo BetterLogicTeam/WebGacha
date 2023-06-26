@@ -46,6 +46,15 @@
   color: #000e31;
 }
 
+.tprxTxtt{
+  margin-bottom: 0px !important;
+}
+
+.txCnt{
+  display: flex !important;
+  align-items: center !important;
+}
+
 @media only screen and (max-width: 700px) {
   .T_p {
     font-weight: 500 !important;
