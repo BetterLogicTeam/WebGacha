@@ -146,7 +146,7 @@ export default function Tarpize_single({ location }) {
                   </div>
 
                   <button
-                    className=" white_button BdrRdiS"
+                    className=" snlstWhite BdrRdiS"
                     onClick={() => history("/PurchaseTab")}
                   >
                     購入する - 1回660円(税込)
@@ -156,7 +156,7 @@ export default function Tarpize_single({ location }) {
               <div className="row align-items-center  my-3">
                 <div className="col-md-9">
                   <button
-                    className=" red_button  exRDB abbc"
+                    className=" snlstTen  exRDB abbc"
                     onClick={() => history("/PurchaseTab")}
                   >
                     {" "}
