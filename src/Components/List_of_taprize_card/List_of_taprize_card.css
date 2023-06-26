@@ -1,3 +1,4 @@
+
 .listCrd_fst_txt {
   color: #020140;
   font-size: 20px;
@@ -186,6 +187,21 @@
 
 .innerpadlstriz {
   padding-top: 7px;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:350px) {
+
+
+  .fazolline{
+    border: none;
+    border-radius: 45px;
+    font-weight: 500 !important;
+    padding: 8px 0px;
+    font-size: 15px;
+    width: 100% !important;
+    height: 55PX !important;
+  }
 }
 
 @media only screen and (max-width:700px) {
