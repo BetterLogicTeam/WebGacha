@@ -19,7 +19,7 @@ export default function Taprise_on_sale() {
           <>
             <h1
               style={{ cursor: "pointer" }}
-              onClick={() => (history("/ListOTaprize"), window.scrollTo(0, 0))}
+              onClick={() => (history("/ListOTaprize"), window.scrollTo({top:0,behavior:'instant'}))}
             >
               販売中のタップライズ
             </h1>
@@ -96,7 +96,7 @@ export default function Taprise_on_sale() {
             <Link
               to="/ListOTaprize"
               className="text-decoration-none "
-              onClick={() => window.scrollTo(0, 0)}
+              onClick={() => window.scrollTo({top:0,behavior:'instant'})}
             >
               <button className="gacha_Btn gachaAgn gybBBtn ">
                 販売中のタップライズ

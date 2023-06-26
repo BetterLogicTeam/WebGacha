@@ -18,14 +18,14 @@ export default function Main_footer() {
                 <Link
                   to="/ListOTaprize"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks"> タップライズ 一覧</p>
                 </Link>
                 <Link
                   to="/TermOfServices"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">ご利用ガイド</p>
                 </Link>
@@ -33,21 +33,21 @@ export default function Main_footer() {
                 <Link
                   to="/FAQ"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">よくあるご質問</p>
                 </Link>
                 <Link
                   to="/ContactUs"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">お問い合わせ</p>
                 </Link>
                 <Link
                   to="/Login"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">マイアカウント</p>
                 </Link>
@@ -56,14 +56,14 @@ export default function Main_footer() {
                 <Link
                   to="/TermOfServices"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">利用規約</p>
                 </Link>
                 <Link
                   to="/PrivacyPolicy"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">プライバシーポリシー</p>
                 </Link>
@@ -71,7 +71,7 @@ export default function Main_footer() {
                 <Link
                   to="/NotationTable"
                   className="text-decoration-none upper"
-                  onClick={() => window.scrollTo(0, 0)}
+                  onClick={() => window.scrollTo({top:0,behavior:'instant'})}
                 >
                   <p className="footerLnks">特定商取引法に基づく表記</p>
                 </Link>

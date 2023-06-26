@@ -50,9 +50,12 @@ function Confirmataion() {
         <button className='new_red_btn   mb-5'> 送信する </button>
 
       </div>
-      <div className="row justify-content-center d-block d-md-none my-4 gap-4 ">
+      <div className="row justify-content-center d-flex  d-md-none my-4 gap-4 ">
+      <div className='text-center'>
+
         <button className='new_red_btn   mb-3'> 送信する </button>
         <button className='new_white_btn   hgfdf' onClick={()=>history('/ContactUs')} > 戻る</button>
+      </div>
 
       </div>
    </div>

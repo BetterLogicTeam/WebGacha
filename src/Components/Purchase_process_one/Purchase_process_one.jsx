@@ -413,14 +413,14 @@ export default function Purchase_process_one({ next }) {
                 <button
                   className=" nodeB1 atm_white_btn  "
                   onClick={() => (
-                    history("/ListOTaprize"), window.scrollTo(0, 0)
+                    history("/ListOTaprize"), window.scrollTo({top:0,behavior:'instant'})
                   )}
                 >
                   戻る{" "}
                 </button>
                 <button
                   className="atm_red_btn nodeB2  p-0 mt-md-0 mt-2"
-                  onClick={() => (next(), window.scrollTo(0, 0))}
+                  onClick={() => (next(), window.scrollTo({top:0,behavior:'instant'}))}
                 >
                   {" "}
                   購入する{" "}

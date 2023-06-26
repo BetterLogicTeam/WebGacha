@@ -957,7 +957,7 @@ function MyPageEdit_1() {
               <div className="col-lg-4 jisko_right col-md-12">
                 <button
                   onClick={() => (
-                    history("/RegisterationTab"), window.scrollTo(0, 0)
+                    history("/RegisterationTab"), window.scrollTo({top:0,behavior:'instant'})
                   )}
                   className="myPageLastButton_white"
                 >
@@ -969,7 +969,7 @@ function MyPageEdit_1() {
                 <button
                   className="myPageLastButton_red "
                   onClick={() => (
-                    history("/EditPageTwo"), window.scrollTo(0, 0)
+                    history("/EditPageTwo"), window.scrollTo({top:0,behavior:'instant'})
                   )}
                 >
                   確認画面へ

@@ -114,7 +114,7 @@ function ContactUs() {
             <div className="row ">
               <div className="col-md-12 ">
                 <div className="my-4">
-                  <button className="w-100 contact_us_red_button RdRpS" onClick={()=>(history("/ContactUs_Confirmation"),window.scrollTo(0, 0))}> 内容を確認する </button>
+                  <button className="w-100 contact_us_red_button RdRpS" onClick={()=>(history("/ContactUs_Confirmation"),window.scrollTo({top:0,behavior:'instant'}))}> 内容を確認する </button>
                 </div>
               </div>
             </div>

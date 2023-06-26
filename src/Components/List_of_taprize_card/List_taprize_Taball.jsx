@@ -65,7 +65,7 @@ function List_taprize_Taball({ tags_text }) {
                 variant="outlined"
                 shape="rounded"
                 className="paginationBgC"
-                onClick={()=>window.scrollTo(0, 0)}
+                onClick={()=>window.scrollTo({top:0,behavior:'instant'})}
                 
               />
             </Stack>

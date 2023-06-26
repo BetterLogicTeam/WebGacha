@@ -21,7 +21,7 @@ export default function Purchase_Popup_video({
   const myCallback = () =>{
     console.log('Video has ended')
     history("/ListOfResults");
-    window.scrollTo(0, 0)
+    window.scrollTo({top:0,behavior:'instant'})
 
   } 
     

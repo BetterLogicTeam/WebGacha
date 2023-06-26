@@ -17,14 +17,14 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg" className="Nav_bar_Bg  " >
         <Container className="hsfhwjfwjfhw">
           <Link className="hai_tamana" to="/">
-            <Navbar.Brand href="/" className="nav_Responsive" onClick={()=>window.scrollTo(0, 0)}>
+            <Navbar.Brand href="/" className="nav_Responsive" onClick={()=>window.scrollTo({top:0,behavior:'instant'})}>
               <img src={Logog} alt="Navbar_Logo" />
             </Navbar.Brand>
           </Link>
           <div className="main_collapse">
             <button
               className="Navbar_Login_BTN me-3 "
-              onClick={() => (history("/Login"),window.scrollTo(0, 0))}
+              onClick={() => (history("/Login"),window.scrollTo({top:0,behavior:'instant'}))}
             >
               <FaUserAlt />
             </button>
@@ -54,7 +54,7 @@ export default function Header() {
                 <Link
                   to="/ListOTaprize"
                   className="text-decoration-none Nav_bar_Link "
-                  onClick={() => (setCollapse(false),window.scrollTo(0, 0))}
+                  onClick={() => (setCollapse(false),window.scrollTo({top:0,behavior:'instant'}))}
                 >
                   タップライズ 一覧
                 </Link>
@@ -63,7 +63,7 @@ export default function Header() {
                 <Link
                   to="/TermOfServices"
                   className="text-decoration-none Nav_bar_Link "
-                  onClick={() => (setCollapse(false),window.scrollTo(0, 0))}
+                  onClick={() => (setCollapse(false),window.scrollTo({top:0,behavior:'instant'}))}
                 >
                   ご利用ガイド
                 </Link>
@@ -72,7 +72,7 @@ export default function Header() {
                 <Link
                   to="/FAQ"
                   className="text-decoration-none Nav_bar_Link "
-                  onClick={() => (setCollapse(false),window.scrollTo(0, 0))}
+                  onClick={() => (setCollapse(false),window.scrollTo({top:0,behavior:'instant'}))}
                 >
                   よくあるご質問
                 </Link>
@@ -81,13 +81,13 @@ export default function Header() {
                 <Link
                   to="/ContactUs"
                   className="text-decoration-none Nav_bar_Link "
-                  onClick={() => (setCollapse(false),window.scrollTo(0, 0))}
+                  onClick={() => (setCollapse(false),window.scrollTo({top:0,behavior:'instant'}))}
                 >
                   お問い合わせ
                 </Link>
               </Nav.Link>
               <Nav.Link href="#" className="">
-                <Link to="/Login" className="text-decoration-none" onClick={()=>window.scrollTo(0, 0)}>
+                <Link to="/Login" className="text-decoration-none" onClick={()=>window.scrollTo({top:0,behavior:'instant'})}>
                   <button className="Navbar_Login_BTN btn_rep  ">
                     <FaUserAlt /> ログイン
                   </button>

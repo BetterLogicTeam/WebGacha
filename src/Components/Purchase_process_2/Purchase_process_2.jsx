@@ -88,8 +88,8 @@ export default function Purchase_process_2({prev,next}) {
           </div>
         </div>
         <d className="d-flex flex-column flex-md-row  gap-3 justify-content-center mt-5 reg2">
-            <button className="tab_two_white_btn nodeB1" onClick={()=>(prev(),window.scrollTo(0, 0))} >戻る </button>
-            <button className="tab_two_red_btn  nodeB2" onClick={()=>(next(),window.scrollTo(0, 0))} >続ける  </button>
+            <button className="tab_two_white_btn nodeB1" onClick={()=>(prev(),window.scrollTo({top:0,behavior:'instant'}))} >戻る </button>
+            <button className="tab_two_red_btn  nodeB2" onClick={()=>(next(),window.scrollTo({top:0,behavior:'instant'}))} >続ける  </button>
         </d>
       </div>
     </div>

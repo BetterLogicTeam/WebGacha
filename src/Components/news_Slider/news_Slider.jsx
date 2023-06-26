@@ -56,7 +56,7 @@ export default function News_Slider() {
           return (
             <>
               <SwiperSlide className="Rem">
-                <div className="card dko card_slider hvrBx BigScreenslidr" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo(0, 0))}>
+                <div className="card dko card_slider hvrBx BigScreenslidr" onClick={() =>( history(`/TarpizeSingleFullPage`,{state:items}),window.scrollTo({top:0,behavior:'instant'}))}>
                   <img src={items.Image} alt="" width="50%" className="hvrImg" />
                   <div className="row mt-3 p-2 mb-3 crddSldAGN bigmoretxt">
                     <div className="col-lg-3 text-start">

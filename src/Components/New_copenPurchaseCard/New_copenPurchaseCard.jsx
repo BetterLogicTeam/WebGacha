@@ -98,7 +98,7 @@ const New_copenPurchaseCard = () => {
                     <h6 className="mb-0 purchaseAmount">6600円(税込)</h6>
                   </div>
                   <div className="copnNext_link">
-                    <h6 className="lnk_cpn d-flex" onClick={()=>(history("/ShippingStatusDetails"),window.scrollTo(0, 0))}>
+                    <h6 className="lnk_cpn d-flex" onClick={()=>(history("/ShippingStatusDetails"),window.scrollTo({top:0,behavior:'instant'}))}>
                       詳細を見る <AiOutlineRight style={{ fontSize: "18px" }} />
                     </h6>
                   </div>
@@ -180,7 +180,7 @@ const New_copenPurchaseCard = () => {
                     <h6 className="mb-0 purchaseAmount">6600円(税込)</h6>
                   </div>
                   <div className="copnNext_link">
-                    <h6 className="lnk_cpn d-flex" onClick={()=>(history("/ShippingStatusDetails"),window.scrollTo(0, 0))}>
+                    <h6 className="lnk_cpn d-flex" onClick={()=>(history("/ShippingStatusDetails"),window.scrollTo({top:0,behavior:'instant'}))}>
                       詳細を見る <AiOutlineRight style={{ fontSize: "18px" }} />
                     </h6>
                   </div>
@@ -263,7 +263,7 @@ const New_copenPurchaseCard = () => {
                     <h6 className="mb-0 purchaseAmount">6600円(税込)</h6>
                   </div>
                   <div className="copnNext_link">
-                    <h6 className="lnk_cpn d-flex" onClick={()=>(history("/ShippingStatusDetails"),window.scrollTo(0, 0))}>
+                    <h6 className="lnk_cpn d-flex" onClick={()=>(history("/ShippingStatusDetails"),window.scrollTo({top:0,behavior:'instant'}))}>
                       詳細を見る <AiOutlineRight style={{ fontSize: "18px" }} />
                     </h6>
                   </div>

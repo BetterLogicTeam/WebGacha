@@ -1215,7 +1215,7 @@ export default function Register_Step_One() {
                     className=""
                     style={{ color: "#E60058" }}
                     // onClick={() => (
-                    //   history("/TermOfServices"), window.scrollTo(0, 0)
+                    //   history("/TermOfServices"), window.scrollTo({top:0,behavior:'instant'})
                     // )}
                   >
           利用規約に同意します。

@@ -19,7 +19,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
           className="p-2" 
           onClick={() => (
             history(`/TarpizeSingleFullPage`, { state: items }),
-            window.scrollTo(0, 0)
+            window.scrollTo({top:0,behavior:'instant'})
           )}>
           <div className="hvrBx">
           <Card.Img variant="top" src={Image} className="w-100 hvrImg " />
@@ -55,7 +55,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
               className="listCrd_button  "
               onClick={() => (
                 history("/TarpizeSingleFullPage", { state: items }),
-                window.scrollTo(0, 0)
+                window.scrollTo({top:0,behavior:'instant'})
               )}
             >
             
@@ -68,7 +68,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
               className="fazol d-block d-md-none "
               onClick={() => (
                 history("/TarpizeSingleFullPage", { state: items }),
-                window.scrollTo(0, 0)
+                window.scrollTo({top:0,behavior:'instant'})
               )}
             >
       <Favorite />   <span className="fazolline"> お気に入りから外す </span>

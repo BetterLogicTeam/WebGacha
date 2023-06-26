@@ -233,13 +233,13 @@ export default function Purchase_process_1({ next, setsteps }) {
           <div className="d-flex respsss gap-2 justify-content-center mt-5">
             <button
               className=" nodeB1 docomo_btn_page  "
-              onClick={() => (setsteps(1), window.scrollTo(0, 0))}
+              onClick={() => (setsteps(1), window.scrollTo({top:0,behavior:'instant'}))}
             >
               戻る{" "}
             </button>
             <button
               className="reddd_button nodeB2 docomo_btn_page px-0"
-              onClick={() => (next(), window.scrollTo(0, 0))}
+              onClick={() => (next(), window.scrollTo({top:0,behavior:'instant'}))}
             >
               購入する
             </button>

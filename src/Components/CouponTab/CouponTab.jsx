@@ -123,7 +123,7 @@ export default function CouponTab() {
         <TabPanel value={value} index={3}>
           <div className="container favLst">
             <div className="Favorites_list">
-              <h1 className='d-none d-md-block'> お気に入りリスト：企画</h1>
+              <h1 className='d-none d-md-block py-5'> お気に入りリスト：企画</h1>
             </div>
             <div className="row mt-4">
                   
