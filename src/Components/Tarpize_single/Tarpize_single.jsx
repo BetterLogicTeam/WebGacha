@@ -67,9 +67,9 @@ export default function Tarpize_single({ location }) {
                   2023/05/05 (金) 12:00～2023/05/26 (金) 23:59
                 </p>
               </div>
-              <div className="bor_content align-items-center border-none">
-                <p className="text-clr frmlfftr mb-0">数量:</p>
-                <div className="d-flex gap-3 align-items-center inptBtw">
+              <div className="bor_content align-items-center border-none xb1660 ">
+                <p className="text-clr frmlfftr mb-0 doHJ">数量:</p>
+                <div className="d-flex gap-3 quantityUpper align-items-center  inptBtw">
                   <div className="imputdve">
                     <select
                       class="form-select BDMain1 shadow-none" 

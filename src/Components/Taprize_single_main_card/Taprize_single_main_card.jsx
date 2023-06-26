@@ -41,7 +41,7 @@ function Taprize_single_main_card() {
                       <h6 className="black_heading">特大タオル</h6>
                     </div>
                     <div className="row lstlowwer">
-                      <div className="col-6 lowwerInr">
+                      <div className="col-8 lowwerInr">
                         <div className="lower_content">
                           <p className="mb-1">各賞の当選率</p>
                           <p className="mb-1">1%</p>

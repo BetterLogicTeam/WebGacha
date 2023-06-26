@@ -27,7 +27,7 @@ export default function News_Slider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Navigation, Autoplay]}
+        // modules={[Navigation, Autoplay]}
         breakpoints={{
           425: {
             slidesPerView: 2,

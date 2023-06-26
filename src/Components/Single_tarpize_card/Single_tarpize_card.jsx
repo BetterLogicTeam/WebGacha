@@ -25,11 +25,11 @@ export default function Single_tarpize_card({
         />
         <div className="card_single_content py-2">
           <p className="mb-0">{a1}</p>
-          <p className="mb-0" style={{ color: "#020140" }}>{card_p}</p>
+          <p className="mb-0 cdrrP" style={{ color: "#020140" }}>{card_p}</p>
         </div>
 
         <div className="row lstlowwer">
-          <div className="col-6 lowwerInr">
+          <div className="col-8 lowwerInr">
             <div className="lower_content">
               <p className="mb-1">各賞の当選率</p>
               <p className="mb-1">1%</p>
