@@ -80,7 +80,7 @@ export default function CouponTab() {
               label={
                 <div className="d-flex justify-content-between align-items-center ">
                   <AiOutlineHeart className="me-4 fs-4" />{" "}
-                  <span>お気に入りs</span>
+                  <span>お気に入</span>
                 </div>
               }
               {...a11yProps(3)}
@@ -94,14 +94,17 @@ export default function CouponTab() {
           {second_tab_steps === 1 ? (
             <>
               {" "}
-              <div className="third_Tab ">
+              <div className="third_Tab  text-center ">
                 <h2>
-                  まだ購入はしていません。初めてのガチャポンを買うなら、
+                  まだ購入はしていません。初めてのガチャポンを買うなら、 
                   <span
                     onClick={() => setsecond_tab_steps(2)}
                     style={{ cursor: "pointer" }}
                   >
                     {" "}
+
+<br className="d-lg-none redlinebr "/>
+
                     ウェブガチャ一覧へ。
                   </span>
                 </h2>
@@ -120,14 +123,14 @@ export default function CouponTab() {
         <TabPanel value={value} index={3}>
           <div className="container favLst">
             <div className="Favorites_list">
-              <h1> お気に入りリスト：企画</h1>
+              <h1 className='d-none d-md-block'> お気に入りリスト：企画</h1>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-4">
                   
                   {Data.slice(0,4).map((items, index) => {
             return (
               <>
-                <div className="col-lg-6">
+                <div className="col-lg-6 px-0 px-md-2">
                   <List_of_taprize_card
                     Image={items.Image}
                     Name={items.Name}
