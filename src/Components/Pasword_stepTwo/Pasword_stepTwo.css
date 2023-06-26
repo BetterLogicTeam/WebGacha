@@ -21,6 +21,11 @@
 }
 .passwordStepTwo_bg {
   background: #f2f6ff;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .bordd {
   border-radius: 12px;

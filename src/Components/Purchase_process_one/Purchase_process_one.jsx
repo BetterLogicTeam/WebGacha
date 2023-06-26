@@ -282,7 +282,7 @@ export default function Purchase_process_one({ next }) {
                         ) : (
                           <>
                             <div className="row mt-2 mt-lg-5  justify-content-end ">
-                              <div className="col-md-4 mt-3 col-9 mt-md-0 px-0 px-md-2">
+                              <div className="col-md-4 mt-3 col-9 mt-md-0  px-md-2">
                                 <div
                                   className={
                                     selectedValue1 === "a"
@@ -313,7 +313,7 @@ export default function Purchase_process_one({ next }) {
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-md-4 mt-3 col-9 mt-md-0 px-0 px-md-2">
+                              <div className="col-md-4 mt-3 col-9 mt-md-0  px-md-2">
                                 <div
                                   className={
                                     selectedValue1 === "b"
@@ -344,7 +344,7 @@ export default function Purchase_process_one({ next }) {
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-md-4 mt-3 col-9 mt-md-0 px-0 px-md-2">
+                              <div className="col-md-4 mt-3 col-9 mt-md-0  px-md-2">
                                 <div
                                   className={
                                     selectedValue1 === "c"
@@ -385,7 +385,7 @@ export default function Purchase_process_one({ next }) {
               )}
 
               <div className="row justify-content-center  mt-5">
-                <div className=" px-0 px-md-2  col-md-12 col-lg-9">
+                <div className="  px-md-2  col-md-12 col-lg-9">
                   <div className="purchse_first_Card">
                     <p className="pusrchae_text">クーポン利用 </p>
                     <div className="row">

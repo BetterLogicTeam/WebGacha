@@ -165,34 +165,41 @@ function Shipping_status_Details() {
             </div>
           </div>
 
-              <div className="container">
+          <div className="container">
             <div className="row">
               <div className="col-md-6">
-              <h2 className="text-left left_valy_ka_txt py-5 h1_table_icons">
-            音声ダウンロード特典{" "}
-          </h2>
+                <h2 className="text-left left_valy_ka_txt py-5 h1_table_icons">
+                  音声ダウンロード特典{" "}
+                </h2>
               </div>
               <div className="col-md-6 tabcor_achsg_ka_container">
-              <Box sx={{ width: "100%", marginTop: "2rem" }}>
-        <div className="container">
-        <Box className="">
-          <Tabs
-            // value={value}
-            onChange={handleChange}
-            centered
-            className="tbUper"
-            indicatorColor={false}
-          >
-            <Tab className="tabcor_achsg Coupon_list1" label="クーポン一覧" {...a11yProps(0)} />
-            <Tab className="tabcor_achsg Coupon_list2" label="購入履歴" {...a11yProps(1)} />
-          </Tabs>
-        </Box>
-        </div>
-      </Box>
+                <Box sx={{ width: "100%", marginTop: "2rem" }}>
+                  <div className="container">
+                    <Box className="">
+                      <Tabs
+                        // value={value}
+                        onChange={handleChange}
+                        centered
+                        className="tbUper"
+                        indicatorColor={false}
+                      >
+                        <Tab
+                          className="tabcor_achsg Coupon_list1"
+                          label="クーポン一覧"
+                          {...a11yProps(0)}
+                        />
+                        <Tab
+                          className="tabcor_achsg Coupon_list2"
+                          label="購入履歴"
+                          {...a11yProps(1)}
+                        />
+                      </Tabs>
+                    </Box>
+                  </div>
+                </Box>
               </div>
             </div>
-            </div>
-          
+          </div>
 
           {/* <h1 className="text-center py-5">音声ダウンロード特典</h1> */}
 
@@ -222,49 +229,61 @@ function Shipping_status_Details() {
           <div className="container mobile_vala_stauts">
             <div className="row justify-content-center ">
               <div className="col-6 tableBg  border_table notataion_border p-3">
-                <p> こちらに概要を入力してください。タップライズのスペシャル音声。 </p>
+                <p>
+                  {" "}
+                  こちらに概要を入力してください。タップライズのスペシャル音声。{" "}
+                </p>
               </div>
               <div className="col-3 d-flex justify-content-center tableBg align-items-center  bgtableicon notataion_border p-3">
                 <img src={play_btn} className="mobile_main_img"></img>
               </div>
               <div className="col-3 border_table1 d-flex justify-content-center align-items-center tableBg notataion_border p-3">
-                <img src={icon} className="mobile_main_img"/>
+                <img src={icon} className="mobile_main_img" />
               </div>
             </div>
 
             <div className="row">
               <div className="col-6 border_table2 tableBg   notataion_border p-3">
-                <p> こちらに概要を入力してください。タップライズのスペシャル音声。 </p>
+                <p>
+                  {" "}
+                  こちらに概要を入力してください。タップライズのスペシャル音声。{" "}
+                </p>
               </div>
               <div className="col-3 d-flex justify-content-center align-items-center tableBg bgtableicon  notataion_border p-3">
                 <img src={stop_btn} className="mobile_main_img"></img>
               </div>
               <div className="col-3 border_table3 d-flex justify-content-center align-items-center tableBg notataion_border p-3">
-                <img src={icon}  className="mobile_main_img"/>
+                <img src={icon} className="mobile_main_img" />
               </div>
             </div>
 
             <div className="row">
               <div className="col-6 border_table2 tableBg   notataion_border p-3">
-                <p> こちらに概要を入力してください。タップライズのスペシャル音声。 </p>
+                <p>
+                  {" "}
+                  こちらに概要を入力してください。タップライズのスペシャル音声。{" "}
+                </p>
               </div>
               <div className="col-3 d-flex justify-content-center align-items-center tableBg bgtableicon  notataion_border py-3">
                 <img src={play_btn} className="mobile_main_img"></img>
               </div>
               <div className="col-3 border_table3 d-flex justify-content-center align-items-center tableBg notataion_border py-3">
-                <img src={icon}  className="mobile_main_img"/>
+                <img src={icon} className="mobile_main_img" />
               </div>
             </div>
 
             <div className="row">
               <div className="col-6 border_table2 tableBg   notataion_border p-3">
-                <p> こちらに概要を入力してください。タップライズのスペシャル音声。 </p>
+                <p>
+                  {" "}
+                  こちらに概要を入力してください。タップライズのスペシャル音声。{" "}
+                </p>
               </div>
               <div className="col-3 d-flex justify-content-center align-items-center tableBg bgtableicon  notataion_border py-3">
                 <img src={play_btn} className="mobile_main_img"></img>
               </div>
               <div className="col-3 border_table3 d-flex justify-content-center align-items-center tableBg notataion_border py-3">
-                <img src={icon}  className="mobile_main_img"/>
+                <img src={icon} className="mobile_main_img" />
               </div>
             </div>
           </div>
@@ -290,7 +309,7 @@ function Shipping_status_Details() {
                 <img src={stop_btn}></img>
               </div>
               <div className="col-4 border_table3 d-flex justify-content-center tableBg notataion_border p-3">
-              <button className="Shipping_ka_new_btn">ダウンロード</button>
+                <button className="Shipping_ka_new_btn">ダウンロード</button>
               </div>
             </div>
 
@@ -302,10 +321,10 @@ function Shipping_status_Details() {
                 <img src={play_btn}></img>
               </div>
               <div className="col-4 border_table3 d-flex justify-content-center tableBg notataion_border p-3">
-              <button className="Shipping_ka_new_btn">ダウンロード</button>
+                <button className="Shipping_ka_new_btn">ダウンロード</button>
               </div>
             </div>
-            
+
             <div className="row">
               <div className="col-6 border_table2 tableBg new_fntt  notataion_border p-3">
                 <p> No.4 </p>
@@ -314,7 +333,7 @@ function Shipping_status_Details() {
                 <img src={play_btn}></img>
               </div>
               <div className="col-4 border_table3 d-flex justify-content-center tableBg notataion_border p-3">
-              <button className="Shipping_ka_new_btn">ダウンロード</button>
+                <button className="Shipping_ka_new_btn">ダウンロード</button>
               </div>
             </div>
           </div>

@@ -16,6 +16,8 @@ function MyPageEdit_1() {
   const [selectedValue, setSelectedValue] = React.useState("a");
   const [selectedValue1, setSelectedValue1] = React.useState("a");
   const [selectedValue2, setSelectedValue2] = React.useState("a");
+  const [selectedValue3, setSelectedValue3] = React.useState("a");
+
 
   const handleChange = (event) => {
     setSelectedValue(event.target.value);
@@ -25,6 +27,9 @@ function MyPageEdit_1() {
   };
   const handleChange2 = (event) => {
     setSelectedValue2(event.target.value);
+  };
+  const handleChange3 = (event) => {
+    setSelectedValue3(event.target.value);
   };
 
   const onChange = (e) => {
@@ -884,14 +889,14 @@ function MyPageEdit_1() {
                 <div className="col-lg-6">
                   <div
                     className={
-                      selectedValue2 === "a" ? "left_in9 left_in1" : "left_in9"
+                      selectedValue3 === "a" ? "left_in9 left_in1" : "left_in9"
                     }
                   >
                     <div className="d-flex  align-items-center">
                       <Radio
                         name="purc"
-                        checked={selectedValue2 === "a"}
-                        onChange={handleChange2}
+                        checked={selectedValue3 === "a"}
+                        onChange={handleChange3}
                         value="a"
                         inputProps={{ "aria-label": "a" }}
                         sx={{
@@ -903,7 +908,7 @@ function MyPageEdit_1() {
                       />
                       <FormLabel
                         className={
-                          selectedValue2 === "a"
+                          selectedValue3 === "a"
                             ? "purc_nam clr_chhha"
                             : "purc_nam "
                         }
@@ -917,14 +922,14 @@ function MyPageEdit_1() {
                 <div className="col-lg-6">
                   <div
                     className={
-                      selectedValue2 === "b" ? "left_in9 left_in1" : "left_in9"
+                      selectedValue3 === "b" ? "left_in9 left_in1" : "left_in9"
                     }
                   >
                     <div className="d-flex  align-items-center">
                       <Radio
                         name="purc"
-                        checked={selectedValue2 === "b"}
-                        onChange={handleChange2}
+                        checked={selectedValue3 === "b"}
+                        onChange={handleChange3}
                         value="b"
                         inputProps={{ "aria-label": "b" }}
                         sx={{
@@ -936,7 +941,7 @@ function MyPageEdit_1() {
                       />
                       <FormLabel
                         className={
-                          selectedValue2 === "b"
+                          selectedValue3 === "b"
                             ? "purc_nam clr_chhha"
                             : "purc_nam "
                         }
