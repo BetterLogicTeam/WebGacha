@@ -162,3 +162,16 @@
   font-size: 35px !important;
 }
   }
+
+
+
+
+  @media only screen and (min-width:2300px){
+    .term_of_serivrssf{
+      height: 76vh !important;
+      /* display: flex; */
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+    }
+  }

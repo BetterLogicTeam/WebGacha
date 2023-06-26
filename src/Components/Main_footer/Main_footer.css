@@ -122,3 +122,15 @@ h2,h3,h4,h5,h6,p,span,li{
         margin-left: 50px !important;
     } 
 }
+
+
+
+
+
+
+@media only screen and (min-width:1440px) {
+    .widthkl_for_upper{
+        max-width: 1320px !important;
+    }
+    
+}

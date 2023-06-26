@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Main_footer() {
   return (
     <div className="main_footer_bg">
-      <div className="container-fluid">
+      <div className="container-fluid widthkl_for_upper">
         <div className="row footer_aling">
           <div className="col-md-5 footerLftsideupper">
             <img src={logo} alt="" className="footerLftside" />
