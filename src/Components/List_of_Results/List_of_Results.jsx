@@ -11,6 +11,7 @@ import image_88 from "../Assets/Taprize materials/image_88.png";
 import image_10 from "../Assets/Taprize materials/image_10.png";
 import List_of_Results_Card from "../List_of_Results_Card/List_of_Results_Card";
 import { useNavigate } from "react-router-dom";
+import New_com_done from "../New_com_done/New_com_done";
 
 function List_of_Results() {
   const history=useNavigate()
@@ -50,11 +51,32 @@ function List_of_Results() {
             <List_of_Results_Card image={image_8} />
           </div>
         </div>
-        <div className="List_of_Results_btttn">
+        {/* <div className="List_of_Results_btttn">
           <button onClick={()=>(history('/ListOTaprize'),window.scrollTo(0,0))} > <span className="word_color ">  戻る  </span>  </button>
-        </div>
+        </div> */}
         
       </div>
+
+
+
+{/* new component */}
+
+<New_com_done/>
+<div className="container">
+  <div className="row mt-3 mx-1 justify-content-center">
+  <div className="col-md-4 mt-3 mt-md-0">
+    <button className="new_bjnkjsn">商品一覧へ戻る</button>
+  </div>
+  <div className="col-md-4 mt-3 mt-md-0 text-center  ">
+    <button className="new_bjnkjsn">もう一度購入</button>
+  </div>
+  <div className="col-md-4 mt-3 mt-md-0 text-center text-md-end">
+    <button className="new_bjnkjsn">コレクションへ</button>
+  </div>
+  </div>
+</div>
+
+     
     </div>
   );
 }

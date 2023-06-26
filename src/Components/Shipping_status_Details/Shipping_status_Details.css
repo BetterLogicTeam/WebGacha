@@ -110,15 +110,23 @@ font-weight: 400;
     .Shipping_ka_new_btn{
     padding: 12px 20px;
     }
+
+    
+}
+
+@media screen and (max-width: 350px) {
+    .T_ppRes{
+        font-size: 2px !important;
+    }
 }
 
 .tabcor_achsg{
     color: #2d3b5d !important;
     font-size: 16px !important;
     font-weight: 700 !important;
-    background: #2d3b5d !important;
+    /* background: #2d3b5d ; */
     line-height: 19px;
-    background-color: #ffffff !important;
+
     border-radius: 50px !important;
     width: 45% !important;
     transition: 1s;
