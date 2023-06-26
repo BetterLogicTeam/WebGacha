@@ -214,8 +214,8 @@ export default function Purchase_process_one({ next }) {
                           </>
                         ) : (
                           <>
-                            <div className="row mt-5">
-                              <div className="col-md-4 mt-3 mt-md-0">
+                            <div className="row mt-2 mt-lg-5  justify-content-end ">
+                              <div className="col-md-4 mt-3 col-9 mt-md-0 px-0 px-md-2">
                                 <div
                                   className={
                                     selectedValue1 === "a"
@@ -246,7 +246,7 @@ export default function Purchase_process_one({ next }) {
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-md-4 mt-3 mt-md-0">
+                              <div className="col-md-4 mt-3 col-9 mt-md-0 px-0 px-md-2">
                                 <div
                                   className={
                                     selectedValue1 === "b"
@@ -277,7 +277,7 @@ export default function Purchase_process_one({ next }) {
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-md-4 mt-3 mt-md-0">
+                              <div className="col-md-4 mt-3 col-9 mt-md-0 px-0 px-md-2">
                                 <div
                                   className={
                                     selectedValue1 === "c"

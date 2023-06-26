@@ -166,3 +166,8 @@ color: #fff !important;
         /* margin-left: 1rem; */
     }
 }
+
+.ant-steps-item-container>.ant-steps-item-tail {
+    
+    display: none !important;
+}
