@@ -35,8 +35,29 @@
 }
 
 
+@media only screen and (min-width:425px) and (max-width:450px) {
+
+    .redlinebr{
+        display: none !important;
+        line-height: 155% !important;
+    }
+
+}
+
 @media only screen and (min-width:300px) and (max-width:450px) {
 
+   
+
+    .third_Tab h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 155%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #020140;
+
+    }
     .third_Tab{
         height: 60vh !important;
         display: flex;

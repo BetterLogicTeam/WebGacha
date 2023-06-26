@@ -94,14 +94,17 @@ export default function CouponTab() {
           {second_tab_steps === 1 ? (
             <>
               {" "}
-              <div className="third_Tab ">
+              <div className="third_Tab  text-center ">
                 <h2>
-                  まだ購入はしていません。初めてのガチャポンを買うなら、
+                  まだ購入はしていません。初めてのガチャポンを買うなら、 
                   <span
                     onClick={() => setsecond_tab_steps(2)}
                     style={{ cursor: "pointer" }}
                   >
                     {" "}
+
+<br className="d-lg-none redlinebr "/>
+
                     ウェブガチャ一覧へ。
                   </span>
                 </h2>

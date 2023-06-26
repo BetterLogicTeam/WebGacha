@@ -42,7 +42,7 @@
    
     
 .btn_coupon {
-    background-color: #FFF4B8;
+    background-color: #FFF4B8 !important;
     opacity: 0.72;
     border-radius: 12px;
     width: 162px;
