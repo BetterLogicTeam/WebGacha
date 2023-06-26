@@ -4,7 +4,7 @@ import './MypageCouponContentTwo.css'
 function MypageCouponContentTwo() {
   return (
    
-    <div className="container-fluid MypageCouponContentTwoBg">
+    <div className="container-fluid MypageCouponContentTwoBg px-0">
         <div className="row py-5 px-3 justify-content-center">
             <div className="col-md-6 col-12 p-4 bg-white thisCouponBorder">
 
@@ -28,9 +28,9 @@ function MypageCouponContentTwo() {
                 <div className='d-flex gap-3 justify-content-evenly medi_two_btn nwaha'>
 
 
-                <button className=' white_button  size-btan'> バック   </button>
+                <button className=' whi_btn  size-btan '>バック  </button>
 
-                <button className=' red_button down_btn '>  取得する</button>
+                <button className=' rd_btn down_btn '>  取得する</button>
                 </div>
             </div>
         </div>

@@ -58,7 +58,9 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
                 window.scrollTo(0, 0)
               )}
             >
-              販売中のタップライズ
+            
+                販売中のタップライズ
+
             </button>
 
 
@@ -69,7 +71,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
                 window.scrollTo(0, 0)
               )}
             >
-      <Favorite />  お気に入りから外す
+      <Favorite />   <span className="fazolline"> お気に入りから外す </span>
             </button>
             <div className="like_hrt ">
               <Checkbox

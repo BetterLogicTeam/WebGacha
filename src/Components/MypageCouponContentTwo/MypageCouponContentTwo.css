@@ -1,3 +1,30 @@
+.rd_btn {
+    color: #ffffff;
+    background-color: #e60058 !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 15px !important;
+    width: 100% !important;
+    border-radius: 45px;
+    border: 1px solid #e60058;
+}
+
+.whi_btn{
+    color: #e60058;
+    background-color:  #ffffff!important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 15px !important;
+    width: 100% !important;
+    border-radius: 45px;
+    border: 1px solid #e60058;
+}
+
+
 .size-btan{
     color: #e60058;
     text-align: center;
