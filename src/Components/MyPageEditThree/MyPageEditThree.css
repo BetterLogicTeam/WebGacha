@@ -12,9 +12,9 @@
     background: #E60058;
 border: 1px solid #FFFFFF;
 border-radius: 45px;
-padding: 10px 15px !important;
+padding: 16px 15px !important;
 color: white !important;
-width: 100% !important;
+width: 59% !important;
 }
 .editPage_p{
     font-style: normal;
@@ -34,13 +34,26 @@ color: #020140;
         font-size: 26px !important;
 }
 
-.red_button{
-    background: #E60058;
-border: 1px solid #FFFFFF;
-border-radius: 45px;
-padding: 18px 15px !important;
-color: white !important;
-width: 100% !important;
 }
 
+@media screen and (max-width: 950px) {
+    .red_button{
+        background: #E60058;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    padding: 15px 15px !important;
+    color: white !important;
+    width: 100% !important;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1100px) {
+    .red_button{
+        background: #E60058;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    padding: 15px 15px !important;
+    color: white !important;
+    width: 90% !important;
+    }
 }

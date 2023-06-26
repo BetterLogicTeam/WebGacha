@@ -77,6 +77,24 @@ line-height: 140%;
 color: #E60058 !important;
 }
 
+.Shipping_ka_new_btn{
+    font-family: 'Noto Sans JP', sans-serif;
+font-style: normal;
+font-weight: 500 !important;
+font-size: 16px !important;
+padding: 12px 70px;
+border-radius: 36px;
+border: none;
+color: white;
+background-color: #E60058 !important;
+}
+
+.new_fntt p{
+    font-family: Barlow !important;
+font-style: italic !important;
+font-weight: 400;
+}
+
 .Shipping_status_Details table{
     background: white;
 }
@@ -88,6 +106,62 @@ color: #E60058 !important;
         font-weight: 600 !important;
         font-size: 15px !important;
     }
+
+    .Shipping_ka_new_btn{
+    padding: 12px 20px;
+    }
+}
+
+.tabcor_achsg{
+    color: #2d3b5d !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    background: #2d3b5d !important;
+    line-height: 19px;
+    background-color: #ffffff !important;
+    border-radius: 50px !important;
+    width: 45% !important;
+    transition: 1s;
+}
+
+@media screen and (max-width: 850px) {
+    .desktop_vala_stauts{
+        display: none !important;
+    }
+
+    .mobile_main_img{
+        width: 50px !important;
+        height: 40px !important;
+    }
+
+    
+}
+
+@media screen and (max-width: 550px) {
+    .left_valy_ka_txt{
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+
+    .tabcor_achsg{
+        width: 100% !important;
+    }
+
+    .tabcor_achsg_ka_container{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 10000px) {
+    .mobile_vala_stauts{
+        display: none !important;
+    }
 }
 
 
+
+/* .tabcor_achsg .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    max-width: 269px !important;
+    min-width: 90px;
+    min-height: 58px;
+} */

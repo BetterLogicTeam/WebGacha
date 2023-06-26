@@ -25,7 +25,7 @@
 
 .copnCrdDetal {
   margin-top: 17px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 12px;
   line-height: 140%;
   color: #020140;
@@ -65,13 +65,6 @@
   display: flex;
   align-items: center;
 }
-
-/* .copnPicUpperrMain {
-  padding-left: 0px;
-}
-.copen_card_priceUpperr {
-  padding-right: 0px;
-} */
 
 .orderTitle {
   color: #020140;

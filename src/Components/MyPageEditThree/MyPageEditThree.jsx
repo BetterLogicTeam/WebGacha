@@ -13,7 +13,7 @@ function MyPageEditThree() {
             お客様の会員情報の変更を受け付けました。 <br />
             引き続きウェブガチャをご利用ください。
           </p>
-          <div className="py-3">
+          <div className="py-3 d-flex justify-content-center">
             <button className="red_button" onClick={()=>(history('/CouponTab'),window.scrollTo(0,0))}> マイページTOPへ</button>
           </div>
         </div>

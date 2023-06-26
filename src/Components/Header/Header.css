@@ -163,3 +163,9 @@
 .swiper-slide {
     background-color: transparent !important;
 }
+
+@media screen and (max-width: 550px) {
+    .nav_Responsive img{
+        width: 70% !important;
+    }
+}

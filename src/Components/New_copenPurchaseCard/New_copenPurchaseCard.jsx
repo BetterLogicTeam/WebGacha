@@ -104,6 +104,8 @@ const New_copenPurchaseCard = () => {
                   </div>
                 </div>
               </div>
+
+              <hr />
             </>
           );
         })}
@@ -117,6 +119,7 @@ const New_copenPurchaseCard = () => {
           border: "1px solid #D2E9FF",
         }}
       >
+        {/* ............................................................. */}
         <div className="row firstRw">
           <div className="col-lg-6">
             <div className="d-flex justify-content-between pe-0 pe-md-3">
@@ -127,6 +130,18 @@ const New_copenPurchaseCard = () => {
               <div className="Purchase_fld">
                 <h5 className="orderTitle">購入日：</h5>
                 <div className="orderDetails">2023/04/20</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-6 nichewl">
+            <div className="d-flex justify-content-between ps-0 ps-md-3">
+              <div className="Purchase_fld">
+                <h5 className="orderTitle">合計金額：</h5>
+                <div className="orderDetails">22600円(税込)</div>
+              </div>
+              <div>
+                <button className="newCpnBlubbtn">発送準備中</button>
               </div>
             </div>
           </div>

@@ -602,13 +602,13 @@ function MyPageEdit_1() {
                         <Form.Control
                           type="email"
                           placeholder=""
-                          className="Fld"
+                          className="Fld RegisterPHcolor2"
                         />
                       </Form.Group>
                     </Form>
                   </div>
                   <div className="col-lg-6 text-start fld2Upper">
-                    <p className="mb-0 maildetail">
+                    <p className="mb-0 maildetail ">
                       {" "}
                       <span className="star_clr2"> * </span>{" "}
                       ドメイン指定受信をご利用の場合は、「@zenco.co.jp」からのメールが受信できるよう設定を行ってください。
@@ -865,9 +865,96 @@ function MyPageEdit_1() {
             </div>
           </div>
 
+          <div
+            className="col-lg-8 py-3  mt-5"
+            style={{
+              backgroundColor: "#FFFFFF",
+              borderRadius: "12px",
+              padding: "32px 30px",
+            }}
+          >
+            <h3 className="nameTitle"> クーポン利用</h3>
+            <div className="row justify-content-center py-2 mt-3">
+              <div className="Register_ant">
+                {/* <Radio.Group
+                  onChange={onChange2}
+                  value={value3}
+                  className="radio_group"
+                > */}
+                <div className="col-lg-6">
+                  <div
+                    className={
+                      selectedValue2 === "a" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue2 === "a"}
+                        onChange={handleChange2}
+                        value="a"
+                        inputProps={{ "aria-label": "a" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue2 === "a"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        利用しない
+                      </FormLabel>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div
+                    className={
+                      selectedValue2 === "b" ? "left_in9 left_in1" : "left_in9"
+                    }
+                  >
+                    <div className="d-flex  align-items-center">
+                      <Radio
+                        name="purc"
+                        checked={selectedValue2 === "b"}
+                        onChange={handleChange2}
+                        value="b"
+                        inputProps={{ "aria-label": "b" }}
+                        sx={{
+                          color: "#2EB3FF",
+                          "& .MuiSvgIcon-root": {
+                            fontSize: 28,
+                          },
+                        }}
+                      />
+                      <FormLabel
+                        className={
+                          selectedValue2 === "b"
+                            ? "purc_nam clr_chhha"
+                            : "purc_nam "
+                        }
+                        id="purc"
+                      >
+                        利用する
+                      </FormLabel>
+                    </div>
+                  </div>
+                </div>
+                {/* </Radio.Group> */}
+              </div>
+            </div>
+          </div>
+
           <div className="col-lg-8 mt-5">
-            <div className="row justify-content-center">
-              <div className="col-lg-5 col-md-12">
+            <div className="row btnnno_vali_row justify-content-center">
+              <div className="col-lg-4 jisko_right col-md-12">
                 <button
                   onClick={() => (
                     history("/RegisterationTab"), window.scrollTo(0, 0)
@@ -878,7 +965,7 @@ function MyPageEdit_1() {
                   バック
                 </button>
               </div>
-              <div className="col-lg-5 col-md-12 mt-3 mt-lg-0 fld2Upper">
+              <div className="col-lg-4 col-md-12 mt-3 mt-lg-0 fld2Upper">
                 <button
                   className="myPageLastButton_red "
                   onClick={() => (

@@ -44,6 +44,7 @@
 
 .classs_edit_textkadk {
     font-weight: 500;
+    font-size: 12px;
 }
 
 .Fld:focus {
@@ -105,8 +106,13 @@
     color: #ffffff;
 }
 
+.jisko_right{
+    /* display: flex; */
+    float: right !important;
+}
+
 .maildetail {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -202,4 +208,10 @@
         margin-top: 15px;
     }
 
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+    .myPageLastButton_white, .myPageLastButton_red {
+        width: 195px;
+    }
 }
