@@ -9,7 +9,7 @@ function Pasword_stepTwo() {
     <div className="passwordStepTwo_bg">
     <div className="container passwordStepTwo_bg ">
       <div className="row justify-content-center">
-        <div className="col-12 px-2 col-md-5  py-5  ">
+        <div className="col-12 px-2 col-md-6  py-5  ">
           <div className="bg-white py-5 px-4 bordd">
             <h3 className="passtpTwo_h3">パスワード再設定 申請完了</h3>
 
