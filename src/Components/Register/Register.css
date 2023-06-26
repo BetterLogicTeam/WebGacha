@@ -560,7 +560,8 @@
 }
 
 .form-control:focus {
-  border-color: transparent !important;
+  border: 1px solid #8ac7ff !important;
+
   box-shadow: none !important;
 }
 
