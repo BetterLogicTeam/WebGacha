@@ -100,3 +100,27 @@ background: #FFFFFF;
 border: 1px solid #E60058;
 border-radius: 45px;
 }
+
+
+
+.new_bjnkjsn{
+  text-align: center;
+/* Body */
+font-size: 16px;
+font-family: Noto Sans JP;
+line-height: 140%;
+color: #E60058;
+border: 1px solid #E60058;
+width: 318px;
+height: 55px; 
+border-radius: 45px;
+background-color: #fff !important;
+}
+
+
+
+@media only screen  and (max-width:600px){
+  .new_bjnkjsn{
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,31 @@
+.blck_tblsk{
+    background-color: #D8D8D8 !important;
+}
+.Coupon_list145.Mui-selected{
+    background-color: #2EB3FF !important;
+    color: #fff !important;
+}
+.Coupon_list245.Mui-selected{
+    background-color: #D8D8D8 !important;
+    color: #fff !important;
+
+}
+.Coupon_list245{
+    background-color: #fff !important;
+}
+.Coupon_list145{
+    background-color: #fff !important;
+}
+
+.tabcor_achsg_ka_container .css-1v2sggx{
+    margin-top: 0px !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+
+    .tabcor_achsg_ka_container .css-1v2sggx{
+        margin-top:2rem  !important;
+    }
+}
