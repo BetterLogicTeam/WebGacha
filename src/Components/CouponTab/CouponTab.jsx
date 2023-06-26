@@ -130,7 +130,7 @@ export default function CouponTab() {
                   {Data.slice(0,4).map((items, index) => {
             return (
               <>
-                <div className="col-lg-6 px-0">
+                <div className="col-lg-6 px-0 px-md-2">
                   <List_of_taprize_card
                     Image={items.Image}
                     Name={items.Name}
