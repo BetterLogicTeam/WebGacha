@@ -22,6 +22,12 @@
     width: 95% !important;
 }
 
+@media only screen and (max-width:320px) {
+    .cdrrP{
+        font-size: 15px !important;
+    }
+}
+
 @media only screen and (max-width:600px) {
     .card_single_content {
         font-weight: 600 !important;

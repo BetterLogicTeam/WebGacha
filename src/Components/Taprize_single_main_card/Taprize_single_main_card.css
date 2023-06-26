@@ -48,6 +48,24 @@
     }
 } */
 
+@media only screen and (max-width:320px) {
+  .blue_heading {
+    font-size: 12px !important;
+    font-weight: 500;
+}
+
+.black_heading {
+  font-weight: 500;
+  font-size: 12px !important;
+}
+
+.lower_content > p {
+  font-size: 12px !important;
+  font-weight: 500;
+}
+
+}
+
 @media only screen and (max-width: 700px) {
   .tarpize_single_main_carrd {
     display: flex !important;
