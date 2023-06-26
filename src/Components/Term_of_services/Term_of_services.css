@@ -12,7 +12,10 @@
 
 .term_of_serivrssf{
   background: #F2F6FF;
-  padding: 24px 15px 50px 15px !important;
+  padding-top:24px; 
+  padding-bottom:24px;
+  padding-left: 15px;
+  padding-right: 15px !important; 
 }
 
 .scroll_text {
@@ -154,7 +157,7 @@
 
 
 
-  @media only screen and (min-width:700px) and (max-width:999px){
+  @media only screen and (min-width:700px) and (max-width:1170px){
 .privacyTitleMainaga {
   font-size: 35px !important;
 }

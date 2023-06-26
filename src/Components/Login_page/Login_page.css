@@ -160,7 +160,7 @@ input[type="checkbox"] {
 
   .left_side_p {
     font-weight: 590 !important;
-    font-size: 19px !important;
+    font-size: 15px !important;
   }
   .new_member > h2 {
     font-size: 24px !important;
@@ -211,4 +211,14 @@ input[type="checkbox"] {
     justify-content: center;
     align-items: center;
   } */
+}
+
+
+@media only screen and (min-width:2300px){
+  .main_login_page{
+    height: 74vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }

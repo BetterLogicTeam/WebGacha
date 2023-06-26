@@ -1,6 +1,12 @@
 .confirmation_bg{
     background-color: #F2F6FF;
+    padding-bottom: 30px !important;
     /* padding: 10px !important; */
+}
+
+
+.csjjidh{
+    font-weight: 600;
 }
 .new_white_btn{
 
@@ -69,7 +75,7 @@ font-size: 17px !important;
 }
 .hjhj{
     font-weight: 500 !important;
-font-size: 16px !important;
+font-size: 16px ;
 }
 .hj{
 
@@ -102,4 +108,19 @@ font-size: 16px !important;
           height: 55px !important;
         }
 
+  }
+
+
+
+  @media only screen and (max-width:600px){
+    .afjjnkn{
+        font-size: 12px;
+    }
+
+    .ghgh{
+        font-size: 18px !important;
+    }
+    .NwCls{
+        padding: 24px !important;
+    }
   }

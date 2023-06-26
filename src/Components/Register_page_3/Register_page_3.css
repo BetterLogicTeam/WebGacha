@@ -61,5 +61,33 @@ color: #E60058;
     .cople_Rs_ge_btn{
         width: 100% !important;
     }
+    .main_Register_page_3{
+        padding: 24px 0px !important;
+    }
+
+    .h6_text{
+        font-size: 18px !important;
+    }
 }
 
+
+
+
+
+:where(.css-dev-only-do-not-override-k7429z).ant-steps.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item:first-child {
+    margin-right:15px !important ;
+}
+:where(.css-dev-only-do-not-override-k7429z).ant-steps.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item{
+    margin-left: 15px !important;
+}
+
+
+@media only screen  and (max-width:700px){
+    :where(.css-dev-only-do-not-override-k7429z).ant-steps.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item:first-child {
+        margin-right:0px !important ;
+    }
+    :where(.css-dev-only-do-not-override-k7429z).ant-steps.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item{
+        margin-left: 0px !important;
+    }
+    
+}

@@ -4,13 +4,22 @@
      background-repeat: no-repeat;
      padding: 5px 25px !important;
      background-size: cover ;
-     height: 254px !important;
-    border-radius: 24px !important;
+     height: 254px ;
+    /* border-radius: 24px; */
      display: flex;
      justify-content: center;
      align-items: center
 
 
+}
+
+.conforNewcls{
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
+}
+
+
+.no_borde{
+    border-radius: none !important  ;
 }
 .Notation_h1{
 
@@ -51,4 +60,14 @@ padding: 30px 30px !important;
 
 }
 
+
+
+
+@media only screen and (max-width:800px){
+    .bgconfirmationimg{
+        border-radius: 24px !important;
+        height: auto;
+        padding: 25px 0px !important;
+    }
+}
 

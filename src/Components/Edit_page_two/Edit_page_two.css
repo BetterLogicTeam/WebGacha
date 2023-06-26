@@ -6,7 +6,7 @@
 .edit_text {
     font-size: 16px !important;
     color: #020140 !important;
-    font-weight: 600 !important;
+    /* font-weight: 600 !important; */
 }
 
 .edit_textt {
@@ -32,6 +32,9 @@
 @media only screen and (max-width:600px) {
     .editPageLsttBotton {
         margin-top: 1rem !important;
+    }
+    .notataion_border p{
+        font-size: 11px ;
     }
 
     .h6_text {

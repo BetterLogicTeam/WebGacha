@@ -10,7 +10,17 @@
     padding: 15px 10px;
     outline: none ;
     border: none ;
+    height: 55px !important;
     border: 1px solid #8AC7FF !important;
+}
+
+.tex_Aaa{
+    border-radius: 12px;
+    padding: 15px 10px;
+    outline: none ;
+    border: none ;
+
+    border: 1px solid #8AC7FF !important; 
 }
 
 .Contact_P {
@@ -74,3 +84,41 @@
         font-weight: 600 !important;
 }
 }
+
+
+@media only screen and (max-width:350px){
+    .Contact_P{
+        font-size: 10px;
+    }
+  }
+  
+  
+  @media only screen and (min-width:351px) and (max-width:410px) {
+    .Contact_P{
+        font-size: 12px;
+    }
+  }
+  
+  @media only screen and (min-width:411px) and (max-width:699px) {
+    .passtpTwo_h3{
+      font-size: 29px ;
+    }
+  
+  
+  }
+  
+  
+  
+  
+  @media only screen and (min-width:700px) and (max-width:999px){
+    .Contact_P{
+        font-size: 13px;
+    }
+  }
+
+
+  @media only screen and (max-width:600px){
+    .rehsgfhsghwdg{
+        padding: 25px 0px !important;
+    }
+  }

@@ -7,7 +7,9 @@ import { useNavigate } from "react-router-dom";
 function Password_request() {
   const history=useNavigate()
   return (
-    <div className="container-fluid password_bg">
+
+  <div className="password_bg">
+    <div className="container password_bg">
       <div className="row justify-content-center">
         <div className="col-12 col-md-5  my-5 ">
           <div class="py-5 px-4 bg-white password_bor">
@@ -35,6 +37,7 @@ function Password_request() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
