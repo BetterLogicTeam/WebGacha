@@ -9,7 +9,7 @@ export default function Login_page() {
     <div className="main_login_page">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 PDngEnd">
+          <div className="col-md-6 PDngEnd">  
             <div className="input_login_side">
               <h3 className="my-4">ログイン</h3>
               <label className="Login_label" htmlFor="login_first">
@@ -22,7 +22,7 @@ export default function Login_page() {
                 placeholder="Eメール"
                 className="login_page_inputss"
               />
-              <label className="Login_label my-4" htmlFor="login_second">
+              <label className="Login_label mt-3" htmlFor="login_second">
               パスワード
               </label>{" "}
               <br />
@@ -52,7 +52,7 @@ export default function Login_page() {
             <div className="new_member text-center">
               <img src={login_right} className="my-2" alt="" />
               <h2>新規会員登録</h2>
-              <h6 className="mb-4">まだ会員でない方は下記ボタンより会員登録を行ってください</h6>
+              <h6 className="mb-4">まだ会員でない方は下記ボタンより会員登録を行ってく <br className="ajdkkdnd" />ださい</h6>
               
               <button className=" login_white_btn   welU" onClick={()=>(history('/RegisterationTab'),window.scrollTo(0,0))}>新規会員登録</button>
             </div>
