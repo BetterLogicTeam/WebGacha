@@ -40,7 +40,7 @@ function List_taprize_Taball({ tags_text }) {
           {currentTokens.map((items, index) => {
             return (
               <>
-                <div className="col-lg-6 gok">
+                <div className="col-lg-6  gok">
                   <ListOfTaprizeCard
                     Image={items.Image}
                     Name={items.Name}

@@ -13,8 +13,8 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
   const history = useNavigate();
 
   return (
-    <div className="d-flex justify-content-center my-2">
-      <Card style={{ width: "100%", cursor: "pointer" }} className="card_list_of_taprize">
+    <div className="d-flex justify-content-center my-2 ">
+      <Card style={{ width: "100%", cursor: "pointer" }} className="card_list_of_taprize ">
         <div
           className="p-2" 
           onClick={() => (
@@ -48,7 +48,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
         <Card.Body className="paaadankd">
           <Card.Text className="text-start listCrd_fst_txt mb-0 ">{Name}</Card.Text>
           <Card.Text className="text-start listCrd_scnd_txt mb-0 py-4">
-            発売期間 05/ 5(金)～05/26(金)
+            発売期間 05/ 5(金)～05/26(金) 
           </Card.Text>
           <div className="d-flex flex-column flex-md-row gap-3 caerd_heart">
             <button
@@ -59,7 +59,7 @@ function List_of_taprize_card({ Image, tag, Name, items,tags_text }) {
               )}
             >
             
-                販売中のタップライズ
+                販売中のタップライズ 
 
             </button>
 

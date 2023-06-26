@@ -13,7 +13,7 @@ function Notation() {
             
             <h1 className='Notation_titleMain text-white'>
 
-            特定商取引法に基づく表記
+            特定商取引法に  <br className='d-md-none  c'/> 基づく表記
             </h1>
             </div>
         </div>
