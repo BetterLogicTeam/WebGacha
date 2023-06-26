@@ -9,17 +9,17 @@ export default function D_info() {
         <div className="container main_cont mt-4 mt-md-5 mb-5 ">
           <div className=" text-start">
             <div className="row borrrrrrrrr justify-content-center">
-              <div className="col-5 col-md-4 border_table borrrrrrrrr_right tableBg  notataion_border p-3">
-                <p>販売価格</p>
+              <div className="col-5 col-md-4 border_table borrrrrrrrr_right tableBg  notataion_border p-3 txCnt">
+                <p className="tprxTxtt">販売価格</p>
               </div>
-              <div className="col-7  col-md-8 border_table1 notataion_border p-3 tableBg">
-                <p className="T_p">1回660円(税込)</p>
+              <div className="col-7  col-md-8 border_table1 notataion_border p-3 tableBg txCnt">
+                <p className="T_p tprxTxtt">1回660円(税込)</p>
               </div>
             </div>
 
             <div className="row borrrrrrrrr   justify-content-center">
               <div className="col-5 borrrrrrrrr_right tableBg text-start col-md-4  notataion_border p-3">
-                <p> 販売期間</p>
+                <p className="tprxTxtt"> 販売期間</p>
               </div>
               <div className="col-7 col-md-8 tableBg notataion_border p-3">
                 <p className="T_p">
@@ -30,7 +30,7 @@ export default function D_info() {
 
             <div className="row borrrrrrrrr   justify-content-center">
               <div className="col-5 tableBg borrrrrrrrr_right col-md-4 notataion_border p-3">
-                <p> 配送手数料 </p>
+                <p className=""> 配送手数料 </p>
               </div>
               <div className="col-7 col-md-8 tableBg notataion_border p-3">
                 <p className="T_p">
@@ -44,7 +44,7 @@ export default function D_info() {
 
             <div className="row borrrrrrrrr   justify-content-center">
               <div className="col-5 tableBg borrrrrrrrr_right col-md-4 notataion_border p-3">
-                <p>お届け目安</p>
+                <p className="tprxTxtt">お届け目安</p>
               </div>
               <div className="col-7 col-md-8 tableBg notataion_border p-3">
                 <p className="T_p">
@@ -54,7 +54,7 @@ export default function D_info() {
             </div>
             <div className="row  borrrrrrrrr  justify-content-center">
               <div className="col-5 tableBg borrrrrrrrr_right col-md-4 notataion_border p-3">
-                <p>公式サイト</p>
+                <p className="tprxTxtt">公式サイト</p>
               </div>
               <div className="col-7 col-md-8 tableBg notataion_border p-3">
                 <p className="T_p">https://link-example.com/</p>
@@ -62,7 +62,7 @@ export default function D_info() {
             </div>
             <div className="row  borrrrrrrrr  justify-content-center">
               <div className="col-5 border_table2 tableBg borrrrrrrrr_right col-md-4 notataion_border p-3">
-                <p>備考</p>
+                <p className="">備考</p>
               </div>
               <div className="col-7 col-md-8 border_table3 tableBg notataion_border p-3">
                 <p className="T_p">

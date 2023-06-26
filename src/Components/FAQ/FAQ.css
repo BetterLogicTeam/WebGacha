@@ -29,11 +29,9 @@
   font-weight: 600;
   line-height: 19px;
 }
-.first_li a{
+.first_li a {
   color: #fff !important;
   text-decoration: none;
-
-
 }
 
 .first_li {
@@ -47,7 +45,7 @@
   /* margin-top: 10px !important; */
 }
 
-.fqqabl{
+.fqqabl {
   font-size: 16px !important;
 }
 
@@ -110,22 +108,23 @@
 }
 
 .main_heading {
-  font-size: 60px ;
+  font-size: 60px;
   color: #ffffff;
-  font-weight: 600 ;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 700px) {
   .main_faq_img {
-    background-image: url(../Assets/hero3.png);
+    background-image: url(../Assets/FAQ\ hero\ 2x.png);
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    padding: 90px 0px;
+    padding: 76px 0px;
     height: auto !important;
+    border-radius: 12px;
   }
   .main_heading {
-    font-size: 39px ;
+    font-size: 39px;
   }
 
   .veryLsBtn {
@@ -152,59 +151,58 @@
     font-weight: 590 !important;
   }
 
-  .side_bar{
+  .side_bar {
     position: static !important;
   }
-  .nav_scroll{
+  .nav_scroll {
     margin-top: 8rem !important;
   }
 }
 
-
-@media (min-width:766px) and (max-width:992px) {
+@media (min-width: 766px) and (max-width: 992px) {
   .side_bar {
     background: #ffffff;
     /* Blue */
-  
+
     border: 1px solid #2eb3ff;
     border-radius: 12px;
     padding: 10px;
-    max-height: auto !important;
+    max-height: 470px !important;
     position: sticky !important;
   }
-  .link_text_d{
+  .link_text_d {
     padding: 21px 10px !important;
     color: #020140;
     font-size: 13px !important;
     font-weight: 600;
     line-height: 19px;
   }
-  .nav_scroll{
+  .nav_scroll {
     margin-top: 8rem !important;
   }
 }
 
-.link_text_d{
+.link_text_d {
   text-decoration: none;
-  color: #020140
+  color: #020140;
 }
 
-.link_text_d{
+.link_text_d {
   padding: 21px 10px !important;
   color: #020140;
   font-size: 15px;
   font-weight: 600;
   line-height: 19px;
 }
-.nav_scroll{
+.nav_scroll {
   margin-top: 7rem;
 }
 
-.active3{
+.active3 {
   background-color: red;
 }
 
-.link_text{
+.link_text {
   color: #020140;
   text-decoration: none !important;
 }
