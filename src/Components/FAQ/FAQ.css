@@ -50,7 +50,7 @@
 }
 
 .faq_heading {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   color: #020140 !important;
   font-size: 28px !important;
   text-align: start !important;
@@ -61,9 +61,9 @@
 
 .faq_heading_active{
   padding: 0px 10px 25px 0px !important ;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   color: #020140 !important;
-  font-size: 28px !important;
+  font-size: 26px !important;
   text-align: start !important;
 
   margin-bottom: 0px !important;
@@ -110,7 +110,7 @@
 .acc_header button {
   text-transform: uppercase !important;
   font-weight: 600 !important;
-  font-size: 20px !important;
+  font-size: 17px !important;
 }
 
 .acc_text {
@@ -162,8 +162,12 @@
 
   .acc_text {
     font-size: 16px !important;
-    font-weight: 590 !important;
-  }
+    font-weight: 500 !important;
+}
+.link_text {
+  color: #020140;
+  text-decoration: none !important;
+}
 
   
   .nav_scroll {
@@ -233,4 +237,34 @@
 
 .accordion{
   margin: 0 0 !important;
+}
+
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  /* content: ""; */
+  background-image: url('../Assets/Faq_png_vali.png') !important;
+width: 5% !important;
+padding: 0px !important;
+  /* transition: rotate(-0.25turn) !important; */
+}
+
+
+.accordion-button:not(.collapsed)::after {
+  /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e); */
+  transform: rotate(90deg) !important;
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .faq_ul > li{
+    font-size: 13px;
+  }
 }
