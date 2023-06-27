@@ -4,6 +4,8 @@ import Purchase_Popup_video from "../Purchase_Popup_video/Purchase_Popup_video";
 import { useNavigate } from "react-router-dom";
 export default function Purchase_complete({ id }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const pathname = window.location.pathname;
+  console.log("pathname", pathname);
   const showModal = () => {
     setIsModalOpen(true);
   };
@@ -12,9 +14,13 @@ export default function Purchase_complete({ id }) {
     if (id != 1) {
       showModal();
     } else {
-      setInterval(() => {
-        history("/ListOfResults");
-      }, 3000);
+      
+      if (pathname === "/PurchaseTab/1") {
+        setInterval(() => {
+          history("/ListOfResults");
+          window.location.reload(false)
+        }, 3000);
+      }
     }
   }, []);
 
