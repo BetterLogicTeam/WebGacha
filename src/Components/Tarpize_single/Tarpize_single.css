@@ -629,6 +629,10 @@ input::-webkit-inner-spin-button {
 
 
 
-.imputdve .form-select {
+/* .imputdve .form-select {
   background-image: url('../Assets/select_arrow.png');
+} */
+
+.imputdve .form-select {
+  background-image:url(../Assets/drarrr.svg)
 }
