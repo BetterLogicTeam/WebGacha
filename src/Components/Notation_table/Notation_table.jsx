@@ -10,7 +10,8 @@ function Notation_table() {
     <div className="">
 
     <Notation/>
-    <div className="container-fluid bbgg notation_listUpper ">
+    <div className="bbgg">
+    <div className="container-fluid resposfsfo bbgg notation_listUpper ">
       <div className="row justify-content-center mx-0">
         <div className="col-5 tableBg col-md-3  notataion_border p-3 border_mob forNewBrdRds">
           <p className="fwwwwwwwww_ttttt">販売業者</p>
@@ -170,6 +171,7 @@ function Notation_table() {
           <p className="T_p">00-0000-0000</p>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </>

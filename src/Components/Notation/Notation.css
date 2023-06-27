@@ -4,7 +4,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh !important;
+  height: 50vh ;
   border-radius: 20px !important;
   display: flex;
   justify-content: center;
@@ -90,4 +90,21 @@ font-size: 21px !important;
   .Notation_titleMain{
     font-size: 28px !important;
       }
+
+      .notation_listUpper{
+        padding-top: 20px !important;
+      }
+}
+
+
+
+@media only screen and (max-width:990px){
+  .main_ntaa{
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    height: auto !important;
+    padding: 30px 0px !important;
+  }
+  
 }

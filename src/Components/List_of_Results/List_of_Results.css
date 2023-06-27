@@ -124,3 +124,18 @@ background-color: #fff !important;
     width: 100% !important;
   }
 }
+
+
+@media only screen and (min-width:610px) and (max-width:990px){
+  .new_bjnkjsn{
+    width: 100%;
+    margin-top: 15px !important;
+}}
+
+
+
+@media only screen and (min-width:1000px ) and (max-width:1200px){
+  .new_bjnkjsn{
+    width: 282px !important;
+  }
+}
