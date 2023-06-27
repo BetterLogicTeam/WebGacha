@@ -14,6 +14,10 @@
   padding: 6px 30px;
 }
 
+.flowImgUpper{
+  align-items: center !important;
+}
+
 .leftSidebg {
   background-color: #f9fcff;
   border-radius: 12px;
@@ -74,7 +78,7 @@
 }
 
 .flowImmg {
-  width: 25% !important;
+  width: 25%  !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -96,7 +100,7 @@
   }
 
   .flowImmg {
-    width: 35% !important;
+    width: 35% !important ;
   }
 
   .joinDetails {
@@ -140,7 +144,7 @@
   }
 
   .flowImmg {
-    width: 25% !important;
+    width: 25% !important ;
   }
 
   .bluHand {
@@ -175,5 +179,34 @@
 @media (min-width:1440px) and (max-width:2600px) {
   .btwn2{
     display: none !important;
+  }
+}
+
+
+.stepDetailsUpper{
+  justify-content: end !important;
+}
+
+
+
+@media only screen and (min-width:1990px){
+  .flowImmg{
+    width: 220px !important;
+  }
+
+  .flowImgUpper{
+    align-items: start !important;
+  }
+  .k_psp{
+    margin-top: 20px !important;
+  }
+
+  .stepDetailsUpper{
+    justify-content: center !important;
+  }
+
+  .joinDetails{
+    margin-left:12rem !important;
+    margin-top: -4rem !important;
   }
 }

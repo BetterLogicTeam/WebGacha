@@ -56,7 +56,7 @@ export default function FAQ() {
       </div>
       <div className="container pt-2 pt-md-5 my-4">
         <div className="row">
-          <div className="col-md-3 side_bar ">
+          <div className="col-md-4 col-lg-3 side_bar ">
             <ul className="ps-0 faq_ul">
               <li
                 className={Faq_Tab == 0 ? "first_li" : ""}
@@ -143,7 +143,7 @@ export default function FAQ() {
               </li>
             </ul>
           </div>
-          <div className="col-md-9 px-0 px-md-1">
+          <div className="col-md-8 col-lg-9 px-0 px-md-1">
             <div className="container  FrEndPd ">
               <Accordion>
                 <section id="section1">

@@ -7,12 +7,16 @@ export default function Purchase_complete({ id }) {
   const showModal = () => {
     setIsModalOpen(true);
   };
+  const history = useNavigate();
   useEffect(() => {
     if (id != 1) {
       showModal();
+    } else {
+      setInterval(() => {
+        history("/ListOfResults");
+      }, 3000);
     }
   }, []);
-  const history=useNavigate()
 
   return (
     <div className="Purchase_complete_main">
@@ -30,7 +34,7 @@ export default function Purchase_complete({ id }) {
                   <h2>購入完了 </h2>
                   <p>
                     ご購入ありがとうございます！ <br />
-                    <button
+                    {/* <button
                       className="tab_three_btn_only mt-3 "
                       onClick={() => (
                         history("/"),
@@ -38,7 +42,7 @@ export default function Purchase_complete({ id }) {
                       )}
                     >
                   ホームに戻る
-                    </button>
+                    </button> */}
                     {/* 下記ボタンを押すと、プレイ画面へ移します。{" "} */}
                   </p>
                   {/* <div className="d-flex justify-content-center">

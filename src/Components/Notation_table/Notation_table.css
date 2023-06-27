@@ -1,56 +1,65 @@
-.notataion_border{
-    border: 1px solid #D2E9FF;   
+.notataion_border {
+    border: 1px solid #D2E9FF;
 }
 
 
-.notataion_border p{
-    
-font-style: normal;
-font-weight: 600 !important;
-font-size: 16px !important;
-line-height: 140%;
-color: #020140;
-}
-.T_p{
+.notataion_border p {
+
     font-style: normal;
-font-weight: 500 !important;
-font-size: 16px !important;
-line-height: 140%;
-}
-.bbgg{
-    background-color: 
-    #F2F6FF;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 140%;
+    color: #020140;
 }
 
-.forNewBrdRds{
-    border-radius: 12px 0px 0px 0px ;
-}
-.forNewBrdRds_2{
-    border-radius: 0px 12px 0px 0px ;
+.T_p {
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 140%;
 }
 
-.notation_listUpper{
+.bbgg {
+    background-color:
+        #F2F6FF;
+}
+
+.forNewBrdRds {
+    border-radius: 12px 0px 0px 0px;
+}
+
+.forNewBrdRds_2 {
+    border-radius: 0px 12px 0px 0px;
+}
+
+.notation_listUpper {
     padding: 42px 0px 95px 0px;
 }
 
 
-@media only screen and (max-width:700px ){
-    .fwwwwwwwww_ttttt{
+@media only screen and (max-width:700px) {
+    .fwwwwwwwww_ttttt {
         font-weight: 900 !important;
         font-size: 17px !important;
     }
 
-    .notation_listUpper{
+    .notation_listUpper {
         padding: 30px 18px 80px 18px;
     }
 
-   
+
 }
 
 
 
-@media only screen and (min-width:1440px){
-    .resposfsfo{
+@media only screen and (min-width:1440px) {
+    .resposfsfo {
         max-width: 1320px !important;
+    }
+}
+
+@media (min-width:1600px) {
+    .bbgg{
+        /* height: 150vh; */
     }
 }

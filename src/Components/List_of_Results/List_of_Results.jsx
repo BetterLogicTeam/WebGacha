@@ -12,6 +12,7 @@ import image_10 from "../Assets/Taprize materials/image_10.png";
 import List_of_Results_Card from "../List_of_Results_Card/List_of_Results_Card";
 import { useNavigate } from "react-router-dom";
 import New_com_done from "../New_com_done/New_com_done";
+import Data from "../List_of_taprize_card/Data";
 
 function List_of_Results() {
   const history = useNavigate();
@@ -62,13 +63,22 @@ function List_of_Results() {
       <div className="container">
         <div className="row mt-3 mx-1 justify-content-center">
           <div className="col-lg-4 mt-3 mt-md-0">
-            <button className="new_bjnkjsn">商品一覧へ戻る</button>
+            <button   onClick={() => (
+                  history("/ListOTaprize"),
+                  window.scrollTo({ top: 0, behavior: "instant" })
+                )} className="new_bjnkjsn">商品一覧へ戻る</button>
           </div>
           <div className="col-lg-4 mt-3 mt-md-0 text-center  ">
-            <button className="new_bjnkjsn">もう一度購入</button>
+            <button  onClick={() => (
+                   history(`/TarpizeSingleFullPage`, { state: Data[0] }),
+                  window.scrollTo({ top: 0, behavior: "instant" })
+                )}  className="new_bjnkjsn">もう一度購入</button>
           </div>
           <div className="col-lg-4 mt-3 mt-md-0 text-center text-md-end">
-            <button className="new_bjnkjsn">コレクションへ</button>
+            <button onClick={() => (
+                  history("/ListOfResults"),
+                  window.scrollTo({ top: 0, behavior: "instant" })
+                )}  className="new_bjnkjsn">コレクションへ</button>
           </div>
         </div>
       </div>

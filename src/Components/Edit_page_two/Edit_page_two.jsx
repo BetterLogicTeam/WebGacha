@@ -49,7 +49,7 @@ export default function Edit_page_two({ prev, next }) {
 
           <div className="row borrrrrrrrr   justify-content-center">
             <div className="col-4 d-flex align-items-center col-md-3 tableBg borrrrrrrrr_right col-md-2 notataion_border p-3">
-              <p className="mb-0" >性別</p>
+              <p className="mb-0">性別</p>
             </div>
             <div className="col-8 d-flex align-items-center col-md-9 tableBg notataion_border p-3">
               <p className="edit_text mb-0">女性</p>
@@ -95,14 +95,25 @@ export default function Edit_page_two({ prev, next }) {
           {url == "/EditPageTwo" ? (
             <>
               {" "}
-             
-                <button onClick={()=>(history('/MyPageEdit1'),window.scrollTo({top:0,behavior:'instant'}))} className="editED_white"> 戻る</button>
-             
-             
-                <button className="editEDE_red ms-0 ms-md-4 mt-3 mt-md-0" onClick={()=>(history('/MyPageEditThree'),window.scrollTo({top:0,behavior:'instant'}))}>
-                  登録を変更する{" "}
-                </button>
-   
+              <button
+                onClick={() => (
+                  history("/MyPageEdit1"),
+                  window.scrollTo({ top: 0, behavior: "instant" })
+                )}
+                className="editED_white mt-md-4"
+              >
+                {" "}
+                戻る
+              </button>
+              <button
+                className="editEDE_red ms-2  ms-md-1 mt-3 mt-md-4"
+                onClick={() => (
+                  history("/MyPageEditThree"),
+                  window.scrollTo({ top: 0, behavior: "instant" })
+                )}
+              >
+                登録を変更する{" "}
+              </button>
             </>
           ) : (
             <>
@@ -112,9 +123,14 @@ export default function Edit_page_two({ prev, next }) {
                   戻る
                 </button>
               </div>
-              <div className="col-md-12 px-0 col-lg-4 editPageLsttBotton">
-                <button className="editEDE_red " onClick={() => (next(),window.scrollTo({top:0,behavior:'instant'}))}>
-                続ける{" "}
+              <div className="col-md-12 px-0 col-lg-4 mt-lg-2 editPageLsttBotton">
+                <button
+                  className="editEDE_red "
+                  onClick={() => (
+                    next(), window.scrollTo({ top: 0, behavior: "instant" })
+                  )}
+                >
+                  続ける{" "}
                 </button>
               </div>{" "}
             </>

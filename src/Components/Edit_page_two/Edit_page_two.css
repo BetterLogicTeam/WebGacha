@@ -93,3 +93,10 @@
 
     color: #FFFFFF;
 }
+
+
+@media (min-width:1650px) {
+    .edit_main_page{
+        height: 78vh;
+    }
+}

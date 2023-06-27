@@ -92,10 +92,7 @@
 }
 
 @media (min-width:705px) and (max-width:768px) {
-  .blue_heading {
-    font-size: 16px;
-    font-weight: 500;
-  }
+ 
 
   .black_heading {
     font-weight: 500;
@@ -108,5 +105,16 @@
   }
   .lowwerInr{
     width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width:990px){
+  .blue_heading{
+    font-size: 16px !important;
+  }
+
+  .lower_content > p{
+    font-size: 14px !important;
   }
 }
