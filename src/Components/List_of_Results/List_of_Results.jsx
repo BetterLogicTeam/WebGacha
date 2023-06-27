@@ -61,13 +61,13 @@ function List_of_Results() {
       <New_com_done />
       <div className="container">
         <div className="row mt-3 mx-1 justify-content-center">
-          <div className="col-md-4 mt-3 mt-md-0">
+          <div className="col-lg-4 mt-3 mt-md-0">
             <button className="new_bjnkjsn">商品一覧へ戻る</button>
           </div>
-          <div className="col-md-4 mt-3 mt-md-0 text-center  ">
+          <div className="col-lg-4 mt-3 mt-md-0 text-center  ">
             <button className="new_bjnkjsn">もう一度購入</button>
           </div>
-          <div className="col-md-4 mt-3 mt-md-0 text-center text-md-end">
+          <div className="col-lg-4 mt-3 mt-md-0 text-center text-md-end">
             <button className="new_bjnkjsn">コレクションへ</button>
           </div>
         </div>

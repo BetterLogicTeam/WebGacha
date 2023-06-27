@@ -46,3 +46,11 @@ line-height: 140%;
 
    
 }
+
+
+
+@media only screen and (min-width:1440px){
+    .resposfsfo{
+        max-width: 1320px !important;
+    }
+}
