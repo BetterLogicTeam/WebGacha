@@ -292,9 +292,18 @@
 
 
 @media (min-width: 705px) and (max-width: 768px) {
+
+  .circula {
+    width: 100% !important;
+  }
+
+  .wdLGr{
+    width: 83% !important;
+  }
+
   .lftgacHPiC {
-    height: 300px;
-    width: 100%;
+    height: 330px !important;
+    width: 100% !important;
   }
 
   .snlstWhite {
@@ -306,7 +315,7 @@
 }
 
 .inptBtw {
-  width: 60% !important;
+  width: 66% !important;
 }
 
 }

@@ -99,7 +99,7 @@ export default function Tarpize_single({ location }) {
                 </div>
               </div>
               <div className="row align-items-center  my-3">
-                <div className="col-md-9">
+                <div className="col-md-9 wdLGr">
                   <button
                     className=" snlstTen  exRDB abbc"
                     onClick={() => history(`/PurchaseTab/2`)}
