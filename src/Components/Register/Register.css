@@ -577,6 +577,10 @@
   color: #2eb3ff !important;
 }
 
+.padDnD{
+  padding-right: 0px !important;
+}
+
 @media screen and (max-width: 992px) {
   .Register_ant {
     flex-direction: column;
@@ -592,9 +596,6 @@
 }
 
 
-
-
-
 @media only screen and (max-width:350px){
   .p_pink {
     font-size: 15px !important;
@@ -603,6 +604,10 @@
   .resfsjfnwkfkj{
     font-size: 11px !important;
   }
+
+  .padDnD{
+    padding-right: 10px !important;
+  }
 }
 
 
@@ -610,14 +615,24 @@
   .resfsjfnwkfkj{
     font-size: 14px !important;
   }
+  .padDnD{
+    padding-right: 10px !important;
+  }
 }
 @media only screen and (min-width:401px) and (max-width:699px){
   .resfsjfnwkfkj{
     font-size: 16px !important;
   }
+  .padDnD{
+    padding-right: 10px !important;
+  }
+
 }
 @media only screen and (min-width:700px) and (max-width:999px){
   .resfsjfnwkfkj{
     font-size: 18px !important;
+  }
+  .padDnD{
+    padding-right: 10px !important;
   }
 }

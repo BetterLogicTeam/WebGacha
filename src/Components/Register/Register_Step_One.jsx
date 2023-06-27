@@ -468,7 +468,7 @@ export default function Register_Step_One() {
               </div>
 
               <div className="Register_ant row mt-0">
-                <div className="col-lg-6">
+                <div className="col-lg-6 padDnD">
                   <Form.Item
                     label="番地"
                     name="番地"

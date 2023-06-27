@@ -36,7 +36,7 @@ function PlayFlow() {
                 </div>
 
                 <>
-                    <img src={vector2} alt="" className='turnVector btween' />
+                    <img src={vector2} alt="" className='turnVector btween btwn2' />
                 </>
             </div>
 
@@ -81,7 +81,7 @@ function PlayFlow() {
                     </div>
                 </div>
                 <>
-                    <img src={vector2} alt="" className='turnVector btween' />
+                    <img src={vector2} alt="" className='turnVector btween btwn2' />
                 </>
             </div>
 
