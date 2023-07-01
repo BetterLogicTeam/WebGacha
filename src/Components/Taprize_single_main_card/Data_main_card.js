@@ -1,4 +1,4 @@
-import Taprize_single_pic from "../Assets/特賞.jpg";
+import Taprize_single_pic from "../Assets/ptani.jpg";
 import cat from "../Assets/A.png";
 import green from "../Assets/B.png";
 import man from "../Assets/C.png";
