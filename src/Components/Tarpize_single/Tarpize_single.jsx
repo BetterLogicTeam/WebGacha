@@ -36,7 +36,7 @@ export default function Tarpize_single({ location }) {
             <div className="col-md-12 col-lg-7 text-center lftgacHPiCUpEr">
               <img src={location.state.Image} className="lftgacHPiC" alt="" />
             </div>
-            <div className="col-md-12 mt-3 mt-lg-0 col-lg-5">
+            <div className="col-md-12 mt-1 mt-md-3 mt-lg-0 col-lg-5">
               <div className="tarsize_content text-start">
                 <p
                   className="sigleFull1st"
@@ -108,7 +108,7 @@ export default function Tarpize_single({ location }) {
                     10連ガチャ (ボイス付き){" "}
                   </button>
                 </div>
-                <div className="col-md-2 mt-3 mt-md-0">
+                <div className="col-md-2 mt-2 mt-md-0  mt-3 mt-md-0">
                   <div className="circula d-flex justify-content-center align-items-center">
                     <Checkbox
                       {...label}

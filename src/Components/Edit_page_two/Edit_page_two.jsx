@@ -123,7 +123,7 @@ export default function Edit_page_two({ prev, next }) {
                   戻る
                 </button>
               </div>
-              <div className="col-md-12 px-0 col-lg-4 mt-lg-2 editPageLsttBotton">
+              <div className="col-md-12 px-0 col-lg-4 mt-2 mt-md-0 editPageLsttBotton">
                 <button
                   className="editEDE_red "
                   onClick={() => (

@@ -21,13 +21,13 @@ export default function Register_Step_One() {
 
 
   const handleChange = (event) => {
-    setSelectedValue(event.target.value);
+    setSelectedValue(event);
   };
   const handleChange1 = (event) => {
-    setSelectedValue1(event.target.value);
+    setSelectedValue1(event);
   };
   const handleChange2 = (event) => {
-    setSelectedValue2(event.target.value);
+    setSelectedValue2(event);
   };
   const onChange = (e) => {
     // console.log(`checked = ${e.target.checked}`);
@@ -560,60 +560,7 @@ export default function Register_Step_One() {
                     <option value={11}>11</option>
                     <option value={12}>12</option>
                   </select>
-                  {/* <Select
-                    className="BDMain"
-                    defaultValue="1"
-                    options={[
-                      {
-                        value: "1",
-                        label: "1",
-                      },
-                      {
-                        value: "2",
-                        label: "2",
-                      },
-                      {
-                        value: "3",
-                        label: "3",
-                      },
-                      {
-                        value: "4",
-                        label: "4",
-                      },
-                      {
-                        value: "5",
-                        label: "5",
-                      },
-                      {
-                        value: "6",
-                        label: "6",
-                      },
-                      {
-                        value: "7",
-                        label: "7",
-                      },
-                      {
-                        value: "8",
-                        label: "8",
-                      },
-                      {
-                        value: "9",
-                        label: "9",
-                      },
-                      {
-                        value: "10",
-                        label: "10",
-                      },
-                      {
-                        value: "11",
-                        label: "11",
-                      },
-                      {
-                        value: "12",
-                        label: "12",
-                      },
-                    ]}
-                  /> */}
+                 
                 </div>
 
                 <div className="col-lg-3 col-4 bdDateUpper">
@@ -661,161 +608,34 @@ export default function Register_Step_One() {
                     <option value={31}>31</option>
                   </select>
 
-                  {/* <Select
-                    className="BDMain"
-                    defaultValue="1"
-                    options={[
-                      {
-                        value: "1",
-                        label: "1",
-                      },
-                      {
-                        value: "2",
-                        label: "2",
-                      },
-                      {
-                        value: "3",
-                        label: "3",
-                      },
-                      {
-                        value: "4",
-                        label: "4",
-                      },
-                      {
-                        value: "5",
-                        label: "5",
-                      },
-                      {
-                        value: "6",
-                        label: "6",
-                      },
-                      {
-                        value: "7",
-                        label: "7",
-                      },
-                      {
-                        value: "8",
-                        label: "8",
-                      },
-                      {
-                        value: "9",
-                        label: "9",
-                      },
-                      {
-                        value: "10",
-                        label: "10",
-                      },
-                      {
-                        value: "11",
-                        label: "11",
-                      },
-                      {
-                        value: "12",
-                        label: "12",
-                      },
-                      {
-                        value: "13",
-                        label: "13",
-                      },
-                      {
-                        value: "14",
-                        label: "14",
-                      },
-                      {
-                        value: "15",
-                        label: "15",
-                      },
-                      {
-                        value: "16",
-                        label: "16",
-                      },
-                      {
-                        value: "17",
-                        label: "17",
-                      },
-                      {
-                        value: "18",
-                        label: "18",
-                      },
-                      {
-                        value: "19",
-                        label: "19",
-                      },
-                      {
-                        value: "20",
-                        label: "20",
-                      },
-                      {
-                        value: "21",
-                        label: "21",
-                      },
-                      {
-                        value: "22",
-                        label: "22",
-                      },
-                      {
-                        value: "23",
-                        label: "23",
-                      },
-                      {
-                        value: "24",
-                        label: "24",
-                      },
-                      {
-                        value: "25",
-                        label: "25",
-                      },
-                      {
-                        value: "26",
-                        label: "26",
-                      },
-                      {
-                        value: "27",
-                        label: "27",
-                      },
-                      {
-                        value: "28",
-                        label: "28",
-                      },
-                      {
-                        value: "29",
-                        label: "29",
-                      },
-                      {
-                        value: "30",
-                        label: "30",
-                      },
-                      {
-                        value: "31",
-                        label: "31",
-                      },
-                    ]}
-                  /> */}
+                 
                 </div>
               </div>
               </div>
             </div>
 
             <div className="ajsiji my-3 my-md-3">
-              <p>
+              {/* <p>
                 お名前（フリガナ） <span className="star_clr"> * </span>
-              </p>
+              </p> */}
+              <p> 性別</p>
               <div className="Register_ant">
                 <div className="col-lg-4 ">
                   {/* <Radio className="rdoalin" onChange={onChange} value={1}>
                       <p className="mb-0 chcked_clr"> 男性 </p>
                     </Radio> */}
                   <div
+                  onClick={ ()=>handleChange("a")}
                     className={
                       selectedValue === "a" ? "left_in9 left_in1" : "left_in9"
                     }
                   >
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center" >
                       {/* <input type="radio" name="" id="left_rdio" className='radio_innput' /> */}
                       <Radio
                         name="purc"
                         checked={selectedValue === "a"}
-                        onChange={handleChange}
+                        // onChange={handleChange}
                         value="a"
                         inputProps={{ "aria-label": "A" }}
                         sx={{
@@ -833,8 +653,7 @@ export default function Register_Step_One() {
                         }
                         id="purc"
                       >
-                        男性
-                      </FormLabel>
+                        男性                      </FormLabel>
                     </div>
                   </div>
                 </div>
@@ -843,12 +662,13 @@ export default function Register_Step_One() {
                     className={
                       selectedValue === "b" ? "left_in9 left_in1" : "left_in9"
                     }
+                    onClick={ ()=>handleChange("b")}
                   >
-                    <div className="d-flex  align-items-center">
+                    <div className="d-flex   align-items-center" id="sex" name="sex" >
                       <Radio
                         name="purc"
                         checked={selectedValue === "b"}
-                        onChange={handleChange}
+                        // onChange={handleChange}
                         value="b"
                         inputProps={{ "aria-label": "b" }}
                         sx={{
@@ -865,10 +685,28 @@ export default function Register_Step_One() {
                             : "purc_nam "
                         }
                         id="purc"
+                        for="sex"
                       >
                         女性
+                        
                       </FormLabel>
                     </div>
+                    {/* <label htmlFor="sex">
+                    <div className="d-flex   align-items-center" id="sex" name="sex">
+                 
+                      <input type="radio" name="sex" id="" />
+                    
+                    
+                    
+                    </div>
+                    </label> */}
+
+
+
+
+
+
+                    
                   </div>
                 </div>
 
@@ -877,6 +715,7 @@ export default function Register_Step_One() {
                     className={
                       selectedValue === "c" ? "left_in9 left_in1" : "left_in9"
                     }
+                    onClick={ ()=>handleChange("c")}
                   >
                     <div className="d-flex align-items-center">
                       <Radio
@@ -905,6 +744,7 @@ export default function Register_Step_One() {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
             <div className="ajsiji my-3 my-md-3">
@@ -1024,12 +864,13 @@ export default function Register_Step_One() {
                     className={
                       selectedValue1 === "a" ? "left_in9 left_in1" : "left_in9"
                     }
+                    onClick={ ()=>handleChange1("a")}
                   >
                     <div className="d-flex  align-items-center">
                       <Radio
                         name="purc"
                         checked={selectedValue1 === "a"}
-                        onChange={handleChange1}
+                        // onChange={handleChange1}
                         value="a"
                         inputProps={{ "aria-label": "a" }}
                         sx={{
@@ -1057,12 +898,13 @@ export default function Register_Step_One() {
                     className={
                       selectedValue1 === "b" ? "left_in9 left_in1" : "left_in9"
                     }
+                    onClick={ ()=>handleChange1("b")}
                   >
                     <div className="d-flex  align-items-center">
                       <Radio
                         name="purc"
                         checked={selectedValue1 === "b"}
-                        onChange={handleChange1}
+                        // onChange={handleChange1}
                         value="b"
                         inputProps={{ "aria-label": "b" }}
                         sx={{
@@ -1105,12 +947,13 @@ export default function Register_Step_One() {
                     className={
                       selectedValue2 === "a" ? "left_in9 left_in1" : "left_in9"
                     }
+                    onClick={ ()=>handleChange2("a")}
                   >
                     <div className="d-flex  align-items-center">
                       <Radio
                         name="purc"
                         checked={selectedValue2 === "a"}
-                        onChange={handleChange2}
+                        // onChange={handleChange2}
                         value="a"
                         inputProps={{ "aria-label": "a" }}
                         sx={{
@@ -1138,6 +981,7 @@ export default function Register_Step_One() {
                     className={
                       selectedValue2 === "b" ? "left_in9 left_in1" : "left_in9"
                     }
+                    onClick={ ()=>handleChange2("b")}
                   >
                     <div className="d-flex  align-items-center">
                       <Radio
